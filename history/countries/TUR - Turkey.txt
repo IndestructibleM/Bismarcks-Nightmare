@@ -47,7 +47,7 @@ every_owned_state = {
 #TUR_democratic
 #TUR_fascism
 #TUR_neutrality
-set_cosmetic_tag = TUR_neutrality
+set_cosmetic_tag = OTT_UNIFIED
 
 set_research_slots = 3
 

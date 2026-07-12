@@ -1232,8 +1232,8 @@
 
    #COMMUNISM
 
-    GER_communism:0 "German Socialist Council Republic"
-    GER_communism_DEF:0 "the German Council Republic"
+    GER_communism:0 "Free Socialist Republic of Germany"
+    GER_communism_DEF:0 "the Free Socialist Republic of Germany"
     GER_communism_ADJ:0 "German"
 
    #DEMOCRATIC
