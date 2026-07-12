@@ -29,7 +29,6 @@ every_state = {
 
 starting_train_buffer = 1.5
 starting_truck_buffer = 0.8
-set_cosmetic_tag = ITA_neutrality
 set_research_slots = 4
 set_stability = 0.6
 set_war_support = 0.55

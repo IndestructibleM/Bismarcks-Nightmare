@@ -27,7 +27,6 @@ if = {
 		}
 	}
 }
-set_cosmetic_tag = russian_empire
 set_research_slots = 3
 
 # Starting tech

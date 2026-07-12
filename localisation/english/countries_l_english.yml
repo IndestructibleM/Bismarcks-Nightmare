@@ -1,8 +1,20 @@
 ﻿l_english:
 
- ###ABKHAZIA
-
-   #COMMUNISM
+    
+    RUS_communism:0 "Russian Socialist Republic"
+    RUS_communism_DEF:0 "the Russian Socialist Republic"
+    RUS_communism_ADJ:0 "Russian"
+    RUS_democratic:0 "Russian Republic"
+    RUS_democratic_DEF:0 "the Russian Republic"
+    RUS_democratic_ADJ:0 "Russian" 
+    RUS_fascism:0 "Russian Empire"
+    RUS_fascism_DEF:0 "the Russian Empire"
+    RUS_fascism_ADJ:0 "Russian"
+    RUS_neutrality:0 "Russian State"
+    RUS_neutrality_DEF:0 "the Russian State"
+    RUS_neutrality_ADJ:0 "Russian" 
+    ###ABKHAZIA
+    #COMMUNISM
 
     ABK_communism:0 "Socialist Republic of Abkhazia"
     ABK_communism_DEF:0 "the Socialist Republic of Abkhazia"
@@ -246,9 +258,9 @@
 
    #NEUTRALITY
 
-    AUS_neutrality:0 "Federal State of Austria"
-    AUS_neutrality_DEF:0 "the Federal State of Austria"
-    AUS_neutrality_ADJ:0 "Austrian"
+    AUS_neutrality:0 "Austro-Hungarian Empire"
+    AUS_neutrality_DEF:0 "the Austro-Hungarian Empire"
+    AUS_neutrality_ADJ:0 "Austro-Hungarian"
 
    #TAG
 
@@ -1129,9 +1141,9 @@
     FRA_communism_ADJ:0 "French"
 
    #DEMOCRATIC
-
-    FRA_democratic:0 "French Republic"
-    FRA_democratic_DEF:0 "the French Republic"
+    FRA:0 "French Empire"
+    FRA_democratic:0 "French Empire"
+    FRA_democratic_DEF:0 "the French Empire"
     FRA_democratic_ADJ:0 "French"
 
    #FASCISM
@@ -1220,7 +1232,7 @@
 
    #COMMUNISM
 
-    GER_communism:0 "German Council Republic"
+    GER_communism:0 "German Socialist Council Republic"
     GER_communism_DEF:0 "the German Council Republic"
     GER_communism_ADJ:0 "German"
 
