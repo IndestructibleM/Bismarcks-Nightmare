@@ -1229,12 +1229,68 @@
     GEO_ADJ:0 "Georgian"
 
  ###GERMANY
+    assorted_laws: "Assorted Laws"
 
+ oligarchy: "Oligarchy"
+ tratocracy: "Stratocracy"
+ warlordism: "Warlordism"
+ colonial_gov: "Colonial Government"
+ abs_monarchy: "Absolute Monarchy"
+ con_monarchy: "Constitutional Monarchy"
+ liberal_republic: "Liberal Republic"
+   soviet_democracy: "Soviet Democracy"
+   partystate: "Party-State"
+   totalitarianism: "Totalitarianism"
+
+ taxation: "Taxation Policy"
+ taxation1: "Low Taxation"
+ taxation2: "Moderate Taxation"
+ taxation3: "Expanded Taxation"
+ taxation4: "Heavy Taxation"
+ taxation5: "Extreme Taxation"
+
+ segregation: "Status of Segregation"
+ segregation1: "Legal and Economic Equality"
+ segregation2: "Minority Enfranchisement"
+ segregation3: "Seperate But Equal"
+ segregation4: "Institutional Segregation"
+ segregation5: "Racial Apartheid"
+
+ education_development: "Education Development"
+ education1: "Poor Education System"
+ education2: "Basic Public Schooling"
+ education3: "Expanded National Education"
+ education4: "Advanced Academic Institutions"
+ education5: "Subsidized Higher Education"
+
+ labor_regulations: "Labor Regulations"
+ labor1: "Minimal Labor Regulations"
+ labor2: "Basic Labor Standards"
+ labor3: "Standardized Labor Protections"
+ labor4: "Expanded Labor Code"
+ labor5: "Comprehensive Labor Rights"
+
+ welfare: "Welfare Policy"
+ welfare1: "Minimal Social Assistance"
+ welfare2: "Basic Welfare Programs"
+ welfare3: "Expanded Social Safety Net"
+ welfare4: "Extensive Welfare State"
+ welfare5: "Comprehensive Welfare State"
+
+ religion_status: "Status of Religion"
+ religion1: "State Atheism"
+ religion2: "State Secularism"
+ religion3: "Freedom of Worship"
+ religion4: "State Religion"
+ religion5: "Theocratic State"
    #COMMUNISM
-
+      
     GER_communism:0 "Free Socialist Republic of Germany"
     GER_communism_DEF:0 "the Free Socialist Republic of Germany"
-    GER_communism_ADJ:0 "German"
+    GER_communism_ADJ:0 "German"  
+    GER_socialist:0 "Free Socialist Republic of Germany"
+    GER_socialist_DEF:0 "the Free Socialist Republic of Germany"
+    GER_socialist_ADJ:0 "German"
 
    #DEMOCRATIC
 

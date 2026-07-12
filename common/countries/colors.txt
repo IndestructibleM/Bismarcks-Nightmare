@@ -114,8 +114,8 @@ RMD = {
 
 ###Southern Europe
 ITA = {
-	color = rgb { 67 127 63 }
-	color_ui = rgb { 67 127 63 }
+	color = rgb { 163 47 18 }
+	color_ui = rgb { 163 47 18 }
 }
 SPR = {
 	color = rgb { 242 205 94 }
