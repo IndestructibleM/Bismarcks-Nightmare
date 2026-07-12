@@ -1,0 +1,1888 @@
+#	Example:
+# 
+#	example_trigger = {
+#		tag = GER
+#		is_ai = no
+#	}
+#
+#
+#	In a script file:
+#
+#	trigger = {
+#		exampel_trigger = yes
+#	}
+# 
+#	THIS FILE IS FOR TRIGGERS SPECIFICALLY FOR THE GER TAG
+
+is_friend_or_potential_friend_of_GER = {
+	OR = {
+		is_puppet_of = GER
+		is_puppet = no
+	}
+	OR = {
+		is_in_faction_with = GER
+		is_in_faction = no
+	}
+	NOT = { has_war_with = GER }
+	has_capitulated = no
+	exists = yes
+}
+
+is_alone_or_in_faction_at_peace_with_GER = {
+	OR = {
+		is_in_faction = no
+		is_in_faction_with = GER
+		AND = {
+			is_in_faction = yes
+			NOT = {
+				is_in_faction_with = GER
+			}
+		}
+	}
+	NOT = {
+		any_allied_country = {
+			has_war_with = GER
+		}
+	}
+}
+
+#Country scope
+GER_has_mefo_bills = { #TODO_Danne Remove when redundant
+	if = {
+		limit = { has_idea = GER_mefo_bills_1 }
+		has_idea = GER_mefo_bills_1
+	}
+	else_if = {
+		limit = { has_idea = GER_mefo_bills_2 }
+		has_idea = GER_mefo_bills_2
+	}
+	else_if = {
+		limit = { has_idea = GER_mefo_bills_3 }
+		has_idea = GER_mefo_bills_3
+	}
+	else_if = {
+		limit = { has_idea = GER_mefo_bills_4 }
+		has_idea = GER_mefo_bills_4
+	}
+	else_if = {
+		limit = { has_idea = GER_mefo_bills_5 }
+		has_idea = GER_mefo_bills_5
+	}
+	else_if = {
+		limit = { has_idea = GER_mefo_bills_6 }
+		has_idea = GER_mefo_bills_6
+	}
+	else_if = {
+		limit = { has_idea = GER_mefo_bills_7 }
+		has_idea = GER_mefo_bills_7
+	}
+	else_if = {
+		limit = { has_idea = GER_mefo_bills_8 }
+		has_idea = GER_mefo_bills_8
+	}
+	else_if = {
+		limit = { has_idea = GER_mefo_bills_9 }
+		has_idea = GER_mefo_bills_9
+	}
+	else_if = {
+		limit = { has_idea = GER_mefo_bills_10 }
+		has_idea = GER_mefo_bills_10
+	}
+	else_if = {
+		limit = { has_idea = GER_mefo_bills_11 }
+		has_idea = GER_mefo_bills_11
+	}
+	else_if = {
+		limit = { has_idea = GER_mefo_bills_12 }
+		has_idea = GER_mefo_bills_12
+	}
+	else_if = {
+		limit = { has_idea = GER_mefo_bills_13 }
+		has_idea = GER_mefo_bills_13
+	}
+	else_if = {
+		limit = { has_idea = GER_mefo_bills_14 }
+		has_idea = GER_mefo_bills_14
+	}
+	else_if = {
+		limit = { has_idea = GER_mefo_bills_15 }
+		has_idea = GER_mefo_bills_15
+	}
+	else_if = {
+		limit = { has_idea = GER_mefo_bills_16 }
+		has_idea = GER_mefo_bills_16
+	}
+	else_if = {
+		limit = { has_idea = GER_mefo_bills_17 }
+		has_idea = GER_mefo_bills_17
+	}
+	else_if = {
+		limit = { has_idea = GER_mefo_bills_18 }
+		has_idea = GER_mefo_bills_18
+	}
+	else = {		
+		has_idea = GER_mefo_bills_1
+	}
+}
+
+#Country scope
+GER_can_delay_mefo_payment = {
+	custom_trigger_tooltip = {
+		tooltip = GER_can_delay_mefo_payment
+		NOT = { has_idea = GER_mefo_bills_18 }
+	}
+}
+
+GER_naval_interest_trigger = {
+	OR = {
+		AND = {
+			not = { has_war_with = SOV }
+			OR = {
+				has_war_with = ENG
+				has_war_with = USA
+				has_war_with = JAP
+			}
+		}
+		has_completed_focus = GER_plan_z
+		has_completed_focus = GER_rebuild_the_high_seas_fleet
+	}
+}
+
+GER_should_split_SOV_front_with_ITA = {
+	set_temp_variable = { num_ger_units = GER.num_armies }
+	set_temp_variable = { num_ita_units = ITA.num_armies }
+	
+	check_variable = { num_ger_units > 100 }
+	check_variable = { num_ita_units > 90 }
+	
+	ITA = {
+		is_ai = yes
+	}
+	
+	ITA = {
+		OR = {
+			exists = no
+			NOT = { is_in_faction_with = GER }
+			surrender_progress < 0.1
+		}
+	}
+	
+	ROM = {
+		OR = {
+			exists = no
+			NOT = { is_in_faction_with = GER }
+			surrender_progress < 0.05
+		}
+	}
+	
+	HUN = {
+		OR = {
+			exists = no
+			NOT = { is_in_faction_with = GER }
+			surrender_progress < 0.25
+		}
+	}
+}
+
+# a more relaxed version of previous one
+GER_should_continue_split_SOV_front_with_ITA = {
+
+	set_temp_variable = { num_ger_units = GER.num_armies }
+	set_temp_variable = { num_ita_units = ITA.num_armies }
+	
+	check_variable = { num_ger_units > 85 }
+	check_variable = { num_ita_units > 75 }
+	
+	ITA = {
+		is_ai = yes
+	}
+	
+	ITA = {
+		OR = {
+			exists = no
+			NOT = { is_in_faction_with = GER }
+			surrender_progress < 0.15
+		}
+	}
+	
+	ROM = {
+		OR = {
+			exists = no
+			NOT = { is_in_faction_with = GER }
+			surrender_progress < 0.1
+		}
+	}
+	
+	HUN = {
+		OR = {
+			exists = no
+			NOT = { is_in_faction_with = GER }
+			surrender_progress < 0.30
+		}
+	}
+}
+
+going_war_with_SOV = {
+	OR = {
+		has_war_with = SOV
+		focus_progress = {
+			focus = GER_war_with_the_ussr
+			progress > 0.01
+		}
+		is_justifying_wargoal_against = SOV
+		has_wargoal_against = SOV
+	}
+}
+
+
+GER_is_historical_ai = {
+	OR = {
+		AND = {
+			is_historical_focus_on = yes
+			OR = {
+				NOT = { has_dlc = "Waking the Tiger" }
+				has_game_rule = {
+					rule = GER_ai_behavior
+					option = DEFAULT
+				}
+			}	
+		}
+		has_country_flag = GER_AI_RANDOM_FASCIST
+		has_game_rule = {
+			rule = GER_ai_behavior
+			option = FASCIST
+		}
+	}
+}
+
+GER_is_alt_fascist_ai = {
+	OR = {
+		has_country_flag = GER_AI_RANDOM_ALT_FASCIST
+		has_game_rule = {
+			rule = GER_ai_behavior
+			option = GER_ALT_FASCIST
+		}
+	}
+}
+
+
+# Reichskommissariat Ukraine Zone
+GER_is_RKU_state = {
+	OR = {
+				state = 1153
+				state = 367
+				state = 1041
+				state = 2316
+				state = 2315
+				state = 1163
+				state = 1088
+				state = 2258
+				state = 992
+				state = 434
+				state = 1129
+				state = 1030
+				state = 459
+				state = 1110
+				state = 671
+				state = 2538
+				state = 420
+				state = 2259
+				state = 2319
+				state = 2539
+				state = 2145
+				state = 2139
+				state = 2101
+				state = 2041
+				state = 2495
+				state = 493
+				state = 2040
+				state = 2102
+				state = 2688
+				state = 2494
+				state = 2497
+				state = 2039
+				state = 2142
+				state = 2743
+				state = 2140
+				state = 2576
+				state = 2141
+				state = 2687
+				state = 2132
+				state = 2068
+				state = 2055
+				state = 2070
+				state = 2042
+				state = 2081   # Hauptstadt
+				state = 2054
+				state = 2100
+				state = 436
+				state = 2496
+				state = 2056
+				state = 2053
+				state = 2048
+				state = 527
+				state = 2058
+				state = 2057
+				state = 2067
+				state = 2066
+				state = 2065
+				state = 2049
+				state = 2071
+				state = 2072
+				state = 2073
+				state = 2684
+				state = 2074
+				state = 559
+				state = 2103
+				state = 2060
+				state = 2062
+				state = 2076
+				state = 2079
+				state = 2078
+				state = 2077
+				state = 2075
+				state = 2064
+				state = 2088
+				state = 614
+				state = 2085
+				state = 2131
+				state = 2133
+				state = 2121
+				state = 2120
+				state = 397
+				state = 2122
+				state = 2119
+				state = 2059
+				state = 2123
+				state = 2118
+				state = 2069
+				state = 2027
+				state = 443
+				state = 510
+				state = 494
+				state = 2113
+				state = 2112
+				state = 2110
+				state = 2124
+				state = 2105
+				state = 2111
+				state = 2080
+				state = 560
+				state = 623
+				state = 2092
+				state = 2043
+				state = 2090
+				state = 2091
+				state = 2732
+				state = 2089
+				state = 657
+				state = 2086
+				state = 2087
+				state = 2116
+				state = 2117
+				state = 398
+				state = 2728
+				state = 2727
+				state = 2035
+				state = 2428
+				state = 2426
+				state = 2115
+				state = 2034
+				state = 2114
+				state = 450
+				state = 2033
+				state = 2109
+				state = 2424
+				state = 497
+				state = 2032
+				state = 2108
+				state = 2107
+				state = 2106
+				state = 2104
+				state = 579
+				state = 2093
+				state = 2094
+				state = 2031
+				state = 2098
+				state = 2095
+				state = 2306
+				state = 2099
+				state = 2097
+				state = 2307
+				state = 557
+				state = 2028
+				state = 2308
+				state = 2096
+				state = 2310
+				state = 2082
+				state = 2029
+				state = 518
+				state = 2030
+				state = 2724
+				state = 2392
+				state = 2309
+				state = 2742
+				state = 2084
+				state = 2741
+				state = 2083
+				state = 2725
+				state = 2733
+				state = 51
+				
+	}
+}
+
+# Reichskommissariat Ostland Zone
+GER_is_RKO_state = {
+	OR = {
+				state = 259
+				state = 1178
+				state = 274
+				state = 1104
+				state = 238
+				state = 101
+				state = 2371
+				state = 1246
+				state = 242
+				state = 275
+				state = 208
+				state = 205
+				state = 1339
+				state = 206
+				state = 244
+				state = 207
+				state = 174
+				state = 107
+				state = 1344
+				state = 67
+				state = 2773
+				state = 91
+				state = 1345
+				state = 188
+				state = 196
+				state = 1280
+				state = 2775
+				state = 1346
+				state = 1352
+				state = 307
+				state = 231
+				state = 1304
+				state = 241
+				state = 1135
+				state = 2317
+				state = 292
+				state = 1250
+				state = 1225
+				state = 2134
+				state = 2161
+				state = 2135
+				state = 1198
+				state = 1106
+				state = 1000
+				state = 2136
+				state = 2697
+				state = 232
+				state = 1329
+				state = 225
+				state = 236
+				state = 1151
+				state = 2523
+				state = 1309
+				state = 94
+				state = 1296
+				state = 2774
+				state = 87
+				state = 1348
+				state = 2541
+				state = 2170
+				state = 2720
+				state = 172   # Hauptstadt
+				state = 2772
+				state = 1349
+				state = 185
+				state = 170
+				state = 1350
+				state = 1351
+				state = 112
+				state = 95
+				state = 1347
+				state = 2943
+				state = 2791
+				state = 165
+				state = 173
+				state = 166
+				state = 155
+				state = 152
+				state = 156
+				state = 146
+				state = 145
+				state = 157
+				state = 133
+				state = 143
+				state = 134
+				state = 137
+	}
+}
+
+# Reichskommissariat Norwegen Zone
+GER_is_RKG_state = {
+	OR = {
+				state = 2701
+				state = 4
+				state = 2712
+				state = 13
+				state = 2700
+				state = 2702
+				state = 2703
+				state = 25
+				state = 53
+				state = 71
+				state = 75
+				state = 78
+				state = 92
+				state = 83
+				state = 111
+				state = 128
+				state = 106
+				state = 123
+				state = 132
+				state = 147
+				state = 131
+				state = 118
+				state = 124   # Hauptstadt
+				state = 129
+				state = 1822
+	}
+}
+
+# Reichskommissariat Niederlande Zone
+GER_is_RKN_state = {
+	OR = {
+			state = 2344
+			state = 1974
+			state = 451
+			state = 2713
+			state = 2717
+			state = 432
+			state = 479
+			state = 2845
+			state = 2331
+			state = 2875
+			state = 1317
+			state = 1319
+			state = 2332
+			state = 331
+			state = 346
+			state = 336
+			state = 364
+			state = 383
+			state = 399
+			state = 402
+			state = 358
+	}
+}
+
+# Reichskommissariat Belgien-Nordfrankreich Zone
+GER_is_RKB_state = {
+	OR = {
+				state = 2368
+				state = 500
+				state = 2370
+				state = 2369
+				state = 480
+				state = 456
+				state = 487
+				state = 444
+				state = 470   # Hauptstadt
+				state = 2969
+				state = 422
+				state = 482
+				state = 466
+				state = 455
+				state = 454
+				state = 1342
+				state = 2333
+				state = 1324
+				state = 2874
+				state = 472
+	}
+}
+
+# Reichskommissariat Kaukasien Zone
+GER_is_RKK_state = {
+	OR = {
+				state = 2291
+				state = 2918
+				state = 2917
+				state = 2294
+				state = 2295
+				state = 2292   # Hauptstadt
+				state = 968
+				state = 966
+				state = 972
+				state = 2293
+				state = 918
+				state = 917
+				state = 1020
+				state = 2266
+				state = 993
+				state = 997
+				state = 2267
+				state = 2281
+				state = 1019
+				state = 998
+				state = 1023
+				state = 1014
+				state = 2280
+				state = 2284
+				state = 1005
+				state = 977
+				state = 978
+				state = 2265
+				state = 976
+				state = 2263
+				state = 2264
+				state = 2283
+				state = 961
+				state = 946
+				state = 2285
+				state = 2286
+				state = 936
+				state = 2287
+				state = 2297
+				state = 2298
+				state = 889
+				state = 2274
+				state = 2277
+				state = 2271
+				state = 2288
+				state = 2289
+				state = 2296
+				state = 2402
+				state = 879
+				state = 919
+				state = 2290
+				state = 914
+				state = 916
+				state = 2270
+				state = 899
+				state = 890
+				state = 856
+				state = 869
+				state = 2269
+				state = 2273
+				state = 886
+				state = 784
+				state = 2278
+				state = 2279
+				state = 1028
+				state = 2275
+				state = 2491
+				state = 843
+				state = 832
+				state = 2401
+				state = 821
+				state = 2488
+				state = 2490
+				state = 2489
+				state = 2272
+				state = 841
+				state = 2276
+				state = 763
+				state = 2399
+				state = 2400
+				state = 2504
+				state = 2503
+				state = 2870
+				state = 2869
+				state = 2414
+				state = 2505
+				state = 2492
+				state = 2403
+				state = 2487
+				state = 2868
+				state = 826
+				state = 2413
+				state = 2506
+				state = 2508
+				state = 732
+				state = 2867
+				state = 806
+				state = 2404
+				state = 2507
+				state = 2872
+				state = 2486
+				state = 2499
+				state = 2405
+				state = 2866
+				state = 2498
+				state = 2282
+				state = 778
+				state = 2398
+				state = 2408
+				state = 2502
+				state = 2865
+				state = 2864
+				state = 2693
+				state = 2694
+				state = 2406
+				state = 2407
+				state = 2695
+				state = 2493
+				state = 696
+				state = 2500
+				state = 2501
+				state = 2863
+				state = 2409
+				state = 2862
+				state = 997
+	}
+}
+
+# Reichskommissariat Turkestan Zone
+GER_is_RKT_state = {
+	OR = {
+				state = 2759
+				state = 2545
+				state = 1006   # Hauptstadt
+				state = 895
+				state = 2760
+				state = 2761
+				state = 2758
+				state = 891
+				state = 2762
+				state = 761
+				state = 716
+				state = 2763
+				state = 2470
+				state = 2789
+				state = 2788
+				state = 464
+				state = 2624
+				state = 2628
+				state = 561
+	}
+}
+
+# Reichskommissariat Moskowien Zone
+# Muss noch gemacht werden
+
+# Greater Finland States in the Soviets
+GER_is_soviet_greater_finland_state = {
+	OR = {
+		state = 216 # Olonets
+		state = 215 # Onega
+		state = 213 # Murmansk
+	}
+}
+
+# Greater Finland Additional States in the Soviets
+GER_is_additional_soviet_greater_finland_state = {
+	OR = {
+		state = 146 # Karjala
+		state = 147 # Salla 
+		state = 722 # Petsamo
+	}
+}
+
+# Do not forget that Volga Germany, VGE, 2589, is it's own state and category for these decisions!
+
+# Greater Romania States in the Soviets
+GER_is_soviet_greater_romania_state = {
+	OR = {
+				state = 2051
+				state = 2052
+				state = 565
+				state = 2050
+				state = 2038
+				state = 2681
+				state = 2683
+				state = 2061
+				state = 2682
+				state = 617
+				state = 2046
+				state = 2045
+				state = 618
+				state = 613 
+				state = 2063
+				state = 2047
+	}
+}
+
+# Greater Romania Additional States in the Soviets
+GER_is_additional_soviet_greater_romania_state = {
+	OR = {
+		state = 766 # Southern Bessarabia
+		state = 78 # Bessarabia
+	}
+}
+
+# Reichskommissariat Böhmen-Mähren Zone
+GER_is_RKH_state = {
+	OR = {
+		state = 9 # Bohemia
+		state = 75 # Moravia
+	}
+}
+
+# Generalgouvernment Zone
+GER_is_GEN_state = {
+	OR = {
+			state = 2692
+			state = 407
+			state = 1119
+			state = 1219
+			state = 421
+			state = 370
+			state = 508
+			state = 1981
+			state = 2928
+			state = 982
+			state = 1223
+			state = 2931
+			state = 1157   # Hauptstadt
+			state = 1080
+			state = 429
+			state = 867
+			state = 827
+			state = 1070
+			state = 1131
+			state = 377
+			state = 1002
+			state = 902
+			state = 2312
+			state = 1162
+			state = 496
+			state = 484
+			state = 46
+			state = 836
+			state = 2318
+			state = 491
+			state = 501
+			state = 1258
+			state = 2880
+			state = 923
+
+	}
+}
+
+# Eastern Generalgouvernment Zone
+GER_is_east_GEN_state = {
+	OR = {
+				state = 1233
+				state = 2346
+				state = 490
+				state = 2345
+				state = 1265
+				state = 2336
+				state = 1292
+				state = 1293
+				state = 1272
+				state = 1294
+				state = 1270
+				state = 502
+				state = 1164
+				state = 542
+				state = 1143
+				state = 2347
+	}
+}
+
+# Reichskommissariat Iberien Zone
+GER_is_RKI_state = {
+	OR = {
+			state = 2966
+			state = 892
+			state = 896
+			state = 875
+			state = 927
+			state = 2328
+			state = 870
+			state = 854
+			state = 880
+			state = 851
+			state = 860
+			state = 849
+			state = 848
+			state = 974
+			state = 939
+			state = 2327
+			state = 859
+			state = 883
+			state = 901
+			state = 940
+			state = 864
+			state = 897
+			state = 926
+			state = 857
+			state = 837
+			state = 833
+			state = 830
+			state = 874
+			state = 887
+			state = 903
+			state = 898
+			state = 1007
+			state = 980
+			state = 951  # Hauptstadt
+			state = 922
+			state = 915
+			state = 911
+			state = 935
+			state = 950
+			state = 943
+			state = 954
+			state = 947
+			state = 962
+			state = 1056
+			state = 1037
+			state = 999
+			state = 987
+			state = 990
+			state = 985
+			state = 1010
+			state = 1021
+			state = 1042
+			state = 1026
+			state = 1057
+			state = 1029
+			state = 1035
+			state = 2778
+			state = 1053
+			state = 847
+			state = 1058
+			state = 1063
+			state = 1072
+			state = 1096
+			state = 1078
+			state = 1079
+			state = 1086
+			state = 1083
+			state = 1103
+			state = 1115
+			state = 882
+			state = 2779
+	}
+}
+
+# Initial Reichskommissariat Balkan Zone
+GER_is_RKC_state = {
+	OR = {
+		state = 109
+		state = 103
+		state = 104
+		state = 804
+		state = 105
+		state = 107
+		state = 108
+		state = 802
+		state = 803
+		state = 106
+		state = 970
+		state = 934
+		state = 44
+		state = 805
+		state = 48
+		state = 212
+		state = 801
+		state = 211
+		state = 81
+		state = 46
+		state = 77
+		state = 971
+		state = 79
+		state = 78
+		state = 766
+		state = 80
+	}
+}
+
+# Reichskommissariat Balkan Zara zone
+GER_is_RKC_zadar_state = {
+	state = 163
+}
+
+# Additional Northern Reichskommissariat Balkan Zone (Hungary + the Banat and Transylvania)
+GER_is_north_RKC_state = {
+	OR = {
+		state = 764
+		state = 45
+		state = 82
+		state = 84
+		state = 76
+		state = 83
+		state = 974
+		state = 973
+		state = 154
+		state = 43
+		state = 155
+	}
+}
+
+# Even Furhter Additional Northern Reichskommissariat Balkan Zone (Greater Slovakia)
+GER_is_far_north_RKC_state = {
+	OR = {
+		state = 73 # Carpathian Ruthenia
+		state = 664 # South Slovakia
+		state = 71 # East Slovakia
+		state = 70 # West Slovakia
+	}
+}
+
+# Additional Southern Reichskommissariat Balkan Zone (Mainland Greece)
+GER_is_south_RKC_state = {
+	OR = {
+		state = 184
+		state = 731
+		state = 185
+		state = 47
+		state = 186
+	}
+}
+
+# Initial Reichskommissariat Grossbritannien Zone (Great Britain)
+GER_is_RGB_state = {
+	OR = {
+	state = 458
+	state = 2959
+	state = 1535
+	state = 445
+	state = 468
+	state = 2958
+	state = 453
+	state = 462
+	state = 446
+	state = 447
+	state = 437
+	state = 410
+	state = 428
+	state = 2476
+	state = 2478
+	state = 2475
+	state = 435
+	state = 2477
+	state = 408
+	state = 405
+	state = 416
+	state = 413
+	state = 403
+	state = 386
+	state = 356
+	state = 372
+	state = 379
+	state = 369
+	state = 419
+	state = 426
+	state = 409
+	state = 406
+	state = 401
+	state = 396
+	state = 390
+	state = 374
+	state = 380
+	state = 389
+	state = 357
+	state = 375
+	state = 313
+	state = 328
+	state = 344
+	state = 355
+	state = 362
+	state = 354
+	state = 334
+	state = 341
+	state = 342
+	state = 338
+	state = 325
+	state = 324
+	state = 293
+	state = 286
+	state = 290
+	state = 271
+	state = 269
+	state = 256
+	state = 258
+	state = 234
+	state = 237
+	state = 224
+	state = 217
+	state = 221
+	state = 245
+	state = 239
+	state = 233
+	state = 249
+	state = 257
+	state = 230
+	state = 219
+	state = 220
+	state = 222
+	state = 126
+	state = 213
+	state = 210
+	state = 192
+	state = 199
+	state = 2780
+	state = 214
+	state = 211
+	state = 204
+	state = 194
+	state = 193
+	state = 191
+	state = 180
+	state = 179
+	state = 176
+	state = 182
+	state = 183
+	state = 2781
+	state = 169
+	state = 161
+	state = 158
+	state = 187
+	}
+}
+
+# Additional Reichskommissariat Grossbritannien Zone (Ireland)
+GER_is_RGB_ireland_state = {
+	OR = {
+		state = 119
+		state = 113
+		state = 134
+		state = 135
+		state = 932
+	}
+}
+
+# Reichskommissariat Nordafrika Zone 
+GER_is_RNA_state = {
+	OR = {
+		state = 458
+		state = 665
+		state = 460
+		state = 513
+		state = 459
+		state = 461
+		state = 462
+		state = 290
+		state = 783
+		state = 699
+		state = 557
+		state = 448
+		state = 661
+		state = 449
+		state = 662
+		state = 450
+		state = 663
+		state = 451
+		state = 452
+		state = 447
+		state = 907
+		state = 456
+		state = 457
+		state = 883
+		state = 551
+		state = 886
+		state = 549
+		state = 887
+		state = 774
+		state = 272 # Senegal
+		state = 701 # Gambia
+		state = 899 # Kayes-Koulikoro
+		state = 898 # Gao
+		state = 781 # Niger
+		### IMPASSABLE STATES BEWARE ###
+		state = 786
+		state = 514
+		state = 273
+		state = 552
+		state = 767
+		state = 782 # Tomboctu
+		state = 775 # BET
+		state = 515 # Nigerian Sahara
+	}
+}
+
+# Reichskommissariat Mittelafrika Zone 
+GER_is_RKA_state = {
+	OR = {
+		state = 296
+		state = 780
+		state = 700
+		state = 298
+		state = 779
+		state = 556
+		state = 778
+		state = 274
+		state = 777
+		state = 776
+		state = 558
+		state = 902
+		state = 901
+		state = 900
+		state = 773
+		state = 660
+		state = 885
+		state = 884
+		state = 548
+		state = 904
+		state = 547
+		state = 905
+		state = 903
+		state = 844
+		state = 559
+		state = 269
+		state = 268
+		state = 550
+		state = 908
+		state = 842
+		state = 843
+		state = 841
+		state = 840
+		state = 835
+		state = 836
+		state = 839
+		state = 271
+		state = 838
+		state = 837
+		state = 546
+		state = 297
+		state = 539
+		state = 772
+		state = 796
+		state = 768
+		state = 769
+		state = 718
+		state = 538
+		state = 890
+		state = 295
+		state = 888
+		state = 889
+		state = 771
+		state = 770
+		state = 981
+		state = 540
+		state = 891
+		state = 892
+		state = 897
+		state = 896
+		state = 544
+		state = 545
+		state = 542
+		state = 895
+		state = 894
+		state = 541
+		state = 893
+	}
+}
+
+# Additional Reichskommissariat Mittelafrika Zone (SAF)
+GER_is_additional_RKA_state = {
+	OR = {
+		state = 275
+		state = 719
+		state = 681
+	}
+}
+
+# Reichskommissariat Klein-Venedig Zone 
+GER_is_RKV_state = {
+	OR = {
+		state = 307
+		state = 489
+		state = 488
+		state = 687
+		state = 309
+		state = 310
+		state = 969
+		state = 495
+		state = 940
+		state = 939
+		state = 938
+		state = 942
+		state = 280
+		state = 486
+		state = 504
+		state = 944
+		state = 503
+		state = 502
+		state = 501
+		state = 505
+		state = 941
+		state = 497
+		state = 937
+		state = 935
+		state = 498
+		state = 936
+		state = 499
+		state = 496
+		state = 943
+		state = 500
+		state = 487
+		state = 688
+		state = 301
+		state = 946
+		state = 945
+		state = 300
+		state = 510
+		state = 957
+		### IMPASSABLE STATES BEWARE ###
+		state = 967
+		state = 961
+		state = 968
+		state = 962
+		state = 963
+		state = 964
+		state = 965
+		state = 966
+	}
+}
+
+# Reichskommissariat Anden Zone 
+GER_is_RAN_state = {
+	OR = {
+		state = 953
+		state = 507
+		state = 949
+		state = 954
+		state = 955
+		state = 512
+		state = 950
+		state = 279
+		state = 511
+		state = 958
+		state = 278
+		state = 956
+		state = 960
+		state = 509
+		state = 508
+		state = 959
+		state = 952
+		state = 506
+		state = 951
+		state = 302
+		state = 947
+		state = 492
+		state = 494
+		state = 303
+		state = 491
+		state = 490
+		state = 305
+		state = 306
+		state = 493
+	}
+}
+
+# Reichskommissariat Kolumbus Zone 
+GER_is_RCO_state = {
+	OR = {
+		state = 304
+		state = 685
+		state = 316
+		state = 317
+		state = 312
+		state = 314
+		state = 313
+		state = 311
+		state = 474
+		state = 475
+		state = 476
+		state = 477
+		state = 485
+		state = 478
+		state = 277
+		state = 479
+		state = 481
+		state = 480
+		state = 482
+		state = 483
+		state = 315
+		state = 689
+		state = 693
+		state = 690
+		state = 318
+		state = 319
+		state = 686
+		state = 695
+		state = 694 
+		state = 308
+		state = 692
+		state = 691
+		state = 375
+		state = 371
+		state = 370
+		state = 367
+		state = 366
+		state = 365
+		state = 376
+		state = 377
+		state = 374
+		state = 372
+	}
+}
+
+# Reichskommissariat Nordamerika Zone 
+GER_is_RUS_state = {
+	OR = {
+		state = 359
+		state = 360
+		state = 361
+		state = 362
+		state = 816
+		state = 363
+		state = 364
+		state = 368
+		state = 369
+		state = 261
+		state = 396
+		state = 358
+		state = 357
+		state = 393
+		state = 395
+		state = 394
+		state = 373
+		state = 392
+		state = 391
+		state = 383
+		state = 384
+		state = 390
+		state = 389
+		state = 382
+		state = 381
+		state = 388
+		state = 380
+		state = 470
+		state = 472
+		state = 867
+		state = 683
+		state = 865
+		state = 469
+		state = 467
+		state = 682
+		state = 866
+		state = 276
+		state = 468
+		state = 465
+		state = 464
+		state = 862
+		state = 863
+		state = 466
+		state = 861
+		state = 860
+		state = 332
+	}
+}
+
+# Additional Reichskommissariat Nordamerika West-Coast Zone 
+GER_is_west_coast_north_america_state = {
+	OR = {
+		state = 484
+		state = 378
+		state = 379
+		state = 387
+		state = 385
+		state = 386
+		state = 740
+		state = 473
+		state = 471
+		state = 864
+		state = 463
+		state = 739
+	}
+}
+
+# Reichskommissariat Arabien Zone 
+GER_is_RAR_state = {
+	OR = {
+		state = 291
+		state = 676
+		state = 675
+		state = 656
+		state = 455
+		state = 454
+		state = 553
+		state = 554
+		state = 680
+		state = 677
+		state = 799
+		state = 453
+		state = 854
+		state = 855
+		state = 679
+		state = 857
+		state = 859
+		state = 292
+		state = 856
+		state = 858
+		state = 678
+		state = 765
+		state = 658
+		state = 659
+		state = 293
+		state = 294
+		state = 1010
+		state = 1011
+		state = 1013
+		state = 1014
+		state = 1015
+		state = 1016
+		state = 992
+	}
+}
+
+# Additional Reichskommissariat Arabien (Turkey) Zone 
+GER_is_additional_RAR_turkey_state = {
+	OR = {
+		state = 344
+		state = 350
+		state = 352
+		state = 348
+		state = 353
+		state = 800
+		state = 354
+		state = 349
+		state = 355
+		state = 798
+		state = 356
+		state = 345
+		state = 346
+		state = 49
+		state = 347
+		state = 343
+		state = 339
+		state = 342
+	}
+}
+
+# Additional Reichskommissariat Arabien (Iran) Zone 
+GER_is_additional_RAR_iran_state = {
+	OR = {
+		state = 419
+		state = 421
+		state = 420
+		state = 417
+		state = 413
+		state = 266
+		state = 411
+		state = 412
+		state = 418
+		state = 416
+		state = 414
+		state = 410
+		state = 1000
+		state = 1001
+		state = 1004
+		state = 1002
+		state = 1003
+	}
+}
+
+# Reichskommissariat Grosshindustan Zone 
+GER_is_RHD_state = {
+	OR = {
+		state = 439
+		state = 440
+		state = 441
+		state = 787
+		state = 442
+		state = 445
+		state = 444
+		state = 415
+		state = 267
+		state = 443
+		state = 433
+		state = 428
+		state = 438
+		state = 437
+		state = 427
+		state = 429
+		state = 436
+		state = 425
+		state = 424
+		state = 423
+		state = 320
+		state = 321
+		state = 422
+		state = 426
+		state = 435
+		state = 431
+		state = 430
+		state = 432
+		state = 434
+		state = 640
+		state = 288
+		state = 323
+		state = 324
+		state = 733
+		state = 758
+		state = 322
+		state = 757
+		state = 601
+		state = 1009
+		state = 1007
+		state = 988
+		state = 1008
+		state = 1012
+		state = 1005
+		state = 1006
+		state = 987
+		state = 989
+		state = 986
+		state = 991
+		state = 983
+		state = 982
+		state = 984
+		state = 985
+		state = 990
+		state = 998
+		state = 999
+		state = 997
+		state = 996
+		state = 994
+		state = 993
+		state = 995
+	}
+}
+
+# Additional Reichskommissariat Moskowien (East Yenisei) Zone 
+GER_is_additional_RKM_siberia_state = {
+	OR = {
+		state = 516
+		state = 576
+		state = 568
+		state = 567
+		state = 566
+		state = 878
+		state = 575
+		state = 565
+		state = 876
+		state = 574
+		state = 877
+		state = 644
+		state = 822
+		state = 875
+		state = 562
+		state = 874
+		state = 637
+		state = 561
+		state = 564
+		state = 563
+		state = 560
+	}
+}
+
+# Additional Reichskommissariat Turkestan (Sinkiang +) Zone 
+GER_is_additional_RKT_xinjang_state = {
+	OR = {
+		state = 619
+		state = 287
+		state = 759
+		state = 617
+		state = 618
+		state = 760
+		state = 329 # Tannu Tuva
+		state = 818 # Khovd
+	}
+}
+
+# Reichskommissariat Ostasien Zone 
+GER_is_ROA_state = {
+	OR = {
+		state = 613
+		state = 598
+		state = 597
+		state = 743
+		state = 614
+		state = 608
+		state = 609
+		state = 610
+		state = 716
+		state = 745
+		state = 527
+		state = 525
+		state = 328
+		state = 715
+		state = 714
+		state = 761
+		state = 657
+		state = 717
+		state = 408
+		state = 409
+		state = 655
+		state = 537
+		state = 555
+		state = 536
+		state = 533
+		state = 282
+		state = 534
+		state = 532
+		state = 535
+		state = 531
+		state = 530
+		state = 529
+		state = 528
+		state = 526
+		state = 524
+		state = 596
+		state = 595
+		state = 593
+		state = 592
+		state = 594
+		state = 591
+		state = 728
+		state = 729
+		state = 326
+		state = 599
+		state = 600
+		state = 602
+		state = 749
+		state = 606
+		state = 620
+		state = 607
+		state = 750
+		state = 603
+		state = 748
+		state = 605
+		state = 755
+		state = 622
+		state = 615
+		state = 746
+		state = 621
+		state = 611
+		state = 612
+		state = 819
+		state = 817
+		state = 330
+		state = 820
+		state = 756
+		state = 616
+		state = 755
+		state = 283
+		state = 754
+		state = 604
+		state = 753
+		state = 752
+		state = 751
+		state = 747
+		state = 325
+		state = 671
+		state = 670
+		state = 286
+		state = 741
+		state = 868
+		state = 869
+		state = 289
+		state = 645
+		state = 623
+		state = 327
+		state = 624
+		state = 628
+		state = 625
+		state = 626
+		state = 627
+		state = 647
+		state = 648
+		state = 646
+		state = 638
+		state = 632 
+		state = 744
+	}
+}
+
+# Reichskommissariat Australasien Zone 
+GER_is_RAA_state = {
+	OR = {
+		state = 979
+		state = 523
+		state = 737
+		state = 634
+		state = 669
+		state = 668
+		state = 738
+		state = 721
+		state = 667
+		state = 673
+		state = 334
+		state = 333
+		state = 335
+		state = 672
+		state = 336
+		state = 724
+		state = 711
+		state = 712
+		state = 684
+		state = 725
+		state = 639
+		state = 643
+		state = 633
+		state = 642
+		state = 734
+		state = 635
+		state = 636
+		state = 726
+		state = 641
+		state = 284
+		state = 723
+		state = 872
+		state = 520
+		state = 870
+		state = 522
+		state = 871
+		state = 519
+		state = 517
+		state = 518
+		state = 285
+		state = 521
+		state = 873
+		### IMPASSABLE, INCLUDED BUT NOT REQURED ###
+		state = 674
+	}
+}
+
+#OCCUPIED STATES LEVELS - these variables are set in 00_on_action
+GER_occupied_states_level_0 = {
+	check_variable = { GER_num_of_occupied_states < 5 }
+}
+
+GER_occupied_states_level_1 = {
+	check_variable = { GER_num_of_occupied_states > 4 }
+	check_variable = { GER_num_of_occupied_states < 10 }
+}
+
+GER_occupied_states_level_2 = {
+	check_variable = { GER_num_of_occupied_states > 9 }
+	check_variable = { GER_num_of_occupied_states < 20 }
+}
+
+GER_occupied_states_level_3 = {
+	check_variable = { GER_num_of_occupied_states > 19 }
+	check_variable = { GER_num_of_occupied_states < 35 }
+}
+
+GER_occupied_states_level_4 = {
+	check_variable = { GER_num_of_occupied_states > 34 }
+	check_variable = { GER_num_of_occupied_states < 50 }
+}
+
+GER_occupied_states_level_5 = {
+	check_variable = { GER_num_of_occupied_states > 49 }
+}
+
+#These are different Trade ideas nations can have with Germany
+has_a_german_trade_idea = {
+	OR = {
+		has_idea = GER_german_trade_ns
+		has_idea = GER_german_trade_subject_ns
+		has_idea = GER_chi_ger_trade_ns
+		has_idea = GER_chi_ger_trade_ns_2
+	}
+}
+
+
+#### INNER CIRCLE ####
+GER_inner_circle_is_ascension_cd_over = {
+	NOT = {
+		has_country_flag = {
+			flag = GER_inner_circle_cd_flag
+			days < 175
+		}
+	}
+}

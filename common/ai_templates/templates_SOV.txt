@@ -1,0 +1,546 @@
+suppression_SOV = {
+	
+	role = suppression
+
+	available_for = {
+		SOV
+	}
+	
+	upgrade_prio = {
+		base = 999
+		modifier = {
+			add = -990
+			ai_has_role_template = suppression
+		}
+	}
+
+	suppression_default_SOV = {
+		reinforce_prio = 0
+		custom_icon = 14
+	
+		upgrade_prio = {
+			base = 999
+		}
+		
+		target_template = {
+			
+			support = { 
+				military_police = 1
+			}
+
+			regiments = {
+				cavalry = 25
+			}
+		}
+	}
+}
+mechanized_SOV = {
+
+	available_for = {
+		SOV
+	}
+
+	role = armor
+
+	upgrade_prio = {
+		base = 100
+	}
+
+	heavy_armor_SOV = {
+
+		upgrade_prio = {
+			base = 200
+			modifier = {
+				factor = 0
+				is_special_project_completed = sp:sp_land_military_engineering_vehicles
+				has_tech = sp_helicopter_med_evac_tech
+			}
+		}
+		reinforce_prio = 2
+
+		target_template = {
+
+			support = {
+				engineer = 1
+				light_tank_recon = 1
+				field_hospital = 1
+				logistics_company = 1
+				medium_flame_tank = 1
+			}
+
+			regiments = {
+				heavy_armor = 4
+				mechanized = 5
+				heavy_tank_destroyer_brigade = 2
+				medium_sp_anti_air_brigade = 1
+			}
+		}
+
+		replace_at_match = 0.95
+		replace_with = modern_armor_SOV
+		target_min_match = 0.5
+	}
+	heavy_armor_SOV_1 = {
+
+		upgrade_prio = {
+			base = 0
+			modifier = {
+				add = 999
+				is_special_project_completed = sp:sp_land_military_engineering_vehicles
+				has_tech = sp_helicopter_med_evac_tech
+			}
+		}
+		reinforce_prio = 2
+
+		target_template = {
+
+			support = {
+				armored_engineer = 1
+				light_tank_recon = 1
+				helicopter_brigade = 1
+				field_hospital = 1
+				medium_flame_tank = 1
+			}
+
+			regiments = {
+				heavy_armor = 4
+				mechanized = 5
+				heavy_tank_destroyer_brigade = 2
+				medium_sp_anti_air_brigade = 1
+			}
+		}
+
+		replace_at_match = 0.95
+		replace_with = modern_armor_SOV
+		target_min_match = 0.5
+	}
+	medium_mechanized_SOV = {
+
+		upgrade_prio = {
+			base = 100
+			#modifier = {
+			#	factor = 0
+			#	has_country_flag = SOV_43sp_done
+			#}
+		}
+		reinforce_prio = 2
+
+		target_template = {
+
+			support = {
+				engineer = 1
+				light_tank_recon = 1
+				field_hospital = 1
+				logistics_company = 1
+				medium_flame_tank = 1
+			}
+
+			regiments = {
+				medium_armor = 6
+				mechanized = 6
+				#medium_sp_artillery_brigade = 1
+				medium_tank_destroyer_brigade = 1
+			}
+		}
+	}
+	medium_mechanized_aa_SOV = {
+
+		upgrade_prio = {
+			base = 100
+			#modifier = {
+			#	factor = 0
+			#	has_country_flag = SOV_43sp_done
+			#}
+		}
+		reinforce_prio = 2
+
+		target_template = {
+
+			support = {
+				engineer = 1
+				light_tank_recon = 1
+				field_hospital = 1
+				logistics_company = 1
+				medium_flame_tank = 1
+			}
+
+			regiments = {
+				medium_armor = 5
+				mechanized = 5
+				#medium_sp_artillery_brigade = 1
+				medium_tank_destroyer_brigade = 1
+				medium_sp_anti_air_brigade = 1
+			}
+		}
+	}
+
+	medium_mechanized_2_SOV = {
+
+		upgrade_prio = {
+			base = 0
+			modifier = {
+				add = 999
+				is_special_project_completed = sp:sp_land_military_engineering_vehicles
+				has_tech = sp_helicopter_med_evac_tech
+			}
+		}
+		can_upgrade_in_field = {
+			has_equipment = { helicopter_equipment > 5 } 
+		}
+		reinforce_prio = 2
+
+		target_template = {
+
+			support = {
+				armored_engineer = 1
+				light_tank_recon = 1
+				helicopter_brigade = 1
+				field_hospital = 1
+				medium_flame_tank = 1
+			}
+
+			regiments = {
+				medium_armor = 6
+				mechanized = 6
+				medium_tank_destroyer_brigade = 1
+			}
+		}
+
+		replace_at_match = 0.95
+		replace_with = modern_armor_default_SOV
+		target_min_match = 0.9
+	}
+	medium_mechanized_2_aa_SOV = {
+
+		upgrade_prio = {
+			base = 0
+			modifier = {
+				add = 999
+				is_special_project_completed = sp:sp_land_military_engineering_vehicles
+				has_tech = sp_helicopter_med_evac_tech
+			}
+		}
+		can_upgrade_in_field = {
+			has_equipment = { helicopter_equipment > 5 } 
+		}
+		reinforce_prio = 2
+
+		target_template = {
+
+			support = {
+				armored_engineer = 1
+				light_tank_recon = 1
+				helicopter_brigade = 1
+				field_hospital = 1
+				medium_flame_tank = 1
+			}
+
+			regiments = {
+				medium_armor = 5
+				mechanized = 5
+				medium_tank_destroyer_brigade = 1
+				medium_sp_anti_air_brigade = 1
+			}
+		}
+	}
+}
+motorized_SOV = {
+
+	available_for = {
+		SOV
+	}
+
+	role = motorized
+
+	upgrade_prio = {
+		base = 5
+	}
+
+	light_armor_default_SOV = {
+
+		upgrade_prio = {
+			factor = 0
+
+			modifier = {
+				factor = 0
+			}
+		}
+
+		target_template = {
+
+			support = {
+				engineer = 1
+				light_tank_recon = 1
+				artillery = 1
+				anti_air = 1
+			}
+
+			regiments = {
+				light_armor = 5
+				motorized = 5
+			}
+		}
+
+		#replace_at_match = 0.4
+		#replace_with = medium_motorized_SOV
+		#target_min_match = 0.5
+	}
+
+	medium_motorized_SOV = {
+
+		upgrade_prio = {
+			factor = 0
+		
+		}
+		reinforce_prio = 2
+		target_template = {
+
+			support = {
+				engineer = 1
+				light_tank_recon = 1
+				field_hospital = 1
+				anti_air = 1
+				medium_flame_tank = 1
+			}
+
+			regiments = {
+				medium_armor = 5
+				motorized = 5
+			}
+		}
+		#replace_at_match = 0.95
+		#replace_with = medium_motorized_2_SOV
+		#target_min_match = 0.5
+	}
+
+	medium_motorized_2_SOV = {
+
+		upgrade_prio = {
+			base = 0
+
+		}
+		reinforce_prio = 2
+		target_template = {
+
+			support = {
+				engineer = 1
+				light_tank_recon = 1
+				field_hospital = 1
+				anti_air = 1
+				medium_flame_tank = 1
+			}
+
+			regiments = {
+				medium_armor = 5
+				motorized = 5
+				mot_anti_tank_brigade = 1
+				mot_anti_air_brigade = 2
+			}
+		}
+	}
+}
+infantry_SOV = {
+
+	available_for = {
+		SOV
+	}
+
+	role = infantry
+
+	upgrade_prio = {
+		factor = 2
+
+		modifier = {
+			factor = 5
+		}
+	}
+
+	infantry_default_SOV = {
+
+		upgrade_prio = {
+			base = 999
+			modifier = {
+				factor = 0
+				has_tech = vast_offensives
+			}
+		}
+
+		target_template = {
+
+			support = {
+				engineer = 1
+				recon = 1
+				field_hospital = 1
+				anti_air = 1
+				light_flame_tank = 1
+			}
+
+			regiments = {
+				infantry = 8
+				artillery_brigade = 1
+				anti_tank_brigade = 1
+				anti_air_brigade = 1
+			}
+		}
+		replace_at_match = 0.7
+		replace_with = infantry_improved_SOV
+		target_min_match = 0.6
+	}
+
+	infantry_improved_SOV = {
+
+		upgrade_prio = {
+			base = 0
+			modifier = {
+				add = 999
+				has_tech = vast_offensives
+			}
+		}
+		reinforce_prio = 2
+		target_template = {
+
+			support = {
+				engineer = 1
+				recon = 1
+				field_hospital = 1
+				anti_air = 1
+				light_flame_tank = 1
+			}
+
+			regiments = {
+				infantry = 8
+				artillery_brigade = 2
+				medium_tank_destroyer_brigade = 1
+				medium_sp_anti_air_brigade = 1
+			}
+		}
+	}
+}
+
+mountaineers_SOV = {
+
+	available_for = {
+		SOV
+	}
+
+	role = mountaineers
+
+	upgrade_prio = {
+		factor = 2
+
+		modifier = {
+			factor = 0
+			NOT = {
+				has_tech = tech_mountaineers
+			}
+		}
+	}
+
+	mountaineers_default_SOV = {
+
+		upgrade_prio = {
+			factor = 2
+
+			modifier = {
+				factor = 1
+			}
+		}
+
+		target_template = {
+
+			support = {
+				engineer = 1
+				recon = 1
+				artillery = 1
+				field_hospital = 1
+				light_flame_tank = 1
+			}
+
+			regiments = {
+				mountaineers = 8
+				artillery_brigade = 1
+				anti_tank_brigade = 1
+				anti_air_brigade = 1
+			}
+		}
+	}
+}
+garrison_SOV = {
+
+	available_for = {
+		SOV
+	}
+
+	role = garrison
+
+	upgrade_prio = {
+		factor = 80
+
+		modifier = {
+			factor = 0
+			ai_has_role_template = garrison
+		}
+	}
+
+
+	garrison_SOV = {
+
+		upgrade_prio = {
+			factor = 1
+
+			modifier = {
+				factor = 15
+			}
+		}
+
+		reinforce_prio = 0
+		custom_icon = 7
+
+		target_template = {
+
+			support = {
+				military_police = 1
+			}
+
+			regiments = {
+				cavalry = 25
+			}
+		}
+	}
+}
+
+
+	# REGIMENTS:
+	#infantry
+	#light_armor
+	#super_heavy_armor
+	#modern_armor
+	#heavy_armor
+	#medium_armor
+	#light_armor
+	#anti_tank
+	#cavalry
+	#motorized
+	#mechanized
+	#marine
+	#mountaineers
+	#paratrooper
+	#rocket_artillery
+	#light_tank_destroyer
+	#anti_air
+	#artillery
+
+	# SUPPORT:
+	#engineer
+	#recon
+	#signal_company
+	#maintenance_company
+	#anti_tank_brigade
+	#anti_air_brigade
+	#artillery_brigade
+	#field_hospital
+	#logistics_company
+	#military_police
+	#light_sp_anti_air_brigade
+	#light_sp_artillery_brigade
+
