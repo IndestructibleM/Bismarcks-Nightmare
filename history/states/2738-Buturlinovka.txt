@@ -5,8 +5,8 @@ state={
 		2043 2403 4440 5790 12240 12301 12316 12385 12397 
 	}
 	history={
-		owner = SOV
-		add_core_of = SOV
+		owner = RUS
+		add_core_of = RUS
 		add_core_of = RUS
 		add_core_of = CRZ
 		buildings = {

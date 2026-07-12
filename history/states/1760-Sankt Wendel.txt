@@ -2,17 +2,18 @@ state={
 	id=1760
 	name="STATE_1760"
 	history={
-		owner = GER
+		owner = FRA
+		add_core_of = FRA
+
 		add_core_of = GER
 		buildings = {
 			infrastructure = 4
 		}
-		add_core_of = PRE
-		add_core_of = RHN
+		add_core_of = RHN 
         victory_points = {
             12853 2 #Idar-Oberstein
         }
-		set_demilitarized_zone = yes
+		
     }
 	provinces={
 		12853 

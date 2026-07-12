@@ -6,8 +6,8 @@ state={
 		20135 20136 
 	}
 	history = {
-		owner = YUG
-		add_core_of = CRO
+		owner = SER
+		owner = AUS add_core_of = AUS
 		buildings = {
 			infrastructure = 2
 		}

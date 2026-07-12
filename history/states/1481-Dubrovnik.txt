@@ -6,8 +6,8 @@ state={
 		20170 20171 
 	}
 	history = {
-		owner = YUG
-		add_core_of = CRO
+		owner = SER
+		owner = AUS add_core_of = AUS
 		buildings = {
 			infrastructure = 3
 			20171 = { naval_base = 1 }

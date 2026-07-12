@@ -6,8 +6,8 @@ state={
 		2438 20129 
 	}
 	history={
-		owner = YUG
-		add_core_of = CRO
+		owner = SER
+		owner = AUS add_core_of = AUS
 		buildings = {
 			infrastructure = 2
 			dockyard = 1

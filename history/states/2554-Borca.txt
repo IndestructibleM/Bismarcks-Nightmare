@@ -5,14 +5,14 @@ state={
 		14420 
 	}
 	history={
-		owner = YUG
+		owner = SER
 		add_core_of = YUG
 		add_core_of = SER
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = BNT
-		add_core_of = VJV
+		owner = AUS		add_core_of = AUS
+		owner = AUS		add_core_of = AUS
 
 	}
 	manpower=31051

@@ -7,8 +7,8 @@ state={
 		victory_points = {
 			14325 10 
 		}
-		owner = SOV
-		add_core_of = SOV
+		owner = RUS
+		add_core_of = RUS
 		add_core_of = CRI
 		add_claim_by = UKR
 		add_core_of = RUS

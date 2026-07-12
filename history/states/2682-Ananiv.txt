@@ -5,8 +5,8 @@ state={
 		2024 13627 13686 
 	}
 	history={
-		owner = SOV
-		add_core_of = SOV
+		owner = RUS
+		add_core_of = RUS
 		add_core_of = UKR
 		add_core_of = PLD
 		add_core_of = ODS

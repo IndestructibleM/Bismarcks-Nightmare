@@ -5,7 +5,7 @@ state={
 	history = {
 		add_extra_state_shared_building_slots = 2
 		owner = ITA
-		add_core_of = CRO
+		owner = AUS add_core_of = AUS
 		add_core_of = ITA
 		add_core_of = FIU
 		add_core_of = JUL

@@ -6,9 +6,9 @@ state={
 		1252 14138 14158 14165 
 	}
 	history = {
-		owner = YUG
+		owner = SER
 		add_core_of = YUG
-		add_core_of = SLV
+		owner = AUS		add_core_of = AUS
 		buildings = {
 			infrastructure = 3
 		}

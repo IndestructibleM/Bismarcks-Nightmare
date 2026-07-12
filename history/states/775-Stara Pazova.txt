@@ -5,9 +5,9 @@ state={
 
 	history={
 		victory_points = { 3816 5 }
-		owner = YUG
+		owner = SER
 		add_core_of = YUG
-		add_core_of = VJV
+		owner = AUS		add_core_of = AUS
 		add_core_of = SER
 		add_claim_by = SVN
 		buildings = {

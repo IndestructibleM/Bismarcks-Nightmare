@@ -10,21 +10,21 @@ state={
 		aluminium = 10
 	}
 	history={
-		owner = GER
+		owner = FRA
 		add_core_of = GER
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 		}
 		add_core_of = PRE
-		add_core_of = SAA
+		add_core_of = FRA
         victory_points = {
             13047 10 #Saarbrücken
         }
         victory_points = {
             6453 2 #Neunkirchen
         }
-		set_demilitarized_zone = yes
+		
     }
 	manpower=588080
 	buildings_max_level_factor=1.000

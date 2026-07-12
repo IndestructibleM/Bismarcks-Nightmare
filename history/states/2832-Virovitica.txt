@@ -6,9 +6,9 @@ state={
 		4355 8533 9018 14295 20158 
 	}
 	history={
-		owner = YUG
+		owner = SER
 		add_core_of = YUG
-		add_core_of = CRO
+		owner = AUS add_core_of = AUS
 		add_core_of = SVN
 		buildings = {
 			infrastructure = 3

@@ -6,10 +6,10 @@ state={
 		833 4226 4870 6219 11571 11687 11746 
 	}
 	history={
-		owner = POL
+		owner = RUS
 		
 		add_core_of = POL
-		add_core_of = WKP
+		owner = GER
 		buildings = {
 			industrial_complex = 1
 			infrastructure = 4

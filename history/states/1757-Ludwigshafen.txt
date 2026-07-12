@@ -9,20 +9,19 @@ state={
 		steel=16
 	}
 	history={
-	    owner = GER
-		add_core_of = GER
+	    owner = FRA
+		add_core_of = FRA
 		buildings = {
 			infrastructure = 4
 		}
-		add_core_of = BAY
-		add_core_of = BPA
+		add_core_of = GER
         victory_points = {
             20743 10 #Ludwigshafen
         }
         victory_points = {
             5086 5 #Neustadt
         }
-		set_demilitarized_zone = yes
+		
     }
 	manpower=308951
 	buildings_max_level_factor=1.000

@@ -6,8 +6,8 @@ state={
 		125 1207 1733 8699 11535 11648 11704 11722 11751 11839 
 	}
 	history = {
-		owner = SOV
-		add_core_of = SOV
+		owner = RUS
+		add_core_of = RUS
 		add_core_of = RUS
 		buildings = {
 			infrastructure = 3

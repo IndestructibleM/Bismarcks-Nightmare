@@ -5,13 +5,13 @@ state={
 		20243 
 	}
 	history={
-		owner = YUG
+		owner = SER
 		add_core_of = YUG
 		add_core_of = SER
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = VJV
+		owner = AUS		add_core_of = AUS
 		add_claim_by = SVN
 
 	}

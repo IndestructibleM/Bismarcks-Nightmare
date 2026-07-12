@@ -14,7 +14,7 @@ state={
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = BUC
+		owner = RUS add_core_of = RUS
 		victory_points = {
 			13410 20
 		}

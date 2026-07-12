@@ -6,7 +6,7 @@ state={
 	history={
 		owner = ROM
 		add_core_of = ROM
-		add_core_of = TRA
+		owner = AUS add_core_of = AUS
 		add_core_of = MRM
 		buildings = {
 			infrastructure = 2

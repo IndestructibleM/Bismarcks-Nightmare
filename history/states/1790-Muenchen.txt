@@ -22,7 +22,7 @@ state={
 			arms_factory = 1
 			industrial_complex = 1
 		}
-		add_core_of = BAY
+		owner = BAY
     }
 	manpower=1071441
 	buildings_max_level_factor=1.000

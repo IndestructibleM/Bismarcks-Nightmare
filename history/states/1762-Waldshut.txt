@@ -9,7 +9,7 @@ state={
 		buildings = {
 			infrastructure = 4
 		}
-		add_core_of = BDN
+		owner = BDN add_core_of = BDN
 		victory_points = {
 			5270 5 #Villingen-Schewnningen
 		}

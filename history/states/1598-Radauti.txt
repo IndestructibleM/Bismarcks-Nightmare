@@ -9,7 +9,7 @@ state={
 			infrastructure = 2
 		}
        	victory_points = { 5863 2 }
-		add_core_of = BUC
+		owner = RUS add_core_of = RUS
 	}
 	provinces={
 		2582 5863 13589 

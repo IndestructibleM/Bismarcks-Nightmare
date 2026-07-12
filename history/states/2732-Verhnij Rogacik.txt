@@ -5,8 +5,8 @@ state={
 		8064 13773 
 	}
 	history={
-		owner = SOV
-		add_core_of = SOV
+		owner = RUS
+		add_core_of = RUS
 		add_core_of = UKR
 		add_core_of = ZAP
 		add_core_of = DKR

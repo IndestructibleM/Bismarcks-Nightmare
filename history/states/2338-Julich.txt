@@ -8,11 +8,11 @@ state={
 			infrastructure = 4
 		}
 		add_core_of = PRE
-		add_core_of = RHN
+		owner = RHN add_core_of = RHN 
 		victory_points = {
 			8536 5 #Julich
 		}
-		set_demilitarized_zone = yes
+		
     }
 	provinces={
 		7002 8536 12404 

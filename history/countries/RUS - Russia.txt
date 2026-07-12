@@ -27,7 +27,7 @@ if = {
 		}
 	}
 }
-
+set_cosmetic_tag = russian_empire
 set_research_slots = 3
 
 # Starting tech
@@ -112,15 +112,15 @@ set_cosmetic_tag = RUS_RSFSR
 set_convoys = 50
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = fascism
 	last_election = "1933.7.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
 	democratic = 16
-	fascism = 4
-	communism = 58
+	fascism = 58
+	communism = 4
 	neutrality = 22
 }
 

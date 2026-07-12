@@ -19,8 +19,8 @@ state={
 			industrial_complex = 1
 		}
 		add_core_of = PRE
-		add_core_of = RHN
-		set_demilitarized_zone = yes
+		owner = RHN add_core_of = RHN 
+		
     }
 	manpower=350021
 	buildings_max_level_factor=1.000

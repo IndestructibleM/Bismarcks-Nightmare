@@ -6,8 +6,8 @@ state={
 		1707 5114 5144 7543 8669 13728 13788 
 	}
 	history = {
-		owner = SOV
-		add_core_of = SOV
+		owner = RUS
+		add_core_of = RUS
 		add_core_of = UKR
 		add_core_of = ZAP
 		add_core_of = DKR

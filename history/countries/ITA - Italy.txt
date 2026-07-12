@@ -548,7 +548,7 @@ if = {
 	}
 }
 set_politics = {
-	ruling_party = fascism
+	ruling_party = communism
 	last_election = "1934.3.26"
 	election_frequency = 60
 	elections_allowed = no
@@ -565,8 +565,8 @@ give_guarantee = VAT
 set_convoys = 200
 set_popularities = {
 	democratic = 5
-	fascism = 73
-	communism = 2
+	fascism = 2
+	communism = 73
 	neutrality = 20
 }
 

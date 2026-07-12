@@ -6,12 +6,12 @@ state={
 		1016 3129 7058 7687 8941 13144 13180 13338 
 	}
 	history = {
-		owner = SOV
+		owner = RUS
 		add_core_of = RUS
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = SOV
+		add_core_of = RUS
 		add_core_of = DON
 		victory_points = { 13180 2 }
 	}

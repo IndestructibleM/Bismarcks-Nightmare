@@ -10,8 +10,8 @@ state={
 		buildings = {
 			infrastructure = 4
 		}
-		add_core_of = WUR
-		set_demilitarized_zone = yes
+		owner = WUR add_core_of = WUR
+		
 	}
 	manpower=78937
 	state_category=pastoral

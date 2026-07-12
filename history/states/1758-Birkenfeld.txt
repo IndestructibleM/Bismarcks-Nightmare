@@ -5,13 +5,15 @@ state={
 		20731 
 	}
 	history={
-		owner = GER
+		owner = FRA
+		add_core_of = FRA
+
 		add_core_of = GER
 		buildings = {
 			infrastructure = 4
 		}
 		add_core_of = OLD
-		set_demilitarized_zone = yes
+		
     }
 	manpower=90397
 	buildings_max_level_factor=1.000

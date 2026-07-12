@@ -8,7 +8,7 @@ state={
 		buildings = {
 			infrastructure = 4
 		}
-		add_core_of = BAY
+		owner = BAY
 		victory_points = {
 			20808 5 #Kempten
 		}

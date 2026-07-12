@@ -10,7 +10,8 @@ state={
 		aluminium = 4
 	}
 	history={
-	    owner = GER
+	    owner = FRA
+		add_core_of = FRA
 		add_core_of = GER
 		buildings = {
 			infrastructure = 4
@@ -23,7 +24,7 @@ state={
 		victory_points = {
 			12876 5 #Worms
 		}
-		set_demilitarized_zone = yes
+		
     }
 	manpower=451836
 	buildings_max_level_factor=1.000

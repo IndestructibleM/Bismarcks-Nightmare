@@ -14,7 +14,7 @@ state={
 		add_core_of = PRE
 		add_core_of = POM 
 		add_core_of = WSP
-		add_core_of = WPR
+		owner = GER
 		victory_points = {
 			748 5 #Schneidemühl
 		}

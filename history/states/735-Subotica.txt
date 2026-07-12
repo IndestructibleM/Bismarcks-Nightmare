@@ -6,13 +6,13 @@ state={
 		1650 14117 14145 14147 
 	}
 	history = {
-		owner = YUG
+		owner = SER
 		add_core_of = YUG
 		add_core_of = SER
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = VJV
+		owner = AUS		add_core_of = AUS
 		victory_points = { 14117 5 }
 	}
 	manpower=160225

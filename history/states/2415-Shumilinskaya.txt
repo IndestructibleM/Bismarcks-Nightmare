@@ -5,12 +5,12 @@ state={
 		4563 7176 7605 7647 
 	}
 	history = {
-		owner = SOV
+		owner = RUS
 		add_core_of = RUS
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = SOV
+		add_core_of = RUS
 	}
 	manpower=81701
 	state_category=pastoral

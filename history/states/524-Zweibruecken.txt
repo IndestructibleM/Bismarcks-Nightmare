@@ -6,17 +6,16 @@ state={
 		6957 9577 13035 13073 20742 
 	}
 	history={
-	    owner = GER
+	    owner = FRA
 		add_core_of = GER
 		buildings = {
 			infrastructure = 4
 		}
-		add_core_of = BAY
-		add_core_of = BPA
+		add_core_of = FRA
         victory_points = {
             6957 2 #Zweibrücken
         }
-		set_demilitarized_zone = yes
+		
     }
 	manpower=209907
 	buildings_max_level_factor=1.000

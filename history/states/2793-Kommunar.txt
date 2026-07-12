@@ -6,8 +6,8 @@ state={
 		2679 17042 18548 
 	}
 	history={
-		owner = SOV
-		add_core_of = SOV
+		owner = RUS
+		add_core_of = RUS
 		add_core_of = RUS
 		add_core_of = IGR
 		victory_points = {

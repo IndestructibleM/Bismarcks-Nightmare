@@ -5,7 +5,7 @@ state={
 		9055 
 	}
 	history={
-		owner = YUG
+		owner = SER
 		add_core_of = MNT
 		add_core_of = SDZ
 		buildings = {

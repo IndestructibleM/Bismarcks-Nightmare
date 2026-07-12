@@ -10,7 +10,7 @@ state={
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = BNT
+		owner = AUS		add_core_of = AUS
 	}
 	manpower=110338
 	state_category=rural

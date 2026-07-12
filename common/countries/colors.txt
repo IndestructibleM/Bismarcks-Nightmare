@@ -52,8 +52,8 @@ WFR = {
 
 ###Central Europe
 GER = { 
-	color = rgb { 91 95 102 }
-	color_ui = rgb { 91 95 102 }
+	color = rgb { 125 20 20 }
+	color_ui = rgb { 125 20 20 }
 }
 WGR = {
 	color = rgb { 153 126 104 }

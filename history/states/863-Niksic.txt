@@ -5,7 +5,7 @@ state={
 
 	resources = { aluminium = 118 }
 	history={
-		owner = YUG
+		owner = SER
 		add_core_of = MNT
 		buildings = {
 			infrastructure = 2

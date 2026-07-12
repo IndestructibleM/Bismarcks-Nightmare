@@ -6,8 +6,8 @@ state={
 		chromium=7.000
 	}
 	history={
-		owner = SOV
-		add_core_of = SOV
+		owner = RUS
+		add_core_of = RUS
 		add_core_of = RUS
 		add_core_of = CRZ
 		buildings = {

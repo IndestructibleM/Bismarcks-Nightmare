@@ -7,12 +7,12 @@ state={
 	}
 	history = {
 		victory_points = { 570 20 }
-		owner = SOV
+		owner = RUS
 		add_core_of = RUS
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = SOV
+		add_core_of = RUS
 		add_core_of = DON
 	}
 	manpower=275036
