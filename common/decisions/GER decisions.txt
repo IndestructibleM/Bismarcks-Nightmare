@@ -1,0 +1,102 @@
+foreign_politics = {
+	GER_invade_bavaria = {
+		icon = GFX_decision_generic_operation
+		allowed = {
+			tag = GER
+		}
+		targets = {
+			BAY WUR BDN
+		}
+		available = {
+			date > 1927.3.1
+			has_war = no
+			is_neighbor_of = FROM
+		}
+		fire_only_once = yes
+		cost = 30
+		days_remove = 30
+		remove_effect = {
+			declare_war_on = {
+				target = FROM
+				type = annex_everything
+			}
+		}
+		war_with_on_remove = FROM
+		ai_will_do = {
+			base = 500
+		}
+	}
+	GER_found_komintern = {
+		icon = GFX_decision_generic_alliance
+		allowed = {
+			tag = GER
+		}
+		available = {
+			owns_state = 1790
+			has_war = no
+		}
+		fire_only_once = yes
+		cost = 30
+		days_remove = 15
+		ai_will_do = {
+			base = 500
+		}
+		remove_effect = {
+			create_faction = Komintern
+			add_to_faction = GER
+			add_to_faction = ITA
+		}
+	}
+	GER_invade_rhineland = {
+		icon = GFX_decision_generic_operation
+		allowed = {
+			tag = GER
+		}
+		available = {
+			owns_state = 1790
+			is_faction_leader = yes
+			has_war = no
+			date > 1928.3.1
+		}
+		fire_only_once = yes
+		cost = 50
+		days_remove = 35
+		ai_will_do = {
+			base = 500
+		}
+		war_with_on_remove = FRA
+		remove_effect = {
+			declare_war_on = {
+				target = RHN
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = FRA
+				type = annex_everything
+			}
+		}
+	}
+}
+
+political_actions = {
+	AUS_win_against_hungary_revolts = {
+		icon = GFX_decision_generic_operation
+		activation = {
+			tag = AUS
+			has_war_with = HUN
+		}
+		available = {
+			has_war = no
+			owns_state = 633
+		}
+		fire_only_once = yes
+		days_mission_timeout = 200
+		timeout_effect = {
+			white_peace = HUN
+			add_political_power = -50
+		} 
+		ai_will_do = {
+			base = 500
+		}
+	}
+}

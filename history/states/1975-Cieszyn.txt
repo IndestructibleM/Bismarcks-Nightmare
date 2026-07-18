@@ -6,14 +6,14 @@ state={
 		12818 12829 12864 
 	}
 	history={
-		owner = RUS
-		add_core_of = POL
+		owner = AUS
+		add_core_of = AUS
 		buildings = {
 			infrastructure = 3
 		}
 		add_core_of = SIL
 		add_core_of = UPS
-		add_core_of = CSN
+		add_core_of = POL
         victory_points = {
             12818 5
         }

@@ -106,9 +106,18 @@ if = {
 	}
 }
 
-set_cosmetic_tag = RUS_RSFSR
 
 set_convoys = 50
+
+set_autonomy = {
+	target = POL
+	autonomous_state = autonomy_puppet
+}
+
+set_autonomy = {
+	target = FIN
+	autonomous_state = autonomy_puppet
+}
 
 set_politics = {
 	ruling_party = fascism
@@ -117,12 +126,23 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 16
-	fascism = 58
-	communism = 4
-	neutrality = 22
+	democratic = 10
+	conservative = 12
+	fascism = 52
+	communism = 2
+	socialist = 3
+	neutrality = 21
 }
 
+recruit_character = RUS_nicholas_romanov
+
+add_ideas = {
+	RUS_orthodoxy_3
+	RUS_autocracy_3
+	RUS_nationality_2
+	RUS_economic_cartelization
+	RUS_realities_of_russification
+}
 ### VARIANTS ###
 # 1936 Start #
 

@@ -2,9 +2,7 @@ state={
 	id=2601
 	name="STATE_2601"
 	history={
-		owner = ITA
-		add_core_of = ITA
-		add_core_of = LAZ
+		owner = VAT		add_core_of = VAT		add_core_of = ITA
 		buildings = {
 			air_base = 3
 			industrial_complex = 1

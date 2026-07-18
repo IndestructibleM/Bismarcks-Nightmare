@@ -6,7 +6,7 @@ state={
 	history={
 		owner = RUS
 		add_core_of = POL
-		add_core_of = MZV
+		owner = POL		add_core_of = MLP
 		buildings = {
 			arms_factory = 2
 			infrastructure = 4

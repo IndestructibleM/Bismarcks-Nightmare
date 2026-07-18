@@ -11,7 +11,7 @@ state={
 			infrastructure = 2
 		}
 		add_core_of = YUG
-		add_core_of = DLM
+		add_core_of = CRO
 	}
 	manpower=4610
 	state_category=enclave

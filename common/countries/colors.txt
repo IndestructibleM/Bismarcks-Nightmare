@@ -22,8 +22,8 @@ QBC = {
 
 ###Western Europe
 FRA = {
-	color = rgb { 31 71 159 }
-	color_ui = rgb { 31 71 159 }
+	color = rgb { 22 50 135 }
+	color_ui = rgb { 20 50 135 }
 }
 LUX = {
 	color = rgb { 0 161 222 }
@@ -80,8 +80,8 @@ SLO = {
 	color_ui = rgb { 158  161  188 }
 }
 HUN = {
-	color = rgb { 138 163 117 }
-	color_ui = rgb { 138 163 117 }
+	color = rgb { 170 40 15 }
+	color_ui = rgb { 170 40 15 }
 }
 LIE = {
 	color = rgb { 47 51 132 }
@@ -415,8 +415,8 @@ SWC = {
 
 ###Middle East
 PER = {
-	color = rgb { 12 128 15 }
-	color_ui = rgb { 12 128 15 }
+	color = rgb { 71 113 97 }
+	color_ui = rgb { 92 147 126 }
 }
 IRQ = {
 	color = rgb { 178 114 99 }
@@ -1187,8 +1187,8 @@ TSN = {
 	color_ui = rgb { 113 176 170 }
 }
 RUS = {
-	color = rgb { 78 138 88 }
-	color_ui = rgb { 78 138 88 }
+	color = rgb { 20 130 60 }
+	color_ui = rgb { 20 130 80 }
 }
 ADY = {
 	color = rgb { 152 214 101 }

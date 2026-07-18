@@ -11,7 +11,7 @@ state={
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = DLM
+		add_core_of = CRO
 	}
 	manpower=8450
 	state_category=pastoral

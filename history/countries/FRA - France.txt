@@ -207,13 +207,13 @@ if = {
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = conservative
 	last_election = "1932.5.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 64
+	conservative = 64
 	fascism = 1
 	neutrality = 15
 	communism = 20
@@ -230,14 +230,15 @@ add_ideas = {
 	FRA_inefficient_economy_2
 }
 
-give_guarantee = CZE
-give_guarantee = YUG
-give_guarantee = ROM
-give_guarantee = POL
-give_guarantee = BEL
-give_guarantee = MNC
-give_guarantee = ADR
+create_faction = "Imperial Entente"
+add_to_faction = FRA
+add_to_faction = RHN
+add_to_faction = TUN
+add_to_faction = MOR
+add_to_faction = HOL
+add_to_faction = VAT
 
+recruit_character = FRA_Victor_Napoleon
 recruit_character = FRA_philippe_petain
 recruit_character = FRA_maurice_thorez
 recruit_character = FRA_pierre_laval

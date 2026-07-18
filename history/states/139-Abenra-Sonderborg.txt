@@ -3,13 +3,13 @@ state={
 	id=139
 	name="STATE_139"
 	history = {
-		owner = DEN
+		owner = GER
 		add_core_of = DEN
 		buildings = {
 			infrastructure = 3
 		}
 		add_core_of = SHL
-		add_core_of = SLW
+		add_core_of = GER
 		victory_points = { 19617 2 }
 	}
 	provinces={

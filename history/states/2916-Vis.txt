@@ -14,7 +14,7 @@ state={
 			}
 
 		}
-		add_core_of = DLM
+		add_core_of = CRO
 
 	}
 	provinces={

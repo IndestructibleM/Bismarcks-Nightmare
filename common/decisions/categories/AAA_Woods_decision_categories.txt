@@ -10,10 +10,6 @@ BUL_rearmament_wood = {
 
 	allowed = {
 		original_tag = BUL
-		OR = {
-			has_idea = BUL_army_restrictions
-			has_idea = BUL_army_restrictions_aat
-		}
 	}
 	
 }

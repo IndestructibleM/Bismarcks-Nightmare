@@ -1,0 +1,65 @@
+ideas = {
+	country = {
+
+		GER_socialist_turnismo = {
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				socialist_drift = 0.02
+				communism_drift = 0.02
+				political_power_factor = 0.08
+				drift_defence_factor = 0.15
+			}
+			picture = GER_wage_war_on_capitalism
+		}
+		GER_struggle_for_republic = {
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				political_power_cost = 0.4
+				stability_factor = -0.1
+				war_support_factor = -0.1
+			}
+			picture = GER_limited_democratic_principles
+		}
+		GER_foreign_isolation = {
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				trade_opinion_factor = -0.35
+				research_speed_factor = -0.05
+				industrial_capacity_factory = -0.1
+				production_speed_buildings_factor = -0.1
+			}
+			picture = FRA_scw_intervention_republicans_focus
+		}
+		GER_kulturkampf = {
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				conscription_factor = -0.25
+				consumer_goods_expected_value = 0.08
+				political_power_factor = -0.05
+				war_support_factor = -0.2
+			}
+			picture = ARG_state_atheism
+		}
+		GER_democratic_military = {
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				army_morale_factor = 0.1
+				army_org_factor = -0.15
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+				command_power_gain_mult = -0.15
+			}
+			picture = generic_communist_army
+		}
+	}
+}

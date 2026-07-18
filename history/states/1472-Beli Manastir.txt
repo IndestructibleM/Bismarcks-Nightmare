@@ -12,7 +12,7 @@ state={
 
 		}
 		owner = AUS		add_core_of = AUS
-		add_core_of = KRJ
+		add_core_of = CRO
 		add_claim_by = SVN
 	}
 

@@ -5,9 +5,8 @@ state={
 		5515 
 	}
 	history={
-		owner = RUS
+		owner = POL
 		add_core_of = POL
-		ADD_core_of = MZV
 		buildings = {
 			infrastructure = 3
 

@@ -18,7 +18,7 @@ state={
 		victory_points = {
 			17287 1
 		}
-		add_core_of = DLM
+		add_core_of = CRO
 
 	}
 

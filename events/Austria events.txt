@@ -1,0 +1,115 @@
+add_namespace = austria
+# Recruit field marshal for civil war event
+country_event = {
+	id = austria.1
+	title = austria.1.t
+	desc = austria.1.desc
+	picture = GFX_report_event_hitler_handshake
+
+	fire_only_once = yes
+	trigger = {
+		date > 1925.5.5
+		tag = AUS
+		has_war = no
+	}
+
+	option = {
+		name = austria.1.a
+		HUN = {
+			every_core_state = {
+				transfer_state_to = HUN
+			}
+			load_oob = HUN_1936
+		}
+		load_oob = AUS_1936
+		country_event = { id = austria.2 days = 5 }
+	}
+}
+
+country_event = {
+	id = austria.2
+	title = austria.2.t
+	desc = austria.2.desc
+	picture = GFX_report_event_hitler_handshake
+
+	is_triggered_only = yes
+
+	option = {
+		name = austria.1.a
+		declare_war_on = {
+			target = HUN
+			type = annex_everything
+		}
+		country_event = { id = austria.3 days = 5 }
+		country_event = { id = austria.4 days = 5 }
+		country_event = { id = austria.5 days = 8 }
+	}
+}
+
+country_event = {
+	id = austria.3
+	title = austria.3.t
+	desc = austria.3.desc
+	picture = GFX_report_event_hitler_handshake
+
+	is_triggered_only = yes
+
+	option = {
+		name = austria.1.a
+		SLO = {
+			every_core_state = {
+				transfer_state_to = SLO
+			}
+			load_oob = SLO_1939
+		}
+	}
+}
+
+country_event = {
+	id = austria.4
+	title = austria.4.t
+	desc = austria.4.desc
+	picture = GFX_report_event_hitler_handshake
+
+	is_triggered_only = yes
+
+	option = {
+		name = austria.1.a
+		CRO = {
+			every_core_state = {
+				transfer_state_to = CRO
+			}
+			load_oob = CRO_YUG_independence
+		}
+	}
+}
+
+country_event = {
+	id = austria.5
+	title = austria.5.t
+	desc = austria.5.desc
+
+	is_triggered_only = yes
+
+	option = {
+		name = austria.1.a
+		declare_war_on = {
+			target = CRO
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = SLO
+			type = annex_everything
+		}
+		HUN = {
+			declare_war_on = {
+				target = CRO
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = SLO
+				type = annex_everything
+			}
+		}
+	}
+}

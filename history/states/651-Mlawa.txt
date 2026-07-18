@@ -6,9 +6,8 @@ state={
 		2535 4078 4336 6490 7104 8537 9418 11421 
 	}
 	history={
-		owner = RUS
+		owner = POL
 		add_core_of = POL
-		ADD_core_of = MZV
 		buildings = {
 			infrastructure = 3
 		}

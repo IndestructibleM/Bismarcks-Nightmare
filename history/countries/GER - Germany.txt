@@ -552,14 +552,14 @@ set_war_support = 0.3
 
 # Setup German Politics
 set_politics = {
-	ruling_party = socialist
+	ruling_party = communism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	communism =  30
-	socialist =  35
+	communism =  35
+	socialist =  30
 	fascism = 10
 	neutrality = 10
 	democratic = 10
@@ -569,18 +569,19 @@ set_popularities = {
 
 # Setup of National Spirits
 add_ideas = {
-	sour_loser
 	limited_exports
-	limited_conscription
-	partial_economic_mobilisation
+	GER_socialist_turnismo
+	GER_struggle_for_republic
+	GER_democratic_military
+	GER_kulturkampf
+	GER_foreign_isolation
 }
 
 # Activates the MEFO Bills Mission
-activate_mission = GER_mefo_bills_mission
 
 # Character Recruitment
-recruit_character = GER_wilhelm_pieck
-recruit_character = GER_konrad_adenauer
+recruit_character = GER_Karl_Kautsky
+recruit_character = GER_Karl_Liebknecht
 recruit_character = GER_adolf_hitler
 recruit_character = GER_albert_kesselring
 recruit_character = GER_alfred_jodl
@@ -657,7 +658,6 @@ recruit_character = GER_wilhelm_ii
 recruit_character = GER_wilhelm_iii
 recruit_character = GER_victoria
 recruit_character = GER_august_von_mackensen
-
 recruit_character = GER_alexander_von_falkenhausen #Not visible unless recalled from China
 
 #NEW PEOPLE WW
@@ -681,6 +681,10 @@ recruit_character = GER_paul_von_lettow_vorbeck # He is "new"
 recruit_character = GER_carl_friedrich_goerdeler
 recruit_character = GER_wilhelm_iv
 recruit_character = GER_eva_braun
+
+
+activate_advisor = GER_Karl_Liebknecht_sic
+
 
 #SCIENTISTS
 recruit_character = GER_peter_adolf_thiessen

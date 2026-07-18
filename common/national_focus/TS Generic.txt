@@ -45,10 +45,8 @@ focus_tree = {
 		prerequisite = { focus = gen_adventures_in_politics }
 		available = {
 			OR = {
-				has_government = socdem
-				has_government = soclib
-				has_government = marklib
-				has_government = condem
+				has_government = democratic
+				has_government = conservative
 			}
 		}
 		completion_reward = {
@@ -86,10 +84,7 @@ focus_tree = {
 		x = -3
 		y = 2
 		available = {
-		OR = {
-			has_government = socdem
-			has_government = soclib
-		}
+			has_government = democratic
 		}
 		ai_will_do = {
 			factor = 2
@@ -106,10 +101,7 @@ focus_tree = {
 		relative_position_id = gen_adventures_in_politics
 		mutually_exclusive = { focus = gen_begin_welfare }
 		available = {
-			OR = {
-				has_government = marklib
-				has_government = condem
-			}
+				has_government = conservative
 		}
 		x = -5
 		y = 2
@@ -202,9 +194,8 @@ focus_tree = {
 		prerequisite = { focus = gen_adventures_in_politics }
 		available = {
 			OR = {
-				has_government = natpop
-				has_government = authdem
-				has_government = pataut
+				has_government = fascism
+				has_government = neutrality
 			}
 		}
 		completion_reward = {
@@ -219,7 +210,7 @@ focus_tree = {
 		y = 2
 		available = {
 		OR = {
-			has_government = natpop
+			has_government = fascism
 		}
 		}
 		ai_will_do = {
@@ -239,8 +230,7 @@ focus_tree = {
 		y = 2
 		available = {
 		OR = {
-			has_government = authdem
-			has_government = pataut
+			has_government = neutrality
 		}
 		}
 		ai_will_do = {
@@ -305,11 +295,6 @@ focus_tree = {
 			focus = gen_iron_destiny
 		}
 		completion_reward = {
-			add_unit_bonus = {
-  				category_light_infantry = {
-   				max_organisation = 8
-  			}
-			}
 		}
 	}
 	focus = {
@@ -353,9 +338,8 @@ focus_tree = {
 		}
 		available = {
 			OR = {
-				has_government = statesoc
-				has_government = syndicalist
-				has_government = radsoc
+				has_government = socialist
+				has_government = communism
 			}
 		}
 		completion_reward = {
@@ -392,10 +376,7 @@ focus_tree = {
 		x = 3
 		y = 2
 		available = {
-		OR = {
-			has_government = syndicalist
-			has_government = radsoc
-		}
+			has_government = socialist
 		}
 		ai_will_do = {
 			factor = 2
@@ -439,9 +420,7 @@ focus_tree = {
 		x = 5
 		y = 2
 		available = {
-		OR = {
-			has_government = statesoc
-		}
+			has_government = communism
 		}
 		ai_will_do = {
 			factor = 2
@@ -516,7 +495,7 @@ focus_tree = {
 		id = gen_economic_modernization
 		icon = GFX_goal_generic_economic_modernization
 		cost = 6
-		x = 16
+		x = 18
 		y = 0
 		ai_will_do = {
 			factor = 2
@@ -855,7 +834,7 @@ focus_tree = {
 		id = gen_militarization
 		icon = GFX_goal_generic_militarization
 		cost = 6
-		x = 22
+		x = 24
 		y = 0
 		ai_will_do = {
 			factor = 2
@@ -1170,7 +1149,7 @@ focus_tree = {
 		id = gen_skies_and_seas
 		icon = GFX_goal_generic_skies_and_seas
 		cost = 6
-		x = 28
+		x = 30
 		y = 0
 		ai_will_do = {
 			factor = 2
@@ -1468,13 +1447,16 @@ focus_tree = {
 			factor = 2
 		}
 		available = { 
-			date > 1960.1.1
 			num_of_owned_factories > 24
 			num_of_controlled_states > 9
 		}
 		prerequisite = {
 			focus = gen_common_soldier 
 			focus = gen_warrior_soldier
+		}
+		prerequisite = {
+			focus = gen_armor_of_masses 
+			focus = gen_armor_of_gods
 		}
 		prerequisite = { focus = gen_highest_science }
 		prerequisite = { focus = gen_plan_ports }
@@ -1523,6 +1505,10 @@ focus_tree = {
 		prerequisite = {
 			focus = gen_common_soldier 
 			focus = gen_warrior_soldier
+		}
+		prerequisite = {
+			focus = gen_armor_of_masses 
+			focus = gen_armor_of_gods
 		}
 		prerequisite = { focus = gen_highest_science }
 		prerequisite = { focus = gen_plan_ports }

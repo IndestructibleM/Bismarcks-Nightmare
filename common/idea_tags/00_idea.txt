@@ -27,16 +27,25 @@ idea_categories = {
 		slot = mobilization_laws
 		slot = trade_laws
 		slot = economy
+		slot = economy_model
+		
+		ledger = civilian
+		
+		cost = 150
+		removal_cost = -1
+	}
+
+	ministers_slots = {
+		character_slot = second_command
 		character_slot = political_advisor
 		character_slot = political_advisor
 		character_slot = political_advisor
 		
 		ledger = civilian
 		
-		cost = 150
-		removal_cost = 0
+		cost = 100
 	}
-	
+
 	research_production = {
 		slot = tank_manufacturer
 		slot = naval_manufacturer

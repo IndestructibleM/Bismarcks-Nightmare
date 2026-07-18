@@ -1,0 +1,104 @@
+upgrade_conscript_law = {
+	if = {
+		limit = {
+			has_idea = disarmed_nation
+		}
+		add_ideas = volunteer_only
+	}
+	else_if = {
+		limit = {
+			has_idea = volunteer_only
+		}
+		add_ideas = limited_conscription
+	}
+	else_if = {
+		limit = {
+			has_idea = limited_conscription
+		}
+		add_ideas = extensive_conscription
+	}
+	else_if = {
+		limit = {
+			has_idea = extensive_conscription
+		}
+		add_ideas = service_by_requirement
+	}
+	else_if = {
+		limit = {
+			has_idea = service_by_requirement
+		}
+		add_ideas = all_adults_serve
+	}
+	else_if = {
+		limit = {
+			has_idea = all_adults_serve
+		}
+		add_ideas = scraping_the_barrel
+	}
+	else = {
+		add_political_power = 150
+	}
+}
+
+upgrade_draft_law = {
+	if = {
+		limit = {
+			has_idea = draft1
+		}
+		add_ideas = draft2
+	}
+	else_if = {
+		limit = {
+			has_idea = draft2
+		}
+		add_ideas = draft3
+	}
+	else_if = {
+		limit = {
+			has_idea = draft3
+		}
+		add_ideas = draft4
+	}
+	else_if = {
+		limit = {
+			has_idea = draft4
+		}
+		add_ideas = draft5
+	}
+	else_if = {
+		limit = {
+			has_idea = draft5
+		}
+		add_political_power = 100
+	}
+}
+
+upgrade_taxation_law = {
+	if = { limit = { has_idea = taxation1 } add_ideas = taxation2 }
+	else_if = { limit = { has_idea = taxation2 } add_ideas = taxation3 }
+	else_if = { limit = { has_idea = taxation3 } add_ideas = taxation4 }
+	else_if = { limit = { has_idea = taxation4 } add_ideas = taxation5 }
+	else = { add_political_power = 100 }
+}
+upgrade_welfare_law = {
+	if = { limit = { has_idea = welfare1 } add_ideas = welfare2 }
+	else_if = { limit = { has_idea = welfare2 } add_ideas = welfare3 }
+	else_if = { limit = { has_idea = welfare3 } add_ideas = welfare4 }
+	else_if = { limit = { has_idea = welfare4 } add_ideas = welfare5 }
+	else = { add_political_power = 100 }
+}
+
+upgrade_labor_law = {
+	if = { limit = { has_idea = labor1 } add_ideas = labor2 }
+	else_if = { limit = { has_idea = labor2 } add_ideas = labor3 }
+	else_if = { limit = { has_idea = labor3 } add_ideas = labor4 }
+	else_if = { limit = { has_idea = labor4 } add_ideas = labor5 }
+	else = { add_political_power = 100 }
+}
+upgrade_education_law = {
+	if = { limit = { has_idea = education1 } add_ideas = education2 }
+	else_if = { limit = { has_idea = education2 } add_ideas = education3 }
+	else_if = { limit = { has_idea = education3 } add_ideas = education4 }
+	else_if = { limit = { has_idea = education4 } add_ideas = education5 }
+	else = { add_political_power = 100 }
+}

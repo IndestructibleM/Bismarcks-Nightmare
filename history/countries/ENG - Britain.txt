@@ -311,21 +311,6 @@ set_popularities = {
 	communism = 1
 }
 
-create_faction = "British Commonwealth of Nations"
-add_to_faction = ENG
-add_to_faction = CAN
-add_to_faction = EGY
-add_to_faction = IRE
-add_to_faction = MLT
-add_to_faction = PAL
-add_to_faction = JOR
-add_to_faction = UAE
-add_to_faction = JER
-add_to_faction = GUE
-add_to_faction = ISM
-add_to_faction = KUW
-add_to_faction = QAT
-add_to_faction = BHR
 
 #give_guarantee = CZE
 

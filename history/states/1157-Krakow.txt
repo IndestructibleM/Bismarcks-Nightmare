@@ -15,7 +15,7 @@ state={
 
 		}
 		add_core_of = GAL
-		add_core_of = MLP
+		owner = POL		add_core_of = MLP
 		victory_points = {
 			6862 40 
 		}
