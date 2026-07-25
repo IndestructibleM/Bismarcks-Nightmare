@@ -3,9 +3,12 @@
  communism_noun:0 "Communism"
  democratic:0 "Liberalism"
  democratic_noun:0 "Liberalism"
- fascism:0 "Reactionism"
- fascism_noun:0 "Reactonism"
- fascism_desc:0 "Totalitarian Regime"
+ fascism:0 "Ultranationalism"
+ fascism_noun:0 "Ultranationalism"
+ fascism_desc:0 "Ultranationalist Regime"
+ reactionism:0 "Reactionism"
+ reactionism_noun:0 "Reactionism"
+ reactionism_desc:0 "Reactonary Regime"
  communism_desc:0 "Totalitarian Regime"
  democratic_desc:0 "Democratic Regime"
  conservative_desc:0 "Democratic Regime"
@@ -1418,6 +1421,21 @@
 
  RUS_fascism_party: "SRN"
  RUS_fascism_party_long: "Union of the Russian People"
+
+ RUS_neutrality_party: "Imperial Cabinet"
+ RUS_neutrality_party_long: "Imperial Cabinet of the Russian Empire"
+
+ RUS_conservative_party: "Octobrist Party"
+ RUS_conservative_party_long: "Union of October 17th"
+
+ RUS_democratic_party: "Kadets"
+ RUS_democratic_party_long: "Constitutional Democratic Party"
+
+ RUS_socialist_party: "PSR - Main Wing"
+ RUS_socialist_party_long: "Socialist Revolutionary Party - Main Wing"
+
+ RUS_communism_party: "RSDLP - Mensheviks"
+ RUS_communism_party_long: "Constitutional Communist Party"
 
  RHD_fascism_party: "NSDAP"
  RHD_fascism_party_long: "Nationalsozialistische Deutsche Arbeiterpartei"

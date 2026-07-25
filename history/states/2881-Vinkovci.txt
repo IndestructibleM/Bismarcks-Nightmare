@@ -8,7 +8,7 @@ state={
 		add_core_of = YUG
 		owner = AUS add_core_of = AUS
 		add_core_of = CRO
-		add_core_of = SVN
+		add_core_of = CRO
 		buildings = {
 			infrastructure = 3
 

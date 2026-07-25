@@ -1,0 +1,200 @@
+focus_tree = {
+	id = Red_GER_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+	default = no
+
+	shared_focus = shared_gen_economic_modernization
+    shared_focus = shared_gen_militarization
+    shared_focus = shared_gen_skies_and_seas
+
+    allow_branch = {
+        always = yes
+    }
+
+	focus = {
+		id = GER_the_old_chairman
+		x = 0
+		y = 0
+		cost = 5
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GER_completing_the_kulturkampf
+		relative_position_id = GER_the_old_chairman
+		prerequisite = { focus = GER_the_old_chairman }
+		x = -4
+		y = 1
+		cost = 5
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GER_reconcile_the_councils
+		relative_position_id = GER_the_old_chairman
+		prerequisite = { focus = GER_the_old_chairman }
+		x = -2
+		y = 1
+		cost = 5
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GER_prepare_for_elections
+		relative_position_id = GER_the_old_chairman
+		prerequisite = { focus = GER_the_old_chairman }
+		x = 0
+		y = 1
+		cost = 5
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GER_the_volksbahn
+		relative_position_id = GER_the_old_chairman
+		prerequisite = { focus = GER_the_old_chairman }
+		x = 2
+		y = 1
+		cost = 5
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GER_breaking_isolation
+		relative_position_id = GER_the_old_chairman
+		prerequisite = { focus = GER_the_old_chairman }
+		x = 4
+		y = 1
+		cost = 5
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GER_state_schooling_revolution
+		relative_position_id = GER_the_old_chairman
+		prerequisite = { focus = GER_completing_the_kulturkampf }
+		x = -3
+		y = 2
+		cost = 5
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GER_the_german_ideology
+		relative_position_id = GER_the_old_chairman
+		prerequisite = { focus = GER_prepare_for_elections }
+		x = -1
+		y = 2
+		cost = 5
+		mutually_exclusive = {
+			focus = GER_spirit_of_1848
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GER_spirit_of_1848
+		relative_position_id = GER_the_old_chairman
+		prerequisite = { focus = GER_prepare_for_elections }
+		mutually_exclusive = {
+			focus = GER_the_german_ideology
+		}
+		x = 1
+		y = 2
+		cost = 5
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GER_italian_comrades_in_arms
+		relative_position_id = GER_the_old_chairman
+		prerequisite = { focus = GER_breaking_isolation }
+		x = 3
+		y = 2
+		cost = 5
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GER_a_refuge_for_revolutionary_minds
+		relative_position_id = GER_the_old_chairman
+		prerequisite = { focus = GER_breaking_isolation }
+		x = 5
+		y = 2
+		cost = 5
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GER_recall_christian_trade_unionists
+		relative_position_id = GER_the_old_chairman
+		prerequisite = { focus = GER_completing_the_kulturkampf }
+		x = -4
+		y = 3
+		cost = 5
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GER_enforce_coalition_discipline
+		relative_position_id = GER_the_old_chairman
+		prerequisite = { focus = GER_reconcile_the_councils }
+		x = -2
+		y = 3
+		cost = 5
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GER_the_beacon_of_socialism
+		relative_position_id = GER_the_old_chairman
+		prerequisite = { focus = GER_the_german_ideology }
+		prerequisite = { focus = GER_spirit_of_1848 }
+		x = 0
+		y = 3
+		cost = 5
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GER_2nd_ruhr_industrialization
+		relative_position_id = GER_the_old_chairman
+		prerequisite = { focus = GER_the_volksbahn }
+		x = 2
+		y = 3
+		cost = 5
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GER_restart_hannovers_trade_with_england
+		relative_position_id = GER_the_old_chairman
+		prerequisite = { focus = GER_breaking_isolation }
+		x = 4
+		y = 3
+		cost = 5
+		completion_reward = {
+		}
+	}
+}

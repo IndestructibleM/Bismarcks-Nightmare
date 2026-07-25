@@ -5,12 +5,13 @@ state={
 		8908 14185 14225 
 	}
 	history={
-		owner = ROM
 		add_core_of = ROM
+		add_core_of = BNT
 		buildings = {
 			infrastructure = 2
 		}
-		owner = AUS		add_core_of = AUS
+		owner = AUS		
+		add_core_of = AUS
 	}
 	manpower=110338
 	state_category=rural

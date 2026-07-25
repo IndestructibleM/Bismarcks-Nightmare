@@ -75,7 +75,7 @@ characters={
 			}		
 		}
 		country_leader={
-			ideology=ultranationalism
+			ideology=despotism
 			traits={  }
 			expire="1965.1.1.1"
 			id=-1
@@ -94,6 +94,21 @@ characters={
 			traits={  }
 			expire="1965.1.1.1"
 			id=-1
+		}
+	}
+	
+	RUS_Peter_Wrangel = {
+		name="Pyotr Wrangel"
+		portraits={
+			civilian={
+				small="gfx/interface/advisors/RUS_peter_wrangel_advisor.png"
+			}		
+		}
+		advisor = {
+			slot = second_command
+			idea_token = RUS_Peter_Wrangel_advisor
+			traits = { economic_organizer }
+			can_be_fired = no
 		}
 	}
 }

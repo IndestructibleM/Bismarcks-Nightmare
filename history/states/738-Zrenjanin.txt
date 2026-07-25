@@ -6,14 +6,14 @@ state={
 		3662 8299 9624 14236 14285 
 	}
 	history = {
-		owner = SER
-		add_core_of = YUG
+		add_core_of = ROM
+		add_core_of = BNT
 		add_core_of = SER
 		buildings = {
 			infrastructure = 2
 		}
-		owner = AUS		add_core_of = AUS
-		owner = AUS		add_core_of = AUS
+		owner = AUS		
+		add_core_of = AUS
 		victory_points = { 8299 5 }
 	}
 	manpower=175693

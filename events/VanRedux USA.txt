@@ -1,0 +1,151 @@
+add_namespace = germany
+
+country_event = {
+	id = germany.1
+	title = germany.1.t
+	desc = desc.temp.d
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = GER
+		date > 1925.2.1
+	}
+
+	option = { 
+		name = germany.1.a
+		add_popularity = { ideology = communism popularity = -0.05 }
+	}
+
+	option = { 
+		name = germany.1.b
+		add_popularity = { ideology = communism popularity = 0.05 }
+	}
+}
+
+country_event = {
+	id = germany.3
+	title = germany.3.t
+	desc = desc.temp.d
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = GER
+		date > 1925.4.1
+	}
+
+	option = { 
+		name = germany.3.a
+		add_popularity = { ideology = socialist popularity = 0.04 }
+	}
+
+	option = { 
+		name = germany.3.b
+		add_popularity = { ideology = communism popularity = 0.05 }
+	}
+}
+
+country_event = {
+	id = germany.4
+	title = germany.4.t
+	desc = desc.temp.d
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = GER
+		date > 1925.5.1
+	}
+
+	option = { 
+		name = germany.4.a
+		add_popularity = { ideology = democratic popularity = 0.06 }
+		add_political_power = -15
+	}
+
+	option = { 
+		name = germany.4.b
+		add_popularity = { ideology = socialist popularity = 0.05 }
+	}
+
+	option = { 
+		name = germany.4.c
+		add_popularity = { ideology = communism popularity = 0.05 }
+	}
+	
+}
+
+country_event = {
+	id = germany.5
+	title = germany.3.t
+	desc = desc.temp.d
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = GER
+		date > 1925.7.1
+	}
+
+	option = { 
+		name = germany.5.a
+		add_popularity = { ideology = socialist popularity = 0.03 }
+		add_popularity = { ideology = democratic popularity = 0.05 }
+	}
+
+	option = { 
+		name = germany.5.b
+		add_popularity = { ideology = communism popularity = 0.06 }
+	}
+}
+
+country_event = {
+	id = germany.6
+	title = germany.6.t
+	desc = desc.temp.d
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = GER
+		date > 1925.6.1
+	}
+
+	option = { 
+		name = germany.6.a
+		add_popularity = { ideology = socialist popularity = 0.04 }
+		add_popularity = { ideology = communism popularity = 0.04 }
+		add_political_power = -25
+	}
+
+	option = { 
+		name = germany.6.b
+		add_popularity = { ideology = democratic popularity = 0.08 }
+	}
+}
+
+country_event = {
+	id = germany.7
+	title = germany.7.t
+	desc = desc.temp.d
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = GER
+		date > 1925.8.1
+	}
+
+	option = { 
+		name = germany.7.a
+		add_popularity = { ideology = democratic popularity = 0.04 }
+		add_popularity = { ideology = socialist popularity = 0.04 }
+	}
+
+	option = { 
+		name = germany.7.b
+		add_political_power = 15
+		add_popularity = { ideology = communism popularity = 0.03 }
+	}
+}

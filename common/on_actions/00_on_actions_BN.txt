@@ -1,0 +1,32 @@
+on_actions = {
+	on_capitulation = {
+		effect = {
+			if = {
+				limit = {
+					ROOT = { 
+						
+					}
+                    FROM = {
+
+                    }	
+				}
+				ROOT = {
+					send_equipment_fraction = {
+						value = 0.8
+						target = FROM
+					}
+				}
+				FROM = {
+					white_peace = {
+						tag = ROOT
+						message = tt_warishell
+					}
+					annex_country = {
+    					target = ROOT
+    					transfer_troops = no
+					}
+				}
+			}
+		}
+	}
+}

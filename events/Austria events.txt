@@ -113,3 +113,39 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = austria.6
+	title = austria.6.t
+	desc = austria.6.d
+
+	trigger = {
+		has_war_with = HUN
+		HUN = {
+			owns_state = 2954
+		}
+		tag = AUS
+	}
+	immediate = {
+		BNT = {
+			every_core_state = {
+				transfer_state_to = BNT
+			}
+			load_oob = HUN_1936
+		}
+	}
+	option = {
+		name = austria.1.a
+		BNT = {
+			declare_war_on = {
+				target = CRO
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = AUS
+				type = annex_everything
+			}
+			give_military_access = HUN
+		}
+	}
+}

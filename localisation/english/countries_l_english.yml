@@ -10,8 +10,8 @@
     RUS_fascism:0 "Russian Empire"
     RUS_fascism_DEF:0 "the Russian Empire"
     RUS_fascism_ADJ:0 "Russian"
-    RUS_neutrality:0 "Russian State"
-    RUS_neutrality_DEF:0 "the Russian State"
+    RUS_neutrality:0 "Russian Empire"
+    RUS_neutrality_DEF:0 "the Russian Empire"
     RUS_neutrality_ADJ:0 "Russian" 
     ###ABKHAZIA
     #COMMUNISM
