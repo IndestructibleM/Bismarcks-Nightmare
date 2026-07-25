@@ -1,5 +1,6 @@
 add_namespace = austria
-# Recruit field marshal for civil war event
+add_namespace = romania
+
 country_event = {
 	id = austria.1
 	title = austria.1.t
@@ -126,6 +127,7 @@ country_event = {
 		}
 		tag = AUS
 	}
+	fire_only_once = yes
 	immediate = {
 		BNT = {
 			every_core_state = {
@@ -147,5 +149,64 @@ country_event = {
 			}
 			give_military_access = HUN
 		}
+	}
+}
+
+country_event = {
+	id = romania.1
+	title = romania.1.a
+	desc = romania.1.d
+
+	trigger = {
+		tag = ROM
+		AUS = {
+			has_war_with = HUN
+			has_war_with = BNT
+		}
+		has_war = no
+	}
+	fire_only_once = yes
+	option = {
+		name = romania.1.a
+			declare_war_on = {
+				target = AUS
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = BNT
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = HUN
+				type = annex_everything
+			}
+	}
+}
+
+
+country_event = {
+	id = romania.2
+	title = romania.2.a
+	desc = romania.2.d
+
+	trigger = {
+		tag = ROM
+		controls_state = 686
+		controls_state = 736
+		controls_state = 680
+		has_war = yes
+	}
+	fire_only_once = yes
+	option = {
+		name = romania.2.a
+		every_controlled_state = {
+			if = {
+				limit = {
+					is_core_of = AUS
+				}
+				transfer_state_to = ROM
+			}
+		}
+		white_peace = ROM
 	}
 }
