@@ -18,7 +18,7 @@ state={
 			industrial_complex = 1
 		}
 		owner = BAY
-		add_core_of = FRN
+		add_core_of = BAY		add_core_of = FRN
     }
 	manpower=703146
 	buildings_max_level_factor=1.000

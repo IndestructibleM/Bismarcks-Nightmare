@@ -9,7 +9,7 @@ state={
 			infrastructure = 4
 		}
 		owner = BAY
-		add_core_of = FRN
+		add_core_of = BAY		add_core_of = FRN
 		victory_points = {
 			422 2 #Ansbach
 		}

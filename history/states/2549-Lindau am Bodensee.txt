@@ -8,7 +8,7 @@ state={
 			infrastructure = 4
 		}
 		owner = BAY
-    }
+		add_core_of = BAY    }
 	provinces={
 		6291 18848 
 	}
