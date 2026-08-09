@@ -22,7 +22,6 @@ country_event = {
 			}
 			load_oob = HUN_1936
 		}
-		load_oob = AUS_1936
 		country_event = { id = austria.2 days = 5 }
 	}
 }

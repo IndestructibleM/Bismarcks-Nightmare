@@ -19,6 +19,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_the_old_chairman
+		icon = GFX_focus_AUS_danubian_socialist_communes
 		x = 0
 		y = 0
 		cost = 5
@@ -28,6 +29,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_completing_the_kulturkampf
+		icon = GFX_focus_BRA_state_atheism
 		relative_position_id = GER_the_old_chairman
 		prerequisite = { focus = GER_the_old_chairman }
 		x = -4
@@ -40,6 +42,7 @@ focus_tree = {
 	focus = {
 		id = GER_reconcile_the_councils
 		relative_position_id = GER_the_old_chairman
+		icon = GFX_focus_AUS_union_of_danubian_socialist_republics
 		prerequisite = { focus = GER_the_old_chairman }
 		x = -2
 		y = 1
@@ -50,6 +53,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_prepare_for_elections
+		icon = GFX_focus_generic_social_democracy
 		relative_position_id = GER_the_old_chairman
 		prerequisite = { focus = GER_the_old_chairman }
 		x = 0
@@ -63,6 +67,7 @@ focus_tree = {
 		id = GER_the_volksbahn
 		relative_position_id = GER_the_old_chairman
 		prerequisite = { focus = GER_the_old_chairman }
+		icon = GFX_focus_generic_road_investment
 		x = 2
 		y = 1
 		cost = 5
@@ -74,6 +79,7 @@ focus_tree = {
 		id = GER_breaking_isolation
 		relative_position_id = GER_the_old_chairman
 		prerequisite = { focus = GER_the_old_chairman }
+		icon = GFX_focus_PHI_return_of_the_exiles
 		x = 4
 		y = 1
 		cost = 5
@@ -84,6 +90,7 @@ focus_tree = {
 	focus = {
 		id = GER_state_schooling_revolution
 		relative_position_id = GER_the_old_chairman
+		icon = GFX_focus_NOR_moscows_education_centers
 		prerequisite = { focus = GER_completing_the_kulturkampf }
 		x = -3
 		y = 2
@@ -96,6 +103,7 @@ focus_tree = {
 		id = GER_the_german_ideology
 		relative_position_id = GER_the_old_chairman
 		prerequisite = { focus = GER_prepare_for_elections }
+		icon = GFX_focus_eng_liberate_the_home_of_marx
 		x = -1
 		y = 2
 		cost = 5
@@ -110,6 +118,7 @@ focus_tree = {
 		id = GER_spirit_of_1848
 		relative_position_id = GER_the_old_chairman
 		prerequisite = { focus = GER_prepare_for_elections }
+		icon = GFX_focus_GER_defender_of_democracy
 		mutually_exclusive = {
 			focus = GER_the_german_ideology
 		}
@@ -123,6 +132,7 @@ focus_tree = {
 	focus = {
 		id = GER_italian_comrades_in_arms
 		relative_position_id = GER_the_old_chairman
+		icon = GFX_focus_ITA_the_italian_republic
 		prerequisite = { focus = GER_breaking_isolation }
 		x = 3
 		y = 2
@@ -135,6 +145,7 @@ focus_tree = {
 		id = GER_a_refuge_for_revolutionary_minds
 		relative_position_id = GER_the_old_chairman
 		prerequisite = { focus = GER_breaking_isolation }
+		icon = GFX_focus_generic_socialist_science
 		x = 5
 		y = 2
 		cost = 5
@@ -145,6 +156,7 @@ focus_tree = {
 	focus = {
 		id = GER_recall_christian_trade_unionists
 		relative_position_id = GER_the_old_chairman
+		icon = GFX_focus_SWE_socialist_reforms
 		prerequisite = { focus = GER_completing_the_kulturkampf }
 		x = -4
 		y = 3
@@ -157,6 +169,7 @@ focus_tree = {
 		id = GER_enforce_coalition_discipline
 		relative_position_id = GER_the_old_chairman
 		prerequisite = { focus = GER_reconcile_the_councils }
+		icon = GFX_focus_SIA_the_purge
 		x = -2
 		y = 3
 		cost = 5
@@ -169,6 +182,7 @@ focus_tree = {
 		relative_position_id = GER_the_old_chairman
 		prerequisite = { focus = GER_the_german_ideology }
 		prerequisite = { focus = GER_spirit_of_1848 }
+		icon = GFX_focus_JAP_raise_the_red_flag_high
 		x = 0
 		y = 3
 		cost = 5
@@ -180,6 +194,7 @@ focus_tree = {
 		id = GER_2nd_ruhr_industrialization
 		relative_position_id = GER_the_old_chairman
 		prerequisite = { focus = GER_the_volksbahn }
+		icon = GFX_focus_generic_communist_industry
 		x = 2
 		y = 3
 		cost = 5
@@ -191,6 +206,7 @@ focus_tree = {
 		id = GER_restart_hannovers_trade_with_england
 		relative_position_id = GER_the_old_chairman
 		prerequisite = { focus = GER_breaking_isolation }
+		icon = GFX_focus_generic_british_trade
 		x = 4
 		y = 3
 		cost = 5
