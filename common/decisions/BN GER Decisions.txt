@@ -1,0 +1,16 @@
+political_actions = {
+	GER_upcoming_elections = {
+    activation = {
+        has_completed_focus = GER_the_old_chairman
+    }
+    available = {
+        always = no
+    }
+    icon = mission_icon     # For GFX_decision_mission_icon
+    is_good = yes
+    days_mission_timeout = 300
+    timeout_effect = {
+        country_event = { id = RedGer.2 }
+    }
+}
+}

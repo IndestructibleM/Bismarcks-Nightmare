@@ -32,8 +32,40 @@ characters={
 		country_leader={
 			ideology=marxism
 			traits={  }
-			expire="1965.1.1.1"
-			id=-1
+		}
+	}
+	GER_Heinrich_Laufenberg = {
+		name="Heinrich Laufenberg"
+		portraits={
+			civilian={
+				large="gfx/leaders/"
+			}		
+		}
+		country_leader={
+			ideology=marxism
+			traits={  }
+		}
+	}
+	GER_Eduard_Bernstein = {
+		name="Eduard Bernstein"
+		portraits={
+			civilian={
+			}		
+		}
+		country_leader={
+			ideology=reformist_marxism
+			traits={  }
+		}
+	}
+	GER_Hellmut_von_Gerlach = {
+		name="Hellmut von Gerlach"
+		portraits={
+			civilian={
+			}		
+		}
+		country_leader={
+			ideology=socialism
+			traits={  }
 		}
 	}
 
