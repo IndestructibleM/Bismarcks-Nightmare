@@ -9,7 +9,6 @@ state={
 		buildings = {
 			infrastructure = 2
 		}
-		owner = RUS add_core_of = RUS
 	}
 	provinces={
 		4230 5940 8470 13626 20454 
