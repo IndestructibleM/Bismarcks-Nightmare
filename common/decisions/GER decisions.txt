@@ -93,7 +93,12 @@ political_actions = {
 		days_mission_timeout = 200
 		timeout_effect = {
 			white_peace = HUN
-			add_political_power = -50
+			white_peace = SLO
+			white_peace = CRO
+			white_peace = BNT
+			white_peace = ROM
+			white_peace = BOH
+			add_political_power = -200
 		} 
 		ai_will_do = {
 			base = 500
