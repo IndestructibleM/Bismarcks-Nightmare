@@ -5,13 +5,12 @@ state={
 
 	resources = { aluminium = 118 }
 	history={
-		owner = SER
+		owner = MNT
 		add_core_of = MNT
 		buildings = {
 			infrastructure = 2
 
 		}
-		add_core_of = YUG
 		victory_points = {
 			20168 5 
 		}

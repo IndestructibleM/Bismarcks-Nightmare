@@ -531,6 +531,10 @@
     BUL_communism:0 "People's Republic of Bulgaria"
     BUL_communism_DEF:0 "the People's Republic of Bulgaria"
     BUL_communism_ADJ:0 "Bulgarian"
+    
+    BUL_socialist:0 "People's Republic of Bulgaria"
+    BUL_socialist_DEF:0 "the People's Republic of Bulgaria"
+    BUL_socialist_ADJ:0 "Bulgarian"
 
    #DEMOCRATIC
 

@@ -5,8 +5,7 @@ state={
 
 	resources = { chromium = 34 }
 	history={
-		owner = SER
-		add_core_of = YUG
+		owner = MNT
 		add_core_of = MNT
 		buildings = {
 			infrastructure = 2
