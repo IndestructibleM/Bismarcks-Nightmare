@@ -21,7 +21,6 @@ country_event = {
 				transfer_state_to = HUN
 			}
 			load_oob = HUN_1936
-			load_oob = HUN_1936
 		}
 		country_event = { id = austria.2 days = 5 }
 	}
@@ -130,16 +129,16 @@ country_event = {
 	}
 	fire_only_once = yes
 	immediate = {
-		BOH = {
+		CZE = {
 			every_core_state = {
-				transfer_state_to = BOH
+				transfer_state_to = CZE
 			}
 			load_oob = CZE_1936
 		}
 	}
 	option = {
 		name = austria.1.a
-		BOH = {
+		CZE = {
 			declare_war_on = {
 				target = AUS
 				type = annex_everything

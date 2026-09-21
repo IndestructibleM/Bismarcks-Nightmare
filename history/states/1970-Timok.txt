@@ -5,13 +5,12 @@ state={
 		21639 
 	}
 	history = {
-		owner = SER
+		owner = BUL
 		add_core_of = SER
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = YUG
-		add_claim_by = BUL
+		add_core_of = BUL
 	}
 	manpower=2410
 	state_category=enclave

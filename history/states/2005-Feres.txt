@@ -7,8 +7,7 @@ state={
 		owner = GRE
 		add_core_of = GRE
 		add_core_of = THR
-		add_core_of = WTH
-		add_claim_by = BUL
+		add_core_of = BUL
 		buildings = {
 			infrastructure = 1
 

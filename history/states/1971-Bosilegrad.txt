@@ -4,10 +4,9 @@ state={
 	name="STATE_1971"
 
 	history={
-		owner = SER
-		add_core_of = YUG
+		owner = BUL
+		add_core_of = BUL
 		add_core_of = SER
-		add_claim_by = BUL
 		buildings = {
 			infrastructure = 2
 
