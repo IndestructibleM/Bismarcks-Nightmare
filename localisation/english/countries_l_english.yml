@@ -531,7 +531,11 @@
     BUL_communism:0 "People's Republic of Bulgaria"
     BUL_communism_DEF:0 "the People's Republic of Bulgaria"
     BUL_communism_ADJ:0 "Bulgarian"
-
+    
+    BUL_socialist:0 "People's Republic of Bulgaria"
+    BUL_socialist_DEF:0 "the People's Republic of Bulgaria"
+    BUL_socialist_ADJ:0 "Bulgarian"
+    BUL_aleksandar_stamboliyski: "Aleksandr Stambolyiski"
    #DEMOCRATIC
 
     BUL_democratic:0 "Republic of Bulgaria"
@@ -844,37 +848,37 @@
     CYP_DEF:0 "the Cypriot State"
     CYP_ADJ:0 "Cypriot"
 
- ###CZECHOSLOVAKIA
+ ###CZECHIA
 
    #COMMUNISM
 
-    CZE_communism:0 "Czechoslovak Republic"
-    CZE_communism_DEF:0 "the Czechoslovak Republic"
-    CZE_communism_ADJ:0 "Czechoslovak"
+    CZE_communism:0 "Czech Republic"
+    CZE_communism_DEF:0 "the Czech Republic"
+    CZE_communism_ADJ:0 "Czech"
 
    #DEMOCRATIC
 
-    CZE_democratic:0 "Czechoslovak Republic"
-    CZE_democratic_DEF:0 "the Czechoslovak Republic"
-    CZE_democratic_ADJ:0 "Czechoslovak"
+    CZE_democratic:0 "Czech Republic"
+    CZE_democratic_DEF:0 "the Czech Republic"
+    CZE_democratic_ADJ:0 "Czech"
 
    #FASCISM
 
-    CZE_fascism:0 "Czechoslovak State"
-    CZE_fascism_DEF:0 "the Czechoslovak State"
-    CZE_fascism_ADJ:0 "Czechoslovak"
+    CZE_fascism:0 "Czech State"
+    CZE_fascism_DEF:0 "the Czech State"
+    CZE_fascism_ADJ:0 "Czech"
 
    #NEUTRALITY
 
-    CZE_neutrality:0 "Czechoslovak State"
-    CZE_neutrality_DEF:0 "the Czechoslovak State"
-    CZE_neutrality_ADJ:0 "Czechoslovak"
+    CZE_neutrality:0 "Czech State"
+    CZE_neutrality_DEF:0 "the Czech State"
+    CZE_neutrality_ADJ:0 "Czech"
 
    #TAG
 
-    CZE:0 "Czechoslovakia"
-    CZE_DEF:0 "the Czechoslovak State"
-    CZE_ADJ:0 "Czechoslovak"
+    CZE:0 "Czechia"
+    CZE_DEF:0 "the Czech State"
+    CZE_ADJ:0 "Czech"
 
  ###DAGESTAN
 
@@ -1483,8 +1487,8 @@
 
    #COMMUNISM
 
-    HUN_communism:0 "Hungarian People's Republic"
-    HUN_communism_DEF:0 "the Hungarian People's Republic"
+    HUN_communism:0 "Hungarian Socialist Council Republic"
+    HUN_communism_DEF:0 "the Hungarian Socialist Council Republic"
     HUN_communism_ADJ:0 "Hungarian"
 
    #DEMOCRATIC

@@ -144,7 +144,6 @@ add_ideas = {
 	RUS_autocracy_3
 	RUS_nationality_2
 	RUS_economic_cartelization
-	RUS_realities_of_russification
 }
 ### VARIANTS ###
 # 1936 Start #

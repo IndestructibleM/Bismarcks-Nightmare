@@ -6,13 +6,12 @@ state={
 		6800 20181 
 	}
 	history={
-		owner = SER
+		owner = MNT
 		add_core_of = MNT
 		buildings = {
 			infrastructure = 2
 
 		}
-		add_core_of = YUG
 
 	}
 	manpower=11482

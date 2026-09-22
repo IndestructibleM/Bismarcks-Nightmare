@@ -6,9 +6,8 @@ state={
 		16139 
 	}
 	history={
-		owner = SER
-		add_core_of = YUG
-		add_core_of = SER
+		owner = MNT
+		add_core_of = MNT
 		add_core_of = SDZ
 		buildings = {
 			infrastructure = 2

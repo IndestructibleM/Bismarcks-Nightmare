@@ -5,13 +5,13 @@ state={
 		6599 7206 9457 20120 20156 20183 
 	}
 	history = {
-		owner = SER
-		owner = AUS add_core_of = AUS
+		owner = AUS 
+		add_core_of = AUS
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
 		}
-		add_core_of = YUG
+		add_core_of = CRO
 		victory_points = { 20120 40 }
 	}
 	manpower=435900

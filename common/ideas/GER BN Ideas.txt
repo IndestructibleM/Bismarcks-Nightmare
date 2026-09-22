@@ -24,6 +24,17 @@ ideas = {
 			}
 			picture = GER_limited_democratic_principles
 		}
+		GER_struggle_for_republic2 = {
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				political_power_cost = 0.2
+				stability_factor = -0.05
+				war_support_factor = -0.05
+			}
+			picture = GER_limited_democratic_principles
+		}
 		GER_foreign_isolation = {
 			allowed_civil_war = {
 				always = yes
@@ -35,6 +46,28 @@ ideas = {
 				production_speed_buildings_factor = -0.1
 			}
 			picture = FRA_scw_intervention_republicans_focus
+			cancel = {
+				has_completed_focus = GER_italian_comrades_in_arms
+				has_completed_focus = GER_restart_hannovers_trade_with_england
+				has_completed_focus = GER_a_refuge_for_revolutionary_minds
+			}
+		}
+		GER_foreign_isolation2 = {
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				trade_opinion_factor = -0.15
+				research_speed_factor = -0.05
+				industrial_capacity_factory = -0.1
+				production_speed_buildings_factor = -0.1
+			}
+			picture = FRA_scw_intervention_republicans_focus
+			cancel = {
+				has_completed_focus = GER_italian_comrades_in_arms
+				has_completed_focus = GER_restart_hannovers_trade_with_england
+				has_completed_focus = GER_a_refuge_for_revolutionary_minds
+			}
 		}
 		GER_kulturkampf = {
 			allowed_civil_war = {
@@ -45,6 +78,30 @@ ideas = {
 				consumer_goods_expected_value = 0.08
 				political_power_factor = -0.05
 				war_support_factor = -0.2
+			}
+			picture = ARG_state_atheism
+		}
+		GER_kulturkampf2 = {
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				conscription_factor = -0.15
+				consumer_goods_expected_value = 0.05
+				political_power_factor = -0.05
+				war_support_factor = -0.15
+			}
+			picture = ARG_state_atheism
+		}
+		GER_kulturkampf3 = {
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				conscription_factor = -0.
+				consumer_goods_expected_value = 0.025
+				political_power_factor = -0.05
+				war_support_factor = -0.075
 			}
 			picture = ARG_state_atheism
 		}

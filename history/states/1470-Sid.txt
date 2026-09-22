@@ -5,14 +5,13 @@ state={
 		1511 14367 
 	}
 	history = {
-		owner = SER
-		add_core_of = YUG
-		add_core_of = SER
+		owner = AUS
+		add_core_of = AUS
+		add_core_of = CRO
 		buildings = {
 			infrastructure = 2
 		}
-		owner = AUS		add_core_of = AUS
-		add_claim_by = SVN
+
 	}
 	manpower=64192
 	state_category=pastoral
