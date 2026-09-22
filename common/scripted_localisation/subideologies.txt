@@ -324,6 +324,6 @@ defined_text = {
 		trigger = {
 			has_country_leader_ideology = democratic_socialism
 		}
-		localization_key = "Reformist Marxism"
+		localization_key = "Democratic Socialism"
 	}
 }

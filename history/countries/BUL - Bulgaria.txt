@@ -12,20 +12,6 @@ if = {
 set_convoys = 5 #VANILLA & DLC
 
 #You don't want Bulgarian party names? Just remove these lines
-set_party_name = { # DLC
-	ideology = communism
-	name = BUL_communism_party_bulgarian
-	long_name = BUL_communism_party_bulgarian_long
-}
-set_party_name = { # DLC
-	ideology = fascism
-	name = BUL_fascism_party_bulgarian
-	long_name = BUL_fascism_party_bulgarian_long
-}
-
-every_owned_state = {
-	set_state_flag = BUL_INITIAL_STATE
-}
 
 recruit_character = BUL_aleksandar_stamboliyski
 
@@ -37,12 +23,11 @@ set_politics = {
 }
 set_popularities = {
 	communism =  10
-	socialist =  35
+	socialist =  31
 	fascism = 10
-	reactionism = 10
-	neutrality = 10
-	democratic = 15
-	conservative = 10
+	neutrality = 12
+	democratic = 24
+	conservative = 13
 }
 set_technology = { #VANILLA & DLC
 	infantry_weapons = 1

@@ -92,12 +92,46 @@ political_actions = {
 		fire_only_once = yes
 		days_mission_timeout = 200
 		timeout_effect = {
+			every_owned_state = {
+				limit = { region = 12 }
+				transfer_state_to = ROM
+			}
 			white_peace = HUN
+			CRO = { every_core_state = { transfer_state_to = CRO } }
+			HUN = {
+				every_core_state = { transfer_state_to = HUN }
+				every_enemy_country = { white_peace = ROOT }
+				transfer_state = 1515
+				transfer_state = 1516
+				transfer_state = 735
+				transfer_state = 705
+				transfer_state = 2674
+				transfer_state = 1472
+				transfer_state = 664
+				transfer_state = 2671
+				transfer_state = 2856
+				transfer_state = 622
+				transfer_state = 2859
+				transfer_state = 2675
+				transfer_state = 1514
+			}
 			white_peace = SLO
+			SLO = { every_core_state = { transfer_state_to = SLO } }
 			white_peace = CRO
-			white_peace = BNT
+ 			white_peace = BNT
+			BNT = {
+				every_core_state = { transfer_state_to = BNT }
+				transfer_state = 2668
+			}
+			white_peace = CZE
+			CZE = { every_core_state = { transfer_state_to = CZE } }
 			white_peace = ROM
-			white_peace = BOH
+			AUS = {
+				transfer_state = 1432
+				transfer_state = 1431
+				transfer_state = 1433
+				transfer_state = 1430
+			}
 			add_political_power = -200
 		} 
 		ai_will_do = {

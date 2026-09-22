@@ -5,11 +5,9 @@ state={
 
 	history={
 		victory_points = { 3816 5 }
-		owner = SER
-		add_core_of = YUG
-		owner = AUS		add_core_of = AUS
-		add_core_of = SER
-		add_claim_by = SVN
+		owner = AUS
+		add_core_of = AUS
+		add_core_of = CRO
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
