@@ -38,7 +38,7 @@ characters={
 		name="Volodymyr Vynnychenko"
 		portraits={
 			civilian={
-				large="gfx/leaders/UKR/Portrait_UKR_Volodymyr_Vsynnychenko.png"
+				large="gfx/leaders/UKR/Portrait_UKR_Volodymyr_Vynnychenko.png"
 			}		
 		}
 		country_leader={

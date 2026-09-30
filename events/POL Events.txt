@@ -1,18 +1,18 @@
-add_namespace = poland
+add_namespace = polska
 
 country_event = {
-	id = poland.1
-	title = poland.1.t
-	desc = poland.1.desc
+	id = polska.1
+	title = polska.1.t
+	desc = polska.1.d
 
 	fire_only_once = yes
     is_triggered_only = yes
 
 	option = {
-		name = poland.1.a
+		name = polska.1.a
 		RUS = {
 			end_puppet = POL
 		}
-		country_event = { id = poland.2 days = 5 }
+		country_event = { id = polska.2 days = 5 }
 	}
 }

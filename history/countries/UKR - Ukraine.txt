@@ -71,6 +71,10 @@ if = {
 	}
 }
 
+
+
+recruit_character = UKR_volodymyr_vynnychenko
+
 set_popularities = {
 	liberalism = 20
 	despotism = 30
@@ -81,5 +85,3 @@ set_politics = {
 	ruling_party = socialism
 	elections_allowed = no
 }
-
-recruit_character = UKR_volodymyr_vynnychenko
