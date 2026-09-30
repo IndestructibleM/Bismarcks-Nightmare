@@ -27,14 +27,14 @@ defined_text = {
 	text = {
 		trigger = {
 			ITA_has_rejected_monarchy = yes
-			has_government = fascism
+			has_government = ultranationalism
 		}
 		localization_key = ITA_regio_esercito_name_rsi
 	}
 	text = {
 		trigger = {
 			ITA_has_rejected_monarchy = yes
-			NOT = { has_government = fascism }
+			NOT = { has_government = ultranationalism }
 		}
 		localization_key = ITA_regio_esercito_name_alt
 	}
@@ -48,14 +48,14 @@ defined_text = {
 	text = {
 		trigger = {
 			ITA_has_rejected_monarchy = yes
-			has_government = fascism
+			has_government = ultranationalism
 		}
 		localization_key = ITA_regia_aeronautica_name_rsi
 	}
 	text = {
 		trigger = {
 			ITA_has_rejected_monarchy = yes
-			NOT = { has_government = fascism }
+			NOT = { has_government = ultranationalism }
 		}
 		localization_key = ITA_regia_aeronautica_name_alt
 	}
@@ -69,14 +69,14 @@ defined_text = {
 	text = {
 		trigger = {
 			ITA_has_rejected_monarchy = yes
-			has_government = fascism
+			has_government = ultranationalism
 		}
 		localization_key = ITA_regia_marina_name_rsi
 	}
 	text = {
 		trigger = {
 			ITA_has_rejected_monarchy = yes
-			NOT = { has_government = fascism }
+			NOT = { has_government = ultranationalism }
 		}
 		localization_key = ITA_regia_marina_name_alt
 	}
@@ -325,8 +325,8 @@ defined_text = {
 					ruling_only = yes
 				}
 				OR = {
-					has_government = democratic
-					has_government = neutrality
+					has_government = liberalism
+					has_government = despotism
 				}
 			}
 		}
@@ -830,7 +830,7 @@ defined_text = { #Litoranea Balbo name based on political path
 defined_text = {
 	name = GetAppropriateValloAlpinoName
 	text = {
-		trigger = { NOT = { has_government = fascism } }
+		trigger = { NOT = { has_government = ultranationalism } }
 		localization_key = ITA_vallo_alpino_del_littorio_alt
 	}
 	text = {
@@ -848,7 +848,7 @@ defined_text = { #Moschettieri del Duce name based on political path
 	}
 	text = { # Democratic
 		trigger = { 
-			has_government = democratic
+			has_government = liberalism
 			NOT = { has_completed_focus = ITA_monarchia_d_italia }
 		}
 		localization_key = ITA_moschettieri_del_duce_dem
@@ -874,7 +874,7 @@ defined_text = { #Moschettieri del Duce desc based on political path
 	}
 	text = { # Democratic
 		trigger = { 
-			has_government = democratic
+			has_government = liberalism
 			NOT = { has_completed_focus = ITA_monarchia_d_italia }
 		}
 		localization_key = ITA_moschettieri_del_duce_dem_desc

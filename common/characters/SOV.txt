@@ -3298,8 +3298,8 @@ characters = {
 		}
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality 
-				has_government = fascism
+				has_government = despotism 
+				has_government = ultranationalism
 			}
 		}
 
@@ -3330,8 +3330,8 @@ characters = {
 		}
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality 
-				has_government = fascism
+				has_government = despotism 
+				has_government = ultranationalism
 			}
 		}
 		advisor = {
@@ -3361,8 +3361,8 @@ characters = {
 		}
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality 
-				has_government = fascism
+				has_government = despotism 
+				has_government = ultranationalism
 			}
 		}
 
@@ -3393,8 +3393,8 @@ characters = {
 		}
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality 
-				has_government = fascism
+				has_government = despotism 
+				has_government = ultranationalism
 			}
 		}
 
@@ -3425,8 +3425,8 @@ characters = {
 		}
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality 
-				has_government = fascism
+				has_government = despotism 
+				has_government = ultranationalism
 			}
 		}
 
@@ -3530,8 +3530,8 @@ characters = {
 		}
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality 
-				has_government = fascism
+				has_government = despotism 
+				has_government = ultranationalism
 			}
 		}
 
@@ -3559,8 +3559,8 @@ characters = {
 		}
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality 
-				has_government = fascism
+				has_government = despotism 
+				has_government = ultranationalism
 			}
 		}
 
@@ -3609,8 +3609,8 @@ characters = {
 		}
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality 
-				has_government = fascism
+				has_government = despotism 
+				has_government = ultranationalism
 			}
 		}
 		advisor = {
@@ -3649,8 +3649,8 @@ characters = {
 		}
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality 
-				has_government = fascism
+				has_government = despotism 
+				has_government = ultranationalism
 			}
 		}
 
@@ -3689,8 +3689,8 @@ characters = {
 		}
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality 
-				has_government = fascism
+				has_government = despotism 
+				has_government = ultranationalism
 			}
 		}
 		
@@ -3729,8 +3729,8 @@ characters = {
 		}
 		allowed_civil_war = {
 			OR = {
-				has_government = neutrality 
-				has_government = fascism
+				has_government = despotism 
+				has_government = ultranationalism
 			}
 		}
 		
@@ -3833,7 +3833,7 @@ characters = {
 				}
 				do_effect = {
 					NOT = {
-						has_government = fascism 
+						has_government = ultranationalism 
 					}
 				}
 				ai_will_do = {
@@ -3893,7 +3893,7 @@ characters = {
 			}
 			do_effect = {
 				NOT = {
-					has_government = democratic 
+					has_government = liberalism 
 				}
 			}
 			ai_will_do = {

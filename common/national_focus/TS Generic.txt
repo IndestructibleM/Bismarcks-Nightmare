@@ -45,7 +45,7 @@ focus_tree = {
 		prerequisite = { focus = gen_adventures_in_politics }
 		available = {
 			OR = {
-				has_government = democratic
+				has_government = liberalism
 				has_government = conservative
 			}
 		}
@@ -84,7 +84,7 @@ focus_tree = {
 		x = -3
 		y = 2
 		available = {
-			has_government = democratic
+			has_government = liberalism
 		}
 		ai_will_do = {
 			factor = 2
@@ -194,8 +194,8 @@ focus_tree = {
 		prerequisite = { focus = gen_adventures_in_politics }
 		available = {
 			OR = {
-				has_government = fascism
-				has_government = neutrality
+				has_government = ultranationalism
+				has_government = despotism
 			}
 		}
 		completion_reward = {
@@ -210,7 +210,7 @@ focus_tree = {
 		y = 2
 		available = {
 		OR = {
-			has_government = fascism
+			has_government = ultranationalism
 		}
 		}
 		ai_will_do = {
@@ -230,7 +230,7 @@ focus_tree = {
 		y = 2
 		available = {
 		OR = {
-			has_government = neutrality
+			has_government = despotism
 		}
 		}
 		ai_will_do = {
@@ -338,7 +338,7 @@ focus_tree = {
 		}
 		available = {
 			OR = {
-				has_government = socialist
+				has_government = socialism
 				has_government = communism
 			}
 		}
@@ -376,7 +376,7 @@ focus_tree = {
 		x = 3
 		y = 2
 		available = {
-			has_government = socialist
+			has_government = socialism
 		}
 		ai_will_do = {
 			factor = 2

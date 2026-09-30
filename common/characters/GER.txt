@@ -134,7 +134,7 @@ characters = {
 			planning_skill = 3
 			logistics_skill = 3
 			visible = {
-				has_government = neutrality
+				has_government = despotism
 				NOT = {
 					has_country_flag = GER_mackensen_went_into_retirement
 				}
@@ -1241,11 +1241,11 @@ characters = {
 				original_tag = GER
 			}
 			visible = {
-				has_government = neutrality
+				has_government = despotism
 				has_global_flag = von_lettow_is_in_a_country
 			}
 			available = {
-				has_government = neutrality
+				has_government = despotism
 			}
 			traits = {
 				army_concealment_2
@@ -1698,10 +1698,10 @@ characters = {
 				original_tag = GER
 			}
 			visible = {
-				has_government = fascism
+				has_government = ultranationalism
 			}
 			available = {
-				has_government = fascism
+				has_government = ultranationalism
 			}
 			traits = {
 				army_chief_drill_2
@@ -1848,12 +1848,12 @@ characters = {
 				original_tag = GER
 			}
 			available = {
-				has_government = fascism
+				has_government = ultranationalism
 				NOT = { has_completed_focus = GER_ascension_of_goring }
 			}
 			visible = {
 				always = no #MM: Part of Inner Circle.
-				has_government = fascism
+				has_government = ultranationalism
 				NOT = {
 					has_completed_focus = GER_oppose_hitler_ww
 				}
@@ -1874,12 +1874,12 @@ characters = {
 			}
 			available = {
 				or = {
-					has_government = fascism
+					has_government = ultranationalism
 					has_country_flag = GER_reinstated_nazi_leadership
 				}
 			}
 			visible = {
-				has_government = fascism
+				has_government = ultranationalism
 				NOT = {
 					has_completed_focus = GER_oppose_hitler_ww
 				}
@@ -1959,7 +1959,7 @@ characters = {
 				original_tag = GER
 			}
 			available = {
-				NOT = { has_government = fascism }
+				NOT = { has_government = ultranationalism }
 				has_completed_focus = GER_reorganize_the_luftwaffe
 			}
 			traits = {
@@ -2300,7 +2300,7 @@ characters = {
 				OR = {
 					AND = {
 						has_completed_focus = GER_reorganize_the_wehrmacht
-						has_government = fascism 
+						has_government = ultranationalism 
 					}
 					has_country_flag = GER_reinstated_nazi_leadership 
 				}
@@ -2469,7 +2469,7 @@ characters = {
 				original_tag = GER
 			}
 			available = {
-				has_government = fascism
+				has_government = ultranationalism
 				GER_hjalmar_schacht = {
 					is_hired_as_advisor  = no 
 				}
@@ -2478,7 +2478,7 @@ characters = {
 				}
 			}
 			visible = {
-				has_government = fascism
+				has_government = ultranationalism
 				NOT = {
 					OR = {
 						has_completed_focus = GER_oppose_hitler
@@ -2533,7 +2533,7 @@ characters = {
 			}
 			do_effect = {
 				NOT = {
-					has_government = fascism 
+					has_government = ultranationalism 
 				}
 			}
 			ai_will_do = {
@@ -2565,13 +2565,13 @@ characters = {
 					has_completed_focus = GER_party_chancellor_hess
 				}
 				OR = {
-					has_government = fascism 
+					has_government = ultranationalism 
 					has_country_flag = GER_reinstated_nazi_leadership 
 				}
 			}
 			visible = {
 				always = no #MM: Part of Inner Circle.
-				has_government = fascism
+				has_government = ultranationalism
 				NOT = {
 					has_completed_focus = GER_oppose_hitler_ww
 				}
@@ -2594,7 +2594,7 @@ characters = {
 			}
 		}
 		allowed_civil_war = {
-			has_government = fascism
+			has_government = ultranationalism
 		}
 		advisor = {
 			slot = political_advisor
@@ -2604,14 +2604,14 @@ characters = {
 			}
 			available = {
 				OR = {
-					has_government = fascism 
+					has_government = ultranationalism 
 					has_country_flag = GER_reinstated_nazi_leadership 
 				}
 				NOT = { has_completed_focus = GER_ascension_of_himmler }
 			}
 			visible = {
 				always = no #MM: Part of Inner Circle.
-				has_government = fascism
+				has_government = ultranationalism
 				NOT = {
 					has_completed_focus = GER_oppose_hitler_ww
 				}
@@ -2647,13 +2647,13 @@ characters = {
 					has_completed_focus = GER_party_chancellor_bormann
 				}
 				OR = {
-					has_government = fascism 
+					has_government = ultranationalism 
 					has_country_flag = GER_reinstated_nazi_leadership 
 				}
 			}
 			visible = {
 				always = no #MM: Part of Inner Circle.
-				has_government = fascism
+				has_government = ultranationalism
 				NOT = {
 					has_completed_focus = GER_oppose_hitler_ww
 				}
@@ -2687,7 +2687,7 @@ characters = {
 			}
 			visible = {
 				OR = {
-					has_government = fascism
+					has_government = ultranationalism
 					has_country_flag = GER_reinstated_nazi_leadership
 				}
 			}
@@ -2722,14 +2722,14 @@ characters = {
 			}
 			visible = {
 				OR = {
-					has_government = fascism
+					has_government = ultranationalism
 					has_country_flag = GER_reinstated_nazi_leadership
 				}
 			}
 			available = {
 				OR = {
 					has_country_flag = GER_reinstated_nazi_leadership
-					has_government = fascism
+					has_government = ultranationalism
 				}
 			}
 			traits = {
@@ -2757,14 +2757,14 @@ characters = {
 			}
 			visible = {
 				OR = {
-					has_government = fascism
+					has_government = ultranationalism
 					has_country_flag = GER_reinstated_nazi_leadership
 				}
 			}
 			available = {
 				OR = {
 					has_country_flag = GER_reinstated_nazi_leadership
-					has_government = fascism
+					has_government = ultranationalism
 				}
 				NOT = {
 					has_completed_focus = GER_hegemony_of_the_ss
@@ -2796,14 +2796,14 @@ characters = {
 				}
 				visible = {
 					OR = {
-						has_government = fascism
+						has_government = ultranationalism
 						has_country_flag = GER_reinstated_nazi_leadership
 					}
 				}
 				available = {
 					OR = {
 						has_country_flag = GER_reinstated_nazi_leadership
-						has_government = fascism
+						has_government = ultranationalism
 					}
 				}
 				traits = {
@@ -2837,7 +2837,7 @@ characters = {
 					}
 				}
 				available = {
-					has_government = fascism
+					has_government = ultranationalism
 				}
 				traits = {
 					GER_reich_security_main_office_director_no_lar
@@ -2893,7 +2893,7 @@ characters = {
 			visible = {
 				NOT = {
 					AND = {
-						has_government = fascism
+						has_government = ultranationalism
 						has_completed_focus = GER_remilitarize_the_rhineland
 					}
 				}
@@ -2942,7 +2942,7 @@ characters = {
 					OR = {
 						AND = {
 							original_tag = GER
-							has_government = fascism
+							has_government = ultranationalism
 							has_completed_focus = GER_remilitarize_the_rhineland
 						}
 					}
@@ -3000,7 +3000,7 @@ characters = {
 					OR = {
 						AND = {
 							original_tag = GER
-							has_government = fascism
+							has_government = ultranationalism
 							has_completed_focus = GER_remilitarize_the_rhineland
 						}
 					}
@@ -3050,7 +3050,7 @@ characters = {
 			visible = {
 				NOT = {
 					AND = {
-						has_government = fascism
+						has_government = ultranationalism
 						has_completed_focus = GER_remilitarize_the_rhineland
 					}
 					has_completed_focus = GER_revive_the_kaiserreich_ww
@@ -3096,7 +3096,7 @@ characters = {
 			visible = {
 				NOT = {
 					AND = {
-						has_government = fascism
+						has_government = ultranationalism
 						has_completed_focus = GER_remilitarize_the_rhineland
 					}
 					has_completed_focus = GER_revive_the_kaiserreich_ww
@@ -3122,7 +3122,7 @@ characters = {
 			}
 			do_effect = {
 				NOT = {
-					has_government = democratic 
+					has_government = liberalism 
 				}
 			}
 			ai_will_do = {
@@ -3148,7 +3148,7 @@ characters = {
 			visible = {
 				NOT = {
 					AND = {
-						has_government = fascism
+						has_government = ultranationalism
 						has_completed_focus = GER_remilitarize_the_rhineland
 					}
 					has_completed_focus = GER_revive_the_kaiserreich_ww
@@ -3206,12 +3206,12 @@ characters = {
 				NOT = {
 					AND = {
 						has_completed_focus = GER_remilitarize_the_rhineland
-						has_government = fascism
+						has_government = ultranationalism
 					}
 				}
 			}
 			available = {
-				NOT = { has_government = fascism }
+				NOT = { has_government = ultranationalism }
 			}
 			traits = {
 				GER_former_reichsbank_president
@@ -3303,7 +3303,7 @@ characters = {
 				}
 			}
 			available = {
-				has_government = neutrality
+				has_government = despotism
 				has_completed_focus = GER_re_form_the_freikorps
 			}
 			traits = {
@@ -3340,7 +3340,7 @@ characters = {
 			visible = {
 				NOT = {
 					AND = {
-						has_government = fascism
+						has_government = ultranationalism
 						has_completed_focus = GER_remilitarize_the_rhineland
 					}
 					has_completed_focus = GER_start_the_proletarian_revolution
@@ -3348,8 +3348,8 @@ characters = {
 			}
 			available = {
 				OR = {
-					has_government = neutrality
-					has_government = democratic
+					has_government = despotism
+					has_government = liberalism
 				}
 			}
 			traits = {
@@ -3443,8 +3443,8 @@ characters = {
 			}
 			available = {
 				OR = {
-					has_government = neutrality
-					has_government = democratic
+					has_government = despotism
+					has_government = liberalism
 				}
 			}
 			traits = {
@@ -3566,7 +3566,7 @@ characters = {
 			visible = {
 				NOT = {
 					AND = {
-						has_government = fascism
+						has_government = ultranationalism
 						has_completed_focus = GER_remilitarize_the_rhineland
 					}
 					has_completed_focus = GER_revive_the_kaiserreich_ww
@@ -3687,13 +3687,13 @@ characters = {
 			visible = {
 				NOT = {
 					AND = {
-						has_government = fascism
+						has_government = ultranationalism
 						has_completed_focus = GER_remilitarize_the_rhineland
 					}
 					AND = {
 						OR = {	
-							has_government = neutrality
-							has_government = democratic
+							has_government = despotism
+							has_government = liberalism
 						}
 						has_completed_focus = GER_monarchist_sentiment
 					}
@@ -3732,13 +3732,13 @@ characters = {
 			visible = {
 				NOT = {
 					AND = {
-						has_government = fascism
+						has_government = ultranationalism
 						has_completed_focus = GER_remilitarize_the_rhineland
 					}
 					AND = {
 						OR = {	
-							has_government = neutrality
-							has_government = democratic
+							has_government = despotism
+							has_government = liberalism
 						}
 						has_completed_focus = GER_monarchist_sentiment
 					}

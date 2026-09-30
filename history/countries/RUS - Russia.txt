@@ -109,6 +109,13 @@ if = {
 
 set_convoys = 50
 
+set_politics = {
+	ruling_party = despotism
+	last_election = "1933.7.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
 set_autonomy = {
 	target = POL
 	autonomous_state = autonomy_puppet
@@ -119,20 +126,14 @@ set_autonomy = {
 	autonomous_state = autonomy_puppet
 }
 
-set_politics = {
-	ruling_party = neutrality
-	last_election = "1933.7.1"
-	election_frequency = 48
-	elections_allowed = no
-}
 set_popularities = {
-	democratic = 10
+	liberalism = 10
 	conservative = 12
 	reactionism = 21
-	fascism = 10
+	ultranationalism = 10
 	communism = 2
-	socialist = 3
-	neutrality = 42
+	socialism = 3
+	despotism = 42
 }
 
 recruit_character = RUS_nicholas_romanov

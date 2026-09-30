@@ -231,21 +231,21 @@ rescue_mussolini = { ### 1/35
 		original_tag = GER
 	}
 	available = { 
-		has_government = fascism
+		has_government = ultranationalism
 		has_war_with = ITA
 		ITA = {
 			not = {
-				has_government = fascism
+				has_government = ultranationalism
 			}
 		}
 	}
 	visible = {
 		# TODO is this really enough of a check?
-		has_government = fascism
+		has_government = ultranationalism
 		FROM = {
 			original_tag = ITA
 			not = {
-				has_government = fascism
+				has_government = ultranationalism
 			}
 		}
 		not = { has_global_flag = mussolini_rescued_flag }

@@ -1,6 +1,6 @@
 ﻿l_english:
  URG_terra_dictatorship: "The Terra Dictatorship"
- URG_terra_dictatorship_desc: "Since the Revolution of March 31st 1933, Gabriel Terra and his supporters, including those following Batllismo, as well as the White Party and it's leader Luis Alberto de Herrera, Terra has been in power, with no authority left to challenge his decisions. For Uruguay, this means strict neutrality, as Terra wishes for internal development and control over choosing a side in any unforeseen wars, both in South America, as well as across the Atlantic ocean."
+ URG_terra_dictatorship_desc: "Since the Revolution of March 31st 1933, Gabriel Terra and his supporters, including those following Batllismo, as well as the White Party and it's leader Luis Alberto de Herrera, Terra has been in power, with no authority left to challenge his decisions. For Uruguay, this means strict despotism, as Terra wishes for internal development and control over choosing a side in any unforeseen wars, both in South America, as well as across the Atlantic ocean."
 
  BOL_toll_of_the_chaco_war: "The Toll of the Chaco War"
  BOL_toll_of_the_chaco_war_desc: "The Chaco War has just ended, having lasted from 1932 to 1935. The will to fight has been completely drained from even the most ardent supporters of expansionism in both Bolivia and Paraguay, and many lay dead in the still disputed region of Chaco Boreal."
@@ -71,7 +71,7 @@
 
  CHL_communist_party_in_power: "Partido Comunista"
 
- CHL_democratic_alliance_in_power: "Alianza Democrática"
+ CHL_socialism_alliance_in_power: "Alianza Democrática"
 
  CHL_conservative_party_in_power: "Partido Conservador"
 
@@ -124,8 +124,8 @@
  CHL_development_inwards_idea: "Development Inwards"
  CHL_development_inwards_idea_desc: "The new economic doctrine, referred to as Development Inwards, will aid in our reconstruction after the long years of suffering and inaction."
 
- CHL_socialist_land_reform: "Socialist Land Reform"
- CHL_socialist_land_reform_desc: "The era of the Hacendados is over, and our peasants will no longer have to live in serfdom. A new era has truly arrived in [CHL.GetNameDef]!"
+ CHL_socialism_land_reform: "Socialist Land Reform"
+ CHL_socialism_land_reform_desc: "The era of the Hacendados is over, and our peasants will no longer have to live in serfdom. A new era has truly arrived in [CHL.GetNameDef]!"
 
  CHL_abolished_serfdom: "Abolished Serfdom"
  CHL_abolished_serfdom_desc: "The era of the Hacendados is over, and our peasants will no longer have to live in serfdom!"
@@ -136,8 +136,8 @@
  CHL_oppressed_working_class: "Oppressed Working Class"
  CHL_oppressed_working_class_desc: "With our brutal oppression of anything remotely communist, unions can no longer act in the country, and the working class can be commanded to do our bidding, without being able to properly protest, lest they break the Law of Permanent Defense."
 
- CHL_socialist_youth_idea: "Socialist Youth"
- CHL_socialist_youth_idea_desc: "Socialist youth organizations will help us organize paramilitary wings that can aid our soldiers in battle."
+ CHL_socialism_youth_idea: "Socialist Youth"
+ CHL_socialism_youth_idea_desc: "Socialist youth organizations will help us organize paramilitary wings that can aid our soldiers in battle."
 
  CHL_anti_communist_action: "Acción Chilena Anticomunista"
  CHL_anti_communist_action_desc: "In order to properly combat the domestic communist threat, we must organize patriotic groups that are ready to suppress any leftist movements."
@@ -174,17 +174,17 @@
 
  CHL_mapuche_ancestral_resistance_good: "Resistencia Ancestral Mapuche"
 
- CHL_democratic_volunteer_corps: "The International Protection of Democracy"
- CHL_democratic_volunteer_corps_desc: "No matter where authoritarianism dares to rear its ugly head, our soldiers will stand proud and ready to eradicate it at a moments notice."
- CHL_stubbornly_maintaining_neutrality: "Stubbornly Maintaining Neutrality"
+ CHL_socialism_volunteer_corps: "The International Protection of Democracy"
+ CHL_socialism_volunteer_corps_desc: "No matter where authoritarianism dares to rear its ugly head, our soldiers will stand proud and ready to eradicate it at a moments notice."
+ CHL_stubbornly_maintaining_despotism: "Stubbornly Maintaining Neutrality"
 
  CHL_stricter_labor_laws: "Stricter Labor Laws"
  CHL_enact_stricter_labor_laws_tt: "When the national spirit §Y$CHL_stricter_labor_laws$§! is removed, Modify §Y$CHL_chilean_economy_dynamic_modifier$§! by:\n $MODIFIER_STABILITY_FACTOR$: §G+10%§! \n $MODIFIER_CONSUMER_GOODS_FACTOR$: §Y-25%§!"
 
  CHL_carabineros_de_chile_fascist: "Carabineros de Chile"
  CHL_carabineros_de_chile_fascist_desc: "The Carabineros de Chile are our national law enforcement gendarmerie, who have jurisdiction over the entire nation. Created by our the old president Carlos Ibáñez del Campo in 1927, their mission is to maintain order and enforce the laws of Chile."
- CHL_carabineros_de_chile_neutrality: "Carabineros de Chile"
- CHL_carabineros_de_chile_neutrality_desc: "The Carabineros de Chile are our national law enforcement gendarmerie, who have jurisdiction over the entire nation. Created by our great president Carlos Ibáñez del Campo in 1927, their mission is to maintain order and enforce the laws of Chile."
+ CHL_carabineros_de_chile_despotism: "Carabineros de Chile"
+ CHL_carabineros_de_chile_despotism_desc: "The Carabineros de Chile are our national law enforcement gendarmerie, who have jurisdiction over the entire nation. Created by our great president Carlos Ibáñez del Campo in 1927, their mission is to maintain order and enforce the laws of Chile."
 
  CHL_the_francoist_model: "The Francoist Model"
  CHL_the_francoist_model_desc: "By following the doctrines of neutral dictators, such as that which the Spanish general Francisco Franco promised, we can keep out of global conflict and instead focus on our on sphere of influence."
@@ -592,8 +592,8 @@
  ARG_improved_cooperation_idea_desc: "[ARG.GetNameDefCap] and [ENG.GetNameDef] are aligning in their interests."
  ARG_refused_embargo_idea: "Refused Embargo Request"
  ARG_refused_embargo_idea_desc: "[ARG.GetNameDefCap] have refused our request to embargo the Axis."
- ARG_maintain_neutrality_idea: "Dedicated to Ourselves"
- ARG_maintain_neutrality_idea_desc: "We have shown that we have no interest in the greater conflicts that are raging across the world. We have to worry about our own first and foremost. Let this be a statement to all that [ARG.GetNameDef] will focus on its own goals."
+ ARG_maintain_despotism_idea: "Dedicated to Ourselves"
+ ARG_maintain_despotism_idea_desc: "We have shown that we have no interest in the greater conflicts that are raging across the world. We have to worry about our own first and foremost. Let this be a statement to all that [ARG.GetNameDef] will focus on its own goals."
  ARG_american_allyship_idea: "Close Ties with Washington"
  ARG_american_allyship_idea_desc: "In the spirit of American Cooperation, we have engaged in closer political ties with [USA.GetNameDef]. As we stand together under the meaningful words of the Monroe Doctrine, nothing from the powers in Europe can come between our united front."
  ARG_envoy_to_london_idea: "Close Ties with London"
@@ -653,14 +653,14 @@
  ARG_committee_of_state_security_idea_lar_desc: "Modelled after Russian Intelligence agencies, the Argentinian Committee of State Security is put in place in order to carry out foreign intelligence, counter-intelligence and secret police functions."
  ARG_committee_of_state_security_idea_no_lar: "$ARG_committee_of_state_security_idea_lar$"
  ARG_committee_of_state_security_idea_no_lar_desc: "$ARG_committee_of_state_security_idea_lar_desc$"
- ARG_socialist_unification_idea: "Socialist Unification"
- ARG_socialist_unification_idea_desc: "Through the power of our glorious revolution, we have finally been able to establish ourselves as the dominant idealogy in the South American Continent. This war, which was won through blood and valor, has filled our people with the desire for a greater motherland for the South American Socialist Republics."
+ ARG_socialism_unification_idea: "Socialist Unification"
+ ARG_socialism_unification_idea_desc: "Through the power of our glorious revolution, we have finally been able to establish ourselves as the dominant idealogy in the South American Continent. This war, which was won through blood and valor, has filled our people with the desire for a greater motherland for the South American Socialist Republics."
  ARG_eliminate_american_imperialism_idea: "Operación Ocaso Escarlata"
  ARG_eliminate_american_imperialism_idea_desc: "The giant to the north has long stood as a bastion to Capitalism. It is about time that we put an end to American Imperialism and bring forth the Scarlet Sunset."
  ARG_women_in_industry_idea: "$ARG_women_in_industry$"
  ARG_women_in_industry_idea_desc: "With a woman as the standing leader for [ARG.GetNameDef], it sets a precedence that women should have the right to work in other industries as well. With this large addition to our workforce, we can expect great economic progress for our country."
- ARG_socialist_volunteers_idea: "$ARG_socialist_volunteers$"
- ARG_socialist_volunteers_idea_desc: "In order to help secure the international revolution, we must offer aid to our fellow socialist states whenever the need arises. If we can spare the manpower, we must send volunteers to help fight the bourgeois across the world!"
+ ARG_socialism_volunteers_idea: "$ARG_socialism_volunteers$"
+ ARG_socialism_volunteers_idea_desc: "In order to help secure the international revolution, we must offer aid to our fellow socialism states whenever the need arises. If we can spare the manpower, we must send volunteers to help fight the bourgeois across the world!"
  ARG_free_association_idea: "Free Association of Producers"
  ARG_free_association_idea_desc: "The Free Association is a relationship among individuals where there is no state, social class, hierarchy, or private ownership of means of production. According to the Anarcho-Syndicalists in power, this will enable individuals to freely associate without social constraint to produce and reproduce their own conditions of existence."
  ARG_no_gods_no_masters_idea: "¡Liberación!"
@@ -699,7 +699,7 @@
  ARG_argentina_first_idea: "$ARG_argentina_first$"
  ARG_argentina_first_idea_desc: "It is never easy to go it alone, especially when we have such lofty goals of conquest in the South American continent. However, if we find ourseves tied up with the fascist movements in Europe, we may end up losing sight on what our true goal really is: a unified South America."
  ARG_united_workers_idea: "United Workers"
- ARG_united_workers_idea_desc: "The worker is the backbone of the socialist revolution. The proleteriat stand united against the corruption and fraud that capitalism has spread throughout [ARG.GetNameDef]"
+ ARG_united_workers_idea_desc: "The worker is the backbone of the socialism revolution. The proleteriat stand united against the corruption and fraud that capitalism has spread throughout [ARG.GetNameDef]"
  ARG_agrarian_reforms_idea: "Agrarian Reforms"
  ARG_agrarian_reforms_idea_desc: "$ARG_support_the_farmers_decisions_desc$"
 

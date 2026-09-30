@@ -156,8 +156,8 @@ AUS_austrofascism = {
 	remove_trigger = {
 		NOT = {
 			OR = {
-				has_government = neutrality
-				has_government = fascism
+				has_government = despotism
+				has_government = ultranationalism
 			}
 		}
 	}
@@ -178,7 +178,7 @@ AUS_habsburg_monarchy_restored = {
 	war_support_factor = AUS_habsburg_monarchy_restored_war_support_factor
 	remove_trigger = {
 		NOT = {
-			has_government = neutrality
+			has_government = despotism
 		}
 	}
 }
@@ -198,7 +198,7 @@ AUS_austrian_monarchy_restored = {
 	war_support_factor = AUS_habsburg_monarchy_restored_war_support_factor
 	remove_trigger = {
 		NOT = {
-			has_government = neutrality
+			has_government = despotism
 		}
 	}
 }
@@ -942,7 +942,7 @@ GER_the_inner_circle_dm = {
 	icon = GFX_idea_generic_fascism_drift_2
 	enable = { always = yes }
 	remove_trigger = {
-		NOT = { has_government = fascism }
+		NOT = { has_government = ultranationalism }
 	}
 
 	custom_modifier_tooltip = GER_the_inner_circle_dm_tt

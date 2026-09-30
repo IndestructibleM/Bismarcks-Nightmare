@@ -130,7 +130,7 @@ characters = {
 					NOT = {
 						OR = {
 							has_government = communism
-							has_government = fascism
+							has_government = ultranationalism
 						}
 					}
 				}
@@ -662,7 +662,7 @@ characters = {
 				legacy_id = -1 
 				visible = {
 					NOT = {
-						has_government = fascism
+						has_government = ultranationalism
 					}
 				}
 			}
@@ -797,7 +797,7 @@ characters = {
 					NOT = {
 						OR = {
 							has_government = communism
-							has_government = democratic
+							has_government = liberalism
 						}
 					}
 				}
@@ -814,7 +814,7 @@ characters = {
 					NOT = {
 						OR = {
 							has_government = communism
-							has_government = democratic
+							has_government = liberalism
 						}
 					}
 				}
@@ -882,7 +882,7 @@ characters = {
 				legacy_id = -1
 				visible = {
 					NOT = {
-						has_government = fascism
+						has_government = ultranationalism
 					}
 				}
 			}
@@ -945,7 +945,7 @@ characters = {
 					NOT = {
 						OR = {
 							has_government = communism
-							has_government = democratic
+							has_government = liberalism
 						}
 					}
 				}
@@ -1105,7 +1105,7 @@ characters = {
 				NOT = {
 					OR = {
 						has_government = communism
-						has_government = democratic
+						has_government = liberalism
 					}
 				}
 			}
@@ -1136,7 +1136,7 @@ characters = {
 				NOT = {
 					OR = {
 						has_government = communism
-						has_government = democratic
+						has_government = liberalism
 					}
 				}
 			}
@@ -2526,7 +2526,7 @@ characters = {
 					NOT = {
 						OR = {
 							has_government = communism
-							has_government = democratic
+							has_government = liberalism
 						}
 					}
 				}
@@ -2840,7 +2840,7 @@ characters = {
 					NOT = {
 						OR = {
 							has_government = communism
-							has_government = democratic
+							has_government = liberalism
 						}
 					}
 					has_completed_focus = wuw_HUN_strengthen_horthys_reign
@@ -3103,7 +3103,7 @@ characters = {
 				NOT = {
 					OR = {
 						has_government = communism
-						has_government = democratic
+						has_government = liberalism
 					}
 				}
 				has_completed_focus = wuw_HUN_devalue_the_pengo
@@ -3198,7 +3198,7 @@ characters = {
 
 			available = {
 				NOT = {
-					has_government = fascism
+					has_government = ultranationalism
 				}
 			}
 
@@ -3296,7 +3296,7 @@ characters = {
 				NOT = {
 					OR = {
 						has_government = communism
-						has_government = democratic
+						has_government = liberalism
 					}
 				}
 			}
@@ -3555,7 +3555,7 @@ characters = {
 			available = {
 				OR = {
 					has_government = communism
-					has_government = democratic
+					has_government = liberalism
 				}
 			}
 
@@ -3595,7 +3595,7 @@ characters = {
 				NOT = {
 					OR = {
 						has_government = communism
-						has_government = fascism
+						has_government = ultranationalism
 					}
 				}
 			}
@@ -3693,8 +3693,8 @@ characters = {
 			available = {
 				NOT = {
 					OR = {
-						has_government = neutrality
-						has_government = fascism
+						has_government = despotism
+						has_government = ultranationalism
 					}
 				}
 			}
@@ -3735,7 +3735,7 @@ characters = {
 				NOT = {
 					OR = {
 						has_government = communism
-						has_government = fascism
+						has_government = ultranationalism
 					}
 				}
 			}
@@ -3916,8 +3916,8 @@ characters = {
 			available = {
 				has_completed_focus = wuw_HUN_a_responsible_government
 				OR = {
-					has_government = democratic
-					has_government = neutrality
+					has_government = liberalism
+					has_government = despotism
 				}
 			}
 
@@ -4069,11 +4069,11 @@ characters = {
 				original_tag = HUN
 			}
 			visible = {
-				has_government = fascism
+				has_government = ultranationalism
 				has_country_flag = HUN_has_goering_as_king_flag
 			}
 			available = {
-				has_government = fascism
+				has_government = ultranationalism
 			}
 
 			can_be_fired = no

@@ -186,7 +186,7 @@
  ETH_military_medal_gugsa:0 "Distinguished Military Medal of Haile Selassie Gugsa"
  ETH_military_medal_haymanot:0 "Distinguished Military Medal of King Hailu Tekle Haymanot"
  ETH_military_medal_jofir:0 "Distinguished Military Medal of Sultan Abba Jofir"
- ETH_military_medal_democratic_communist:0 "Distinguished Military Medal"
+ ETH_military_medal_socialism_communist:0 "Distinguished Military Medal"
  ETH_gold_medal:0 "Gold Medal"
  ETH_silver_medal:0 "Silver Medal"
  HISTORY_PROVINCE_LIST_TWO_ITEMS:0 "$FIRST$ and $SECOND$" ## Sentence cosntruction part for two (2) items only

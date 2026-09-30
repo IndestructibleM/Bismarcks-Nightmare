@@ -3,7 +3,7 @@ defined_text = {
 
 	text = {
 		trigger = {
-			has_government = democratic
+			has_government = liberalism
 		}
 		localization_key = "[GetSubIdeologyDem]"
 	}
@@ -15,13 +15,13 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_government = neutrality
+			has_government = despotism
 		}
 		localization_key = "[GetSubIdeologyAth]"
 	}
 	text = {
 		trigger = {
-			has_government = fascism
+			has_government = ultranationalism
 		}
 		localization_key = "[GetSubIdeologyFas]"
 	}
@@ -33,7 +33,7 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_government = socialist
+			has_government = socialism
 		}
 		localization_key = "[GetSubIdeologyCom]"
 	}
@@ -325,5 +325,11 @@ defined_text = {
 			has_country_leader_ideology = democratic_socialism
 		}
 		localization_key = "Democratic Socialism"
+	}
+	text = {
+		trigger = {
+			has_country_leader_ideology = nationalist_socialism
+		}
+		localization_key = "Nationalist Socialism"
 	}
 }

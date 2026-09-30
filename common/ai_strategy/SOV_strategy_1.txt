@@ -21,7 +21,7 @@ SOV_war_with_fascism_FRA = {
 			}
 			has_completed_focus = SOV_eradicate_western_fascism
 		}
-		FRA = { has_government = fascism }
+		FRA = { has_government = ultranationalism }
 	}
 	abort_when_not_enabled = yes
 
@@ -46,7 +46,7 @@ SOV_war_with_fascism_GER = {
 			}
 			has_completed_focus = SOV_eradicate_western_fascism
 		}
-		GER = { has_government = fascism }
+		GER = { has_government = ultranationalism }
 	}
 	abort_when_not_enabled = yes
 
@@ -71,7 +71,7 @@ SOV_war_with_fascism_ENG = {
 			}
 			has_completed_focus = SOV_eradicate_western_fascism
 		}
-		ENG = { has_government = fascism }
+		ENG = { has_government = ultranationalism }
 	}
 	abort_when_not_enabled = yes
 
@@ -96,7 +96,7 @@ SOV_war_with_fascism_ITA = {
 			}
 			has_completed_focus = SOV_eradicate_western_fascism
 		}
-		ITA = { has_government = fascism }
+		ITA = { has_government = ultranationalism }
 	}
 	abort_when_not_enabled = yes
 

@@ -64,14 +64,14 @@ if = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1936.1.1"
 	election_frequency = 48
 }
 
 set_popularities = {
-	democratic = 30
-	neutrality = 60
+	liberalism = 30
+	despotism = 60
 	communism = 10
 }
 

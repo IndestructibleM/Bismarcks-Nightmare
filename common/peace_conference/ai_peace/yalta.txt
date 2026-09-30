@@ -21,7 +21,7 @@ peace_ai_desires = {
             has_global_flag = yalta_agreed_flag
             ROOT = {
                 original_tag = FRA
-                has_government = democratic
+                has_government = liberalism
             }
             FROM.FROM = {
                 original_tag = GER
@@ -42,7 +42,7 @@ peace_ai_desires = {
             has_global_flag = yalta_agreed_flag
             ROOT = {
                 original_tag = USA
-                has_government = democratic
+                has_government = liberalism
             }
             FROM.FROM = {
                 original_tag = GER
@@ -67,7 +67,7 @@ peace_ai_desires = {
             has_global_flag = yalta_agreed_flag
             ROOT = {
                 NOT = { original_tag = USA }
-               # has_government = democratic
+               # has_government = liberalism
                # is_in_faction_with = USA
                 USA = {
                     has_war_with = GER 
@@ -97,7 +97,7 @@ peace_ai_desires = {
             has_global_flag = yalta_agreed_flag
             ROOT = {
                 original_tag = ENG
-                has_government = democratic
+                has_government = liberalism
             }
             FROM = {
                 original_tag = GER
@@ -123,7 +123,7 @@ peace_ai_desires = {
             has_global_flag = yalta_agreed_flag
             ROOT = {
                 NOT = { original_tag = ENG }
-                #has_government = democratic
+                #has_government = liberalism
                 #is_in_faction_with = ENG 
                 ENG = { has_war_with = GER }
             }
@@ -152,7 +152,7 @@ peace_ai_desires = {
             has_global_flag = yalta_agreed_flag
             ROOT = {
                 NOT = { original_tag = FRA }
-               #has_government = democratic
+               #has_government = liberalism
                #is_in_faction_with = FRA
                 FRA = { has_war_with = GER }
             }

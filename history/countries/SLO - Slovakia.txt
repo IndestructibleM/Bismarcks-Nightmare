@@ -67,14 +67,14 @@ recruit_character = SLO_anton_pulanick
 set_convoys = 10
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 15
-	fascism = 70
-	neutrality = 10
+	liberalism = 15
+	ultranationalism = 70
+	despotism = 10
 	communism = 5
 }

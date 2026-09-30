@@ -507,8 +507,8 @@ GER_MOT_01 = {
 
 	can_use = {
 		OR = {
-			has_government = neutrality 
-			has_government = democratic 
+			has_government = despotism 
+			has_government = liberalism 
 		}
 		OR = {
 			has_completed_focus = GER_oppose_hitler
@@ -552,7 +552,7 @@ GER_MOT_02 = {
 
 	for_countries = { GER }
 
-	can_use = { has_government = fascism }
+	can_use = { has_government = ultranationalism }
 
 	division_types = { "motorized"  }
 
@@ -590,7 +590,7 @@ GER_MEC_01 = {
 
 	for_countries = { GER }
 
-	can_use = { has_government = fascism }
+	can_use = { has_government = ultranationalism }
 
 	division_types = { "mechanized"  }
 
@@ -629,8 +629,8 @@ GER_MEC_01_MONARNCHIST = {
 
 	can_use = { 
 		OR = {
-			has_government = neutrality 
-			has_government = democratic 
+			has_government = despotism 
+			has_government = liberalism 
 		}
 		OR = {
 			has_completed_focus = GER_oppose_hitler
@@ -907,7 +907,7 @@ GER_Arm_01 = {
 
 	for_countries = { GER }
 
-	can_use = { has_government = fascism }
+	can_use = { has_government = ultranationalism }
 
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
@@ -971,8 +971,8 @@ GER_Arm_01_ANTIFASCIST = {
 
 	can_use = {
 		OR = {
-			has_government = neutrality
-			has_government = democratic
+			has_government = despotism
+			has_government = liberalism
 			has_government = communism
 		}
 	}
@@ -1087,7 +1087,7 @@ GER_MIL_01 = {
 
 	for_countries = { GER }
 
-	can_use = { has_government = neutrality }
+	can_use = { has_government = despotism }
 
 	division_types = { "militia"  }
 
@@ -1111,9 +1111,9 @@ GER_MIL_02 = {
 
 	can_use = { 
 		OR = {
-			has_government = neutrality 
-			has_government = democratic 
-			has_government = fascism
+			has_government = despotism 
+			has_government = liberalism 
+			has_government = ultranationalism
 		}
 	}
 
@@ -1171,7 +1171,7 @@ GER_SS_01 = {
 	for_countries = { GER }
 
 	can_use = { 
-		has_government = fascism
+		has_government = ultranationalism
 	}
 
 	division_types = { "infantry" "motorized" "medium_armor" "mechanized" }
@@ -1226,8 +1226,8 @@ GER_MONINF_01 = {
 
 	can_use = { 
 		OR = {
-			has_government = neutrality 
-			has_government = democratic 
+			has_government = despotism 
+			has_government = liberalism 
 		}
 		OR = {
 			has_completed_focus = GER_oppose_hitler_ww
@@ -1464,8 +1464,8 @@ GER_MONMOB_01 = {
 
 	can_use = { 
 		OR = {
-			has_government = neutrality 
-			has_government = democratic 
+			has_government = despotism 
+			has_government = liberalism 
 		}
 		OR = {
 			has_completed_focus = GER_oppose_hitler_ww

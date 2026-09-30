@@ -23,15 +23,15 @@ set_technology = {
 set_convoys = 10
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1932.11.27"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 73
-	fascism = 11
+	liberalism = 73
+	ultranationalism = 11
 	communism = 6
-	neutrality = 10
+	despotism = 10
 }

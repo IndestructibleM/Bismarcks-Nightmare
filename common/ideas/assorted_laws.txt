@@ -106,7 +106,7 @@ ideas = {
 			cancel_if_invalid = yes
 			available = {
 				OR = {
-				has_government = fascism
+				has_government = ultranationalism
 				has_country_leader_ideology = despotism
 				}
 			}
@@ -362,7 +362,7 @@ ideas = {
 			neutrality_acceptance = 15
 			}
 			available = {
-				has_government = democratic
+				has_government = liberalism
 				OR = {
 					tag = ENG
 					tag = SWE
@@ -395,7 +395,7 @@ ideas = {
 			}
 			available = {
 				OR = {
-				has_government = democratic
+				has_government = liberalism
 				has_country_leader_ideology = centrism
 				}
 			}
@@ -417,7 +417,7 @@ ideas = {
 			}
 			available = {
 				OR = {
-				has_government = socialist
+				has_government = socialism
 				has_country_leader_ideology = socialism
 				has_country_leader_ideology = leninism
 				has_country_leader_ideology = marxism
@@ -467,7 +467,7 @@ ideas = {
 			}
 			available = {
 				OR  = {
-				has_government = fascism 
+				has_government = ultranationalism 
 				has_country_leader_ideology = anti_revisionism
 				has_country_leader_ideology = stalinism
 				}
@@ -904,7 +904,7 @@ ideas = {
 			}
 			available = {
 				NOT = {
-					has_government = socialist
+					has_government = socialism
 					has_government = communism
 				}
 			}
@@ -924,7 +924,7 @@ ideas = {
 			}
 			available = {
 				NOT = {
-					has_government = socialist
+					has_government = socialism
 					has_government = communism
 				}
 			}
@@ -990,7 +990,7 @@ ideas = {
 			}
 			available = {
 				NOT = {
-					has_government = socialist
+					has_government = socialism
 					has_government = communism
 				}
 			}
@@ -1009,7 +1009,7 @@ ideas = {
 			}
 			available = {
 				NOT = {
-					has_government = socialist
+					has_government = socialism
 					has_government = communism
 				}
 			}

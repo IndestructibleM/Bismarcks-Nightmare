@@ -107,7 +107,7 @@ recruit_character = KAZ_ar
 recruit_character = KAZ_acgs
 
 set_popularities = {
-	democratic = 60
+	liberalism = 60
 	communism = 40
 }
 

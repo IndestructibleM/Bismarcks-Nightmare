@@ -889,14 +889,14 @@ germany_kaiser = {
 				has_completed_focus = GER_oppose_hitler_ww
 				has_completed_focus = GER_oppose_hitler
 			}
-			has_government = neutrality
+			has_government = despotism
 		}
 	}
 	abort = {
 		GER = {
 			OR = {
 				exists = no
-				has_government = fascism
+				has_government = ultranationalism
 			}
 		}
 	}
@@ -926,7 +926,7 @@ germany_hungary_kaiser = {
 			has_completed_focus = GER_oppose_hitler_ww
 			has_completed_focus = GER_oppose_hitler
 		}
-		has_government = neutrality
+		has_government = despotism
 		HUN = {
 			has_completed_focus = HUN_proclaim_the_restoration_of_austria_hungary
 		}
@@ -935,7 +935,7 @@ germany_hungary_kaiser = {
 		HUN = {
 			OR = {
 				exists = no
-				has_government = fascism
+				has_government = ultranationalism
 				has_government = communism
 			}
 		}

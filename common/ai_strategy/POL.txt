@@ -97,7 +97,7 @@ dont_ally_germany_pls = {
 	}
 	enable = {
 		is_historical_focus_on = yes
-		NOT = { has_government = fascism }
+		NOT = { has_government = ultranationalism }
 	}
 
 	abort = {
@@ -116,7 +116,7 @@ pol_is_too_broken_nerf_pls = {
 		is_historical_focus_on = yes
 	}
 	enable = {
-		NOT = { has_government = fascism }
+		NOT = { has_government = ultranationalism }
 		date < 1940.1.1
 	}
 	
@@ -134,7 +134,7 @@ pol_is_too_broken_nerf_pls_2 = {
 		is_historical_focus_on = yes
 	}
 	enable = {
-		NOT = { has_government = fascism }
+		NOT = { has_government = ultranationalism }
 		date > 1940.1.1
 		date < 1941.1.1
 	}

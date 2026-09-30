@@ -441,7 +441,7 @@ every_possible_country = {
 			traits = { dem_sic_trait }
 			cost = 50
 			can_be_fired = no
-			available = { OR = { has_government = democratic has_government = conservative } }
+			available = { OR = { has_government = liberalism has_government = conservative } }
 		}
 		portraits = {
 			army = { small = GFX_idea_generic_empowered_legislature }
@@ -455,7 +455,7 @@ every_possible_country = {
 			idea_token = Generic_com_sic
 			traits = { com_sic_trait }
 			cost = 50
-			available = { OR = { has_government = socialist has_government = communism } }
+			available = { OR = { has_government = socialism has_government = communism } }
 			can_be_fired = no
 		}
 		portraits = {
@@ -470,7 +470,7 @@ every_possible_country = {
 			idea_token = Generic_auth_sic
 			traits = { auth_sic_trait }
 			cost = 50
-			available = { OR = { has_government = neutrality has_government = reactionary } }
+			available = { OR = { has_government = despotism has_government = reactionary } }
 			can_be_fired = no
 		}
 		portraits = {
@@ -486,7 +486,7 @@ every_possible_country = {
 			traits = { fash_sic_trait }
 			cost = 50
 			can_be_fired = no
-			available = { OR = { has_government = fascism } }
+			available = { OR = { has_government = ultranationalism } }
 		}
 		portraits = {
 			army = { small = GFX_idea_generic_empowered_trade_unions }

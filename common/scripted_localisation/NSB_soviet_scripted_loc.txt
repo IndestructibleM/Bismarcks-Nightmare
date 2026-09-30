@@ -1779,8 +1779,8 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			SOV = { has_government = fascism }
-			ROOT = { NOT = { has_government = fascism } }
+			SOV = { has_government = ultranationalism }
+			ROOT = { NOT = { has_government = ultranationalism } }
 		}
 		localization_key = SOV_fascist_threat
 	}
@@ -1800,8 +1800,8 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			SOV = { has_government = fascism }
-			ROOT = { NOT = { has_government = fascism } }
+			SOV = { has_government = ultranationalism }
+			ROOT = { NOT = { has_government = ultranationalism } }
 		}
 		localization_key = SOV_fascist_threatAlt
 	}
@@ -1820,13 +1820,13 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_government = democratic
+			has_government = liberalism
 		}
 		localization_key = democratic_noun
 	}
 	text = {
 		trigger = {
-			has_government = fascism
+			has_government = ultranationalism
 		}
 		localization_key = fascism_noun
 	}
@@ -1839,15 +1839,15 @@ defined_text = {
 	name = GetSovietArmyAdjectiveBasedOnIdeology
 	text = {
 		trigger = {
-			has_government = democratic
+			has_government = liberalism
 		}
 		localization_key = SOV_the_glory_of_the_red_army_name_democratic
 	}
 	text = {
 		trigger = {
 			OR = {
-				has_government = fascism
-				has_government = neutrality
+				has_government = ultranationalism
+				has_government = despotism
 			}
 		}
 		localization_key = SOV_the_glory_of_the_red_army_name_exiles

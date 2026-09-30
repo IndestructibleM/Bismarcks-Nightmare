@@ -28,10 +28,10 @@ every_possible_country = {
 				original_tag = SPR
 			}
 			visible = {
-				has_government = fascism
+				has_government = ultranationalism
 			}
 			available = {
-				has_government = fascism
+				has_government = ultranationalism
 			}
 			traits = {
 				air_warfare_theorist
@@ -189,10 +189,10 @@ every_possible_country = {
 				original_tag = SPR
 			}
 			visible = {
-				has_government = fascism
+				has_government = ultranationalism
 			}
 			available = {
-				has_government = fascism
+				has_government = ultranationalism
 			}
 			traits = {
 				army_logistics_2

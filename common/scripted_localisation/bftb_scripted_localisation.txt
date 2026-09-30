@@ -14,7 +14,7 @@ defined_text = {
 		trigger = {
 			original_tag = GRE
 			NOT = {
-				has_government = fascism
+				has_government = ultranationalism
 				has_country_leader = { 
 					character = GRE_georgios_kosmidis
 					ruling_only = yes
@@ -26,7 +26,7 @@ defined_text = {
 	text = {
 		trigger = {
 			original_tag = GRE
-			has_government = fascism
+			has_government = ultranationalism
 		}
 		localization_key = GRE_NENIKIKAMEN_FOCUS_DESCRIPTION_BYZANTINE
 	}
@@ -124,7 +124,7 @@ defined_text = {
 		trigger = {
 			original_tag = GRE
 			NOT = {
-				GER = { has_government = neutrality }
+				GER = { has_government = despotism }
 			}
 		}
 		localization_key = GRE_PETITION_FOR_AID_FOCUS_NAME_STANDARD
@@ -132,7 +132,7 @@ defined_text = {
 	text = {
 		trigger = {
 			original_tag = GRE
-			GER = { has_government = neutrality }
+			GER = { has_government = despotism }
 		}
 		localization_key = GRE_PETITION_FOR_AID_FOCUS_NAME_MONARCHIST
 	}
@@ -144,7 +144,7 @@ defined_text = {
 		trigger = {
 			original_tag = GRE
 			NOT = {
-				GER = { has_government = neutrality }
+				GER = { has_government = despotism }
 			}
 		}
 		localization_key = GRE_PETITION_FOR_AID_FOCUS_DESCRIPTION_STANDARD
@@ -152,7 +152,7 @@ defined_text = {
 	text = {
 		trigger = {
 			original_tag = GRE
-			GER = { has_government = neutrality }
+			GER = { has_government = despotism }
 		}
 		localization_key = GRE_PETITION_FOR_AID_FOCUS_DESCRIPTION_MONARCHIST
 	}
@@ -1409,7 +1409,7 @@ defined_text = {
 	text = {
 		trigger = {
 			GER = {
-				has_government = neutrality
+				has_government = despotism
 				is_faction_leader = yes
 			}
 		}
@@ -1431,7 +1431,7 @@ defined_text = {
 	text = {
 		trigger = {
 			GER = {
-				has_government = neutrality
+				has_government = despotism
 				is_faction_leader = yes
 			}
 		}
@@ -1460,7 +1460,7 @@ defined_text = {
 	text = {
 		trigger = {
 			GER = {
-				has_government = neutrality
+				has_government = despotism
 				is_faction_leader = yes
 			}
 		}
@@ -1892,8 +1892,8 @@ defined_text = {
 			FROM = {
 				NOT = { has_government = ROOT }
 				OR = {
-					has_government = fascism
-					has_government = neutrality
+					has_government = ultranationalism
+					has_government = despotism
 				}
 			}
 		}
@@ -2553,7 +2553,7 @@ defined_text = {
 	name = GetLukovLeader
 	text = {
 		trigger = {
-			has_government = fascism
+			has_government = ultranationalism
 		}
 		localization_key = BUL_hristo_lukov_death_leader_country
 	}
@@ -2618,7 +2618,7 @@ defined_text = {
 	name = GetLukovConclusion
 	text = {
 		trigger = {
-			has_government = fascism
+			has_government = ultranationalism
 		}
 		localization_key = BUL_hristo_lukov_death_conclusion_other
 	}

@@ -1139,7 +1139,7 @@ characters={
 			}
 			do_effect  = {
 				NOT  = {
-					has_government  = democratic 
+					has_government  = liberalism 
 				}
 			}
 			ai_will_do  = {
@@ -1181,7 +1181,7 @@ characters={
 			}
 			do_effect  = {
 				not  = {
-					has_government  = fascism 
+					has_government  = ultranationalism 
 				}
 			}
 			on_add  = {
@@ -1217,7 +1217,7 @@ characters={
 			}
 			available  = {
 				has_completed_focus  = FRA_confirm_eastern_commitments 
-				has_government  = democratic 
+				has_government  = liberalism 
 			}
 			cost  = 75.000
 			traits  = {
@@ -1246,7 +1246,7 @@ characters={
 			}
 			available  = {
 				has_completed_focus  = FRA_buy_time 
-				has_government  = democratic 
+				has_government  = liberalism 
 			}
 			cost  = 75.000
 			traits  = {
@@ -1276,8 +1276,8 @@ characters={
 			available  = {
 				has_completed_focus  = FRA_integralism 
 				or  = {
-					has_government  = fascism 
-					has_government  = neutrality 
+					has_government  = ultranationalism 
+					has_government  = despotism 
 				}
 			}
 			visible  = {
@@ -1313,7 +1313,7 @@ characters={
 			}
 			available  = {
 				has_completed_focus  = FRA_national_regeneration 
-				has_government  = fascism 
+				has_government  = ultranationalism 
 			}
 			cost  = 75.000
 			traits  = {

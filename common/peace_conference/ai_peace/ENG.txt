@@ -15,8 +15,8 @@ peace_ai_desires = {
 			ROOT.FROM = { tag = ROOT }
             ROOT = {
                 OR = {
-                    has_government = fascism
-                    has_government = neutrality
+                    has_government = ultranationalism
+                    has_government = despotism
                 }
             }
         }
@@ -36,7 +36,7 @@ peace_ai_desires = {
 			ROOT.FROM = { tag = ROOT }
             ROOT = {
                 OR = {
-                    has_government = democratic
+                    has_government = liberalism
                     has_government = communism
                 }
             }
@@ -56,8 +56,8 @@ peace_ai_desires = {
 			ROOT.FROM = { tag = ROOT }
             ROOT = {
                 OR = {
-                    has_government = fascism
-                    has_government = neutrality
+                    has_government = ultranationalism
+                    has_government = despotism
                 }
             }
         }

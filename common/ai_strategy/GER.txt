@@ -1087,7 +1087,7 @@ GER_spain_ally = {
 	enable = {
 		has_completed_focus = GER_alliance_with_spain
 		country_exists = SPR
-		SPR = { has_government = fascism } # TODO Find way to detect dynamic revolter tag
+		SPR = { has_government = ultranationalism } # TODO Find way to detect dynamic revolter tag
 	}
 	abort = {
 		NOT = { country_exists = SPR }
@@ -2174,14 +2174,14 @@ GER_industry_we_are_the_baddies_but_not_yet = {
 AXIS_care_less_about_making_friends = {
 
 	enable = {
-		has_government = fascism
+		has_government = ultranationalism
 		is_in_faction = yes
 		manpower_per_military_factory < 3000
 		has_war = yes
 	}
 	abort = {
 		OR = {
-			NOT = { has_government = fascism }
+			NOT = { has_government = ultranationalism }
 			is_in_faction = no
 			manpower_per_military_factory > 3000
 			has_war = no
@@ -2200,7 +2200,7 @@ GER_wants_civ = {
 		original_tag = GER
 	}
 	enable = {
-		has_government = fascism
+		has_government = ultranationalism
 		date < 1937.9.15
 		has_war = no
 	}
@@ -2217,7 +2217,7 @@ GER_wants_synth = {
 		original_tag = GER
 	}
 	enable = {
-		has_government = fascism
+		has_government = ultranationalism
 		date > 1937.10.20
 		has_war = no
 		synthetic_refinery < 8
@@ -2281,7 +2281,7 @@ GER_we_dont_fight_pathetic_sweden = { # :O
 	}
 	enable = {
 		is_historical_focus_on = no
-		has_government = fascism
+		has_government = ultranationalism
 		SWE = {
 			has_idea = neutrality_idea
 		}
@@ -2313,7 +2313,7 @@ GER_we_dont_fight_pathetic_sweden_on_historical = { # :O
 	}
 	enable = {
 		is_historical_focus_on = yes
-		has_government = fascism
+		has_government = ultranationalism
 		SWE = {
 			has_idea = neutrality_idea
 		}
@@ -2362,8 +2362,8 @@ GER_trade_with_italy = {
 		original_tag = GER
 	}
 	enable = {
-		has_government = fascism
-		ITA = { has_government = fascism }
+		has_government = ultranationalism
+		ITA = { has_government = ultranationalism }
 	}
 	abort_when_not_enabled = yes
 
@@ -2379,7 +2379,7 @@ GER_market_management_after_anschluss = {
 		original_tag = GER
 	}
 	enable = {
-		has_government = fascism
+		has_government = ultranationalism
 		OR = {
 			has_completed_focus = GER_anschluss
 			has_completed_focus = GER_anschluss
@@ -2415,7 +2415,7 @@ GER_market_management_after_sudetenland = {
 		original_tag = GER
 	}
 	enable = {
-		has_government = fascism
+		has_government = ultranationalism
 		has_completed_focus = GER_demand_sudetenland
 	}
 	abort_when_not_enabled = yes
@@ -2469,7 +2469,7 @@ GER_spain_scw_support_la_resistance = {
 		has_dlc = "La Resistance"
 	}
 	enable = {
-		has_government = fascism
+		has_government = ultranationalism
 		country_exists = SPA
 	}
 	abort = {
@@ -2504,7 +2504,7 @@ GER_we_are_bad_at_espionage_because_it_is_expensive_and_not_tanks = {
 		has_dlc = "La Resistance"
 	}
 	enable = {
-		has_government = fascism
+		has_government = ultranationalism
 		num_of_civilian_factories < 90
 		num_of_civilian_factories > 30
 	}
@@ -3753,7 +3753,7 @@ GER_protect_hungary = {
 	enable = {
 		is_historical_focus_on = yes
 		HUN = {
-			has_government = fascism
+			has_government = ultranationalism
 		}
 	}
 	abort_when_not_enabled = yes
@@ -3771,8 +3771,8 @@ GER_protect_romania = {
 		is_historical_focus_on = yes
 		ROM = {
 			OR = {
-				has_government = fascism
-				has_government = neutrality
+				has_government = ultranationalism
+				has_government = despotism
 			}
 		}
 	}

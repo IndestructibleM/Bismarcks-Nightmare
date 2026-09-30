@@ -13,7 +13,7 @@ characters={
 			slot = political_advisor
 			idea_token = ENG_winston_churchill
 			available  = {
-				has_government  = neutrality 
+				has_government  = despotism 
 				has_completed_focus  = ENG_the_kings_party 
 				if  = {
 					limit  = {
@@ -75,7 +75,7 @@ characters={
 			slot = political_advisor
 			idea_token = ENG_oswald_mosley
 			available  = {
-				has_government  = neutrality 
+				has_government  = despotism 
 				has_completed_focus  = ENG_the_kings_party 
 			}
 			allowed  = {
@@ -1175,7 +1175,7 @@ characters={
 			idea_token = ENG_jfc_fuller
 			ledger = army
 			available = {
-				has_government = fascism
+				has_government = ultranationalism
 			}
 			allowed = {
 				original_tag = ENG
@@ -1626,7 +1626,7 @@ characters={
 			}
 			do_effect  = {
 				NOT = {
-					has_government  = democratic 
+					has_government  = liberalism 
 				}
 			}
 			ai_will_do  = {
@@ -1653,7 +1653,7 @@ characters={
 					limit  = {
 						has_dlc = "Man the Guns"
 					}
-					has_government  = fascism 
+					has_government  = ultranationalism 
 				}
 				if  = {
 					limit  = {
@@ -1669,7 +1669,7 @@ characters={
 			}
 			do_effect  = {
 				NOT = {
-					has_government  = fascism 
+					has_government  = ultranationalism 
 				}
 			}
 			ai_will_do  = {
@@ -1696,7 +1696,7 @@ characters={
 					NOT = {
 						has_completed_focus  = ENG_no_further_appeasement 
 					}
-					has_government  = democratic 
+					has_government  = liberalism 
 				}
 			}
 			allowed  = {
@@ -1811,7 +1811,7 @@ characters={
 			slot = political_advisor
 			idea_token = ENG_mary_sophia_allen
 			available  = {
-				has_government  = fascism 
+				has_government  = ultranationalism 
 			}
 			allowed  = {
 				original_tag  = ENG
@@ -1907,7 +1907,7 @@ characters={
 			slot = political_advisor
 			idea_token = ENG_david_lloyd_george
 			available  = {
-				has_government  = neutrality 
+				has_government  = despotism 
 				has_completed_focus  = ENG_the_kings_party 
 			}
 			allowed  = {
@@ -2202,7 +2202,7 @@ characters={
 			slot = political_advisor
 			idea_token = ENG_corgis_1
 			available  = {
-				has_government  = neutrality 
+				has_government  = despotism 
 				has_completed_focus  = ENG_the_kings_party 
 				has_country_leader  = {
 					name = "Elizabeth II"
@@ -2239,7 +2239,7 @@ characters={
 			slot = political_advisor
 			idea_token = ENG_corgis_2
 			available  = {
-				has_government  = neutrality 
+				has_government  = despotism 
 				has_completed_focus  = ENG_the_kings_party 
 				has_country_leader  = {
 					name = "Elizabeth II"
@@ -2276,7 +2276,7 @@ characters={
 			slot = political_advisor
 			idea_token = ENG_corgis_3
 			available  = {
-				has_government  = neutrality 
+				has_government  = despotism 
 				has_completed_focus  = ENG_the_kings_party 
 				has_country_leader  = {
 					name = "Elizabeth II"

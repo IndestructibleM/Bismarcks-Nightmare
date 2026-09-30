@@ -645,8 +645,8 @@ characters = {
 					AND = {
 						is_subject = no
 						OR = {
-							has_government = fascism
-							has_government = neutrality
+							has_government = ultranationalism
+							has_government = despotism
 						}
 					}
 					has_completed_focus = COG_approach_the_disfavored_mwami

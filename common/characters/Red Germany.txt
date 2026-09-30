@@ -22,6 +22,30 @@ characters={
 			can_be_fired = no
 		}
 	}
+	POL_Pilsudski = {
+		name="Jozef Pilsudski"
+		portraits={
+			civilian={
+				large="gfx/leaders/POL/Portrait_POL_Pilsudski.png"
+			}		
+		}
+		country_leader={
+			ideology=nationalist_socialism
+			traits={  }
+		}
+	}
+	UKR_volodymyr_vynnychenko = {
+		name="Volodymyr Vynnychenko"
+		portraits={
+			civilian={
+				large="gfx/leaders/UKR/Portrait_UKR_Volodymyr_Vsynnychenko.png"
+			}		
+		}
+		country_leader={
+			ideology=nationalist_socialism
+			traits={  }
+		}
+	}
 	GER_Karl_Kautsky = {
 		name="Karl Kautsky"
 		portraits={

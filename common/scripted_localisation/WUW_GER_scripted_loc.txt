@@ -112,19 +112,19 @@ defined_text = {
 	name = GetGermanMilitaryName
 	text = {
 		trigger = {
-			has_government = fascism
+			has_government = ultranationalism
 		}
 		localization_key = GER_military_modifier_fascist
 	}
 	text = {
 		trigger = {
-			has_government = neutrality
+			has_government = despotism
 		}
 		localization_key = GER_military_modifier_neutral 
 	}
 	text = {
 		trigger = {
-			has_government = democratic
+			has_government = liberalism
 		}
 		localization_key = GER_military_modifier_democratic 
 	}
@@ -140,19 +140,19 @@ defined_text = {
 	name = GetReichsWerkeName
 	text = {
 		trigger = {
-			has_government = fascism
+			has_government = ultranationalism
 		}
 		localization_key = GER_reichswerke_fascist
 	}
 	text = {
 		trigger = {
-			has_government = neutrality
+			has_government = despotism
 		}
 		localization_key = GER_reichswerke_neutral 
 	}
 	text = {
 		trigger = {
-			has_government = democratic
+			has_government = liberalism
 		}
 		localization_key = GER_reichswerke_democratic 
 	}
@@ -168,13 +168,13 @@ defined_text = {
 	name = GetKfdWagenNames
 	text = {
 		trigger = {
-			has_government = fascism
+			has_government = ultranationalism
 		}
 		localization_key = GER_kdf_wagen_factories_fascist
 	}
 	text = {
 		trigger = {
-			has_government = neutrality
+			has_government = despotism
 		}
 		localization_key = GER_kdf_wagen_factories_neutral 
 	}
@@ -182,7 +182,7 @@ defined_text = {
 		trigger = {
 			OR = {
 				has_government = communism
-				has_government = democratic
+				has_government = liberalism
 			}
 		}
 		localization_key = GER_kdf_wagen_factories_volkswagen
@@ -230,7 +230,7 @@ defined_text = {
 	name = GetColonialDecisionName
 	text = {
 		trigger = {
-			has_government = fascism
+			has_government = ultranationalism
 		}
 		localization_key = GER_reichskolonialbund_name
 	}
@@ -331,19 +331,19 @@ defined_text = {
 	name = GetAutobahnName
 	text = {
 		trigger = {
-			has_government = fascism
+			has_government = ultranationalism
 		}
 		localization_key = GER_autobahn_fascism
 	}
 	text = {
 		trigger = {
-			has_government = neutrality
+			has_government = despotism
 		}
 		localization_key = GER_autobahn_neutral 
 	}
 	text = {
 		trigger = {
-			has_government = democratic
+			has_government = liberalism
 		}
 		localization_key = GER_autobahn_democratic 
 	}
@@ -372,19 +372,19 @@ defined_text = {
 	name = GetDefenseofGermanyName
 	text = {
 		trigger = {
-			has_government = fascism
+			has_government = ultranationalism
 		}
 		localization_key = GER_defense_of_the_reich_fascism
 	}
 	text = {
 		trigger = {
-			has_government = neutrality
+			has_government = despotism
 		}
 		localization_key = GER_defense_of_the_reich_neutral 
 	}
 	text = {
 		trigger = {
-			has_government = democratic
+			has_government = liberalism
 		}
 		localization_key = GER_defense_of_the_reich_democratic 
 	}
@@ -400,19 +400,19 @@ defined_text = {
 	name = GetKriegsmarinewerftName
 	text = {
 		trigger = {
-			has_government = fascism
+			has_government = ultranationalism
 		}
 		localization_key = GER_expand_kriegsmarinewerft_fascism
 	}
 	text = {
 		trigger = {
-			has_government = neutrality
+			has_government = despotism
 		}
 		localization_key = GER_expand_kriegsmarinewerft_neutrality 
 	}
 	text = {
 		trigger = {
-			has_government = democratic
+			has_government = liberalism
 		}
 		localization_key = GER_expand_kriegsmarinewerft_democratic 
 	}
@@ -429,19 +429,19 @@ defined_text = {
 	name = GetStrengthenKriegsmarineName
 	text = {
 		trigger = {
-			has_government = fascism
+			has_government = ultranationalism
 		}
 		localization_key = GER_strengthen_kriegsmarine_fascism
 	}
 	text = {
 		trigger = {
-			has_government = neutrality
+			has_government = despotism
 		}
 		localization_key = GER_strengthen_kriegsmarine_neutrality 
 	}
 	text = {
 		trigger = {
-			has_government = democratic
+			has_government = liberalism
 		}
 		localization_key = GER_strengthen_kriegsmarine_democratic 
 	}
@@ -492,14 +492,14 @@ defined_text = {
 	name = GetFinlandpuppetDescription
 	text = {
 		trigger = {
-			has_government = democratic
+			has_government = liberalism
 		}
 		localization_key = GER_finland_puppet_description_democratic
 	}
 	text = {
 		trigger = {
 			NOT = {
-				has_government = democratic
+				has_government = liberalism
 			}
 		}
 		localization_key = GER_finland_puppet_description_neutrality 
@@ -510,14 +510,14 @@ defined_text = {
 	name = GetWesternDuchiesName
 	text = {
 		trigger = {
-			has_government = democratic
+			has_government = liberalism
 		}
 		localization_key = GER_western_duchies_name_democratic
 	}
 	text = {
 		trigger = {
 			NOT = {
-				has_government = democratic
+				has_government = liberalism
 			}
 		}
 		localization_key = GER_western_duchies_name_neutrality 
@@ -528,14 +528,14 @@ defined_text = {
 	name = GetEasternDuchiesName
 	text = {
 		trigger = {
-			has_government = democratic
+			has_government = liberalism
 		}
 		localization_key = GER_eastern_duchies_name_democratic
 	}
 	text = {
 		trigger = {
 			NOT = {
-				has_government = democratic
+				has_government = liberalism
 			}
 		}
 		localization_key = GER_eastern_duchies_name_neutrality 

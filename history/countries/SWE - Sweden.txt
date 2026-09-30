@@ -271,16 +271,16 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1932.9.18"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 75
-	neutrality = 14
+	liberalism = 75
+	despotism = 14
 	communism = 8
-	fascism = 3
+	ultranationalism = 3
 }
 
 set_convoys = 25
@@ -695,7 +695,7 @@ if = {
 	}
 
 	set_party_name = {
-		ideology = neutrality
+		ideology = despotism
 		name = SWE_aat_hogern
 		long_name = SWE_aat_hogern_long
 	}

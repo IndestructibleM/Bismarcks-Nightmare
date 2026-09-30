@@ -84,7 +84,7 @@ no_garrison = {
 
 		modifier = {
 			FROM = {
-				has_government = democratic
+				has_government = liberalism
 			}
 			has_active_resistance = no
 			add = 200
@@ -115,7 +115,7 @@ autonomous_occupation = {
 	sound_effect = "Martial_Law_Interface_Autonomous_Occupation_Unique_DEM"
 
 	visible = {
-		has_government = democratic #? on design
+		has_government = liberalism #? on design
 	}
 
 	state_modifier = {
@@ -162,7 +162,7 @@ foreign_civilian_oversight = {
 		
 		modifier = {
 			FROM = {
-				has_government = fascism
+				has_government = ultranationalism
 			}
 			factor = 0
 		}
@@ -207,7 +207,7 @@ local_police_force_garrison = {
 		
 		modifier = {
 			FROM = {
-				has_government = fascism
+				has_government = ultranationalism
 			}
 			factor = 0
 		}
@@ -451,7 +451,7 @@ brutally_oppressive_occupation = {
 	sound_effect = "Martial_Law_Interface_Brutally_Oppressive_Occupation_Unique_FAS"
 
 	visible = {
-		has_government = fascism
+		has_government = ultranationalism
 	}
 
 	state_modifier = {

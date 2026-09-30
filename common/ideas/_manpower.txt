@@ -195,7 +195,7 @@ ideas = {
 			available = {
 				#has_manpower_for_recruit_change_to = { value = 0.05 group = mobilization_laws }
 				OR = {
-					has_government = fascism
+					has_government = ultranationalism
 					has_government = communism
 					SWE_rapid_mob_manpower_law_trigger = yes 
 					if = {
@@ -375,7 +375,7 @@ ideas = {
 			available = {
 				#has_manpower_for_recruit_change_to =  { value = 0.1 group = mobilization_laws }
 				OR = {
-					has_government = fascism
+					has_government = ultranationalism
 					has_government = communism
 					SWE_rapid_mob_manpower_law_trigger = yes
 					AND = {

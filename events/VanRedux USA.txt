@@ -18,7 +18,7 @@ country_event = {
 		name = germany.1.b
 		promote_character = GER_Eduard_Bernstein
 		set_politics = {
-			ruling_party = socialist
+			ruling_party = socialism
 		}
 	}
 
@@ -26,7 +26,7 @@ country_event = {
 		name = germany.1.c
 		promote_character = GER_Heinrich_Laufenberg
 		set_politics = {
-			ruling_party = socialist
+			ruling_party = socialism
 		}
 	}
 
@@ -34,7 +34,7 @@ country_event = {
 		name = germany.1.d
 		promote_character = GER_Hellmut_von_Gerlach
 		set_politics = {
-			ruling_party = democratic
+			ruling_party = liberalism
 		}
 	}
 }
@@ -76,7 +76,7 @@ country_event = {
 
 	option = { 
 		name = germany.3.a
-		add_popularity = { ideology = socialist popularity = 0.04 }
+		add_popularity = { ideology = socialism popularity = 0.04 }
 	}
 
 	option = { 
@@ -99,13 +99,13 @@ country_event = {
 
 	option = { 
 		name = germany.4.a
-		add_popularity = { ideology = democratic popularity = 0.06 }
+		add_popularity = { ideology = liberalism popularity = 0.06 }
 		add_political_power = -15
 	}
 
 	option = { 
 		name = germany.4.b
-		add_popularity = { ideology = socialist popularity = 0.05 }
+		add_popularity = { ideology = socialism popularity = 0.05 }
 	}
 
 	option = { 
@@ -129,8 +129,8 @@ country_event = {
 
 	option = { 
 		name = germany.5.a
-		add_popularity = { ideology = socialist popularity = 0.03 }
-		add_popularity = { ideology = democratic popularity = 0.05 }
+		add_popularity = { ideology = socialism popularity = 0.03 }
+		add_popularity = { ideology = liberalism popularity = 0.05 }
 	}
 
 	option = { 
@@ -153,14 +153,14 @@ country_event = {
 
 	option = { 
 		name = germany.6.a
-		add_popularity = { ideology = socialist popularity = 0.04 }
+		add_popularity = { ideology = socialism popularity = 0.04 }
 		add_popularity = { ideology = communism popularity = 0.04 }
 		add_political_power = -25
 	}
 
 	option = { 
 		name = germany.6.b
-		add_popularity = { ideology = democratic popularity = 0.08 }
+		add_popularity = { ideology = liberalism popularity = 0.08 }
 	}
 }
 
@@ -178,8 +178,8 @@ country_event = {
 
 	option = { 
 		name = germany.7.a
-		add_popularity = { ideology = democratic popularity = 0.04 }
-		add_popularity = { ideology = socialist popularity = 0.04 }
+		add_popularity = { ideology = liberalism popularity = 0.04 }
+		add_popularity = { ideology = socialism popularity = 0.04 }
 	}
 
 	option = { 

@@ -16,17 +16,17 @@ set_convoys = 5 #VANILLA & DLC
 recruit_character = BUL_aleksandar_stamboliyski
 
 set_politics = {
-	ruling_party = socialist
+	ruling_party = socialism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
 	communism =  10
-	socialist =  31
-	fascism = 10
-	neutrality = 12
-	democratic = 24
+	socialism =  31
+	ultranationalism = 10
+	despotism = 12
+	liberalism = 24
 	conservative = 13
 }
 set_technology = { #VANILLA & DLC

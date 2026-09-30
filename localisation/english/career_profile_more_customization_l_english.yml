@@ -250,6 +250,6 @@
 
 # Countries
 # Countries in Profile Picture Tab, original loc key in comment
- CAREER_PROFILE_COUNTRY_ETH:0 "Ethiopia" # ETH_neutrality
- CAREER_PROFILE_COUNTRY_ITA:0 "Italy" # ITA_fascism
- CAREER_PROFILE_COUNTRY_SWI:0 "Switzerland" # SWI_democratic
+ CAREER_PROFILE_COUNTRY_ETH:0 "Ethiopia" # ETH_despotism
+ CAREER_PROFILE_COUNTRY_ITA:0 "Italy" # ITA_ultranationalism
+ CAREER_PROFILE_COUNTRY_SWI:0 "Switzerland" # SWI_socialism

@@ -4,15 +4,15 @@
     RUS_communism:0 "Russian Socialist Republic"
     RUS_communism_DEF:0 "the Russian Socialist Republic"
     RUS_communism_ADJ:0 "Russian"
-    RUS_democratic:0 "Russian Republic"
-    RUS_democratic_DEF:0 "the Russian Republic"
-    RUS_democratic_ADJ:0 "Russian" 
-    RUS_fascism:0 "Russian Empire"
-    RUS_fascism_DEF:0 "the Russian Empire"
-    RUS_fascism_ADJ:0 "Russian"
-    RUS_neutrality:0 "Russian Empire"
-    RUS_neutrality_DEF:0 "the Russian Empire"
-    RUS_neutrality_ADJ:0 "Russian" 
+    RUS_liberalism:0 "Russian Republic"
+    RUS_liberalism_DEF:0 "the Russian Republic"
+    RUS_liberalism_ADJ:0 "Russian" 
+    RUS_ultranationalism:0 "Russian Empire"
+    RUS_ultranationalism_DEF:0 "the Russian Empire"
+    RUS_ultranationalism_ADJ:0 "Russian"
+    RUS_despotism:0 "Russian Empire"
+    RUS_despotism_DEF:0 "the Russian Empire"
+    RUS_despotism_ADJ:0 "Russian" 
     ###ABKHAZIA
     #COMMUNISM
 
@@ -22,21 +22,21 @@
 
    #DEMOCRATIC
 
-    ABK_democratic:0 "Republic of Abkhazia"
-    ABK_democratic_DEF:0 "the Republic of Abkhazia"
-    ABK_democratic_ADJ:0 "Abkhaz"
+    ABK_liberalism:0 "Republic of Abkhazia"
+    ABK_liberalism_DEF:0 "the Republic of Abkhazia"
+    ABK_liberalism_ADJ:0 "Abkhaz"
 
    #FASCISM
 
-    ABK_fascism:0 "Legionary State of Abkhazia"
-    ABK_fascism_DEF:0 "the Legionary State of Abkhazia"
-    ABK_fascism_ADJ:0 "Abkhaz"
+    ABK_ultranationalism:0 "Legionary State of Abkhazia"
+    ABK_ultranationalism_DEF:0 "the Legionary State of Abkhazia"
+    ABK_ultranationalism_ADJ:0 "Abkhaz"
 
    #NEUTRALITY
 
-    ABK_neutrality:0 "Republic of Abkhazia"
-    ABK_neutrality_DEF:0 "the Republic of Abkhazia"
-    ABK_neutrality_ADJ:0 "Abkhaz"
+    ABK_despotism:0 "Republic of Abkhazia"
+    ABK_despotism_DEF:0 "the Republic of Abkhazia"
+    ABK_despotism_ADJ:0 "Abkhaz"
 
    #TAG
 
@@ -54,21 +54,21 @@
 
    #DEMOCRATIC
 
-    ALB_democratic:0 "Republic of Albania"
-    ALB_democratic_DEF:0 "the Republic of Albania"
-    ALB_democratic_ADJ:0 "Albanian"
+    ALB_liberalism:0 "Republic of Albania"
+    ALB_liberalism_DEF:0 "the Republic of Albania"
+    ALB_liberalism_ADJ:0 "Albanian"
 
    #FASCISM
 
-    ALB_fascism:0 "Albanian State"
-    ALB_fascism_DEF:0 "the Albanian State"
-    ALB_fascism_ADJ:0 "Albanian"
+    ALB_ultranationalism:0 "Albanian State"
+    ALB_ultranationalism_DEF:0 "the Albanian State"
+    ALB_ultranationalism_ADJ:0 "Albanian"
 
    #NEUTRALITY
 
-    ALB_neutrality:0 "Albanian Kingdom"
-    ALB_neutrality_DEF:0 "the Albanian Kingdom"
-    ALB_neutrality_ADJ:0 "Albanian"
+    ALB_despotism:0 "Albanian Kingdom"
+    ALB_despotism_DEF:0 "the Albanian Kingdom"
+    ALB_despotism_ADJ:0 "Albanian"
 
    #TAG
 
@@ -86,21 +86,21 @@
 
    #DEMOCRATIC
 
-    ALG_democratic:0 "Algerian People's Republic"
-    ALG_democratic_DEF:0 "the Algerian People's Republic"
-    ALG_democratic_ADJ:0 "Algerian"
+    ALG_liberalism:0 "Algerian People's Republic"
+    ALG_liberalism_DEF:0 "the Algerian People's Republic"
+    ALG_liberalism_ADJ:0 "Algerian"
 
    #FASCISM
 
-    ALG_fascism:0 "Algerian People's Republic"
-    ALG_fascism_DEF:0 "the Algerian People's Republic"
-    ALG_fascism_ADJ:0 "Algerian"
+    ALG_ultranationalism:0 "Algerian People's Republic"
+    ALG_ultranationalism_DEF:0 "the Algerian People's Republic"
+    ALG_ultranationalism_ADJ:0 "Algerian"
 
    #NEUTRALITY
 
-    ALG_neutrality:0 "Algerian People's Republic"
-    ALG_neutrality_DEF:0 "the Algerian People's Republic"
-    ALG_neutrality_ADJ:0 "Algerian"
+    ALG_despotism:0 "Algerian People's Republic"
+    ALG_despotism_DEF:0 "the Algerian People's Republic"
+    ALG_despotism_ADJ:0 "Algerian"
 
    #TAG
 
@@ -118,21 +118,21 @@
 
    #DEMOCRATIC
 
-    USA_democratic:0 "United States of America"
-    USA_democratic_DEF:0 "the United States of America"
-    USA_democratic_ADJ:0 "American"
+    USA_liberalism:0 "United States of America"
+    USA_liberalism_DEF:0 "the United States of America"
+    USA_liberalism_ADJ:0 "American"
 
    #FASCISM
 
-    USA_fascism:0 "Commonwealth of America"
-    USA_fascism_DEF:0 "the Commonwealth of America"
-    USA_fascism_ADJ:0 "American"
+    USA_ultranationalism:0 "Commonwealth of America"
+    USA_ultranationalism_DEF:0 "the Commonwealth of America"
+    USA_ultranationalism_ADJ:0 "American"
 
    #NEUTRALITY
 
-    USA_neutrality:0 "United States of America"
-    USA_neutrality_DEF:0 "the United States of America"
-    USA_neutrality_ADJ:0 "American"
+    USA_despotism:0 "United States of America"
+    USA_despotism_DEF:0 "the United States of America"
+    USA_despotism_ADJ:0 "American"
 
    #TAG
 
@@ -150,21 +150,21 @@
 
    #DEMOCRATIC
 
-    CSA_democratic:0 "Confederate States of America"
-    CSA_democratic_DEF:0 "the Confederate States of America"
-    CSA_democratic_ADJ:0 "Confederate"
+    CSA_liberalism:0 "Confederate States of America"
+    CSA_liberalism_DEF:0 "the Confederate States of America"
+    CSA_liberalism_ADJ:0 "Confederate"
 
    #FASCISM
 
-    CSA_fascism:0 "Confederate States of America"
-    CSA_fascism_DEF:0 "the Confederate States of America"
-    CSA_fascism_ADJ:0 "Confederate"
+    CSA_ultranationalism:0 "Confederate States of America"
+    CSA_ultranationalism_DEF:0 "the Confederate States of America"
+    CSA_ultranationalism_ADJ:0 "Confederate"
 
    #NEUTRALITY
 
-    CSA_neutrality:0 "Confederate States of America"
-    CSA_neutrality_DEF:0 "the Confederate States of America"
-    CSA_neutrality_ADJ:0 "Confederate"
+    CSA_despotism:0 "Confederate States of America"
+    CSA_despotism_DEF:0 "the Confederate States of America"
+    CSA_despotism_ADJ:0 "Confederate"
 
    #TAG
 
@@ -182,21 +182,21 @@
 
    #DEMOCRATIC
 
-    ADU_democratic:0 "Republic of Andalusia"
-    ADU_democratic_DEF:0 "the Republic of Andalusia"
-    ADU_democratic_ADJ:0 "Andalusian"
+    ADU_liberalism:0 "Republic of Andalusia"
+    ADU_liberalism_DEF:0 "the Republic of Andalusia"
+    ADU_liberalism_ADJ:0 "Andalusian"
 
    #FASCISM
 
-    ADU_fascism:0 "Andalusian State"
-    ADU_fascism_DEF:0 "the Andalusian State"
-    ADU_fascism_ADJ:0 "Andalusian"
+    ADU_ultranationalism:0 "Andalusian State"
+    ADU_ultranationalism_DEF:0 "the Andalusian State"
+    ADU_ultranationalism_ADJ:0 "Andalusian"
 
    #NEUTRALITY
 
-    ADU_neutrality:0 "Andalusian State"
-    ADU_neutrality_DEF:0 "the Andalusian State"
-    ADU_neutrality_ADJ:0 "Andalusian"
+    ADU_despotism:0 "Andalusian State"
+    ADU_despotism_DEF:0 "the Andalusian State"
+    ADU_despotism_ADJ:0 "Andalusian"
 
    #TAG
 
@@ -214,21 +214,21 @@
 
    #DEMOCRATIC
 
-    ARM_democratic:0 "Republic of Armenia"
-    ARM_democratic_DEF:0 "the Republic of Armenia"
-    ARM_democratic_ADJ:0 "Armenia"
+    ARM_liberalism:0 "Republic of Armenia"
+    ARM_liberalism_DEF:0 "the Republic of Armenia"
+    ARM_liberalism_ADJ:0 "Armenia"
 
    #FASCISM
 
-    ARM_fascism:0 "Armenian State"
-    ARM_fascism_DEF:0 "the Armenian State"
-    ARM_fascism_ADJ:0 "Armenia"
+    ARM_ultranationalism:0 "Armenian State"
+    ARM_ultranationalism_DEF:0 "the Armenian State"
+    ARM_ultranationalism_ADJ:0 "Armenia"
 
    #NEUTRALITY
 
-    ARM_neutrality:0 "Republic of Armenia"
-    ARM_neutrality_DEF:0 "the Republic of Armenia"
-    ARM_neutrality_ADJ:0 "Armenia"
+    ARM_despotism:0 "Republic of Armenia"
+    ARM_despotism_DEF:0 "the Republic of Armenia"
+    ARM_despotism_ADJ:0 "Armenia"
 
    #TAG
 
@@ -246,21 +246,21 @@
 
    #DEMOCRATIC
 
-    AUS_democratic:0 "Republic of Austria"
-    AUS_democratic_DEF:0 "the Republic of Austria"
-    AUS_democratic_ADJ:0 "Austrian"
+    AUS_liberalism:0 "Republic of Austria"
+    AUS_liberalism_DEF:0 "the Republic of Austria"
+    AUS_liberalism_ADJ:0 "Austrian"
 
    #FASCISM
 
-    AUS_fascism:0 "Federal State of Austria"
-    AUS_fascism_DEF:0 "the Federal State of Austria"
-    AUS_fascism_ADJ:0 "Austrian"
+    AUS_ultranationalism:0 "Federal State of Austria"
+    AUS_ultranationalism_DEF:0 "the Federal State of Austria"
+    AUS_ultranationalism_ADJ:0 "Austrian"
 
    #NEUTRALITY
 
-    AUS_neutrality:0 "Austro-Hungarian Empire"
-    AUS_neutrality_DEF:0 "the Austro-Hungarian Empire"
-    AUS_neutrality_ADJ:0 "Austro-Hungarian"
+    AUS_despotism:0 "Austro-Hungarian Empire"
+    AUS_despotism_DEF:0 "the Austro-Hungarian Empire"
+    AUS_despotism_ADJ:0 "Austro-Hungarian"
 
    #TAG
 
@@ -278,21 +278,21 @@
 
    #DEMOCRATIC
 
-    AZR_democratic:0 "Azerbaijan Democratic Republic"
-    AZR_democratic_DEF:0 "the Azerbaijan Democratic Republic"
-    AZR_democratic_ADJ:0 "Azerbaijani"
+    AZR_liberalism:0 "Azerbaijan Democratic Republic"
+    AZR_liberalism_DEF:0 "the Azerbaijan Democratic Republic"
+    AZR_liberalism_ADJ:0 "Azerbaijani"
 
    #FASCISM
 
-    AZR_fascism:0 "Legionary State of Azerbaijan"
-    AZR_fascism_DEF:0 "the Legionary State of Azerbaijan"
-    AZR_fascism_ADJ:0 "Azerbaijani"
+    AZR_ultranationalism:0 "Legionary State of Azerbaijan"
+    AZR_ultranationalism_DEF:0 "the Legionary State of Azerbaijan"
+    AZR_ultranationalism_ADJ:0 "Azerbaijani"
 
    #NEUTRALITY
 
-    AZR_neutrality:0 "Azerbaijan Democratic Republic"
-    AZR_neutrality_DEF:0 "the Azerbaijan Democratic Republic"
-    AZR_neutrality_ADJ:0 "Azerbaijani"
+    AZR_despotism:0 "Azerbaijan Democratic Republic"
+    AZR_despotism_DEF:0 "the Azerbaijan Democratic Republic"
+    AZR_despotism_ADJ:0 "Azerbaijani"
 
    #TAG
 
@@ -310,21 +310,21 @@
 
    #DEMOCRATIC
 
-    BSK_democratic:0 "Republic of Bashkortostan"
-    BSK_democratic_DEF:0 "the Republic of Bashkortostan"
-    BSK_democratic_ADJ:0 "Bashkir"
+    BSK_liberalism:0 "Republic of Bashkortostan"
+    BSK_liberalism_DEF:0 "the Republic of Bashkortostan"
+    BSK_liberalism_ADJ:0 "Bashkir"
 
    #FASCISM
 
-    BSK_fascism:0 "Bashkir State"
-    BSK_fascism_DEF:0 "the Bashkir State"
-    BSK_fascism_ADJ:0 "Bashkir"
+    BSK_ultranationalism:0 "Bashkir State"
+    BSK_ultranationalism_DEF:0 "the Bashkir State"
+    BSK_ultranationalism_ADJ:0 "Bashkir"
 
    #NEUTRALITY
 
-    BSK_neutrality:0 "Republic of Bashkortostan"
-    BSK_neutrality_DEF:0 "the Republic of Bashkortostan"
-    BSK_neutrality_ADJ:0 "Bashkir"
+    BSK_despotism:0 "Republic of Bashkortostan"
+    BSK_despotism_DEF:0 "the Republic of Bashkortostan"
+    BSK_despotism_ADJ:0 "Bashkir"
 
    #TAG
 
@@ -342,21 +342,21 @@
 
    #DEMOCRATIC
 
-    NAV_democratic:0 "Basque Republic"
-    NAV_democratic_DEF:0 "the Basque Republic"
-    NAV_democratic_ADJ:0 "Basque"
+    NAV_liberalism:0 "Basque Republic"
+    NAV_liberalism_DEF:0 "the Basque Republic"
+    NAV_liberalism_ADJ:0 "Basque"
 
    #FASCISM
 
-    NAV_fascism:0 "Basque State"
-    NAV_fascism_DEF:0 "the Basque State"
-    NAV_fascism_ADJ:0 "Basque"
+    NAV_ultranationalism:0 "Basque State"
+    NAV_ultranationalism_DEF:0 "the Basque State"
+    NAV_ultranationalism_ADJ:0 "Basque"
 
    #NEUTRALITY
 
-    NAV_neutrality:0 "Kingdom of Navarre"
-    NAV_neutrality_DEF:0 "the Kingdom of Navarre"
-    NAV_neutrality_ADJ:0 "Navarrese"
+    NAV_despotism:0 "Kingdom of Navarre"
+    NAV_despotism_DEF:0 "the Kingdom of Navarre"
+    NAV_despotism_ADJ:0 "Navarrese"
 
    #TAG
 
@@ -374,21 +374,21 @@
 
    #DEMOCRATIC
 
-    BAY_democratic:0 "Free State of Bavaria"
-    BAY_democratic_DEF:0 "the Free State of Bavaria"
-    BAY_democratic_ADJ:0 "Bavarian"
+    BAY_liberalism:0 "Free State of Bavaria"
+    BAY_liberalism_DEF:0 "the Free State of Bavaria"
+    BAY_liberalism_ADJ:0 "Bavarian"
 
    #FASCISM
 
-    BAY_fascism:0 "Bavarian State"
-    BAY_fascism_DEF:0 "the Bavarian State"
-    BAY_fascism_ADJ:0 "Bavarian"
+    BAY_ultranationalism:0 "Bavarian State"
+    BAY_ultranationalism_DEF:0 "the Bavarian State"
+    BAY_ultranationalism_ADJ:0 "Bavarian"
 
    #NEUTRALITY
 
-    BAY_neutrality:0 "Kingdom of Bavaria"
-    BAY_neutrality_DEF:0 "the Kingdom of Bavaria"
-    BAY_neutrality_ADJ:0 "Bavarian"
+    BAY_despotism:0 "Kingdom of Bavaria"
+    BAY_despotism_DEF:0 "the Kingdom of Bavaria"
+    BAY_despotism_ADJ:0 "Bavarian"
 
    #TAG
 
@@ -406,21 +406,21 @@
 
    #DEMOCRATIC
 
-    BEL_democratic:0 "Kingdom of Belgium"
-    BEL_democratic_DEF:0 "the Kingdom of Belgium"
-    BEL_democratic_ADJ:0 "Belgian"
+    BEL_liberalism:0 "Kingdom of Belgium"
+    BEL_liberalism_DEF:0 "the Kingdom of Belgium"
+    BEL_liberalism_ADJ:0 "Belgian"
 
    #FASCISM
 
-    BEL_fascism:0 "Kingdom of Belgium"
-    BEL_fascism_DEF:0 "the Kingdom of Belgium"
-    BEL_fascism_ADJ:0 "Belgian"
+    BEL_ultranationalism:0 "Kingdom of Belgium"
+    BEL_ultranationalism_DEF:0 "the Kingdom of Belgium"
+    BEL_ultranationalism_ADJ:0 "Belgian"
 
    #NEUTRALITY
 
-    BEL_neutrality:0 "Kingdom of Belgium"
-    BEL_neutrality_DEF:0 "the Kingdom of Belgium"
-    BEL_neutrality_ADJ:0 "Belgian"
+    BEL_despotism:0 "Kingdom of Belgium"
+    BEL_despotism_DEF:0 "the Kingdom of Belgium"
+    BEL_despotism_ADJ:0 "Belgian"
 
    #TAG
 
@@ -438,21 +438,21 @@
 
    #DEMOCRATIC
 
-    BOS_democratic:0 "Republic of Bosnia and Herzegovina"
-    BOS_democratic_DEF:0 "the Republic of Bosnia and Herzegovina"
-    BOS_democratic_ADJ:0 "Bosnian"
+    BOS_liberalism:0 "Republic of Bosnia and Herzegovina"
+    BOS_liberalism_DEF:0 "the Republic of Bosnia and Herzegovina"
+    BOS_liberalism_ADJ:0 "Bosnian"
 
    #FASCISM
 
-    BOS_fascism:0 "Independent State of Bosnia and Herzegovina"
-    BOS_fascism_DEF:0 "the Independent State of Bosnia and Herzegovina"
-    BOS_fascism_ADJ:0 "Bosnian"
+    BOS_ultranationalism:0 "Independent State of Bosnia and Herzegovina"
+    BOS_ultranationalism_DEF:0 "the Independent State of Bosnia and Herzegovina"
+    BOS_ultranationalism_ADJ:0 "Bosnian"
 
    #NEUTRALITY
 
-    BOS_neutrality:0 "Republic of Bosnia and Herzegovina"
-    BOS_neutrality_DEF:0 "the Republic of Bosnia and Herzegovina"
-    BOS_neutrality_ADJ:0 "Bosnian"
+    BOS_despotism:0 "Republic of Bosnia and Herzegovina"
+    BOS_despotism_DEF:0 "the Republic of Bosnia and Herzegovina"
+    BOS_despotism_ADJ:0 "Bosnian"
 
    #TAG
 
@@ -470,21 +470,21 @@
 
    #DEMOCRATIC
 
-    ENG_democratic:0 "United Kingdom"
-    ENG_democratic_DEF:0 "the United Kingdom"
-    ENG_democratic_ADJ:0 "British"
+    ENG_liberalism:0 "United Kingdom"
+    ENG_liberalism_DEF:0 "the United Kingdom"
+    ENG_liberalism_ADJ:0 "British"
 
    #FASCISM
 
-    ENG_fascism:0 "British Empire"
-    ENG_fascism_DEF:0 "the British Empire"
-    ENG_fascism_ADJ:0 "British"
+    ENG_ultranationalism:0 "British Empire"
+    ENG_ultranationalism_DEF:0 "the British Empire"
+    ENG_ultranationalism_ADJ:0 "British"
 
    #NEUTRALITY
 
-    ENG_neutrality:0 "United Kingdom"
-    ENG_neutrality_DEF:0 "the United Kingdom"
-    ENG_neutrality_ADJ:0 "British"
+    ENG_despotism:0 "United Kingdom"
+    ENG_despotism_DEF:0 "the United Kingdom"
+    ENG_despotism_ADJ:0 "British"
 
    #TAG
 
@@ -502,21 +502,21 @@
 
    #DEMOCRATIC
 
-    BRI_democratic:0 "Breton Republic"
-    BRI_democratic_DEF:0 "the Breton Republic"
-    BRI_democratic_ADJ:0 "Breton"
+    BRI_liberalism:0 "Breton Republic"
+    BRI_liberalism_DEF:0 "the Breton Republic"
+    BRI_liberalism_ADJ:0 "Breton"
 
    #FASCISM
 
-    BRI_fascism:0 "Breton National State"
-    BRI_fascism_DEF:0 "the Breton National State"
-    BRI_fascism_ADJ:0 "Breton"
+    BRI_ultranationalism:0 "Breton National State"
+    BRI_ultranationalism_DEF:0 "the Breton National State"
+    BRI_ultranationalism_ADJ:0 "Breton"
 
    #NEUTRALITY
 
-    BRI_neutrality:0 "Breton Republic"
-    BRI_neutrality_DEF:0 "the Breton Republic"
-    BRI_neutrality_ADJ:0 "Breton"
+    BRI_despotism:0 "Breton Republic"
+    BRI_despotism_DEF:0 "the Breton Republic"
+    BRI_despotism_ADJ:0 "Breton"
 
    #TAG
 
@@ -538,21 +538,21 @@
     BUL_aleksandar_stamboliyski: "Aleksandr Stambolyiski"
    #DEMOCRATIC
 
-    BUL_democratic:0 "Republic of Bulgaria"
-    BUL_democratic_DEF:0 "the Republic of Bulgaria"
-    BUL_democratic_ADJ:0 "Bulgarian"
+    BUL_liberalism:0 "Republic of Bulgaria"
+    BUL_liberalism_DEF:0 "the Republic of Bulgaria"
+    BUL_liberalism_ADJ:0 "Bulgarian"
 
    #FASCISM
 
-    BUL_fascism:0 "Bulgarian National State"
-    BUL_fascism_DEF:0 "the Bulgarian National State"
-    BUL_fascism_ADJ:0 "Bulgarian"
+    BUL_ultranationalism:0 "Bulgarian National State"
+    BUL_ultranationalism_DEF:0 "the Bulgarian National State"
+    BUL_ultranationalism_ADJ:0 "Bulgarian"
 
    #NEUTRALITY
 
-    BUL_neutrality:0 "Tsardom of Bulgaria"
-    BUL_neutrality_DEF:0 "the Tsardom of Bulgaria"
-    BUL_neutrality_ADJ:0 "Bulgarian"
+    BUL_despotism:0 "Tsardom of Bulgaria"
+    BUL_despotism_DEF:0 "the Tsardom of Bulgaria"
+    BUL_despotism_ADJ:0 "Bulgarian"
 
    #TAG
 
@@ -570,21 +570,21 @@
 
    #DEMOCRATIC
 
-    BLR_democratic:0 "Byelorussian People's Republic"
-    BLR_democratic_DEF:0 "the Byelorussian People's Republic"
-    BLR_democratic_ADJ:0 "Byelorussian"
+    BLR_liberalism:0 "Byelorussian People's Republic"
+    BLR_liberalism_DEF:0 "the Byelorussian People's Republic"
+    BLR_liberalism_ADJ:0 "Byelorussian"
 
    #FASCISM
 
-    BLR_fascism:0 "Byelorussian State"
-    BLR_fascism_DEF:0 "the Byelorussian State"
-    BLR_fascism_ADJ:0 "Byelorussian"
+    BLR_ultranationalism:0 "Byelorussian State"
+    BLR_ultranationalism_DEF:0 "the Byelorussian State"
+    BLR_ultranationalism_ADJ:0 "Byelorussian"
 
    #NEUTRALITY
 
-    BLR_neutrality:0 "Byelorussian People's Republic"
-    BLR_neutrality_DEF:0 "the Byelorussian People's Republic"
-    BLR_neutrality_ADJ:0 "Byelorussian"
+    BLR_despotism:0 "Byelorussian People's Republic"
+    BLR_despotism_DEF:0 "the Byelorussian People's Republic"
+    BLR_despotism_ADJ:0 "Byelorussian"
 
    #TAG
 
@@ -602,21 +602,21 @@
 
    #DEMOCRATIC
 
-    CAN_democratic:0 "Canada"
-    CAN_democratic_DEF:0 "Canada"
-    CAN_democratic_ADJ:0 "Canadian"
+    CAN_liberalism:0 "Canada"
+    CAN_liberalism_DEF:0 "Canada"
+    CAN_liberalism_ADJ:0 "Canadian"
 
    #FASCISM
 
-    CAN_fascism:0 "Unitary Canadian Realm"
-    CAN_fascism_DEF:0 "the Unitary Canadian Realm"
-    CAN_fascism_ADJ:0 "Canadian"
+    CAN_ultranationalism:0 "Unitary Canadian Realm"
+    CAN_ultranationalism_DEF:0 "the Unitary Canadian Realm"
+    CAN_ultranationalism_ADJ:0 "Canadian"
 
    #NEUTRALITY
 
-    CAN_neutrality:0 "Canada"
-    CAN_neutrality_DEF:0 "Canada"
-    CAN_neutrality_ADJ:0 "Canadian"
+    CAN_despotism:0 "Canada"
+    CAN_despotism_DEF:0 "Canada"
+    CAN_despotism_ADJ:0 "Canadian"
 
    #TAG
 
@@ -634,21 +634,21 @@
 
    #DEMOCRATIC
 
-    CAT_democratic:0 "Catalan Republic"
-    CAT_democratic_DEF:0 "the Catalan Republic"
-    CAT_democratic_ADJ:0 "Catalan"
+    CAT_liberalism:0 "Catalan Republic"
+    CAT_liberalism_DEF:0 "the Catalan Republic"
+    CAT_liberalism_ADJ:0 "Catalan"
 
    #FASCISM
 
-    CAT_fascism:0 "Catalan State"
-    CAT_fascism_DEF:0 "the Catalan State"
-    CAT_fascism_ADJ:0 "Catalan"
+    CAT_ultranationalism:0 "Catalan State"
+    CAT_ultranationalism_DEF:0 "the Catalan State"
+    CAT_ultranationalism_ADJ:0 "Catalan"
 
    #NEUTRALITY
 
-    CAT_neutrality:0 "Catalan Republic"
-    CAT_neutrality_DEF:0 "the Catalan Republic"
-    CAT_neutrality_ADJ:0 "Catalan"
+    CAT_despotism:0 "Catalan Republic"
+    CAT_despotism_DEF:0 "the Catalan Republic"
+    CAT_despotism_ADJ:0 "Catalan"
 
    #TAG
 
@@ -666,21 +666,21 @@
 
    #DEMOCRATIC
 
-    CIN_democratic:0 "Checheno-Ingush Republic"
-    CIN_democratic_DEF:0 "the Checheno-Ingush Republic"
-    CIN_democratic_ADJ:0 "Checheno-Ingush"
+    CIN_liberalism:0 "Checheno-Ingush Republic"
+    CIN_liberalism_DEF:0 "the Checheno-Ingush Republic"
+    CIN_liberalism_ADJ:0 "Checheno-Ingush"
 
    #FASCISM
 
-    CIN_fascism:0 "Checheno-Ingush Emirate"
-    CIN_fascism_DEF:0 "the Checheno-Ingush Emirate"
-    CIN_fascism_ADJ:0 "Checheno-Ingush"
+    CIN_ultranationalism:0 "Checheno-Ingush Emirate"
+    CIN_ultranationalism_DEF:0 "the Checheno-Ingush Emirate"
+    CIN_ultranationalism_ADJ:0 "Checheno-Ingush"
 
    #NEUTRALITY
 
-    CIN_neutrality:0 "Checheno-Ingush Emirate"
-    CIN_neutrality_DEF:0 "the Checheno-Ingush Emirate"
-    CIN_neutrality_ADJ:0 "Checheno-Ingush"
+    CIN_despotism:0 "Checheno-Ingush Emirate"
+    CIN_despotism_DEF:0 "the Checheno-Ingush Emirate"
+    CIN_despotism_ADJ:0 "Checheno-Ingush"
 
    #TAG
 
@@ -698,21 +698,21 @@
 
    #DEMOCRATIC
 
-    CHU_democratic:0 "Chuvash Republic"
-    CHU_democratic_DEF:0 "the Chuvash Republic"
-    CHU_democratic_ADJ:0 "Chuvash"
+    CHU_liberalism:0 "Chuvash Republic"
+    CHU_liberalism_DEF:0 "the Chuvash Republic"
+    CHU_liberalism_ADJ:0 "Chuvash"
 
    #FASCISM
 
-    CHU_fascism:0 "Chuvash State"
-    CHU_fascism_DEF:0 "the Chuvash State"
-    CHU_fascism_ADJ:0 "Chuvash"
+    CHU_ultranationalism:0 "Chuvash State"
+    CHU_ultranationalism_DEF:0 "the Chuvash State"
+    CHU_ultranationalism_ADJ:0 "Chuvash"
 
    #NEUTRALITY
 
-    CHU_neutrality:0 "Chuvash Republic"
-    CHU_neutrality_DEF:0 "the Chuvash Republic"
-    CHU_neutrality_ADJ:0 "Chuvash"
+    CHU_despotism:0 "Chuvash Republic"
+    CHU_despotism_DEF:0 "the Chuvash Republic"
+    CHU_despotism_ADJ:0 "Chuvash"
 
    #TAG
 
@@ -730,21 +730,21 @@
 
    #DEMOCRATIC
 
-    COR_democratic:0 "Corsican Republic"
-    COR_democratic_DEF:0 "the Corsican Republic"
-    COR_democratic_ADJ:0 "Corsican"
+    COR_liberalism:0 "Corsican Republic"
+    COR_liberalism_DEF:0 "the Corsican Republic"
+    COR_liberalism_ADJ:0 "Corsican"
 
    #FASCISM
 
-    COR_fascism:0 "Corsican State"
-    COR_fascism_DEF:0 "the Corsican State"
-    COR_fascism_ADJ:0 "Corsican"
+    COR_ultranationalism:0 "Corsican State"
+    COR_ultranationalism_DEF:0 "the Corsican State"
+    COR_ultranationalism_ADJ:0 "Corsican"
 
    #NEUTRALITY
 
-    COR_neutrality:0 "Corsican Republic"
-    COR_neutrality_DEF:0 "the Corsican Republic"
-    COR_neutrality_ADJ:0 "Corsican"
+    COR_despotism:0 "Corsican Republic"
+    COR_despotism_DEF:0 "the Corsican Republic"
+    COR_despotism_ADJ:0 "Corsican"
 
    #TAG
 
@@ -762,21 +762,21 @@
 
    #DEMOCRATIC
 
-    CRI_democratic:0 "Crimean People's Republic"
-    CRI_democratic_DEF:0 "the Crimean People's Republic"
-    CRI_democratic_ADJ:0 "Crimean"
+    CRI_liberalism:0 "Crimean People's Republic"
+    CRI_liberalism_DEF:0 "the Crimean People's Republic"
+    CRI_liberalism_ADJ:0 "Crimean"
 
    #FASCISM
 
-    CRI_fascism:0 "Crimean State"
-    CRI_fascism_DEF:0 "the Crimean State"
-    CRI_fascism_ADJ:0 "Crimean"
+    CRI_ultranationalism:0 "Crimean State"
+    CRI_ultranationalism_DEF:0 "the Crimean State"
+    CRI_ultranationalism_ADJ:0 "Crimean"
 
    #NEUTRALITY
 
-    CRI_neutrality:0 "Crimean People's Republic"
-    CRI_neutrality_DEF:0 "the Crimean People's Republic"
-    CRI_neutrality_ADJ:0 "Crimean"
+    CRI_despotism:0 "Crimean People's Republic"
+    CRI_despotism_DEF:0 "the Crimean People's Republic"
+    CRI_despotism_ADJ:0 "Crimean"
 
    #TAG
 
@@ -794,21 +794,21 @@
 
    #DEMOCRATIC
 
-    CRO_democratic:0 "Republic of Croatia"
-    CRO_democratic_DEF:0 "the Republic of Croatia"
-    CRO_democratic_ADJ:0 "Croatian"
+    CRO_liberalism:0 "Republic of Croatia"
+    CRO_liberalism_DEF:0 "the Republic of Croatia"
+    CRO_liberalism_ADJ:0 "Croatian"
 
    #FASCISM
 
-    CRO_fascism:0 "Independent State of Croatia"
-    CRO_fascism_DEF:0 "the Independent State of Croatia"
-    CRO_fascism_ADJ:0 "Croatian"
+    CRO_ultranationalism:0 "Independent State of Croatia"
+    CRO_ultranationalism_DEF:0 "the Independent State of Croatia"
+    CRO_ultranationalism_ADJ:0 "Croatian"
 
    #NEUTRALITY
 
-    CRO_neutrality:0 "Kingdom of Croatia"
-    CRO_neutrality_DEF:0 "the Kingdom of Croatia"
-    CRO_neutrality_ADJ:0 "Croatian"
+    CRO_despotism:0 "Kingdom of Croatia"
+    CRO_despotism_DEF:0 "the Kingdom of Croatia"
+    CRO_despotism_ADJ:0 "Croatian"
 
    #TAG
 
@@ -826,21 +826,21 @@
 
    #DEMOCRATIC
 
-    CYP_democratic:0 "Cypriot Republic"
-    CYP_democratic_DEF:0 "the Cypriot Republic"
-    CYP_democratic_ADJ:0 "Cypriot"
+    CYP_liberalism:0 "Cypriot Republic"
+    CYP_liberalism_DEF:0 "the Cypriot Republic"
+    CYP_liberalism_ADJ:0 "Cypriot"
 
    #FASCISM
 
-    CYP_fascism:0 "National Cypriot State"
-    CYP_fascism_DEF:0 "the National Cypriot State"
-    CYP_fascism_ADJ:0 "Cypriot"
+    CYP_ultranationalism:0 "National Cypriot State"
+    CYP_ultranationalism_DEF:0 "the National Cypriot State"
+    CYP_ultranationalism_ADJ:0 "Cypriot"
 
    #NEUTRALITY
 
-    CYP_neutrality:0 "Cypriot State"
-    CYP_neutrality_DEF:0 "the Cypriot State"
-    CYP_neutrality_ADJ:0 "Cypriot"
+    CYP_despotism:0 "Cypriot State"
+    CYP_despotism_DEF:0 "the Cypriot State"
+    CYP_despotism_ADJ:0 "Cypriot"
 
    #TAG
 
@@ -858,21 +858,21 @@
 
    #DEMOCRATIC
 
-    CZE_democratic:0 "Czech Republic"
-    CZE_democratic_DEF:0 "the Czech Republic"
-    CZE_democratic_ADJ:0 "Czech"
+    CZE_liberalism:0 "Czech Republic"
+    CZE_liberalism_DEF:0 "the Czech Republic"
+    CZE_liberalism_ADJ:0 "Czech"
 
    #FASCISM
 
-    CZE_fascism:0 "Czech State"
-    CZE_fascism_DEF:0 "the Czech State"
-    CZE_fascism_ADJ:0 "Czech"
+    CZE_ultranationalism:0 "Czech State"
+    CZE_ultranationalism_DEF:0 "the Czech State"
+    CZE_ultranationalism_ADJ:0 "Czech"
 
    #NEUTRALITY
 
-    CZE_neutrality:0 "Czech State"
-    CZE_neutrality_DEF:0 "the Czech State"
-    CZE_neutrality_ADJ:0 "Czech"
+    CZE_despotism:0 "Czech State"
+    CZE_despotism_DEF:0 "the Czech State"
+    CZE_despotism_ADJ:0 "Czech"
 
    #TAG
 
@@ -890,21 +890,21 @@
 
    #DEMOCRATIC
 
-    DAG_democratic:0 "Mountainous Republic of Dagestan"
-    DAG_democratic_DEF:0 "the Mountainous Republic of Dagestan"
-    DAG_democratic_ADJ:0 "Dagestani"
+    DAG_liberalism:0 "Mountainous Republic of Dagestan"
+    DAG_liberalism_DEF:0 "the Mountainous Republic of Dagestan"
+    DAG_liberalism_ADJ:0 "Dagestani"
 
    #FASCISM
 
-    DAG_fascism:0 "Legionary State of Dagestan"
-    DAG_fascism_DEF:0 "the Legionary State of Dagestan"
-    DAG_fascism_ADJ:0 "Dagestani"
+    DAG_ultranationalism:0 "Legionary State of Dagestan"
+    DAG_ultranationalism_DEF:0 "the Legionary State of Dagestan"
+    DAG_ultranationalism_ADJ:0 "Dagestani"
 
    #NEUTRALITY
 
-    DAG_neutrality:0 "Mountainous Republic of Dagestan"
-    DAG_neutrality_DEF:0 "the Mountainous Republic of Dagestan"
-    DAG_neutrality_ADJ:0 "Dagestani"
+    DAG_despotism:0 "Mountainous Republic of Dagestan"
+    DAG_despotism_DEF:0 "the Mountainous Republic of Dagestan"
+    DAG_despotism_ADJ:0 "Dagestani"
 
    #TAG
 
@@ -922,21 +922,21 @@
 
    #DEMOCRATIC
 
-    DLM_democratic:0 "Dalmatian Republic"
-    DLM_democratic_DEF:0 "the Dalmatian Republic"
-    DLM_democratic_ADJ:0 "Dalmatian"
+    DLM_liberalism:0 "Dalmatian Republic"
+    DLM_liberalism_DEF:0 "the Dalmatian Republic"
+    DLM_liberalism_ADJ:0 "Dalmatian"
 
    #FASCISM
 
-    DLM_fascism:0 "Independent State of Dalmatia"
-    DLM_fascism_DEF:0 "the Independent State of Dalmatia"
-    DLM_fascism_ADJ:0 "Dalmatian"
+    DLM_ultranationalism:0 "Independent State of Dalmatia"
+    DLM_ultranationalism_DEF:0 "the Independent State of Dalmatia"
+    DLM_ultranationalism_ADJ:0 "Dalmatian"
 
    #NEUTRALITY
 
-    DLM_neutrality:0 "State of Dalmatia"
-    DLM_neutrality_DEF:0 "the State of Dalmatia"
-    DLM_neutrality_ADJ:0 "Dalmatian"
+    DLM_despotism:0 "State of Dalmatia"
+    DLM_despotism_DEF:0 "the State of Dalmatia"
+    DLM_despotism_ADJ:0 "Dalmatian"
 
    #TAG
 
@@ -954,21 +954,21 @@
 
    #DEMOCRATIC
 
-    DNZ_democratic:0 "Free City of Danzig"
-    DNZ_democratic_DEF:0 "the Free City of Danzig"
-    DNZ_democratic_ADJ:0 "Danziger"
+    DNZ_liberalism:0 "Free City of Danzig"
+    DNZ_liberalism_DEF:0 "the Free City of Danzig"
+    DNZ_liberalism_ADJ:0 "Danziger"
 
    #FASCISM
 
-    DNZ_fascism:0 "Free City of Danzig"
-    DNZ_fascism_DEF:0 "the Free City of Danzig"
-    DNZ_fascism_ADJ:0 "Danziger"
+    DNZ_ultranationalism:0 "Free City of Danzig"
+    DNZ_ultranationalism_DEF:0 "the Free City of Danzig"
+    DNZ_ultranationalism_ADJ:0 "Danziger"
 
    #NEUTRALITY
 
-    DNZ_neutrality:0 "Free City of Danzig"
-    DNZ_neutrality_DEF:0 "the Free City of Danzig"
-    DNZ_neutrality_ADJ:0 "Danziger"
+    DNZ_despotism:0 "Free City of Danzig"
+    DNZ_despotism_DEF:0 "the Free City of Danzig"
+    DNZ_despotism_ADJ:0 "Danziger"
 
    #TAG
 
@@ -986,21 +986,21 @@
 
    #DEMOCRATIC
 
-    DEN_democratic:0 "Kingdom of Denmark"
-    DEN_democratic_DEF:0 "the Kingdom of Denmark"
-    DEN_democratic_ADJ:0 "Danish"
+    DEN_liberalism:0 "Kingdom of Denmark"
+    DEN_liberalism_DEF:0 "the Kingdom of Denmark"
+    DEN_liberalism_ADJ:0 "Danish"
 
    #FASCISM
 
-    DEN_fascism:0 "Kingdom of Denmark"
-    DEN_fascism_DEF:0 "the Kingdom of Denmark"
-    DEN_fascism_ADJ:0 "Danish"
+    DEN_ultranationalism:0 "Kingdom of Denmark"
+    DEN_ultranationalism_DEF:0 "the Kingdom of Denmark"
+    DEN_ultranationalism_ADJ:0 "Danish"
 
    #NEUTRALITY
 
-    DEN_neutrality:0 "Kingdom of Denmark"
-    DEN_neutrality_DEF:0 "the Kingdom of Denmark"
-    DEN_neutrality_ADJ:0 "Danish"
+    DEN_despotism:0 "Kingdom of Denmark"
+    DEN_despotism_DEF:0 "the Kingdom of Denmark"
+    DEN_despotism_ADJ:0 "Danish"
 
    #TAG
 
@@ -1018,21 +1018,21 @@
 
    #DEMOCRATIC
 
-    DON_democratic:0 "Don Republic"
-    DON_democratic_DEF:0 "the Don Republic"
-    DON_democratic_ADJ:0 "Donian"
+    DON_liberalism:0 "Don Republic"
+    DON_liberalism_DEF:0 "the Don Republic"
+    DON_liberalism_ADJ:0 "Donian"
 
    #FASCISM
 
-    DON_fascism:0 "Almighty Don Host"
-    DON_fascism_DEF:0 "the Almighty Don Host"
-    DON_fascism_ADJ:0 "Donian"
+    DON_ultranationalism:0 "Almighty Don Host"
+    DON_ultranationalism_DEF:0 "the Almighty Don Host"
+    DON_ultranationalism_ADJ:0 "Donian"
 
    #NEUTRALITY
 
-    DON_neutrality:0 "Almighty Don Host"
-    DON_neutrality_DEF:0 "the Almighty Don Host"
-    DON_neutrality_ADJ:0 "Donian"
+    DON_despotism:0 "Almighty Don Host"
+    DON_despotism_DEF:0 "the Almighty Don Host"
+    DON_despotism_ADJ:0 "Donian"
 
    #TAG
 
@@ -1050,21 +1050,21 @@
 
    #DEMOCRATIC
 
-    EGY_democratic:0 "Kingdom of Egypt"
-    EGY_democratic_DEF:0 "the Kingdom of Egypt"
-    EGY_democratic_ADJ:0 "Egyptian"
+    EGY_liberalism:0 "Kingdom of Egypt"
+    EGY_liberalism_DEF:0 "the Kingdom of Egypt"
+    EGY_liberalism_ADJ:0 "Egyptian"
 
    #FASCISM
 
-    EGY_fascism:0 "State of Young Egypt"
-    EGY_fascism_DEF:0 "the State of Young Egypt"
-    EGY_fascism_ADJ:0 "Egyptian"
+    EGY_ultranationalism:0 "State of Young Egypt"
+    EGY_ultranationalism_DEF:0 "the State of Young Egypt"
+    EGY_ultranationalism_ADJ:0 "Egyptian"
 
    #NEUTRALITY
 
-    EGY_neutrality:0 "Kingdom of Egypt"
-    EGY_neutrality_DEF:0 "the Kingdom of Egypt"
-    EGY_neutrality_ADJ:0 "Egyptian"
+    EGY_despotism:0 "Kingdom of Egypt"
+    EGY_despotism_DEF:0 "the Kingdom of Egypt"
+    EGY_despotism_ADJ:0 "Egyptian"
 
    #TAG
 
@@ -1082,21 +1082,21 @@
 
    #DEMOCRATIC
 
-    EST_democratic:0 "Republic of Estonia"
-    EST_democratic_DEF:0 "the Republic of Estonia"
-    EST_democratic_ADJ:0 "Estonian"
+    EST_liberalism:0 "Republic of Estonia"
+    EST_liberalism_DEF:0 "the Republic of Estonia"
+    EST_liberalism_ADJ:0 "Estonian"
 
    #FASCISM
 
-    EST_fascism:0 "Estonian Republic"
-    EST_fascism_DEF:0 "the Estonian Republic"
-    EST_fascism_ADJ:0 "Estonian"
+    EST_ultranationalism:0 "Estonian Republic"
+    EST_ultranationalism_DEF:0 "the Estonian Republic"
+    EST_ultranationalism_ADJ:0 "Estonian"
 
    #NEUTRALITY
 
-    EST_neutrality:0 "Republic of Estonia"
-    EST_neutrality_DEF:0 "the Republic of Estonia"
-    EST_neutrality_ADJ:0 "Estonian"
+    EST_despotism:0 "Republic of Estonia"
+    EST_despotism_DEF:0 "the Republic of Estonia"
+    EST_despotism_ADJ:0 "Estonian"
 
    #TAG
 
@@ -1114,21 +1114,21 @@
 
    #DEMOCRATIC
 
-    FIN_democratic:0 "Republic of Finland"
-    FIN_democratic_DEF:0 "the Republic of Finland"
-    FIN_democratic_ADJ:0 "Finnish"
+    FIN_liberalism:0 "Republic of Finland"
+    FIN_liberalism_DEF:0 "the Republic of Finland"
+    FIN_liberalism_ADJ:0 "Finnish"
 
    #FASCISM
 
-    FIN_fascism:0 "Republic of Finland"
-    FIN_fascism_DEF:0 "the Republic of Finland"
-    FIN_fascism_ADJ:0 "Finnish"
+    FIN_ultranationalism:0 "Republic of Finland"
+    FIN_ultranationalism_DEF:0 "the Republic of Finland"
+    FIN_ultranationalism_ADJ:0 "Finnish"
 
    #NEUTRALITY
 
-    FIN_neutrality:0 "Republic of Finland"
-    FIN_neutrality_DEF:0 "the Republic of Finland"
-    FIN_neutrality_ADJ:0 "Finnish"
+    FIN_despotism:0 "Republic of Finland"
+    FIN_despotism_DEF:0 "the Republic of Finland"
+    FIN_despotism_ADJ:0 "Finnish"
 
    #TAG
 
@@ -1146,24 +1146,24 @@
 
    #DEMOCRATIC
     FRA:0 "French Empire"
-    FRA_democratic:0 "French Empire"
-    FRA_democratic_DEF:0 "the French Empire"
-    FRA_democratic_ADJ:0 "French"
+    FRA_liberalism:0 "French Empire"
+    FRA_liberalism_DEF:0 "the French Empire"
+    FRA_liberalism_ADJ:0 "French"
     FRA_conservative:0 "French Empire"
     FRA_conservative_DEF:0 "the French Empire"
     FRA_conservative_ADJ:0 "French"
 
    #FASCISM
 
-    FRA_fascism:0 "French State"
-    FRA_fascism_DEF:0 "the French State"
-    FRA_fascism_ADJ:0 "French"
+    FRA_ultranationalism:0 "French State"
+    FRA_ultranationalism_DEF:0 "the French State"
+    FRA_ultranationalism_ADJ:0 "French"
 
    #NEUTRALITY
 
-    FRA_neutrality:0 "Kingdom of France"
-    FRA_neutrality_DEF:0 "the Kingdom of France"
-    FRA_neutrality_ADJ:0 "French"
+    FRA_despotism:0 "Kingdom of France"
+    FRA_despotism_DEF:0 "the Kingdom of France"
+    FRA_despotism_ADJ:0 "French"
 
    #TAG
 
@@ -1181,21 +1181,21 @@
 
    #DEMOCRATIC
 
-    GLC_democratic:0 "Galician State"
-    GLC_democratic_DEF:0 "the Galician State"
-    GLC_democratic_ADJ:0 "Galician"
+    GLC_liberalism:0 "Galician State"
+    GLC_liberalism_DEF:0 "the Galician State"
+    GLC_liberalism_ADJ:0 "Galician"
 
    #FASCISM
 
-    GLC_fascism:0 "Galician State"
-    GLC_fascism_DEF:0 "the Galician State"
-    GLC_fascism_ADJ:0 "Galician"
+    GLC_ultranationalism:0 "Galician State"
+    GLC_ultranationalism_DEF:0 "the Galician State"
+    GLC_ultranationalism_ADJ:0 "Galician"
 
    #NEUTRALITY
 
-    GLC_neutrality:0 "Galician State"
-    GLC_neutrality_DEF:0 "the Galician State"
-    GLC_neutrality_ADJ:0 "Galician"
+    GLC_despotism:0 "Galician State"
+    GLC_despotism_DEF:0 "the Galician State"
+    GLC_despotism_ADJ:0 "Galician"
 
    #TAG
 
@@ -1213,21 +1213,21 @@
 
    #DEMOCRATIC
 
-    GEO_democratic:0 "Democratic Republic of Georgia"
-    GEO_democratic_DEF:0 "the Democratic Republic of Georgia"
-    GEO_democratic_ADJ:0 "Georgian"
+    GEO_liberalism:0 "Democratic Republic of Georgia"
+    GEO_liberalism_DEF:0 "the Democratic Republic of Georgia"
+    GEO_liberalism_ADJ:0 "Georgian"
 
    #FASCISM
 
-    GEO_fascism:0 "Legionary State of Georgia"
-    GEO_fascism_DEF:0 "the Legionary State of Georgia"
-    GEO_fascism_ADJ:0 "Georgian"
+    GEO_ultranationalism:0 "Legionary State of Georgia"
+    GEO_ultranationalism_DEF:0 "the Legionary State of Georgia"
+    GEO_ultranationalism_ADJ:0 "Georgian"
 
    #NEUTRALITY
 
-    GEO_neutrality:0 "Democratic Republic of Georgia"
-    GEO_neutrality_DEF:0 "the Democratic Republic of Georgia"
-    GEO_neutrality_ADJ:0 "Georgian"
+    GEO_despotism:0 "Democratic Republic of Georgia"
+    GEO_despotism_DEF:0 "the Democratic Republic of Georgia"
+    GEO_despotism_ADJ:0 "Georgian"
 
    #TAG
 
@@ -1301,21 +1301,21 @@
 
    #DEMOCRATIC
 
-    GER_democratic:0 "German Republic"
-    GER_democratic_DEF:0 "the German Republic"
-    GER_democratic_ADJ:0 "German"
+    GER_liberalism:0 "German Republic"
+    GER_liberalism_DEF:0 "the German Republic"
+    GER_liberalism_ADJ:0 "German"
 
    #FASCISM
 
-    GER_fascism:0 "German Reich"
-    GER_fascism_DEF:0 "the German Reich"
-    GER_fascism_ADJ:0 "German"
+    GER_ultranationalism:0 "German Reich"
+    GER_ultranationalism_DEF:0 "the German Reich"
+    GER_ultranationalism_ADJ:0 "German"
 
    #NEUTRALITY
 
-    GER_neutrality:0 "German Reich"
-    GER_neutrality_DEF:0 "the German Reich"
-    GER_neutrality_ADJ:0 "German"
+    GER_despotism:0 "German Reich"
+    GER_despotism_DEF:0 "the German Reich"
+    GER_despotism_ADJ:0 "German"
 
    #TAG
 
@@ -1333,21 +1333,21 @@
 
     #DEMOCRATIC
 
-     DDR_democratic:0 "Republic of Germany"
-     DDR_democratic_DEF:0 "the Republic of Germany"
-     DDR_democratic_ADJ:0 "German"
+     DDR_liberalism:0 "Republic of Germany"
+     DDR_liberalism_DEF:0 "the Republic of Germany"
+     DDR_liberalism_ADJ:0 "German"
 
     #FASCISM
 
-     DDR_fascism:0 "German Reich"
-     DDR_fascism_DEF:0 "the German Reich"
-     DDR_fascism_ADJ:0 "German"
+     DDR_ultranationalism:0 "German Reich"
+     DDR_ultranationalism_DEF:0 "the German Reich"
+     DDR_ultranationalism_ADJ:0 "German"
 
     #NEUTRALITY
 
-     DDR_neutrality:0 "German Reich"
-     DDR_neutrality_DEF:0 "the German Reich"
-     DDR_neutrality_ADJ:0 "German"
+     DDR_despotism:0 "German Reich"
+     DDR_despotism_DEF:0 "the German Reich"
+     DDR_despotism_ADJ:0 "German"
 
     #TAG
 
@@ -1365,21 +1365,21 @@
 
    #DEMOCRATIC
 
-    WGR_democratic:0 "Federal Republic of Germany"
-    WGR_democratic_DEF:0 "the Federal Republic of Germany"
-    WGR_democratic_ADJ:0 "German"
+    WGR_liberalism:0 "Federal Republic of Germany"
+    WGR_liberalism_DEF:0 "the Federal Republic of Germany"
+    WGR_liberalism_ADJ:0 "German"
 
    #FASCISM
 
-    WGR_fascism:0 "German State"
-    WGR_fascism_DEF:0 "the German State"
-    WGR_fascism_ADJ:0 "German"
+    WGR_ultranationalism:0 "German State"
+    WGR_ultranationalism_DEF:0 "the German State"
+    WGR_ultranationalism_ADJ:0 "German"
 
    #NEUTRALITY
 
-    WGR_neutrality:0 "Republic of Germany"
-    WGR_neutrality_DEF:0 "the Republic of Germany"
-    WGR_neutrality_ADJ:0 "German"
+    WGR_despotism:0 "Republic of Germany"
+    WGR_despotism_DEF:0 "the Republic of Germany"
+    WGR_despotism_ADJ:0 "German"
 
    #TAG
 
@@ -1397,21 +1397,21 @@
 
    #DEMOCRATIC
 
-    GRE_democratic:0 "Hellenic Republic"
-    GRE_democratic_DEF:0 "the Hellenic Republic"
-    GRE_democratic_ADJ:0 "Hellene"
+    GRE_liberalism:0 "Hellenic Republic"
+    GRE_liberalism_DEF:0 "the Hellenic Republic"
+    GRE_liberalism_ADJ:0 "Hellene"
 
    #FASCISM
 
-    GRE_fascism:0 "Hellenic State"
-    GRE_fascism_DEF:0 "the Hellenic State"
-    GRE_fascism_ADJ:0 "Hellene"
+    GRE_ultranationalism:0 "Hellenic State"
+    GRE_ultranationalism_DEF:0 "the Hellenic State"
+    GRE_ultranationalism_ADJ:0 "Hellene"
 
    #NEUTRALITY
 
-    GRE_neutrality:0 "Kingdom of Greece"
-    GRE_neutrality_DEF:0 "the Kingdom of Greece"
-    GRE_neutrality_ADJ:0 "Greek"
+    GRE_despotism:0 "Kingdom of Greece"
+    GRE_despotism_DEF:0 "the Kingdom of Greece"
+    GRE_despotism_ADJ:0 "Greek"
 
    #TAG
 
@@ -1429,21 +1429,21 @@
 
    #DEMOCRATIC
 
-    HAN_democratic:0 "Free State of Hanover"
-    HAN_democratic_DEF:0 "the Free State of Hanover"
-    HAN_democratic_ADJ:0 "Hanoverian"
+    HAN_liberalism:0 "Free State of Hanover"
+    HAN_liberalism_DEF:0 "the Free State of Hanover"
+    HAN_liberalism_ADJ:0 "Hanoverian"
 
    #FASCISM
 
-    HAN_fascism:0 "State of Hanover"
-    HAN_fascism_DEF:0 "the State of Hanover"
-    HAN_fascism_ADJ:0 "Hanoverian"
+    HAN_ultranationalism:0 "State of Hanover"
+    HAN_ultranationalism_DEF:0 "the State of Hanover"
+    HAN_ultranationalism_ADJ:0 "Hanoverian"
 
    #NEUTRALITY
 
-    HAN_neutrality:0 "State of Hanover"
-    HAN_neutrality_DEF:0 "the State of Hanover"
-    HAN_neutrality_ADJ:0 "Hanoverian"
+    HAN_despotism:0 "State of Hanover"
+    HAN_despotism_DEF:0 "the State of Hanover"
+    HAN_despotism_ADJ:0 "Hanoverian"
 
    #TAG
 
@@ -1461,21 +1461,21 @@
 
    #DEMOCRATIC
 
-    HRZ_democratic:0 "Republic of Herzegovina"
-    HRZ_democratic_DEF:0 "the Republic of Herzegovina"
-    HRZ_democratic_ADJ:0 "Herzegovinian"
+    HRZ_liberalism:0 "Republic of Herzegovina"
+    HRZ_liberalism_DEF:0 "the Republic of Herzegovina"
+    HRZ_liberalism_ADJ:0 "Herzegovinian"
 
    #FASCISM
 
-    HRZ_fascism:0 "State of Herzegovina"
-    HRZ_fascism_DEF:0 "the State of Herzegovina"
-    HRZ_fascism_ADJ:0 "Herzegovinian"
+    HRZ_ultranationalism:0 "State of Herzegovina"
+    HRZ_ultranationalism_DEF:0 "the State of Herzegovina"
+    HRZ_ultranationalism_ADJ:0 "Herzegovinian"
 
    #NEUTRALITY
 
-    HRZ_neutrality:0 "Republic of Herzegovina"
-    HRZ_neutrality_DEF:0 "the Republic of Herzegovina"
-    HRZ_neutrality_ADJ:0 "Herzegovinian"
+    HRZ_despotism:0 "Republic of Herzegovina"
+    HRZ_despotism_DEF:0 "the Republic of Herzegovina"
+    HRZ_despotism_ADJ:0 "Herzegovinian"
 
    #TAG
 
@@ -1493,21 +1493,21 @@
 
    #DEMOCRATIC
 
-    HUN_democratic:0 "Hungarian Republic"
-    HUN_democratic_DEF:0 "the Hungarian Republic"
-    HUN_democratic_ADJ:0 "Hungarian"
+    HUN_liberalism:0 "Hungarian Republic"
+    HUN_liberalism_DEF:0 "the Hungarian Republic"
+    HUN_liberalism_ADJ:0 "Hungarian"
 
    #FASCISM
 
-    HUN_fascism:0 "National Hungarian State"
-    HUN_fascism_DEF:0 "the National Hungarian State"
-    HUN_fascism_ADJ:0 "Hungarian"
+    HUN_ultranationalism:0 "National Hungarian State"
+    HUN_ultranationalism_DEF:0 "the National Hungarian State"
+    HUN_ultranationalism_ADJ:0 "Hungarian"
 
    #NEUTRALITY
 
-    HUN_neutrality:0 "Kingdom of Hungary"
-    HUN_neutrality_DEF:0 "the Kingdom of Hungary"
-    HUN_neutrality_ADJ:0 "Hungarian"
+    HUN_despotism:0 "Kingdom of Hungary"
+    HUN_despotism_DEF:0 "the Kingdom of Hungary"
+    HUN_despotism_ADJ:0 "Hungarian"
 
    #TAG
 
@@ -1525,21 +1525,21 @@
 
    #DEMOCRATIC
 
-    ICE_democratic:0 "Kingdom of Iceland"
-    ICE_democratic_DEF:0 "the Kingdom of Iceland"
-    ICE_democratic_ADJ:0 "Icelandic"
+    ICE_liberalism:0 "Kingdom of Iceland"
+    ICE_liberalism_DEF:0 "the Kingdom of Iceland"
+    ICE_liberalism_ADJ:0 "Icelandic"
 
    #FASCISM
 
-    ICE_fascism:0 "State of Iceland"
-    ICE_fascism_DEF:0 "the State of Iceland"
-    ICE_fascism_ADJ:0 "Icelandic"
+    ICE_ultranationalism:0 "State of Iceland"
+    ICE_ultranationalism_DEF:0 "the State of Iceland"
+    ICE_ultranationalism_ADJ:0 "Icelandic"
 
    #NEUTRALITY
 
-    ICE_neutrality:0 "Kingdom of Iceland"
-    ICE_neutrality_DEF:0 "the Kingdom of Iceland"
-    ICE_neutrality_ADJ:0 "Icelandic"
+    ICE_despotism:0 "Kingdom of Iceland"
+    ICE_despotism_DEF:0 "the Kingdom of Iceland"
+    ICE_despotism_ADJ:0 "Icelandic"
 
    #TAG
 
@@ -1557,21 +1557,21 @@
 
    #DEMOCRATIC
 
-    PER_democratic:0 "Republic of Iran"
-    PER_democratic_DEF:0 "the Republic of Iran"
-    PER_democratic_ADJ:0 "Iranian"
+    PER_liberalism:0 "Republic of Iran"
+    PER_liberalism_DEF:0 "the Republic of Iran"
+    PER_liberalism_ADJ:0 "Iranian"
 
    #FASCISM
 
-    PER_fascism:0 "Iranian State"
-    PER_fascism_DEF:0 "the Iranian State"
-    PER_fascism_ADJ:0 "Iranian"
+    PER_ultranationalism:0 "Iranian State"
+    PER_ultranationalism_DEF:0 "the Iranian State"
+    PER_ultranationalism_ADJ:0 "Iranian"
 
    #NEUTRALITY
 
-    PER_neutrality:0 "Imperial State of Iran"
-    PER_neutrality_DEF:0 "the Imperial State of Iran"
-    PER_neutrality_ADJ:0 "Iranian"
+    PER_despotism:0 "Imperial State of Iran"
+    PER_despotism_DEF:0 "the Imperial State of Iran"
+    PER_despotism_ADJ:0 "Iranian"
 
    #TAG
 
@@ -1589,21 +1589,21 @@
 
    #DEMOCRATIC
 
-    IRQ_democratic:0 "Iraqi Republic"
-    IRQ_democratic_DEF:0 "the Iraqi Republic"
-    IRQ_democratic_ADJ:0 "Iraqi"
+    IRQ_liberalism:0 "Iraqi Republic"
+    IRQ_liberalism_DEF:0 "the Iraqi Republic"
+    IRQ_liberalism_ADJ:0 "Iraqi"
 
    #FASCISM
 
-    IRQ_fascism:0 "Iraqi State"
-    IRQ_fascism_DEF:0 "the Iraqi State"
-    IRQ_fascism_ADJ:0 "Iraqi"
+    IRQ_ultranationalism:0 "Iraqi State"
+    IRQ_ultranationalism_DEF:0 "the Iraqi State"
+    IRQ_ultranationalism_ADJ:0 "Iraqi"
 
    #NEUTRALITY
 
-    IRQ_neutrality:0 "Hashemite Kingdom of Iraq"
-    IRQ_neutrality_DEF:0 "the Hashemite Kingdom of Iraq"
-    IRQ_neutrality_ADJ:0 "Iraqi"
+    IRQ_despotism:0 "Hashemite Kingdom of Iraq"
+    IRQ_despotism_DEF:0 "the Hashemite Kingdom of Iraq"
+    IRQ_despotism_ADJ:0 "Iraqi"
 
    #TAG
 
@@ -1621,21 +1621,21 @@
 
    #DEMOCRATIC
 
-    IRE_democratic:0 "Republic of Ireland"
-    IRE_democratic_DEF:0 "the Republic of Ireland"
-    IRE_democratic_ADJ:0 "Irish"
+    IRE_liberalism:0 "Republic of Ireland"
+    IRE_liberalism_DEF:0 "the Republic of Ireland"
+    IRE_liberalism_ADJ:0 "Irish"
 
    #FASCISM
 
-    IRE_fascism:0 "Irish State"
-    IRE_fascism_DEF:0 "the Irish State"
-    IRE_fascism_ADJ:0 "Irish"
+    IRE_ultranationalism:0 "Irish State"
+    IRE_ultranationalism_DEF:0 "the Irish State"
+    IRE_ultranationalism_ADJ:0 "Irish"
 
    #NEUTRALITY
 
-    IRE_neutrality:0 "Republic of Ireland"
-    IRE_neutrality_DEF:0 "the Republic of Ireland"
-    IRE_neutrality_ADJ:0 "Irish"
+    IRE_despotism:0 "Republic of Ireland"
+    IRE_despotism_DEF:0 "the Republic of Ireland"
+    IRE_despotism_ADJ:0 "Irish"
 
    #TAG
 
@@ -1653,21 +1653,21 @@
 
    #DEMOCRATIC
 
-    ISR_democratic:0 "State of Israel"
-    ISR_democratic_DEF:0 "the State of Israel"
-    ISR_democratic_ADJ:0 "Israeli"
+    ISR_liberalism:0 "State of Israel"
+    ISR_liberalism_DEF:0 "the State of Israel"
+    ISR_liberalism_ADJ:0 "Israeli"
 
    #FASCISM
 
-    ISR_fascism:0 "State of Israel"
-    ISR_fascism_DEF:0 "the State of Israel"
-    ISR_fascism_ADJ:0 "Israeli"
+    ISR_ultranationalism:0 "State of Israel"
+    ISR_ultranationalism_DEF:0 "the State of Israel"
+    ISR_ultranationalism_ADJ:0 "Israeli"
 
    #NEUTRALITY
 
-    ISR_neutrality:0 "State of Israel"
-    ISR_neutrality_DEF:0 "the State of Israel"
-    ISR_neutrality_ADJ:0 "Israeli"
+    ISR_despotism:0 "State of Israel"
+    ISR_despotism_DEF:0 "the State of Israel"
+    ISR_despotism_ADJ:0 "Israeli"
 
    #TAG
 
@@ -1687,21 +1687,21 @@
 
    #DEMOCRATIC
 
-    ITA_democratic:0 "Italian Republic"
-    ITA_democratic_DEF:0 "the Italian Republic"
-    ITA_democratic_ADJ:0 "Italian"
+    ITA_liberalism:0 "Italian Republic"
+    ITA_liberalism_DEF:0 "the Italian Republic"
+    ITA_liberalism_ADJ:0 "Italian"
 
    #FASCISM
 
-    ITA_fascism:0 "Italian Social Republic"
-    ITA_fascism_DEF:0 "the Italian Social Republic"
-    ITA_fascism_ADJ:0 "Italian"
+    ITA_ultranationalism:0 "Italian Social Republic"
+    ITA_ultranationalism_DEF:0 "the Italian Social Republic"
+    ITA_ultranationalism_ADJ:0 "Italian"
 
    #NEUTRALITY
 
-    ITA_neutrality:0 "Kingdom of Italy"
-    ITA_neutrality_DEF:0 "the Kingdom of Italy"
-    ITA_neutrality_ADJ:0 "Italian"
+    ITA_despotism:0 "Kingdom of Italy"
+    ITA_despotism_DEF:0 "the Kingdom of Italy"
+    ITA_despotism_ADJ:0 "Italian"
 
    #TAG
 
@@ -1719,21 +1719,21 @@
 
    #DEMOCRATIC
 
-    RSI_democratic:0 "Italian Republic"
-    RSI_democratic_DEF:0 "the Italian Republic"
-    RSI_democratic_ADJ:0 "Italian"
+    RSI_liberalism:0 "Italian Republic"
+    RSI_liberalism_DEF:0 "the Italian Republic"
+    RSI_liberalism_ADJ:0 "Italian"
 
    #FASCISM
 
-    RSI_fascism:0 "Italian Social Republic"
-    RSI_fascism_DEF:0 "the Italian Social Republic"
-    RSI_fascism_ADJ:0 "Italian"
+    RSI_ultranationalism:0 "Italian Social Republic"
+    RSI_ultranationalism_DEF:0 "the Italian Social Republic"
+    RSI_ultranationalism_ADJ:0 "Italian"
 
    #NEUTRALITY
 
-    RSI_neutrality:0 "Kingdom of Italy"
-    RSI_neutrality_DEF:0 "the Kingdom of Italy"
-    RSI_neutrality_ADJ:0 "Italian"
+    RSI_despotism:0 "Kingdom of Italy"
+    RSI_despotism_DEF:0 "the Kingdom of Italy"
+    RSI_despotism_ADJ:0 "Italian"
 
    #TAG
 
@@ -1751,21 +1751,21 @@
 
    #DEMOCRATIC
 
-    RDS_democratic:0 "Republic of Italy"
-    RDS_democratic_DEF:0 "the Republic of Italy"
-    RDS_democratic_ADJ:0 "Italian"
+    RDS_liberalism:0 "Republic of Italy"
+    RDS_liberalism_DEF:0 "the Republic of Italy"
+    RDS_liberalism_ADJ:0 "Italian"
 
    #FASCISM
 
-    RDS_fascism:0 "Italian National State"
-    RDS_fascism_DEF:0 "the Italian National State"
-    RDS_fascism_ADJ:0 "Italian"
+    RDS_ultranationalism:0 "Italian National State"
+    RDS_ultranationalism_DEF:0 "the Italian National State"
+    RDS_ultranationalism_ADJ:0 "Italian"
 
    #NEUTRALITY
 
-    RDS_neutrality:0 "Kingdom of Italy"
-    RDS_neutrality_DEF:0 "the Kingdom of Italy"
-    RDS_neutrality_ADJ:0 "Italian"
+    RDS_despotism:0 "Kingdom of Italy"
+    RDS_despotism_DEF:0 "the Kingdom of Italy"
+    RDS_despotism_ADJ:0 "Italian"
 
    #TAG
 
@@ -1783,21 +1783,21 @@
 
    #DEMOCRATIC
 
-    JOR_democratic:0 "Kingdom of Transjordan"
-    JOR_democratic_DEF:0 "the Hashemite Kingdom of Transjordan"
-    JOR_democratic_ADJ:0 "Jordanian"
+    JOR_liberalism:0 "Kingdom of Transjordan"
+    JOR_liberalism_DEF:0 "the Hashemite Kingdom of Transjordan"
+    JOR_liberalism_ADJ:0 "Jordanian"
 
    #FASCISM
 
-    JOR_fascism:0 "Kingdom of Transjordan"
-    JOR_fascism_DEF:0 "the Hashemite Kingdom of Transjordan"
-    JOR_fascism_ADJ:0 "Jordanian"
+    JOR_ultranationalism:0 "Kingdom of Transjordan"
+    JOR_ultranationalism_DEF:0 "the Hashemite Kingdom of Transjordan"
+    JOR_ultranationalism_ADJ:0 "Jordanian"
 
    #NEUTRALITY
 
-    JOR_neutrality:0 "Kingdom of Transjordan"
-    JOR_neutrality_DEF:0 "the Hashemite Kingdom of Transjordan"
-    JOR_neutrality_ADJ:0 "Jordanian"
+    JOR_despotism:0 "Kingdom of Transjordan"
+    JOR_despotism_DEF:0 "the Hashemite Kingdom of Transjordan"
+    JOR_despotism_ADJ:0 "Jordanian"
 
    #TAG
 
@@ -1815,21 +1815,21 @@
 
    #DEMOCRATIC
 
-    KBK_democratic:0 "Kabardino-Balkarian Republic"
-    KBK_democratic_DEF:0 "the Kabardino-Balkarian Republic"
-    KBK_democratic_ADJ:0 "Kabardino-Balkarian"
+    KBK_liberalism:0 "Kabardino-Balkarian Republic"
+    KBK_liberalism_DEF:0 "the Kabardino-Balkarian Republic"
+    KBK_liberalism_ADJ:0 "Kabardino-Balkarian"
 
    #FASCISM
 
-    KBK_fascism:0 "Kabardino-Balkarian State"
-    KBK_fascism_DEF:0 "the Kabardino-Balkarian State"
-    KBK_fascism_ADJ:0 "Kabardino-Balkarian"
+    KBK_ultranationalism:0 "Kabardino-Balkarian State"
+    KBK_ultranationalism_DEF:0 "the Kabardino-Balkarian State"
+    KBK_ultranationalism_ADJ:0 "Kabardino-Balkarian"
 
    #NEUTRALITY
 
-    KBK_neutrality:0 "Kabardino-Balkarian Mountainous Republic"
-    KBK_neutrality_DEF:0 "the Kabardino-Balkarian Mountainous Republic"
-    KBK_neutrality_ADJ:0 "Kabardino-Balkarian"
+    KBK_despotism:0 "Kabardino-Balkarian Mountainous Republic"
+    KBK_despotism_DEF:0 "the Kabardino-Balkarian Mountainous Republic"
+    KBK_despotism_ADJ:0 "Kabardino-Balkarian"
 
    #TAG
 
@@ -1847,21 +1847,21 @@
 
    #DEMOCRATIC
 
-    KAL_democratic:0 "Republic of Kalmykia"
-    KAL_democratic_DEF:0 "the Republic of Kalmykia"
-    KAL_democratic_ADJ:0 "Kalmyk"
+    KAL_liberalism:0 "Republic of Kalmykia"
+    KAL_liberalism_DEF:0 "the Republic of Kalmykia"
+    KAL_liberalism_ADJ:0 "Kalmyk"
 
    #FASCISM
 
-    KAL_fascism:0 "State of Kalmykia"
-    KAL_fascism_DEF:0 "the State of Kalmykia"
-    KAL_fascism_ADJ:0 "Kalmyk"
+    KAL_ultranationalism:0 "State of Kalmykia"
+    KAL_ultranationalism_DEF:0 "the State of Kalmykia"
+    KAL_ultranationalism_ADJ:0 "Kalmyk"
 
    #NEUTRALITY
 
-    KAL_neutrality:0 "State of Kalmykia"
-    KAL_neutrality_DEF:0 "the State of Kalmykia"
-    KAL_neutrality_ADJ:0 "Kalmyk"
+    KAL_despotism:0 "State of Kalmykia"
+    KAL_despotism_DEF:0 "the State of Kalmykia"
+    KAL_despotism_ADJ:0 "Kalmyk"
 
    #TAG
 
@@ -1879,21 +1879,21 @@
 
    #DEMOCRATIC
 
-    KKP_democratic:0 "Republic of Karakalpakstan"
-    KKP_democratic_DEF:0 "the Republic of Karakalpakstan"
-    KKP_democratic_ADJ:0 "Karakalpak"
+    KKP_liberalism:0 "Republic of Karakalpakstan"
+    KKP_liberalism_DEF:0 "the Republic of Karakalpakstan"
+    KKP_liberalism_ADJ:0 "Karakalpak"
 
    #FASCISM
 
-    KKP_fascism:0 "Karakalpak National State"
-    KKP_fascism_DEF:0 "the Karakalpak National State"
-    KKP_fascism_ADJ:0 "Karakalpak"
+    KKP_ultranationalism:0 "Karakalpak National State"
+    KKP_ultranationalism_DEF:0 "the Karakalpak National State"
+    KKP_ultranationalism_ADJ:0 "Karakalpak"
 
    #NEUTRALITY
 
-    KKP_neutrality:0 "Republic of Karakalpakstan"
-    KKP_neutrality_DEF:0 "the Republic of Karakalpakstan"
-    KKP_neutrality_ADJ:0 "Karakalpak"
+    KKP_despotism:0 "Republic of Karakalpakstan"
+    KKP_despotism_DEF:0 "the Republic of Karakalpakstan"
+    KKP_despotism_ADJ:0 "Karakalpak"
 
    #TAG
 
@@ -1911,21 +1911,21 @@
 
    #DEMOCRATIC
 
-    KAR_democratic:0 "Republic of Karelia"
-    KAR_democratic_DEF:0 "the Republic of Karelia"
-    KAR_democratic_ADJ:0 "Karelian"
+    KAR_liberalism:0 "Republic of Karelia"
+    KAR_liberalism_DEF:0 "the Republic of Karelia"
+    KAR_liberalism_ADJ:0 "Karelian"
 
    #FASCISM
 
-    KAR_fascism:0 "Karelian State"
-    KAR_fascism_DEF:0 "the Karelian State"
-    KAR_fascism_ADJ:0 "Karelian"
+    KAR_ultranationalism:0 "Karelian State"
+    KAR_ultranationalism_DEF:0 "the Karelian State"
+    KAR_ultranationalism_ADJ:0 "Karelian"
 
    #NEUTRALITY
 
-    KAR_neutrality:0 "Republic of Karelia"
-    KAR_neutrality_DEF:0 "the Republic of Karelia"
-    KAR_neutrality_ADJ:0 "Karelian"
+    KAR_despotism:0 "Republic of Karelia"
+    KAR_despotism_DEF:0 "the Republic of Karelia"
+    KAR_despotism_ADJ:0 "Karelian"
 
    #TAG
 
@@ -1943,21 +1943,21 @@
 
    #DEMOCRATIC
 
-    KSH_democratic:0 "Republic of Kashubia"
-    KSH_democratic_DEF:0 "the Republic of Kashubia"
-    KSH_democratic_ADJ:0 "Kashubian"
+    KSH_liberalism:0 "Republic of Kashubia"
+    KSH_liberalism_DEF:0 "the Republic of Kashubia"
+    KSH_liberalism_ADJ:0 "Kashubian"
 
    #FASCISM
 
-    KSH_fascism:0 "Kashubian State"
-    KSH_fascism_DEF:0 "the Kashubian State"
-    KSH_fascism_ADJ:0 "Kashubian"
+    KSH_ultranationalism:0 "Kashubian State"
+    KSH_ultranationalism_DEF:0 "the Kashubian State"
+    KSH_ultranationalism_ADJ:0 "Kashubian"
 
    #NEUTRALITY
 
-    KSH_neutrality:0 "Republic of Kashubia"
-    KSH_neutrality_DEF:0 "the Republic of Kashubia"
-    KSH_neutrality_ADJ:0 "Kashubian"
+    KSH_despotism:0 "Republic of Kashubia"
+    KSH_despotism_DEF:0 "the Republic of Kashubia"
+    KSH_despotism_ADJ:0 "Kashubian"
 
    #TAG
 
@@ -1975,21 +1975,21 @@
 
    #DEMOCRATIC
 
-    KAZ_democratic:0 "Alash Republic"
-    KAZ_democratic_DEF:0 "the Alash Republic"
-    KAZ_democratic_ADJ:0 "Alash"
+    KAZ_liberalism:0 "Alash Republic"
+    KAZ_liberalism_DEF:0 "the Alash Republic"
+    KAZ_liberalism_ADJ:0 "Alash"
 
    #FASCISM
 
-    KAZ_fascism:0 "National State of Turkestan"
-    KAZ_fascism_DEF:0 "the National State of Turkestan"
-    KAZ_fascism_ADJ:0 "Turkestani"
+    KAZ_ultranationalism:0 "National State of Turkestan"
+    KAZ_ultranationalism_DEF:0 "the National State of Turkestan"
+    KAZ_ultranationalism_ADJ:0 "Turkestani"
 
    #NEUTRALITY
 
-    KAZ_neutrality:0 "Alash Republic"
-    KAZ_neutrality_DEF:0 "the Alash Republic"
-    KAZ_neutrality_ADJ:0 "Alash"
+    KAZ_despotism:0 "Alash Republic"
+    KAZ_despotism_DEF:0 "the Alash Republic"
+    KAZ_despotism_ADJ:0 "Alash"
 
    #TAG
 
@@ -2007,21 +2007,21 @@
 
    #DEMOCRATIC
 
-    KHI_democratic:0 "Khorezm National Republic"
-    KHI_democratic_DEF:0 "the Khorezm National Republic"
-    KHI_democratic_ADJ:0 "Khorezm"
+    KHI_liberalism:0 "Khorezm National Republic"
+    KHI_liberalism_DEF:0 "the Khorezm National Republic"
+    KHI_liberalism_ADJ:0 "Khorezm"
 
    #FASCISM
 
-    KHI_fascism:0 "Khorezm National Republic"
-    KHI_fascism_DEF:0 "the Khorezm National Republic"
-    KHI_fascism_ADJ:0 "Khorezm"
+    KHI_ultranationalism:0 "Khorezm National Republic"
+    KHI_ultranationalism_DEF:0 "the Khorezm National Republic"
+    KHI_ultranationalism_ADJ:0 "Khorezm"
 
    #NEUTRALITY
 
-    KHI_neutrality:0 "Khanate of Khiva"
-    KHI_neutrality_DEF:0 "the Khanate of Khiva"
-    KHI_neutrality_ADJ:0 "Khivan"
+    KHI_despotism:0 "Khanate of Khiva"
+    KHI_despotism_DEF:0 "the Khanate of Khiva"
+    KHI_despotism_ADJ:0 "Khivan"
 
    #TAG
 
@@ -2039,21 +2039,21 @@
 
    #DEMOCRATIC
 
-    KOM_democratic:0 "Komi Republic"
-    KOM_democratic_DEF:0 "the Komi Republic"
-    KOM_democratic_ADJ:0 "Komi"
+    KOM_liberalism:0 "Komi Republic"
+    KOM_liberalism_DEF:0 "the Komi Republic"
+    KOM_liberalism_ADJ:0 "Komi"
 
    #FASCISM
 
-    KOM_fascism:0 "Permian State"
-    KOM_fascism_DEF:0 "the Permian State"
-    KOM_fascism_ADJ:0 "Permian"
+    KOM_ultranationalism:0 "Permian State"
+    KOM_ultranationalism_DEF:0 "the Permian State"
+    KOM_ultranationalism_ADJ:0 "Permian"
 
    #NEUTRALITY
 
-    KOM_neutrality:0 "Komi Republic"
-    KOM_neutrality_DEF:0 "the Komi Republic"
-    KOM_neutrality_ADJ:0 "Komi"
+    KOM_despotism:0 "Komi Republic"
+    KOM_despotism_DEF:0 "the Komi Republic"
+    KOM_despotism_ADJ:0 "Komi"
 
    #TAG
 
@@ -2071,21 +2071,21 @@
 
    #DEMOCRATIC
 
-    KOS_democratic:0 "Republic of Kosovo"
-    KOS_democratic_DEF:0 "the Republic of Kosovo"
-    KOS_democratic_ADJ:0 "Kosovar"
+    KOS_liberalism:0 "Republic of Kosovo"
+    KOS_liberalism_DEF:0 "the Republic of Kosovo"
+    KOS_liberalism_ADJ:0 "Kosovar"
 
    #FASCISM
 
-    KOS_fascism:0 "National Kosovar State"
-    KOS_fascism_DEF:0 "the National Kosovar State"
-    KOS_fascism_ADJ:0 "Kosovar"
+    KOS_ultranationalism:0 "National Kosovar State"
+    KOS_ultranationalism_DEF:0 "the National Kosovar State"
+    KOS_ultranationalism_ADJ:0 "Kosovar"
 
    #NEUTRALITY
 
-    KOS_neutrality:0 "Republic of Kosovo"
-    KOS_neutrality_DEF:0 "the Republic of Kosovo"
-    KOS_neutrality_ADJ:0 "Kosovar"
+    KOS_despotism:0 "Republic of Kosovo"
+    KOS_despotism_DEF:0 "the Republic of Kosovo"
+    KOS_despotism_ADJ:0 "Kosovar"
 
    #TAG
 
@@ -2103,21 +2103,21 @@
 
    #DEMOCRATIC
 
-    KUB_democratic:0 "Kuban People's Republic"
-    KUB_democratic_DEF:0 "the Kuban People's Republic"
-    KUB_democratic_ADJ:0 "Kubanian"
+    KUB_liberalism:0 "Kuban People's Republic"
+    KUB_liberalism_DEF:0 "the Kuban People's Republic"
+    KUB_liberalism_ADJ:0 "Kubanian"
 
    #FASCISM
 
-    KUB_fascism:0 "Almighty Kuban Host"
-    KUB_fascism_DEF:0 "the Almighty Kuban Host"
-    KUB_fascism_ADJ:0 "Kubanian"
+    KUB_ultranationalism:0 "Almighty Kuban Host"
+    KUB_ultranationalism_DEF:0 "the Almighty Kuban Host"
+    KUB_ultranationalism_ADJ:0 "Kubanian"
 
    #NEUTRALITY
 
-    KUB_neutrality:0 "Kuban People's Republic"
-    KUB_neutrality_DEF:0 "the Kuban People's Republic"
-    KUB_neutrality_ADJ:0 "Kubanian"
+    KUB_despotism:0 "Kuban People's Republic"
+    KUB_despotism_DEF:0 "the Kuban People's Republic"
+    KUB_despotism_ADJ:0 "Kubanian"
 
    #TAG
 
@@ -2135,21 +2135,21 @@
 
    #DEMOCRATIC
 
-    KUR_democratic:0 "Republic of Kurdistan"
-    KUR_democratic_DEF:0 "the Republic of Kurdistan"
-    KUR_democratic_ADJ:0 "Kurdistani"
+    KUR_liberalism:0 "Republic of Kurdistan"
+    KUR_liberalism_DEF:0 "the Republic of Kurdistan"
+    KUR_liberalism_ADJ:0 "Kurdistani"
 
    #FASCISM
 
-    KUR_fascism:0 "Kurdish State"
-    KUR_fascism_DEF:0 "the Kurdish State"
-    KUR_fascism_ADJ:0 "Kurdistani"
+    KUR_ultranationalism:0 "Kurdish State"
+    KUR_ultranationalism_DEF:0 "the Kurdish State"
+    KUR_ultranationalism_ADJ:0 "Kurdistani"
 
    #NEUTRALITY
 
-    KUR_neutrality:0 "Kingdom of Kurdistan"
-    KUR_neutrality_DEF:0 "the Kingdom of Kurdistan"
-    KUR_neutrality_ADJ:0 "Kurdistani"
+    KUR_despotism:0 "Kingdom of Kurdistan"
+    KUR_despotism_DEF:0 "the Kingdom of Kurdistan"
+    KUR_despotism_ADJ:0 "Kurdistani"
 
    #TAG
 
@@ -2167,21 +2167,21 @@
 
    #DEMOCRATIC
 
-    KUW_democratic:0 "Republic of Kuwait"
-    KUW_democratic_DEF:0 "the Republic of Kuwait"
-    KUW_democratic_ADJ:0 "Kuwaiti"
+    KUW_liberalism:0 "Republic of Kuwait"
+    KUW_liberalism_DEF:0 "the Republic of Kuwait"
+    KUW_liberalism_ADJ:0 "Kuwaiti"
 
    #FASCISM
 
-    KUW_fascism:0 "Republic of Kuwait"
-    KUW_fascism_DEF:0 "the Republic of Kuwait"
-    KUW_fascism_ADJ:0 "Kuwaiti"
+    KUW_ultranationalism:0 "Republic of Kuwait"
+    KUW_ultranationalism_DEF:0 "the Republic of Kuwait"
+    KUW_ultranationalism_ADJ:0 "Kuwaiti"
 
    #NEUTRALITY
 
-    KUW_neutrality:0 "Sheikhdom of Kuwait"
-    KUW_neutrality_DEF:0 "the Sheikhdom of Kuwait"
-    KUW_neutrality_ADJ:0 "Kuwaiti"
+    KUW_despotism:0 "Sheikhdom of Kuwait"
+    KUW_despotism_DEF:0 "the Sheikhdom of Kuwait"
+    KUW_despotism_ADJ:0 "Kuwaiti"
 
    #TAG
 
@@ -2199,21 +2199,21 @@
 
    #DEMOCRATIC
 
-    LAT_democratic:0 "Republic of Latvia"
-    LAT_democratic_DEF:0 "the Republic of Latvia"
-    LAT_democratic_ADJ:0 "Latvian"
+    LAT_liberalism:0 "Republic of Latvia"
+    LAT_liberalism_DEF:0 "the Republic of Latvia"
+    LAT_liberalism_ADJ:0 "Latvian"
 
    #FASCISM
 
-    LAT_fascism:0 "Latvian State"
-    LAT_fascism_DEF:0 "the Latvian State"
-    LAT_fascism_ADJ:0 "Latvian"
+    LAT_ultranationalism:0 "Latvian State"
+    LAT_ultranationalism_DEF:0 "the Latvian State"
+    LAT_ultranationalism_ADJ:0 "Latvian"
 
    #NEUTRALITY
 
-    LAT_neutrality:0 "Republic of Latvia"
-    LAT_neutrality_DEF:0 "the Republic of Latvia"
-    LAT_neutrality_ADJ:0 "Latvian"
+    LAT_despotism:0 "Republic of Latvia"
+    LAT_despotism_DEF:0 "the Republic of Latvia"
+    LAT_despotism_ADJ:0 "Latvian"
 
    #TAG
 
@@ -2231,21 +2231,21 @@
 
    #DEMOCRATIC
 
-    LEB_democratic:0 "Lebanese Republic"
-    LEB_democratic_DEF:0 "the Lebanese Republic"
-    LEB_democratic_ADJ:0 "Lebanese"
+    LEB_liberalism:0 "Lebanese Republic"
+    LEB_liberalism_DEF:0 "the Lebanese Republic"
+    LEB_liberalism_ADJ:0 "Lebanese"
 
    #FASCISM
 
-    LEB_fascism:0 "Lebanese State"
-    LEB_fascism_DEF:0 "the Lebanese State"
-    LEB_fascism_ADJ:0 "Lebanese"
+    LEB_ultranationalism:0 "Lebanese State"
+    LEB_ultranationalism_DEF:0 "the Lebanese State"
+    LEB_ultranationalism_ADJ:0 "Lebanese"
 
    #NEUTRALITY
 
-    LEB_neutrality:0 "Lebanese Republic"
-    LEB_neutrality_DEF:0 "the Lebanese Republic"
-    LEB_neutrality_ADJ:0 "Lebanese"
+    LEB_despotism:0 "Lebanese Republic"
+    LEB_despotism_DEF:0 "the Lebanese Republic"
+    LEB_despotism_ADJ:0 "Lebanese"
 
    #TAG
 
@@ -2263,21 +2263,21 @@
 
    #DEMOCRATIC
 
-    LBA_democratic:0 "Libyan Republic"
-    LBA_democratic_DEF:0 "the Libyan Republic"
-    LBA_democratic_ADJ:0 "Libyan"
+    LBA_liberalism:0 "Libyan Republic"
+    LBA_liberalism_DEF:0 "the Libyan Republic"
+    LBA_liberalism_ADJ:0 "Libyan"
 
    #FASCISM
 
-    LBA_fascism:0 "Libyan State"
-    LBA_fascism_DEF:0 "the Libyan State"
-    LBA_fascism_ADJ:0 "Libyan"
+    LBA_ultranationalism:0 "Libyan State"
+    LBA_ultranationalism_DEF:0 "the Libyan State"
+    LBA_ultranationalism_ADJ:0 "Libyan"
 
    #NEUTRALITY
 
-    LBA_neutrality:0 "United Kingdom of Libya"
-    LBA_neutrality_DEF:0 "the United Kingdom of Libya"
-    LBA_neutrality_ADJ:0 "Libyan"
+    LBA_despotism:0 "United Kingdom of Libya"
+    LBA_despotism_DEF:0 "the United Kingdom of Libya"
+    LBA_despotism_ADJ:0 "Libyan"
 
    #TAG
 
@@ -2295,21 +2295,21 @@
 
    #DEMOCRATIC
 
-    LIT_democratic:0 "Republic of Lithuania"
-    LIT_democratic_DEF:0 "the Republic of Lithuania"
-    LIT_democratic_ADJ:0 "Lithuanian"
+    LIT_liberalism:0 "Republic of Lithuania"
+    LIT_liberalism_DEF:0 "the Republic of Lithuania"
+    LIT_liberalism_ADJ:0 "Lithuanian"
 
    #FASCISM
 
-    LIT_fascism:0 "Lithuanian State"
-    LIT_fascism_DEF:0 "the Lithuanian State"
-    LIT_fascism_ADJ:0 "Lithuanian"
+    LIT_ultranationalism:0 "Lithuanian State"
+    LIT_ultranationalism_DEF:0 "the Lithuanian State"
+    LIT_ultranationalism_ADJ:0 "Lithuanian"
 
    #NEUTRALITY
 
-    LIT_neutrality:0 "Republic of Lithuania"
-    LIT_neutrality_DEF:0 "the Republic of Lithuania"
-    LIT_neutrality_ADJ:0 "Lithuanian"
+    LIT_despotism:0 "Republic of Lithuania"
+    LIT_despotism_DEF:0 "the Republic of Lithuania"
+    LIT_despotism_ADJ:0 "Lithuanian"
 
    #TAG
 
@@ -2327,21 +2327,21 @@
 
    #DEMOCRATIC
 
-    LUX_democratic:0 "Grand Duchy of Luxembourg"
-    LUX_democratic_DEF:0 "the Grand Duchy of Luxembourg"
-    LUX_democratic_ADJ:0 "Luxembourger"
+    LUX_liberalism:0 "Grand Duchy of Luxembourg"
+    LUX_liberalism_DEF:0 "the Grand Duchy of Luxembourg"
+    LUX_liberalism_ADJ:0 "Luxembourger"
 
    #FASCISM
 
-    LUX_fascism:0 "State of Luxembourg"
-    LUX_fascism_DEF:0 "the State of Luxembourg"
-    LUX_fascism_ADJ:0 "Luxembourger"
+    LUX_ultranationalism:0 "State of Luxembourg"
+    LUX_ultranationalism_DEF:0 "the State of Luxembourg"
+    LUX_ultranationalism_ADJ:0 "Luxembourger"
 
    #NEUTRALITY
 
-    LUX_neutrality:0 "Grand Duchy of Luxembourg"
-    LUX_neutrality_DEF:0 "the Grand Duchy of Luxembourg"
-    LUX_neutrality_ADJ:0 "Luxembourger"
+    LUX_despotism:0 "Grand Duchy of Luxembourg"
+    LUX_despotism_DEF:0 "the Grand Duchy of Luxembourg"
+    LUX_despotism_ADJ:0 "Luxembourger"
 
    #TAG
 
@@ -2359,21 +2359,21 @@
 
    #DEMOCRATIC
 
-    MAC_democratic:0 "Republic of Macedonia"
-    MAC_democratic_DEF:0 "the Republic of Macedonia"
-    MAC_democratic_ADJ:0 "Macedonian"
+    MAC_liberalism:0 "Republic of Macedonia"
+    MAC_liberalism_DEF:0 "the Republic of Macedonia"
+    MAC_liberalism_ADJ:0 "Macedonian"
 
    #FASCISM
 
-    MAC_fascism:0 "Macedonian State"
-    MAC_fascism_DEF:0 "the Macedonian State"
-    MAC_fascism_ADJ:0 "Macedonian"
+    MAC_ultranationalism:0 "Macedonian State"
+    MAC_ultranationalism_DEF:0 "the Macedonian State"
+    MAC_ultranationalism_ADJ:0 "Macedonian"
 
    #NEUTRALITY
 
-    MAC_neutrality:0 "Republic of Macedonia"
-    MAC_neutrality_DEF:0 "the Republic of Macedonia"
-    MAC_neutrality_ADJ:0 "Macedonian"
+    MAC_despotism:0 "Republic of Macedonia"
+    MAC_despotism_DEF:0 "the Republic of Macedonia"
+    MAC_despotism_ADJ:0 "Macedonian"
 
    #TAG
 
@@ -2391,21 +2391,21 @@
 
    #DEMOCRATIC
 
-    MLT_democratic:0 "Republic of Malta"
-    MLT_democratic_DEF:0 "the Republic of Malta"
-    MLT_democratic_ADJ:0 "Maltese"
+    MLT_liberalism:0 "Republic of Malta"
+    MLT_liberalism_DEF:0 "the Republic of Malta"
+    MLT_liberalism_ADJ:0 "Maltese"
 
    #FASCISM
 
-    MLT_fascism:0 "Maltese Social Republic"
-    MLT_fascism_DEF:0 "the Maltese Social Republic"
-    MLT_fascism_ADJ:0 "Maltese"
+    MLT_ultranationalism:0 "Maltese Social Republic"
+    MLT_ultranationalism_DEF:0 "the Maltese Social Republic"
+    MLT_ultranationalism_ADJ:0 "Maltese"
 
    #NEUTRALITY
 
-    MLT_neutrality:0 "State of Malta"
-    MLT_neutrality_DEF:0 "the State of Malta"
-    MLT_neutrality_ADJ:0 "Maltese"
+    MLT_despotism:0 "State of Malta"
+    MLT_despotism_DEF:0 "the State of Malta"
+    MLT_despotism_ADJ:0 "Maltese"
 
    #TAG
 
@@ -2423,21 +2423,21 @@
 
    #DEMOCRATIC
 
-    MEL_democratic:0 "Republic of Mari El"
-    MEL_democratic_DEF:0 "the Republic of Mari El"
-    MEL_democratic_ADJ:0 "Mari"
+    MEL_liberalism:0 "Republic of Mari El"
+    MEL_liberalism_DEF:0 "the Republic of Mari El"
+    MEL_liberalism_ADJ:0 "Mari"
 
    #FASCISM
 
-    MEL_fascism:0 "Mari State"
-    MEL_fascism_DEF:0 "the Mari State"
-    MEL_fascism_ADJ:0 "Mari"
+    MEL_ultranationalism:0 "Mari State"
+    MEL_ultranationalism_DEF:0 "the Mari State"
+    MEL_ultranationalism_ADJ:0 "Mari"
 
    #NEUTRALITY
 
-    MEL_neutrality:0 "Republic of Mari El"
-    MEL_neutrality_DEF:0 "the Republic of Mari El"
-    MEL_neutrality_ADJ:0 "Mari"
+    MEL_despotism:0 "Republic of Mari El"
+    MEL_despotism_DEF:0 "the Republic of Mari El"
+    MEL_despotism_ADJ:0 "Mari"
 
    #TAG
 
@@ -2455,21 +2455,21 @@
 
    #DEMOCRATIC
 
-    MRT_democratic:0 "Islamic Republic of Mauritania"
-    MRT_democratic_DEF:0 "the Islamic Republic of Mauritania"
-    MRT_democratic_ADJ:0 "Mauritanian"
+    MRT_liberalism:0 "Islamic Republic of Mauritania"
+    MRT_liberalism_DEF:0 "the Islamic Republic of Mauritania"
+    MRT_liberalism_ADJ:0 "Mauritanian"
 
    #FASCISM
 
-    MRT_fascism:0 "Mauritanian State"
-    MRT_fascism_DEF:0 "the Mauritanian State"
-    MRT_fascism_ADJ:0 "Mauritanian"
+    MRT_ultranationalism:0 "Mauritanian State"
+    MRT_ultranationalism_DEF:0 "the Mauritanian State"
+    MRT_ultranationalism_ADJ:0 "Mauritanian"
 
    #NEUTRALITY
 
-    MRT_neutrality:0 "Islamic Republic of Mauritania"
-    MRT_neutrality_DEF:0 "the Islamic Republic of Mauritania"
-    MRT_neutrality_ADJ:0 "Mauritanian"
+    MRT_despotism:0 "Islamic Republic of Mauritania"
+    MRT_despotism_DEF:0 "the Islamic Republic of Mauritania"
+    MRT_despotism_ADJ:0 "Mauritanian"
 
    #TAG
 
@@ -2487,21 +2487,21 @@
 
    #DEMOCRATIC
 
-    MOL_democratic:0 "Moldavian Democratic Republic"
-    MOL_democratic_DEF:0 "the Moldavian Democratic Republic"
-    MOL_democratic_ADJ:0 "Moldavian"
+    MOL_liberalism:0 "Moldavian Democratic Republic"
+    MOL_liberalism_DEF:0 "the Moldavian Democratic Republic"
+    MOL_liberalism_ADJ:0 "Moldavian"
 
    #FASCISM
 
-    MOL_fascism:0 "Legionary State of Moldavia"
-    MOL_fascism_DEF:0 "the Legionary State of Moldavia"
-    MOL_fascism_ADJ:0 "Moldavian"
+    MOL_ultranationalism:0 "Legionary State of Moldavia"
+    MOL_ultranationalism_DEF:0 "the Legionary State of Moldavia"
+    MOL_ultranationalism_ADJ:0 "Moldavian"
 
    #NEUTRALITY
 
-    MOL_neutrality:0 "Principality of Moldavia"
-    MOL_neutrality_DEF:0 "the Principality of Moldavia"
-    MOL_neutrality_ADJ:0 "Moldavian"
+    MOL_despotism:0 "Principality of Moldavia"
+    MOL_despotism_DEF:0 "the Principality of Moldavia"
+    MOL_despotism_ADJ:0 "Moldavian"
 
    #TAG
 
@@ -2519,21 +2519,21 @@
 
    #DEMOCRATIC
 
-    MNT_democratic:0 "State of Montenegro"
-    MNT_democratic_DEF:0 "the State of Montenegro"
-    MNT_democratic_ADJ:0 "Montenegrin"
+    MNT_liberalism:0 "State of Montenegro"
+    MNT_liberalism_DEF:0 "the State of Montenegro"
+    MNT_liberalism_ADJ:0 "Montenegrin"
 
    #FASCISM
 
-    MNT_fascism:0 "Montenegrin State"
-    MNT_fascism_DEF:0 "the Montenegrin State"
-    MNT_fascism_ADJ:0 "Montenegrin"
+    MNT_ultranationalism:0 "Montenegrin State"
+    MNT_ultranationalism_DEF:0 "the Montenegrin State"
+    MNT_ultranationalism_ADJ:0 "Montenegrin"
 
    #NEUTRALITY
 
-    MNT_neutrality:0 "Kingdom of Montenegro"
-    MNT_neutrality_DEF:0 "the Kingdom of Montenegro"
-    MNT_neutrality_ADJ:0 "Montenegrin"
+    MNT_despotism:0 "Kingdom of Montenegro"
+    MNT_despotism_DEF:0 "the Kingdom of Montenegro"
+    MNT_despotism_ADJ:0 "Montenegrin"
 
    #TAG
 
@@ -2551,21 +2551,21 @@
 
    #DEMOCRATIC
 
-    MOR_democratic:0 "Republic of Morocco"
-    MOR_democratic_DEF:0 "the Republic of Morocco"
-    MOR_democratic_ADJ:0 "Moroccan"
+    MOR_liberalism:0 "Republic of Morocco"
+    MOR_liberalism_DEF:0 "the Republic of Morocco"
+    MOR_liberalism_ADJ:0 "Moroccan"
 
    #FASCISM
 
-    MOR_fascism:0 "Moroccan State"
-    MOR_fascism_DEF:0 "the Moroccan State"
-    MOR_fascism_ADJ:0 "Moroccan"
+    MOR_ultranationalism:0 "Moroccan State"
+    MOR_ultranationalism_DEF:0 "the Moroccan State"
+    MOR_ultranationalism_ADJ:0 "Moroccan"
 
    #NEUTRALITY
 
-    MOR_neutrality:0 "Kingdom of Morocco"
-    MOR_neutrality_DEF:0 "the Kingdom of Morocco"
-    MOR_neutrality_ADJ:0 "Moroccan"
+    MOR_despotism:0 "Kingdom of Morocco"
+    MOR_despotism_DEF:0 "the Kingdom of Morocco"
+    MOR_despotism_ADJ:0 "Moroccan"
 
    #TAG
 
@@ -2583,21 +2583,21 @@
 
   #DEMOCRATIC
 
-   NEN_democratic:0 "Nenets Republic"
-   NEN_democratic_DEF:0 "the Nenets Republic"
-   NEN_democratic_ADJ:0 "Nenets"
+   NEN_liberalism:0 "Nenets Republic"
+   NEN_liberalism_DEF:0 "the Nenets Republic"
+   NEN_liberalism_ADJ:0 "Nenets"
 
   #FASCISM
 
-   NEN_fascism:0 "Nenets State"
-   NEN_fascism_DEF:0 "the Nenets State"
-   NEN_fascism_ADJ:0 "Nenets"
+   NEN_ultranationalism:0 "Nenets State"
+   NEN_ultranationalism_DEF:0 "the Nenets State"
+   NEN_ultranationalism_ADJ:0 "Nenets"
 
   #NEUTRALITY
 
-   NEN_neutrality:0 "Nenets State"
-   NEN_neutrality_DEF:0 "the Nenets State"
-   NEN_neutrality_ADJ:0 "Nenets"
+   NEN_despotism:0 "Nenets State"
+   NEN_despotism_DEF:0 "the Nenets State"
+   NEN_despotism_ADJ:0 "Nenets"
 
   #TAG
 
@@ -2615,21 +2615,21 @@
 
   #DEMOCRATIC
 
-   HOL_democratic:0 "Kingdom of the Netherlands"
-   HOL_democratic_DEF:0 "the Kingdom of the Netherlands"
-   HOL_democratic_ADJ:0 "Dutch"
+   HOL_liberalism:0 "Kingdom of the Netherlands"
+   HOL_liberalism_DEF:0 "the Kingdom of the Netherlands"
+   HOL_liberalism_ADJ:0 "Dutch"
 
   #FASCISM
 
-   HOL_fascism:0 "Kingdom of Dutchland"
-   HOL_fascism_DEF:0 "the Kingdom of Dutchland"
-   HOL_fascism_ADJ:0 "Dutch"
+   HOL_ultranationalism:0 "Kingdom of Dutchland"
+   HOL_ultranationalism_DEF:0 "the Kingdom of Dutchland"
+   HOL_ultranationalism_ADJ:0 "Dutch"
 
   #NEUTRALITY
 
-   HOL_neutrality:0 "Kingdom of the Netherlands"
-   HOL_neutrality_DEF:0 "the Kingdom of the Netherlands"
-   HOL_neutrality_ADJ:0 "Dutch"
+   HOL_despotism:0 "Kingdom of the Netherlands"
+   HOL_despotism_DEF:0 "the Kingdom of the Netherlands"
+   HOL_despotism_ADJ:0 "Dutch"
 
   #TAG
 
@@ -2647,21 +2647,21 @@
 
    #DEMOCRATIC
 
-    NOA_democratic:0 "North Ossetian Republic"
-    NOA_democratic_DEF:0 "the North Ossetian Republic"
-    NOA_democratic_ADJ:0 "North Ossetian"
+    NOA_liberalism:0 "North Ossetian Republic"
+    NOA_liberalism_DEF:0 "the North Ossetian Republic"
+    NOA_liberalism_ADJ:0 "North Ossetian"
 
    #FASCISM
 
-    NOA_fascism:0 "North Ossetian State"
-    NOA_fascism_DEF:0 "the North Ossetian State"
-    NOA_fascism_ADJ:0 "North Ossetian"
+    NOA_ultranationalism:0 "North Ossetian State"
+    NOA_ultranationalism_DEF:0 "the North Ossetian State"
+    NOA_ultranationalism_ADJ:0 "North Ossetian"
 
    #NEUTRALITY
 
-    NOA_neutrality:0 "North Ossetian State"
-    NOA_neutrality_DEF:0 "the North Ossetian State"
-    NOA_neutrality_ADJ:0 "North Ossetian"
+    NOA_despotism:0 "North Ossetian State"
+    NOA_despotism_DEF:0 "the North Ossetian State"
+    NOA_despotism_ADJ:0 "North Ossetian"
 
    #TAG
 
@@ -2679,21 +2679,21 @@
 
    #DEMOCRATIC
 
-    NIR_democratic:0 "Republic of Northern Ireland"
-    NIR_democratic_DEF:0 "the Republic of Northern Ireland"
-    NIR_democratic_ADJ:0 "Northern Irish"
+    NIR_liberalism:0 "Republic of Northern Ireland"
+    NIR_liberalism_DEF:0 "the Republic of Northern Ireland"
+    NIR_liberalism_ADJ:0 "Northern Irish"
 
    #FASCISM
 
-    NIR_fascism:0 "Republic of Ulster"
-    NIR_fascism_DEF:0 "the Republic of Ulster"
-    NIR_fascism_ADJ:0 "Ulsterian"
+    NIR_ultranationalism:0 "Republic of Ulster"
+    NIR_ultranationalism_DEF:0 "the Republic of Ulster"
+    NIR_ultranationalism_ADJ:0 "Ulsterian"
 
    #NEUTRALITY
 
-    NIR_neutrality:0 "State of Northern Ireland"
-    NIR_neutrality_DEF:0 "the State of Northern Ireland"
-    NIR_neutrality_ADJ:0 "Northern Irish"
+    NIR_despotism:0 "State of Northern Ireland"
+    NIR_despotism_DEF:0 "the State of Northern Ireland"
+    NIR_despotism_ADJ:0 "Northern Irish"
 
    #TAG
 
@@ -2711,21 +2711,21 @@
 
    #DEMOCRATIC
 
-    NOR_democratic:0 "Kingdom of Norway"
-    NOR_democratic_DEF:0 "the Kingdom of Norway"
-    NOR_democratic_ADJ:0 "Norwegian"
+    NOR_liberalism:0 "Kingdom of Norway"
+    NOR_liberalism_DEF:0 "the Kingdom of Norway"
+    NOR_liberalism_ADJ:0 "Norwegian"
 
    #FASCISM
 
-    NOR_fascism:0 "National State of Norway"
-    NOR_fascism_DEF:0 "the National State of Norway"
-    NOR_fascism_ADJ:0 "Norwegian"
+    NOR_ultranationalism:0 "National State of Norway"
+    NOR_ultranationalism_DEF:0 "the National State of Norway"
+    NOR_ultranationalism_ADJ:0 "Norwegian"
 
    #NEUTRALITY
 
-    NOR_neutrality:0 "Kingdom of Norway"
-    NOR_neutrality_DEF:0 "the Kingdom of Norway"
-    NOR_neutrality_ADJ:0 "Norwegian"
+    NOR_despotism:0 "Kingdom of Norway"
+    NOR_despotism_DEF:0 "the Kingdom of Norway"
+    NOR_despotism_ADJ:0 "Norwegian"
 
    #TAG
 
@@ -2743,21 +2743,21 @@
 
    #DEMOCRATIC
 
-    OCC_democratic:0 "Occitan Republic"
-    OCC_democratic_DEF:0 "the Occitan Republic"
-    OCC_democratic_ADJ:0 "Occitan"
+    OCC_liberalism:0 "Occitan Republic"
+    OCC_liberalism_DEF:0 "the Occitan Republic"
+    OCC_liberalism_ADJ:0 "Occitan"
 
    #FASCISM
 
-    OCC_fascism:0 "Occitan Social Republic"
-    OCC_fascism_DEF:0 "the Occitan Social Republic"
-    OCC_fascism_ADJ:0 "Occitan"
+    OCC_ultranationalism:0 "Occitan Social Republic"
+    OCC_ultranationalism_DEF:0 "the Occitan Social Republic"
+    OCC_ultranationalism_ADJ:0 "Occitan"
 
    #NEUTRALITY
 
-    OCC_neutrality:0 "Occitan State"
-    OCC_neutrality_DEF:0 "the Occitan State"
-    OCC_neutrality_ADJ:0 "Occitan"
+    OCC_despotism:0 "Occitan State"
+    OCC_despotism_DEF:0 "the Occitan State"
+    OCC_despotism_ADJ:0 "Occitan"
 
    #TAG
 
@@ -2775,21 +2775,21 @@
 
    #DEMOCRATIC
 
-    OMA_democratic:0 "Republic of Oman"
-    OMA_democratic_DEF:0 "the Republic of Oman"
-    OMA_democratic_ADJ:0 "Omani"
+    OMA_liberalism:0 "Republic of Oman"
+    OMA_liberalism_DEF:0 "the Republic of Oman"
+    OMA_liberalism_ADJ:0 "Omani"
 
    #FASCISM
 
-    OMA_fascism:0 "Omani State"
-    OMA_fascism_DEF:0 "the Omani State"
-    OMA_fascism_ADJ:0 "Omani"
+    OMA_ultranationalism:0 "Omani State"
+    OMA_ultranationalism_DEF:0 "the Omani State"
+    OMA_ultranationalism_ADJ:0 "Omani"
 
    #NEUTRALITY
 
-    OMA_neutrality:0 "Sultanate of Muscat and Oman"
-    OMA_neutrality_DEF:0 "the Sultanate of Muscat and Oman"
-    OMA_neutrality_ADJ:0 "Omani"
+    OMA_despotism:0 "Sultanate of Muscat and Oman"
+    OMA_despotism_DEF:0 "the Sultanate of Muscat and Oman"
+    OMA_despotism_ADJ:0 "Omani"
 
    #TAG
 
@@ -2807,21 +2807,21 @@
 
    #DEMOCRATIC
 
-    PAL_democratic:0 "State of Palestine"
-    PAL_democratic_DEF:0 "the State of Palestine"
-    PAL_democratic_ADJ:0 "Palestinian"
+    PAL_liberalism:0 "State of Palestine"
+    PAL_liberalism_DEF:0 "the State of Palestine"
+    PAL_liberalism_ADJ:0 "Palestinian"
 
    #FASCISM
 
-    PAL_fascism:0 "State of Palestine"
-    PAL_fascism_DEF:0 "the State of Palestine"
-    PAL_fascism_ADJ:0 "Palestinian"
+    PAL_ultranationalism:0 "State of Palestine"
+    PAL_ultranationalism_DEF:0 "the State of Palestine"
+    PAL_ultranationalism_ADJ:0 "Palestinian"
 
    #NEUTRALITY
 
-    PAL_neutrality:0 "State of Palestine"
-    PAL_neutrality_DEF:0 "the State of Palestine"
-    PAL_neutrality_ADJ:0 "Palestinian"
+    PAL_despotism:0 "State of Palestine"
+    PAL_despotism_DEF:0 "the State of Palestine"
+    PAL_despotism_ADJ:0 "Palestinian"
 
    #TAG
 
@@ -2839,21 +2839,21 @@
 
    #DEMOCRATIC
 
-    POL_democratic:0 "Republic of Poland"
-    POL_democratic_DEF:0 "the Republic of Poland"
-    POL_democratic_ADJ:0 "Polish"
+    POL_liberalism:0 "Republic of Poland"
+    POL_liberalism_DEF:0 "the Republic of Poland"
+    POL_liberalism_ADJ:0 "Polish"
 
    #FASCISM
     POL_RUS_subject: "Kingdom of Poland"
-    POL_fascism:0 "National State of Poland"
-    POL_fascism_DEF:0 "the National State of Poland"
-    POL_fascism_ADJ:0 "Polish"
+    POL_ultranationalism:0 "National State of Poland"
+    POL_ultranationalism_DEF:0 "the National State of Poland"
+    POL_ultranationalism_ADJ:0 "Polish"
 
    #NEUTRALITY
 
-    POL_neutrality:0 "Republic of Poland"
-    POL_neutrality_DEF:0 "the Republic of Poland"
-    POL_neutrality_ADJ:0 "Polish"
+    POL_despotism:0 "Republic of Poland"
+    POL_despotism_DEF:0 "the Republic of Poland"
+    POL_despotism_ADJ:0 "Polish"
 
    #TAG
 
@@ -2871,21 +2871,21 @@
 
    #DEMOCRATIC
 
-    POR_democratic:0 "Portuguese Republic"
-    POR_democratic_DEF:0 "the Portuguese Republic"
-    POR_democratic_ADJ:0 "Portuguese"
+    POR_liberalism:0 "Portuguese Republic"
+    POR_liberalism_DEF:0 "the Portuguese Republic"
+    POR_liberalism_ADJ:0 "Portuguese"
 
    #FASCISM
 
-    POR_fascism:0 "Portuguese National Republic"
-    POR_fascism_DEF:0 "the Portuguese National Republic"
-    POR_fascism_ADJ:0 "Portuguese"
+    POR_ultranationalism:0 "Portuguese National Republic"
+    POR_ultranationalism_DEF:0 "the Portuguese National Republic"
+    POR_ultranationalism_ADJ:0 "Portuguese"
 
    #NEUTRALITY
 
-    POR_neutrality:0 "Portuguese Republic"
-    POR_neutrality_DEF:0 "the Portuguese Republic"
-    POR_neutrality_ADJ:0 "Portuguese"
+    POR_despotism:0 "Portuguese Republic"
+    POR_despotism_DEF:0 "the Portuguese Republic"
+    POR_despotism_ADJ:0 "Portuguese"
 
    #TAG
 
@@ -2903,21 +2903,21 @@
 
    #DEMOCRATIC
 
-    PRE_democratic:0 "Free State of Prussia"
-    PRE_democratic_DEF:0 "the Free State of Prussia"
-    PRE_democratic_ADJ:0 "Prussian"
+    PRE_liberalism:0 "Free State of Prussia"
+    PRE_liberalism_DEF:0 "the Free State of Prussia"
+    PRE_liberalism_ADJ:0 "Prussian"
 
    #FASCISM
 
-    PRE_fascism:0 "Prussian Reich"
-    PRE_fascism_DEF:0 "the Prussian Reich"
-    PRE_fascism_ADJ:0 "Prussian"
+    PRE_ultranationalism:0 "Prussian Reich"
+    PRE_ultranationalism_DEF:0 "the Prussian Reich"
+    PRE_ultranationalism_ADJ:0 "Prussian"
 
    #NEUTRALITY
 
-    PRE_neutrality:0 "Kingdom of Prussia"
-    PRE_neutrality_DEF:0 "the Kingdom of Prussia"
-    PRE_neutrality_ADJ:0 "Prussian"
+    PRE_despotism:0 "Kingdom of Prussia"
+    PRE_despotism_DEF:0 "the Kingdom of Prussia"
+    PRE_despotism_ADJ:0 "Prussian"
 
    #TAG
 
@@ -2935,21 +2935,21 @@
 
    #DEMOCRATIC
 
-    QAT_democratic:0 "Republic of Qatar"
-    QAT_democratic_DEF:0 "the Republic of Qatar"
-    QAT_democratic_ADJ:0 "Qatari"
+    QAT_liberalism:0 "Republic of Qatar"
+    QAT_liberalism_DEF:0 "the Republic of Qatar"
+    QAT_liberalism_ADJ:0 "Qatari"
 
    #FASCISM
 
-    QAT_fascism:0 "State of Qatar"
-    QAT_fascism_DEF:0 "the State of Qatar"
-    QAT_fascism_ADJ:0 "Qatari"
+    QAT_ultranationalism:0 "State of Qatar"
+    QAT_ultranationalism_DEF:0 "the State of Qatar"
+    QAT_ultranationalism_ADJ:0 "Qatari"
 
    #NEUTRALITY
 
-    QAT_neutrality:0 "State of Qatar"
-    QAT_neutrality_DEF:0 "the State of Qatar"
-    QAT_neutrality_ADJ:0 "Qatari"
+    QAT_despotism:0 "State of Qatar"
+    QAT_despotism_DEF:0 "the State of Qatar"
+    QAT_despotism_ADJ:0 "Qatari"
 
    #TAG
 
@@ -2967,21 +2967,21 @@
 
    #DEMOCRATIC
 
-    RIF_democratic:0 "Republic of the Rif"
-    RIF_democratic_DEF:0 "the Republic of the Rif"
-    RIF_democratic_ADJ:0 "Rifian"
+    RIF_liberalism:0 "Republic of the Rif"
+    RIF_liberalism_DEF:0 "the Republic of the Rif"
+    RIF_liberalism_ADJ:0 "Rifian"
 
    #FASCISM
 
-    RIF_fascism:0 "Rifian State"
-    RIF_fascism_DEF:0 "the Rifian State"
-    RIF_fascism_ADJ:0 "Rifian"
+    RIF_ultranationalism:0 "Rifian State"
+    RIF_ultranationalism_DEF:0 "the Rifian State"
+    RIF_ultranationalism_ADJ:0 "Rifian"
 
    #NEUTRALITY
 
-    RIF_neutrality:0 "Republic of the Rif"
-    RIF_neutrality_DEF:0 "the Republic of the Rif"
-    RIF_neutrality_ADJ:0 "Rifian"
+    RIF_despotism:0 "Republic of the Rif"
+    RIF_despotism_DEF:0 "the Republic of the Rif"
+    RIF_despotism_ADJ:0 "Rifian"
 
    #TAG
 
@@ -2999,21 +2999,21 @@
 
    #DEMOCRATIC
 
-    ROM_democratic:0 "Kingdom of Romania"
-    ROM_democratic_DEF:0 "the Kingdom of Romania"
-    ROM_democratic_ADJ:0 "Rumanian"
+    ROM_liberalism:0 "Kingdom of Romania"
+    ROM_liberalism_DEF:0 "the Kingdom of Romania"
+    ROM_liberalism_ADJ:0 "Rumanian"
 
    #FASCISM
 
-    ROM_fascism:0 "Rumanian National Legionary State"
-    ROM_fascism_DEF:0 "the Rumanian National Legionary State"
-    ROM_fascism_ADJ:0 "Rumanian"
+    ROM_ultranationalism:0 "Rumanian National Legionary State"
+    ROM_ultranationalism_DEF:0 "the Rumanian National Legionary State"
+    ROM_ultranationalism_ADJ:0 "Rumanian"
 
    #NEUTRALITY
 
-    ROM_neutrality:0 "Kingdom of Rumania"
-    ROM_neutrality_DEF:0 "the Kingdom of Rumania"
-    ROM_neutrality_ADJ:0 "Rumanian"
+    ROM_despotism:0 "Kingdom of Rumania"
+    ROM_despotism_DEF:0 "the Kingdom of Rumania"
+    ROM_despotism_ADJ:0 "Rumanian"
 
    #TAG
 
@@ -3031,21 +3031,21 @@
 
    #DEMOCRATIC
 
-    SAU_democratic:0 "Arabian Republic"
-    SAU_democratic_DEF:0 "the Arabian Republic"
-    SAU_democratic_ADJ:0 "Arabian"
+    SAU_liberalism:0 "Arabian Republic"
+    SAU_liberalism_DEF:0 "the Arabian Republic"
+    SAU_liberalism_ADJ:0 "Arabian"
 
    #FASCISM
 
-    SAU_fascism:0 "Arab State"
-    SAU_fascism_DEF:0 "the Arab State"
-    SAU_fascism_ADJ:0 "Arab"
+    SAU_ultranationalism:0 "Arab State"
+    SAU_ultranationalism_DEF:0 "the Arab State"
+    SAU_ultranationalism_ADJ:0 "Arab"
 
    #NEUTRALITY
 
-    SAU_neutrality:0 "Arab Saudi Kingdom"
-    SAU_neutrality_DEF:0 "the Arab Saudi Kingdom"
-    SAU_neutrality_ADJ:0 "Arabian"
+    SAU_despotism:0 "Arab Saudi Kingdom"
+    SAU_despotism_DEF:0 "the Arab Saudi Kingdom"
+    SAU_despotism_ADJ:0 "Arabian"
 
    #TAG
 
@@ -3063,21 +3063,21 @@
 
    #DEMOCRATIC
 
-    SAX_democratic:0 "Free State of Saxony"
-    SAX_democratic_DEF:0 "the Free State of Saxony"
-    SAX_democratic_ADJ:0 "Saxon"
+    SAX_liberalism:0 "Free State of Saxony"
+    SAX_liberalism_DEF:0 "the Free State of Saxony"
+    SAX_liberalism_ADJ:0 "Saxon"
 
    #FASCISM
 
-    SAX_fascism:0 "Saxon State"
-    SAX_fascism_DEF:0 "the Saxon State"
-    SAX_fascism_ADJ:0 "Saxon"
+    SAX_ultranationalism:0 "Saxon State"
+    SAX_ultranationalism_DEF:0 "the Saxon State"
+    SAX_ultranationalism_ADJ:0 "Saxon"
 
    #NEUTRALITY
 
-    SAX_neutrality:0 "Kingdom of Saxony"
-    SAX_neutrality_DEF:0 "the Kingdom of Saxony"
-    SAX_neutrality_ADJ:0 "Saxon"
+    SAX_despotism:0 "Kingdom of Saxony"
+    SAX_despotism_DEF:0 "the Kingdom of Saxony"
+    SAX_despotism_ADJ:0 "Saxon"
 
    #TAG
 
@@ -3095,21 +3095,21 @@
 
    #DEMOCRATIC
 
-    SHL_democratic:0 "Free State of Schleswig-Holstein"
-    SHL_democratic_DEF:0 "the Free State of Schleswig-Holstein"
-    SHL_democratic_ADJ:0 "Schleswig-Holsteiner"
+    SHL_liberalism:0 "Free State of Schleswig-Holstein"
+    SHL_liberalism_DEF:0 "the Free State of Schleswig-Holstein"
+    SHL_liberalism_ADJ:0 "Schleswig-Holsteiner"
 
    #FASCISM
 
-    SHL_fascism:0 "State of Schleswig-Holstein"
-    SHL_fascism_DEF:0 "the State of Schleswig-Holstein"
-    SHL_fascism_ADJ:0 "Schleswig-Holsteiner"
+    SHL_ultranationalism:0 "State of Schleswig-Holstein"
+    SHL_ultranationalism_DEF:0 "the State of Schleswig-Holstein"
+    SHL_ultranationalism_ADJ:0 "Schleswig-Holsteiner"
 
    #NEUTRALITY
 
-    SHL_neutrality:0 "Duchy of Schleswig-Holstein"
-    SHL_neutrality_DEF:0 "the Duchy of Schleswig-Holstein"
-    SHL_neutrality_ADJ:0 "Schleswig-Holsteiner"
+    SHL_despotism:0 "Duchy of Schleswig-Holstein"
+    SHL_despotism_DEF:0 "the Duchy of Schleswig-Holstein"
+    SHL_despotism_ADJ:0 "Schleswig-Holsteiner"
 
    #TAG
 
@@ -3127,21 +3127,21 @@
 
    #DEMOCRATIC
 
-    SCO_democratic:0 "Republic of Scotland"
-    SCO_democratic_DEF:0 "the Republic of Scotland"
-    SCO_democratic_ADJ:0 "Scottish"
+    SCO_liberalism:0 "Republic of Scotland"
+    SCO_liberalism_DEF:0 "the Republic of Scotland"
+    SCO_liberalism_ADJ:0 "Scottish"
 
    #FASCISM
 
-    SCO_fascism:0 "Scottish Commonwealth"
-    SCO_fascism_DEF:0 "the Scottish Commonwealth"
-    SCO_fascism_ADJ:0 "Scottish"
+    SCO_ultranationalism:0 "Scottish Commonwealth"
+    SCO_ultranationalism_DEF:0 "the Scottish Commonwealth"
+    SCO_ultranationalism_ADJ:0 "Scottish"
 
    #NEUTRALITY
 
-    SCO_neutrality:0 "Scottish Commonwealth"
-    SCO_neutrality_DEF:0 "the Scottish Commonwealth"
-    SCO_neutrality_ADJ:0 "Scottish"
+    SCO_despotism:0 "Scottish Commonwealth"
+    SCO_despotism_DEF:0 "the Scottish Commonwealth"
+    SCO_despotism_ADJ:0 "Scottish"
 
    #TAG
 
@@ -3159,21 +3159,21 @@
 
    #DEMOCRATIC
 
-    SER_democratic:0 "Republic of Serbia"
-    SER_democratic_DEF:0 "the Republic of Serbia"
-    SER_democratic_ADJ:0 "Serbian"
+    SER_liberalism:0 "Republic of Serbia"
+    SER_liberalism_DEF:0 "the Republic of Serbia"
+    SER_liberalism_ADJ:0 "Serbian"
 
    #FASCISM
 
-    SER_fascism:0 "National State of Serbia"
-    SER_fascism_DEF:0 "the National State of Serbia"
-    SER_fascism_ADJ:0 "Serbian"
+    SER_ultranationalism:0 "National State of Serbia"
+    SER_ultranationalism_DEF:0 "the National State of Serbia"
+    SER_ultranationalism_ADJ:0 "Serbian"
 
    #NEUTRALITY
 
-    SER_neutrality:0 "Kingdom of Serbia"
-    SER_neutrality_DEF:0 "the Kingdom of Serbia"
-    SER_neutrality_ADJ:0 "Serbian"
+    SER_despotism:0 "Kingdom of Serbia"
+    SER_despotism_DEF:0 "the Kingdom of Serbia"
+    SER_despotism_ADJ:0 "Serbian"
 
    #TAG
 
@@ -3191,21 +3191,21 @@
 
    #DEMOCRATIC
 
-    SIL_democratic:0 "Free State of Silesia"
-    SIL_democratic_DEF:0 "the Free State of Silesia"
-    SIL_democratic_ADJ:0 "Silesian"
+    SIL_liberalism:0 "Free State of Silesia"
+    SIL_liberalism_DEF:0 "the Free State of Silesia"
+    SIL_liberalism_ADJ:0 "Silesian"
 
    #FASCISM
 
-    SIL_fascism:0 "Silesian State"
-    SIL_fascism_DEF:0 "the Silesian State"
-    SIL_fascism_ADJ:0 "Silesian"
+    SIL_ultranationalism:0 "Silesian State"
+    SIL_ultranationalism_DEF:0 "the Silesian State"
+    SIL_ultranationalism_ADJ:0 "Silesian"
 
    #NEUTRALITY
 
-    SIL_neutrality:0 "Duchy of Silesia"
-    SIL_neutrality_DEF:0 "the Duchy of Silesia"
-    SIL_neutrality_ADJ:0 "Silesian"
+    SIL_despotism:0 "Duchy of Silesia"
+    SIL_despotism_DEF:0 "the Duchy of Silesia"
+    SIL_despotism_ADJ:0 "Silesian"
 
    #TAG
 
@@ -3223,21 +3223,21 @@
 
    #DEMOCRATIC
 
-    SLO_democratic:0 "Slovak Republic"
-    SLO_democratic_DEF:0 "the Slovak Republic"
-    SLO_democratic_ADJ:0 "Slovak"
+    SLO_liberalism:0 "Slovak Republic"
+    SLO_liberalism_DEF:0 "the Slovak Republic"
+    SLO_liberalism_ADJ:0 "Slovak"
 
    #FASCISM
 
-    SLO_fascism:0 "Slovak Republic"
-    SLO_fascism_DEF:0 "the Slovak Republic"
-    SLO_fascism_ADJ:0 "Slovak"
+    SLO_ultranationalism:0 "Slovak Republic"
+    SLO_ultranationalism_DEF:0 "the Slovak Republic"
+    SLO_ultranationalism_ADJ:0 "Slovak"
 
    #NEUTRALITY
 
-    SLO_neutrality:0 "Slovak Republic"
-    SLO_neutrality_DEF:0 "the Slovak Republic"
-    SLO_neutrality_ADJ:0 "Slovak"
+    SLO_despotism:0 "Slovak Republic"
+    SLO_despotism_DEF:0 "the Slovak Republic"
+    SLO_despotism_ADJ:0 "Slovak"
 
    #TAG
 
@@ -3255,21 +3255,21 @@
 
    #DEMOCRATIC
 
-    SLV_democratic:0 "Republic of Slovenia"
-    SLV_democratic_DEF:0 "the Republic of Slovenia"
-    SLV_democratic_ADJ:0 "Slovenian"
+    SLV_liberalism:0 "Republic of Slovenia"
+    SLV_liberalism_DEF:0 "the Republic of Slovenia"
+    SLV_liberalism_ADJ:0 "Slovenian"
 
    #FASCISM
 
-    SLV_fascism:0 "Slovene State"
-    SLV_fascism_DEF:0 "the Slovene State"
-    SLV_fascism_ADJ:0 "Slovenian"
+    SLV_ultranationalism:0 "Slovene State"
+    SLV_ultranationalism_DEF:0 "the Slovene State"
+    SLV_ultranationalism_ADJ:0 "Slovenian"
 
    #NEUTRALITY
 
-    SLV_neutrality:0 "State of Slovenia"
-    SLV_neutrality_DEF:0 "the State of Slovenia"
-    SLV_neutrality_ADJ:0 "Slovenian"
+    SLV_despotism:0 "State of Slovenia"
+    SLV_despotism_DEF:0 "the State of Slovenia"
+    SLV_despotism_ADJ:0 "Slovenian"
 
    #TAG
 
@@ -3287,21 +3287,21 @@
 
    #DEMOCRATIC
 
-    SOV_democratic:0 "Russian Democratic Federative Republic"
-    SOV_democratic_DEF:0 "the Russian Democratic Federative Republic"
-    SOV_democratic_ADJ:0 "Russian"
+    SOV_liberalism:0 "Russian Democratic Federative Republic"
+    SOV_liberalism_DEF:0 "the Russian Democratic Federative Republic"
+    SOV_liberalism_ADJ:0 "Russian"
 
    #FASCISM
 
-    SOV_fascism:0 "Russian Empire"
-    SOV_fascism_DEF:0 "the Russian National State"
-    SOV_fascism_ADJ:0 "Russian"
+    SOV_ultranationalism:0 "Russian Empire"
+    SOV_ultranationalism_DEF:0 "the Russian National State"
+    SOV_ultranationalism_ADJ:0 "Russian"
 
    #NEUTRALITY
 
-    SOV_neutrality:0 "Russian State"
-    SOV_neutrality_DEF:0 "the Russian State"
-    SOV_neutrality_ADJ:0 "Russian"
+    SOV_despotism:0 "Russian State"
+    SOV_despotism_DEF:0 "the Russian State"
+    SOV_despotism_ADJ:0 "Russian"
 
    #TAG
 
@@ -3321,21 +3321,21 @@
 
    #DEMOCRATIC
 
-    SPR_democratic:0 "Spanish Republic"
-    SPR_democratic_DEF:0 "the Spanish Republic"
-    SPR_democratic_ADJ:0 "Spanish"
+    SPR_liberalism:0 "Spanish Republic"
+    SPR_liberalism_DEF:0 "the Spanish Republic"
+    SPR_liberalism_ADJ:0 "Spanish"
 
    #FASCISM
 
-    SPR_fascism:0 "Spanish State"
-    SPR_fascism_DEF:0 "the Spanish State"
-    SPR_fascism_ADJ:0 "Spanish"
+    SPR_ultranationalism:0 "Spanish State"
+    SPR_ultranationalism_DEF:0 "the Spanish State"
+    SPR_ultranationalism_ADJ:0 "Spanish"
 
    #NEUTRALITY
 
-    SPR_neutrality:0 "Kingdom of Spain"
-    SPR_neutrality_DEF:0 "the Kingdom of Spain"
-    SPR_neutrality_ADJ:0 "Spanish"
+    SPR_despotism:0 "Kingdom of Spain"
+    SPR_despotism_DEF:0 "the Kingdom of Spain"
+    SPR_despotism_ADJ:0 "Spanish"
 
    #TAG
 
@@ -3385,21 +3385,21 @@
 
    #DEMOCRATIC
 
-    SWE_democratic:0 "Kingdom of Sweden"
-    SWE_democratic_DEF:0 "the Kingdom of Sweden"
-    SWE_democratic_ADJ:0 "Swedish"
+    SWE_liberalism:0 "Kingdom of Sweden"
+    SWE_liberalism_DEF:0 "the Kingdom of Sweden"
+    SWE_liberalism_ADJ:0 "Swedish"
 
    #FASCISM
 
-    SWE_fascism:0 "Swedish State"
-    SWE_fascism_DEF:0 "the Swedish State"
-    SWE_fascism_ADJ:0 "Swedish"
+    SWE_ultranationalism:0 "Swedish State"
+    SWE_ultranationalism_DEF:0 "the Swedish State"
+    SWE_ultranationalism_ADJ:0 "Swedish"
 
    #NEUTRALITY
 
-    SWE_neutrality:0 "Kingdom of Sweden"
-    SWE_neutrality_DEF:0 "the Kingdom of Sweden"
-    SWE_neutrality_ADJ:0 "Swedish"
+    SWE_despotism:0 "Kingdom of Sweden"
+    SWE_despotism_DEF:0 "the Kingdom of Sweden"
+    SWE_despotism_ADJ:0 "Swedish"
 
    #TAG
 
@@ -3417,21 +3417,21 @@
 
    #DEMOCRATIC
 
-    SWI_democratic:0 "Swiss Confederation"
-    SWI_democratic_DEF:0 "the Swiss Confederation"
-    SWI_democratic_ADJ:0 "Swiss"
+    SWI_liberalism:0 "Swiss Confederation"
+    SWI_liberalism_DEF:0 "the Swiss Confederation"
+    SWI_liberalism_ADJ:0 "Swiss"
 
    #FASCISM
 
-    SWI_fascism:0 "Swiss State"
-    SWI_fascism_DEF:0 "the Swiss State"
-    SWI_fascism_ADJ:0 "Swiss"
+    SWI_ultranationalism:0 "Swiss State"
+    SWI_ultranationalism_DEF:0 "the Swiss State"
+    SWI_ultranationalism_ADJ:0 "Swiss"
 
    #NEUTRALITY
 
-    SWI_neutrality:0 "Swiss Confederation"
-    SWI_neutrality_DEF:0 "the Swiss Confederation"
-    SWI_neutrality_ADJ:0 "Swiss"
+    SWI_despotism:0 "Swiss Confederation"
+    SWI_despotism_DEF:0 "the Swiss Confederation"
+    SWI_despotism_ADJ:0 "Swiss"
 
    #TAG
 
@@ -3449,21 +3449,21 @@
 
    #DEMOCRATIC
 
-    SYR_democratic:0 "Syrian Republic"
-    SYR_democratic_DEF:0 "the Syrian Republic"
-    SYR_democratic_ADJ:0 "Syrian"
+    SYR_liberalism:0 "Syrian Republic"
+    SYR_liberalism_DEF:0 "the Syrian Republic"
+    SYR_liberalism_ADJ:0 "Syrian"
 
    #FASCISM
 
-    SYR_fascism:0 "Social Nationalist Republic of Syria"
-    SYR_fascism_DEF:0 "the Social Nationalist Republic of Syria"
-    SYR_fascism_ADJ:0 "Syrian"
+    SYR_ultranationalism:0 "Social Nationalist Republic of Syria"
+    SYR_ultranationalism_DEF:0 "the Social Nationalist Republic of Syria"
+    SYR_ultranationalism_ADJ:0 "Syrian"
 
    #NEUTRALITY
 
-    SYR_neutrality:0 "Kingdom of Syria"
-    SYR_neutrality_DEF:0 "the Kingdom of Syria"
-    SYR_neutrality_ADJ:0 "Syrian"
+    SYR_despotism:0 "Kingdom of Syria"
+    SYR_despotism_DEF:0 "the Kingdom of Syria"
+    SYR_despotism_ADJ:0 "Syrian"
 
    #TAG
 
@@ -3481,21 +3481,21 @@
 
    #DEMOCRATIC
 
-    TAT_democratic:0 "Tatar Republic"
-    TAT_democratic_DEF:0 "the Tatar Republic"
-    TAT_democratic_ADJ:0 "Tatar"
+    TAT_liberalism:0 "Tatar Republic"
+    TAT_liberalism_DEF:0 "the Tatar Republic"
+    TAT_liberalism_ADJ:0 "Tatar"
 
    #FASCISM
 
-    TAT_fascism:0 "Tatar National Republic"
-    TAT_fascism_DEF:0 "the Tatar National Republic"
-    TAT_fascism_ADJ:0 "Tatar"
+    TAT_ultranationalism:0 "Tatar National Republic"
+    TAT_ultranationalism_DEF:0 "the Tatar National Republic"
+    TAT_ultranationalism_ADJ:0 "Tatar"
 
    #NEUTRALITY
 
-    TAT_neutrality:0 "Tatar State"
-    TAT_neutrality_DEF:0 "the Tatar State"
-    TAT_neutrality_ADJ:0 "Tatar"
+    TAT_despotism:0 "Tatar State"
+    TAT_despotism_DEF:0 "the Tatar State"
+    TAT_despotism_ADJ:0 "Tatar"
 
    #TAG
 
@@ -3513,21 +3513,21 @@
 
    #DEMOCRATIC
 
-    TRA_democratic:0 "Republic of Transylvania"
-    TRA_democratic_DEF:0 "the Republic of Transylvania"
-    TRA_democratic_ADJ:0 "Transylvanian"
+    TRA_liberalism:0 "Republic of Transylvania"
+    TRA_liberalism_DEF:0 "the Republic of Transylvania"
+    TRA_liberalism_ADJ:0 "Transylvanian"
 
    #FASCISM
 
-    TRA_fascism:0 "National Legionary State of Transylvania"
-    TRA_fascism_DEF:0 "the National Legionary State of Transylvania"
-    TRA_fascism_ADJ:0 "Transylvanian"
+    TRA_ultranationalism:0 "National Legionary State of Transylvania"
+    TRA_ultranationalism_DEF:0 "the National Legionary State of Transylvania"
+    TRA_ultranationalism_ADJ:0 "Transylvanian"
 
    #NEUTRALITY
 
-    TRA_neutrality:0 "Grand Principality of Transylvania"
-    TRA_neutrality_DEF:0 "the Grand Principality of Transylvania"
-    TRA_neutrality_ADJ:0 "Transylvanian"
+    TRA_despotism:0 "Grand Principality of Transylvania"
+    TRA_despotism_DEF:0 "the Grand Principality of Transylvania"
+    TRA_despotism_ADJ:0 "Transylvanian"
 
    #TAG
 
@@ -3545,21 +3545,21 @@
 
    #DEMOCRATIC
 
-    UAE_democratic:0 "United Arab Emirates"
-    UAE_democratic_DEF:0 "the United Arab Emirates"
-    UAE_democratic_ADJ:0 "Emirati"
+    UAE_liberalism:0 "United Arab Emirates"
+    UAE_liberalism_DEF:0 "the United Arab Emirates"
+    UAE_liberalism_ADJ:0 "Emirati"
 
    #FASCISM
 
-    UAE_fascism:0 "Trucial States"
-    UAE_fascism_DEF:0 "the Trucial States"
-    UAE_fascism_ADJ:0 "Trucial"
+    UAE_ultranationalism:0 "Trucial States"
+    UAE_ultranationalism_DEF:0 "the Trucial States"
+    UAE_ultranationalism_ADJ:0 "Trucial"
 
    #NEUTRALITY
 
-    UAE_neutrality:0 "Trucial States"
-    UAE_neutrality_DEF:0 "the Trucial States"
-    UAE_neutrality_ADJ:0 "Trucial"
+    UAE_despotism:0 "Trucial States"
+    UAE_despotism_DEF:0 "the Trucial States"
+    UAE_despotism_ADJ:0 "Trucial"
 
    #TAG
 
@@ -3577,21 +3577,21 @@
 
    #DEMOCRATIC
 
-    TUN_democratic:0 "Republic of Tunisia"
-    TUN_democratic_DEF:0 "the Republic of Tunisia"
-    TUN_democratic_ADJ:0 "Tunisian"
+    TUN_liberalism:0 "Republic of Tunisia"
+    TUN_liberalism_DEF:0 "the Republic of Tunisia"
+    TUN_liberalism_ADJ:0 "Tunisian"
 
    #FASCISM
 
-    TUN_fascism:0 "Kingdom of Tunisia"
-    TUN_fascism_DEF:0 "the Kingdom of Tunisia"
-    TUN_fascism_ADJ:0 "Tunisian"
+    TUN_ultranationalism:0 "Kingdom of Tunisia"
+    TUN_ultranationalism_DEF:0 "the Kingdom of Tunisia"
+    TUN_ultranationalism_ADJ:0 "Tunisian"
 
    #NEUTRALITY
 
-    TUN_neutrality:0 "Kingdom of Tunisia"
-    TUN_neutrality_DEF:0 "the Kingdom of Tunisia"
-    TUN_neutrality_ADJ:0 "Tunisian"
+    TUN_despotism:0 "Kingdom of Tunisia"
+    TUN_despotism_DEF:0 "the Kingdom of Tunisia"
+    TUN_despotism_ADJ:0 "Tunisian"
 
    #TAG
 
@@ -3609,21 +3609,21 @@
 
    #DEMOCRATIC
 
-    TUR_democratic:0 "Republic of Turkey"
-    TUR_democratic_DEF:0 "the Republic of Turkey"
-    TUR_democratic_ADJ:0 "Turkish"
+    TUR_liberalism:0 "Republic of Turkey"
+    TUR_liberalism_DEF:0 "the Republic of Turkey"
+    TUR_liberalism_ADJ:0 "Turkish"
 
    #FASCISM
 
-    TUR_fascism:0 "Turkish State"
-    TUR_fascism_DEF:0 "the Turkish State"
-    TUR_fascism_ADJ:0 "Turkish"
+    TUR_ultranationalism:0 "Turkish State"
+    TUR_ultranationalism_DEF:0 "the Turkish State"
+    TUR_ultranationalism_ADJ:0 "Turkish"
 
    #NEUTRALITY
 
-    TUR_neutrality:0 "Republic of Turkey"
-    TUR_neutrality_DEF:0 "the Republic of Turkey"
-    TUR_neutrality_ADJ:0 "Turkish"
+    TUR_despotism:0 "Republic of Turkey"
+    TUR_despotism_DEF:0 "the Republic of Turkey"
+    TUR_despotism_ADJ:0 "Turkish"
 
    #TAG
 
@@ -3641,21 +3641,21 @@
 
    #DEMOCRATIC
 
-    TMS_democratic:0 "Republic of Turkmenistan"
-    TMS_democratic_DEF:0 "the Republic of Turkmenistan"
-    TMS_democratic_ADJ:0 "Turkmenistani"
+    TMS_liberalism:0 "Republic of Turkmenistan"
+    TMS_liberalism_DEF:0 "the Republic of Turkmenistan"
+    TMS_liberalism_ADJ:0 "Turkmenistani"
 
    #FASCISM
 
-    TMS_fascism:0 "Turkmen State"
-    TMS_fascism_DEF:0 "the Turkmen State"
-    TMS_fascism_ADJ:0 "Turkmenistani"
+    TMS_ultranationalism:0 "Turkmen State"
+    TMS_ultranationalism_DEF:0 "the Turkmen State"
+    TMS_ultranationalism_ADJ:0 "Turkmenistani"
 
    #NEUTRALITY
 
-    TMS_neutrality:0 "Turkmen State"
-    TMS_neutrality_DEF:0 "the Turkmen State"
-    TMS_neutrality_ADJ:0 "Turkmenistani"
+    TMS_despotism:0 "Turkmen State"
+    TMS_despotism_DEF:0 "the Turkmen State"
+    TMS_despotism_ADJ:0 "Turkmenistani"
 
    #TAG
 
@@ -3673,21 +3673,21 @@
 
    #DEMOCRATIC
 
-    TUS_democratic:0 "Tuscan Republic"
-    TUS_democratic_DEF:0 "the Tuscan Republic"
-    TUS_democratic_ADJ:0 "Tuscan"
+    TUS_liberalism:0 "Tuscan Republic"
+    TUS_liberalism_DEF:0 "the Tuscan Republic"
+    TUS_liberalism_ADJ:0 "Tuscan"
 
    #FASCISM
 
-    TUS_fascism:0 "Tuscan State"
-    TUS_fascism_DEF:0 "the Tuscan State"
-    TUS_fascism_ADJ:0 "Tuscan"
+    TUS_ultranationalism:0 "Tuscan State"
+    TUS_ultranationalism_DEF:0 "the Tuscan State"
+    TUS_ultranationalism_ADJ:0 "Tuscan"
 
    #NEUTRALITY
 
-    TUS_neutrality:0 "Grand Duchy of Tuscany"
-    TUS_neutrality_DEF:0 "the Grand Duchy of Tuscany"
-    TUS_neutrality_ADJ:0 "Tuscan"
+    TUS_despotism:0 "Grand Duchy of Tuscany"
+    TUS_despotism_DEF:0 "the Grand Duchy of Tuscany"
+    TUS_despotism_ADJ:0 "Tuscan"
 
    #TAG
 
@@ -3705,21 +3705,21 @@
 
    #DEMOCRATIC
 
-    UDM_democratic:0 "Udmurt Republic"
-    UDM_democratic_DEF:0 "the Udmurt Republic"
-    UDM_democratic_ADJ:0 "Udmurt"
+    UDM_liberalism:0 "Udmurt Republic"
+    UDM_liberalism_DEF:0 "the Udmurt Republic"
+    UDM_liberalism_ADJ:0 "Udmurt"
 
    #FASCISM
 
-    UDM_fascism:0 "Udmurt State"
-    UDM_fascism_DEF:0 "the Udmurt State"
-    UDM_fascism_ADJ:0 "Udmurt"
+    UDM_ultranationalism:0 "Udmurt State"
+    UDM_ultranationalism_DEF:0 "the Udmurt State"
+    UDM_ultranationalism_ADJ:0 "Udmurt"
 
    #NEUTRALITY
 
-    UDM_neutrality:0 "Udmurt Republic"
-    UDM_neutrality_DEF:0 "the Udmurt Republic"
-    UDM_neutrality_ADJ:0 "Udmurt"
+    UDM_despotism:0 "Udmurt Republic"
+    UDM_despotism_DEF:0 "the Udmurt Republic"
+    UDM_despotism_ADJ:0 "Udmurt"
 
    #TAG
 
@@ -3737,21 +3737,21 @@
 
    #DEMOCRATIC
 
-    UKR_democratic:0 "Ukrainian Republic"
-    UKR_democratic_DEF:0 "the Ukrainian Republic"
-    UKR_democratic_ADJ:0 "Ukrainian"
+    UKR_liberalism:0 "Ukrainian Republic"
+    UKR_liberalism_DEF:0 "the Ukrainian Republic"
+    UKR_liberalism_ADJ:0 "Ukrainian"
 
    #FASCISM
 
-    UKR_fascism:0 "Ukrainian National State"
-    UKR_fascism_DEF:0 "the Ukrainian National State"
-    UKR_fascism_ADJ:0 "Ukrainian"
+    UKR_ultranationalism:0 "Ukrainian National State"
+    UKR_ultranationalism_DEF:0 "the Ukrainian National State"
+    UKR_ultranationalism_ADJ:0 "Ukrainian"
 
    #NEUTRALITY
 
-    UKR_neutrality:0 "Ukrainian State"
-    UKR_neutrality_DEF:0 "the Ukrainian State"
-    UKR_neutrality_ADJ:0 "Ukrainian"
+    UKR_despotism:0 "Ukrainian State"
+    UKR_despotism_DEF:0 "the Ukrainian State"
+    UKR_despotism_ADJ:0 "Ukrainian"
 
    #TAG
 
@@ -3769,21 +3769,21 @@
 
    #DEMOCRATIC
 
-    UZB_democratic:0 "Republic of Uzbekistan"
-    UZB_democratic_DEF:0 "the Republic of Uzbekistan"
-    UZB_democratic_ADJ:0 "Uzbek"
+    UZB_liberalism:0 "Republic of Uzbekistan"
+    UZB_liberalism_DEF:0 "the Republic of Uzbekistan"
+    UZB_liberalism_ADJ:0 "Uzbek"
 
    #FASCISM
 
-    UZB_fascism:0 "Uzbek National Unitary State"
-    UZB_fascism_DEF:0 "the Uzbek National Unitary State"
-    UZB_fascism_ADJ:0 "Uzbek"
+    UZB_ultranationalism:0 "Uzbek National Unitary State"
+    UZB_ultranationalism_DEF:0 "the Uzbek National Unitary State"
+    UZB_ultranationalism_ADJ:0 "Uzbek"
 
    #NEUTRALITY
 
-    UZB_neutrality:0 "Republic of Uzbekistan"
-    UZB_neutrality_DEF:0 "the Republic of Uzbekistan"
-    UZB_neutrality_ADJ:0 "Uzbek"
+    UZB_despotism:0 "Republic of Uzbekistan"
+    UZB_despotism_DEF:0 "the Republic of Uzbekistan"
+    UZB_despotism_ADJ:0 "Uzbek"
 
    #TAG
 
@@ -3801,21 +3801,21 @@
 
    #DEMOCRATIC
 
-    VJV_democratic:0 "Republic of Vojvodina"
-    VJV_democratic_DEF:0 "the Republic of Vojvodina"
-    VJV_democratic_ADJ:0 "Vojvodinan"
+    VJV_liberalism:0 "Republic of Vojvodina"
+    VJV_liberalism_DEF:0 "the Republic of Vojvodina"
+    VJV_liberalism_ADJ:0 "Vojvodinan"
 
    #FASCISM
 
-    VJV_fascism:0 "State of Vojvodina"
-    VJV_fascism_DEF:0 "the State of Vojvodina"
-    VJV_fascism_ADJ:0 "Vojvodinan"
+    VJV_ultranationalism:0 "State of Vojvodina"
+    VJV_ultranationalism_DEF:0 "the State of Vojvodina"
+    VJV_ultranationalism_ADJ:0 "Vojvodinan"
 
    #NEUTRALITY
 
-    VJV_neutrality:0 "State of Vojvodina"
-    VJV_neutrality_DEF:0 "the State of Vojvodina"
-    VJV_neutrality_ADJ:0 "Vojvodinan"
+    VJV_despotism:0 "State of Vojvodina"
+    VJV_despotism_DEF:0 "the State of Vojvodina"
+    VJV_despotism_ADJ:0 "Vojvodinan"
 
    #TAG
 
@@ -3833,21 +3833,21 @@
 
    #DEMOCRATIC
 
-    VGE_democratic:0 "Volga German Republic"
-    VGE_democratic_DEF:0 "the Volga German Republic"
-    VGE_democratic_ADJ:0 "Volga German"
+    VGE_liberalism:0 "Volga German Republic"
+    VGE_liberalism_DEF:0 "the Volga German Republic"
+    VGE_liberalism_ADJ:0 "Volga German"
 
    #FASCISM
 
-    VGE_fascism:0 "Volga German Reich"
-    VGE_fascism_DEF:0 "the Volga German Reich"
-    VGE_fascism_ADJ:0 "Volga German"
+    VGE_ultranationalism:0 "Volga German Reich"
+    VGE_ultranationalism_DEF:0 "the Volga German Reich"
+    VGE_ultranationalism_ADJ:0 "Volga German"
 
    #NEUTRALITY
 
-    VGE_neutrality:0 "State of Volga Germany"
-    VGE_neutrality_DEF:0 "the State of Volga Germany"
-    VGE_neutrality_ADJ:0 "Volga German"
+    VGE_despotism:0 "State of Volga Germany"
+    VGE_despotism_DEF:0 "the State of Volga Germany"
+    VGE_despotism_ADJ:0 "Volga German"
 
    #TAG
 
@@ -3865,21 +3865,21 @@
 
    #DEMOCRATIC
 
-    WLS_democratic:0 "Republic of Wales"
-    WLS_democratic_DEF:0 "the Republic of Wales"
-    WLS_democratic_ADJ:0 "Welsh"
+    WLS_liberalism:0 "Republic of Wales"
+    WLS_liberalism_DEF:0 "the Republic of Wales"
+    WLS_liberalism_ADJ:0 "Welsh"
 
    #FASCISM
 
-    WLS_fascism:0 "Welsh Union"
-    WLS_fascism_DEF:0 "the Welsh Union"
-    WLS_fascism_ADJ:0 "Welsh"
+    WLS_ultranationalism:0 "Welsh Union"
+    WLS_ultranationalism_DEF:0 "the Welsh Union"
+    WLS_ultranationalism_ADJ:0 "Welsh"
 
    #NEUTRALITY
 
-    WLS_neutrality:0 "Principality of Wales"
-    WLS_neutrality_DEF:0 "the Principality of Wales"
-    WLS_neutrality_ADJ:0 "Welsh"
+    WLS_despotism:0 "Principality of Wales"
+    WLS_despotism_DEF:0 "the Principality of Wales"
+    WLS_despotism_ADJ:0 "Welsh"
 
    #TAG
 
@@ -3897,21 +3897,21 @@
 
    #DEMOCRATIC
 
-    WES_democratic:0 "Sahrawi Republic"
-    WES_democratic_DEF:0 "the Sahrawi Republic"
-    WES_democratic_ADJ:0 "Sahrawi"
+    WES_liberalism:0 "Sahrawi Republic"
+    WES_liberalism_DEF:0 "the Sahrawi Republic"
+    WES_liberalism_ADJ:0 "Sahrawi"
 
    #FASCISM
 
-    WES_fascism:0 "Sahrawi Republic"
-    WES_fascism_DEF:0 "the Sahrawi Republic"
-    WES_fascism_ADJ:0 "Sahrawi"
+    WES_ultranationalism:0 "Sahrawi Republic"
+    WES_ultranationalism_DEF:0 "the Sahrawi Republic"
+    WES_ultranationalism_ADJ:0 "Sahrawi"
 
    #NEUTRALITY
 
-    WES_neutrality:0 "Sahrawi Republic"
-    WES_neutrality_DEF:0 "the Sahrawi Republic"
-    WES_neutrality_ADJ:0 "Sahrawi"
+    WES_despotism:0 "Sahrawi Republic"
+    WES_despotism_DEF:0 "the Sahrawi Republic"
+    WES_despotism_ADJ:0 "Sahrawi"
 
    #TAG
 
@@ -3929,21 +3929,21 @@
 
    #DEMOCRATIC
 
-    WUR_democratic:0 "Free People's State of Württemberg"
-    WUR_democratic_DEF:0 "the Free People's State of Württemberg"
-    WUR_democratic_ADJ:0 "Württembergian"
+    WUR_liberalism:0 "Free People's State of Württemberg"
+    WUR_liberalism_DEF:0 "the Free People's State of Württemberg"
+    WUR_liberalism_ADJ:0 "Württembergian"
 
    #FASCISM
 
-    WUR_fascism:0 "Württembergian State"
-    WUR_fascism_DEF:0 "the Württembergian State"
-    WUR_fascism_ADJ:0 "Württembergian"
+    WUR_ultranationalism:0 "Württembergian State"
+    WUR_ultranationalism_DEF:0 "the Württembergian State"
+    WUR_ultranationalism_ADJ:0 "Württembergian"
 
    #NEUTRALITY
 
-    WUR_neutrality:0 "Kingdom of Württemberg"
-    WUR_neutrality_DEF:0 "the Kingdom of Württemberg"
-    WUR_neutrality_ADJ:0 "Württembergian"
+    WUR_despotism:0 "Kingdom of Württemberg"
+    WUR_despotism_DEF:0 "the Kingdom of Württemberg"
+    WUR_despotism_ADJ:0 "Württembergian"
 
    #TAG
 
@@ -3961,21 +3961,21 @@
 
    #DEMOCRATIC
 
-    YUG_democratic:0 "Kingdom of Yugoslavia"
-    YUG_democratic_DEF:0 "the Kingdom of Yugoslavia"
-    YUG_democratic_ADJ:0 "Yugoslavian"
+    YUG_liberalism:0 "Kingdom of Yugoslavia"
+    YUG_liberalism_DEF:0 "the Kingdom of Yugoslavia"
+    YUG_liberalism_ADJ:0 "Yugoslavian"
 
    #FASCISM
 
-    YUG_fascism:0 "Kingdom of Yugoslavia"
-    YUG_fascism_DEF:0 "the Kingdom of Yugoslavia"
-    YUG_fascism_ADJ:0 "Yugoslavian"
+    YUG_ultranationalism:0 "Kingdom of Yugoslavia"
+    YUG_ultranationalism_DEF:0 "the Kingdom of Yugoslavia"
+    YUG_ultranationalism_ADJ:0 "Yugoslavian"
 
    #NEUTRALITY
 
-    YUG_neutrality:0 "Kingdom of Yugoslavia"
-    YUG_neutrality_DEF:0 "the Kingdom of Yugoslavia"
-    YUG_neutrality_ADJ:0 "Yugoslavian"
+    YUG_despotism:0 "Kingdom of Yugoslavia"
+    YUG_despotism_DEF:0 "the Kingdom of Yugoslavia"
+    YUG_despotism_ADJ:0 "Yugoslavian"
 
    #TAG
 

@@ -160,16 +160,16 @@ add_ideas = neutrality_idea
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1933.12.20"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 60
-	fascism = 18
+	liberalism = 60
+	ultranationalism = 18
 	communism = 2
-	neutrality = 20
+	despotism = 20
 }
 # 1936 Start #
 if = {

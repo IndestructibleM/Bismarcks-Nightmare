@@ -45,7 +45,7 @@ peace_ai_desires = {
             }
             ROOT = {
                 original_tag = USA
-                has_government = democratic
+                has_government = liberalism
             }
             SOV = {
                 OR = {
@@ -70,7 +70,7 @@ peace_ai_desires = {
             }
             ROOT = {
                 original_tag = USA
-                has_government = democratic
+                has_government = liberalism
             }
             SOV = {
                 OR = {
@@ -97,7 +97,7 @@ peace_ai_desires = {
             }
             ROOT = {
                 original_tag = USA
-                has_government = democratic
+                has_government = liberalism
             }
             SOV = {
                 OR = {
@@ -124,7 +124,7 @@ peace_ai_desires = {
             }
             ROOT = {
                 original_tag = USA
-                has_government = democratic
+                has_government = liberalism
                 pc_total_score > 800 # Only attempt if we can puppet most of Japan (with cost modifier now)
             }
         }

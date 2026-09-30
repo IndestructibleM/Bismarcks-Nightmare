@@ -34,7 +34,7 @@ characters = {
 			legacy_id=0
 			visible = {
 				has_completed_focus = ITA_capo_supremo
-				has_government = fascism
+				has_government = ultranationalism
 			}
 		}
 	}
@@ -178,7 +178,7 @@ characters = {
 				ITA_is_italian_tag = yes
 			}
 			available = {
-				has_government = fascism
+				has_government = ultranationalism
 			}
 			traits = {
 				grand_battle_plan_expert
@@ -196,7 +196,7 @@ characters = {
 			planning_skill = 3
 			logistics_skill = 2
 			legacy_id = 0
-			visible = { has_government = fascism }
+			visible = { has_government = ultranationalism }
 		}
 	}
 
@@ -348,7 +348,7 @@ characters = {
 			planning_skill=2
 			logistics_skill=1
 			legacy_id=-1
-			visible = { has_government = fascism }
+			visible = { has_government = ultranationalism }
 		}
 	}
 
@@ -535,7 +535,7 @@ characters = {
 			planning_skill = 1
 			logistics_skill = 1
 			legacy_id = 0
-			visible = { has_government = fascism }
+			visible = { has_government = ultranationalism }
 		}
 	}
 
@@ -657,7 +657,7 @@ characters = {
 			planning_skill = 1
 			logistics_skill = 2
 			legacy_id = 0
-			visible = { has_government = fascism }
+			visible = { has_government = ultranationalism }
 		}
 	}
 
@@ -740,7 +740,7 @@ characters = {
 			planning_skill = 1
 			logistics_skill = 1
 			legacy_id = 0
-			visible = { has_government = fascism }
+			visible = { has_government = ultranationalism }
 		}
 	}
 
@@ -867,7 +867,7 @@ characters = {
 			planning_skill = 2
 			logistics_skill = 1
 			legacy_id = 0
-			visible = { has_government = fascism }
+			visible = { has_government = ultranationalism }
 		}
 	}
 
@@ -928,7 +928,7 @@ characters = {
 			planning_skill = 2
 			logistics_skill = 2
 			legacy_id = 0
-			visible = { has_government = fascism }
+			visible = { has_government = ultranationalism }
 		}
 	}
 	
@@ -1371,7 +1371,7 @@ characters = {
 			legacy_id = 0
 			visible = {
 				tag = RSI
-				has_government = fascism
+				has_government = ultranationalism
 				has_completed_focus = ITA_supermarina #Maybe Escort focus? Or maybe available from start
 			} 
 		}
@@ -1894,7 +1894,7 @@ characters = {
 				ITA_is_italian_tag = yes
 			}
 			available = {
-				has_government = fascism
+				has_government = ultranationalism
 			}
 			traits = {
 				air_tactical_bombing_2
@@ -1922,7 +1922,7 @@ characters = {
 				ITA_is_italian_tag = yes
 			}
 			available = {
-				has_government = fascism
+				has_government = ultranationalism
 			}
 			traits = {
 				air_air_combat_training_2
@@ -1950,7 +1950,7 @@ characters = {
 				ITA_is_italian_tag = yes
 			}
 			available = {
-				has_government = fascism
+				has_government = ultranationalism
 			}
 			traits = {
 				air_bomber_interception_3
@@ -1978,7 +1978,7 @@ characters = {
 				ITA_is_italian_tag = yes
 			}
 			available = {
-				has_government = fascism
+				has_government = ultranationalism
 			}
 			traits = {
 				navy_naval_air_defense_2
@@ -2007,8 +2007,8 @@ characters = {
 			}
 			available = {
 				OR = {
-					has_government = fascism
-					has_government = neutrality
+					has_government = ultranationalism
+					has_government = despotism
 				}
 				NOT = { has_completed_focus = ITA_disband_the_blackshirts }
 				has_completed_focus = ITA_army_leaders
@@ -2485,8 +2485,8 @@ characters = {
 			}
 			available = {
 				OR = {
-					has_government = fascism
-					has_government = neutrality
+					has_government = ultranationalism
+					has_government = despotism
 					if = {
 						limit = {
 							has_dlc = "By Blood Alone"
@@ -2527,7 +2527,7 @@ characters = {
 				ITA_is_italian_tag = yes
 			}
 			available = {
-				has_government = fascism
+				has_government = ultranationalism
 				NOT = { has_completed_focus = ITA_pact_of_steel }
 			#	if = {
 			#		limit = {
@@ -2612,13 +2612,13 @@ characters = {
 						has_dlc = "By Blood Alone"
 					}
 					OR = {
-						has_government = fascism
+						has_government = ultranationalism
 						has_completed_focus = ITA_utilize_the_blackshirts
 						has_completed_focus = ITA_cooperate_with_moderates
 					}
 				}
 				else = {
-					has_government = fascism
+					has_government = ultranationalism
 				}
 			}
 			traits = {
@@ -2722,7 +2722,7 @@ characters = {
 				original_tag  = ITA
 			}
 			available  = {
-				has_government=democratic
+				has_government=liberalism
 			}
 			traits  = {
 				compassionate_gentleman
@@ -2765,7 +2765,7 @@ characters = {
 			}
 			do_effect = {
 				NOT = {
-					has_government = fascism 
+					has_government = ultranationalism 
 				}
 			}
 			ai_will_do = {
@@ -2840,7 +2840,7 @@ characters = {
 			available = {
 				OR = {
 					AND = {
-						has_government = democratic
+						has_government = liberalism
 						has_completed_focus = ITA_army_leaders
 					}
 					has_completed_focus = ITA_meritocracy
@@ -2867,8 +2867,8 @@ characters = {
 				OR = {
 					AND = {
 						OR = {
-							has_government = democratic
-							has_government = neutrality
+							has_government = liberalism
+							has_government = despotism
 						}
 						has_completed_focus = ITA_army_leaders
 					}
@@ -2989,7 +2989,7 @@ characters = {
 					has_completed_focus = ITA_monarchia_d_italia
 					AND = {
 						has_completed_focus = ITA_common_ground
-						has_government = democratic
+						has_government = liberalism
 					}
 				}
 			}
@@ -3147,7 +3147,7 @@ characters = {
 			}
 			do_effect = {
 				NOT = {
-					has_government = democratic 
+					has_government = liberalism 
 				}
 			}
 			ai_will_do = {
@@ -3196,7 +3196,7 @@ characters = {
 					has_completed_focus = ITA_disband_the_blackshirts
 					AND = {
 						has_completed_focus = ITA_common_ground
-						has_government = democratic
+						has_government = liberalism
 					}
 				}
 				NOT = { 
@@ -3240,7 +3240,7 @@ characters = {
 					has_completed_focus = ITA_christian_democracy
 					AND = {
 						has_completed_focus = ITA_common_ground
-						has_government = democratic
+						has_government = liberalism
 					}
 				}
 			}
@@ -3392,7 +3392,7 @@ characters = {
 				}
 				OR = {
 					has_government = communism
-					has_government = democratic
+					has_government = liberalism
 				}
 			}
 		}
@@ -3422,7 +3422,7 @@ characters = {
 				}
 				OR = {
 					has_government = communism
-					has_government = democratic
+					has_government = liberalism
 				}
 			}
 		}
@@ -3478,7 +3478,7 @@ characters = {
 				}
 				OR = {
 					has_government = communism
-					has_government = democratic
+					has_government = liberalism
 				}
 			}
 		}
@@ -3505,7 +3505,7 @@ characters = {
 					has_government = communism
 					AND = {
 						has_completed_focus = ITA_common_ground
-						has_government = democratic
+						has_government = liberalism
 					}
 				}
 			}
@@ -3534,7 +3534,7 @@ characters = {
 				}
 				OR = {
 					has_government = communism
-					has_government = democratic
+					has_government = liberalism
 				}
 			}
 		}
@@ -3603,7 +3603,7 @@ characters = {
 				OR = {
 					has_completed_focus = ITA_the_popular_front
 					AND = {
-						has_government = democratic
+						has_government = liberalism
 						has_completed_focus = ITA_common_ground
 					}
 				}
@@ -3763,7 +3763,7 @@ characters = {
 				OR = {
 					has_completed_focus = ITA_the_popular_front
 					AND = {
-						has_government = democratic
+						has_government = liberalism
 						has_completed_focus = ITA_common_ground
 					}
 				}
@@ -3797,7 +3797,7 @@ characters = {
 				OR = {
 					has_completed_focus = ITA_the_popular_front
 					AND = {
-						has_government = democratic
+						has_government = liberalism
 						has_completed_focus = ITA_common_ground
 					}
 				}

@@ -9,7 +9,7 @@ political_actions = {
 		}
 	
 		visible = {
-			has_government = democratic
+			has_government = liberalism
 			has_war_with = GER
 			is_faction_leader = yes
 			any_state = {
@@ -179,13 +179,13 @@ political_actions = {
 					AUS = {
 						transfer_state = PREV
 						set_politics = {
-							ruling_party = democratic
+							ruling_party = liberalism
 							elections_allowed = no
 						}
 						set_popularities = {
-							democratic = 60
-							neutrality = 20
-							fascism = 0
+							liberalism = 60
+							despotism = 20
+							ultranationalism = 0
 							communism = 20
 						}
 					}
@@ -632,7 +632,7 @@ political_actions = {
 		}
 		visible = {
 			is_in_faction_with = GER
-			GER = { has_government = fascism }
+			GER = { has_government = ultranationalism }
 			NOT = {
 				SLO = {
 					owns_state = 1440
@@ -1376,7 +1376,7 @@ propaganda_efforts = {
 			}
 			if = {
 				limit = {
-					NOT = { has_government = fascism }
+					NOT = { has_government = ultranationalism }
 				}
 				threat > 0.5
 			}
@@ -1749,7 +1749,7 @@ war_measures = {
             has_idea = tot_economic_mobilisation
             OR = {
                 AND = {
-                    has_government = democratic
+                    has_government = liberalism
                     has_war_support > 0.79
                 }
                 AND = {
@@ -1757,14 +1757,14 @@ war_measures = {
                     has_war_support > 0.79
                 }
                 AND = {
-                    has_government = fascism
+                    has_government = ultranationalism
                     OR = {
                         has_war_support > 0.89
                         surrender_progress > 0
                     }
                 }
                 AND = {
-                    has_government = neutrality
+                    has_government = despotism
                     has_war_support > 0.84
                     has_stability > 0.7
                 }
@@ -1815,7 +1815,7 @@ war_measures = {
             has_war = yes
             OR = {
                 AND = {
-                    has_government = democratic
+                    has_government = liberalism
                     has_war_support > 0.79
                 }
                 AND = {
@@ -1823,14 +1823,14 @@ war_measures = {
                     has_war_support > 0.79
                 }
                 AND = {
-                    has_government = fascism
+                    has_government = ultranationalism
                     OR = {
                         has_war_support > 0.89
                         surrender_progress > 0
                     }
                 }
                 AND = {
-                    has_government = neutrality
+                    has_government = despotism
                     has_war_support > 0.84
                     has_stability > 0.7
                 }

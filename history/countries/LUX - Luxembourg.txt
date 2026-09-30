@@ -41,13 +41,13 @@ recruit_character = LUX_martin_karp
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1934.6.3"
 	election_frequency = 36
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 92
-	fascism = 3
+	liberalism = 92
+	ultranationalism = 3
 	communism = 5
 }

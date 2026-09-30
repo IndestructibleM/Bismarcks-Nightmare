@@ -248,7 +248,7 @@ defined_text = { #Chooses description for BALTIC_axis_investments
 			GER = {
 					exists = yes
 					has_capitulated = no
-					has_government = fascism
+					has_government = ultranationalism
 					is_faction_leader = yes
 					NOT = { has_war_with = ROOT }
 			}
@@ -266,7 +266,7 @@ defined_text = { #Chooses description for BALTIC_axis_investments
 			JAP = {
 				exists = yes
 				has_capitulated = no
-				has_government = fascism
+				has_government = ultranationalism
 				NOT = { has_war_with = ROOT }
 			}
 		}
@@ -284,7 +284,7 @@ defined_text = { #Choose adjective for Fascists Baltic Investments
 			GER = {
 					exists = yes
 					has_capitulated = no
-					has_government = fascism
+					has_government = ultranationalism
 					is_faction_leader = yes
 					NOT = { has_war_with = ROOT }
 			}
@@ -295,21 +295,21 @@ defined_text = { #Choose adjective for Fascists Baltic Investments
 		trigger = {
 			suitable_fascist_major_in_europe = yes
 		}
-		localization_key = fascism
+		localization_key = ultranationalism
 	}
 	text = {
 		trigger = {
 			JAP = {
 				exists = yes
 				has_capitulated = no
-				has_government = fascism
+				has_government = ultranationalism
 				NOT = { has_war_with = ROOT }
 			}
 		}
 		localization_key = JAP_ADJ
 	}
 	text = {
-		localization_key = fascism
+		localization_key = ultranationalism
 	}
 }
 
@@ -320,7 +320,7 @@ defined_text = { #Chooses description for BALTIC_renew_allied_trade
 			ENG = {
 					exists = yes
 					has_capitulated = no
-					has_government = democratic 
+					has_government = liberalism 
 					is_faction_leader = yes
 					NOT = { has_war_with = ROOT }
 			}
@@ -333,14 +333,14 @@ defined_text = { #Chooses description for BALTIC_renew_allied_trade
 				FRA = {
 					exists = yes
 					has_capitulated = no
-					has_government = democratic 
+					has_government = liberalism 
 					is_faction_leader = yes
 					NOT = { has_war_with = ROOT }
 				}
 				USA = {
 					exists = yes
 					has_capitulated = no
-					has_government = democratic 
+					has_government = liberalism 
 					NOT = { has_war_with = ROOT }
 				}
 			}
@@ -360,20 +360,20 @@ defined_text = { #Choose adjective for BALTIC_renew_allied_trade title.
 				FRA = {
 					exists = yes
 					has_capitulated = no
-					has_government = democratic 
+					has_government = liberalism 
 					is_faction_leader = yes
 					NOT = { has_war_with = ROOT }
 				}
 				USA = {
 					exists = yes
 					has_capitulated = no
-					has_government = democratic 
+					has_government = liberalism 
 					NOT = { has_war_with = ROOT }
 				}
 				ENG = {
 					exists = yes
 					has_capitulated = no
-					has_government = democratic 
+					has_government = liberalism 
 					NOT = { has_war_with = ROOT }
 				}
 			}
@@ -391,7 +391,7 @@ defined_text = { #Chooses description for BALTIC_german_war_economics
 			GER = {
 					exists = yes
 					has_capitulated = no
-					has_government = fascism
+					has_government = ultranationalism
 					is_faction_leader = yes
 					NOT = { has_war_with = ROOT }
 			}
@@ -409,7 +409,7 @@ defined_text = { #Chooses description for BALTIC_german_tank_licences
 			GER = {
 					exists = yes
 					has_capitulated = no
-					has_government = fascism
+					has_government = ultranationalism
 					is_faction_leader = yes
 					NOT = { has_war_with = ROOT }
 			}
@@ -427,7 +427,7 @@ defined_text = { #Chooses description for BALTIC_german_baltic_industry
 			GER = {
 					exists = yes
 					has_capitulated = no
-					has_government = fascism
+					has_government = ultranationalism
 					is_faction_leader = yes
 					NOT = { has_war_with = ROOT }
 			}
@@ -445,7 +445,7 @@ defined_text = { #Chooses description for BALTIC_request_german_support
 			GER = {
 					exists = yes
 					has_capitulated = no
-					has_government = fascism
+					has_government = ultranationalism
 					is_faction_leader = yes
 					NOT = { has_war_with = ROOT }
 			}
@@ -463,7 +463,7 @@ defined_text = {
 			ENG = {
 					exists = yes
 					has_capitulated = no
-					has_government = democratic
+					has_government = liberalism
 					is_faction_leader = yes
 					NOT = { has_war_with = ROOT }
 			}
@@ -481,7 +481,7 @@ defined_text = {
 			ENG = {
 					exists = yes
 					has_capitulated = no
-					has_government = democratic
+					has_government = liberalism
 					is_faction_leader = yes
 					NOT = { has_war_with = ROOT }
 			}

@@ -70,15 +70,15 @@ FIN_can_purchase_equipment_from_country = {
 				OR = {
 					has_government = PREV
 					AND = {
-						has_government = neutrality
+						has_government = despotism
 						PREV = {
 							NOT = { has_government = communism }
 						}
 					}
 					AND = {
-						has_government = democratic
+						has_government = liberalism
 						PREV = {
-							has_government = neutrality
+							has_government = despotism
 						}
 					}
 				}

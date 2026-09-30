@@ -383,7 +383,7 @@ defined_text = {
 	name = GetDiplomacyDescriptionNiceNotNice
 	text = {
 		trigger = {
-			ROOT = { has_government = fascism
+			ROOT = { has_government = ultranationalism
 			}
 		}
 		localization_key = FIN_not_nice_desc
@@ -486,7 +486,7 @@ defined_text = {
 		trigger = {
 			GER = {
 				is_faction_leader = yes
-				has_government = fascism
+				has_government = ultranationalism
 				NOT = { has_war_with = ROOT }
 				all_allied_country = {
 					NOT = { has_war_with = ROOT }
@@ -499,7 +499,7 @@ defined_text = {
 		trigger = {
 			ITA = {
 				is_faction_leader = yes
-				has_government = fascism
+				has_government = ultranationalism
 				NOT = { has_war_with = ROOT }
 				all_allied_country = {
 					NOT = { has_war_with = ROOT }
@@ -519,7 +519,7 @@ defined_text = {
 		trigger = {
 			ENG = {
 				is_faction_leader = yes
-				has_government = democratic
+				has_government = liberalism
 				NOT = { has_war_with = ROOT }
 				all_allied_country = {
 					NOT = { has_war_with = ROOT }
@@ -532,7 +532,7 @@ defined_text = {
 		trigger = {
 			FRA = {
 				is_faction_leader = yes
-				has_government = democratic
+				has_government = liberalism
 				NOT = { has_war_with = ROOT }
 				all_allied_country = {
 					NOT = { has_war_with = ROOT }
@@ -545,7 +545,7 @@ defined_text = {
 		trigger = {
 			USA = { 
 				is_faction_leader = yes
-				has_government = democratic
+				has_government = liberalism
 				NOT = { has_war_with = ROOT }
 				all_allied_country = {
 					NOT = { has_war_with = ROOT }

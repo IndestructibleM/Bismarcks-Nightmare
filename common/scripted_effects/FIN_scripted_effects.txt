@@ -3,7 +3,7 @@
 #	example_effect = {
 #		add_political_power = 66
 #		add_popularity = {
-#			ideology = fascism
+#			ideology = ultranationalism
 #			popularity = 0.33
 #		}
 #	}
@@ -643,7 +643,7 @@ FIN_kallio_becomes_country_leader = {
 	}
 	#Set Maalaisliitto (Agrarian League) as Non-Aligned party
 	set_party_name = {
-		ideology = neutrality
+		ideology = despotism
 		name = FIN_neutrality_party
 		long_name = FIN_neutrality_party_long
 	}
@@ -657,7 +657,7 @@ FIN_ryti_becomes_country_leader = {
 	}
 	#Set National Progressive Party as Non-Aligned party
 	set_party_name = {
-		ideology = neutrality
+		ideology = despotism
 		name = FIN_neutrality_party_progressive
 		long_name = FIN_neutrality_party_progressive_long
 	}
@@ -692,7 +692,7 @@ FIN_paasikivi_becomes_country_leader = {
 
 	#Set Kokoomus as Non-Aligned party
 	set_party_name = {
-		ideology = neutrality
+		ideology = despotism
 		name = FIN_neutrality_party_kokoomus
 		long_name = FIN_neutrality_party_kokoomus_long
 	}
@@ -704,7 +704,7 @@ FIN_mannerheim_becomes_country_leader = {
 	promote_character = FIN_carl_mannerheim
 	#Set National Progressive Party as Non-Aligned party
 	set_party_name = {
-		ideology = neutrality
+		ideology = despotism
 		name = FIN_neutrality_party_military
 		long_name = FIN_neutrality_party_military_long
 	}

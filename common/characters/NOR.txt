@@ -138,7 +138,7 @@ characters={
 				NOR_AAT = yes
 			}
 			available = {
-				has_government = democratic			
+				has_government = liberalism			
 			}
 			traits  = {
 				 NOR_conciliatory_socialist
@@ -341,7 +341,7 @@ characters={
 				NOR_AAT = yes
 			}
 			available = {
-				has_government = fascism 
+				has_government = ultranationalism 
 				NOT = { has_completed_focus = NOR_jonas_lie_coup }
 			}
 			traits = {
@@ -422,7 +422,7 @@ characters={
 			available = {
 				OR = {
 					has_completed_focus = NOR_squash_dissent
-					has_government = fascism 
+					has_government = ultranationalism 
 				}
 			}
 			traits  = { NOR_ruthless_police_captain }
@@ -434,7 +434,7 @@ characters={
 				original_tag = NOR
 			}
 			available = {
-				has_government = fascism 
+				has_government = ultranationalism 
 				NOT = { has_completed_focus = NOR_bring_back_quisling }
 			}
 			traits = {
@@ -473,7 +473,7 @@ characters={
 				NOR_aat = yes 
 			}
 			available = {
-				has_government = neutrality
+				has_government = despotism
 			}
 			traits  = {
 				 NOR_aristocratic_industrialist
@@ -498,7 +498,7 @@ characters={
 				NOR_AAT = yes
 			}
 			available = {
-				has_government = democratic
+				has_government = liberalism
 				OR = {
 					has_completed_focus = NOR_vote_of_no_confidence
 					has_completed_focus = NOR_continue_nygaardsvold_government
@@ -610,8 +610,8 @@ characters={
 			available = {
 				has_country_flag = NOR_trotsky_embraced
 				NOT = { has_completed_focus = NOR_compromise_with_the_nkp } 
-				NOT = { has_government = fascism } 
-				NOT = { has_government = neutrality }
+				NOT = { has_government = ultranationalism } 
+				NOT = { has_government = despotism }
 				NOR_trotsky_not_in_sov = yes 
 				NOR_trotsky_not_in_mex = yes #Yes, I know this is bullshit but it's all for the tooltip
 			}
@@ -657,7 +657,7 @@ characters={
 				NOR_AAT = yes
 			}
 			available = {
-				has_government = fascism 
+				has_government = ultranationalism 
 			}
 			traits  = {
 				NOR_fascist_judiciary
@@ -685,7 +685,7 @@ characters={
 			}
 			available = {
 				OR = {
-					has_government = fascism 
+					has_government = ultranationalism 
 					has_completed_focus = NOR_nasjonal_samling
 				}
 			}
@@ -714,7 +714,7 @@ characters={
 				NOR_AAT = yes
 			}
 			available = {
-				has_government = fascism 
+				has_government = ultranationalism 
 			}
 			traits  = {
 				NOR_callous_engineer
@@ -771,7 +771,7 @@ characters={
 			allowed = {
 				NOR_AAT = yes 
 			}
-			available = { has_government = democratic }
+			available = { has_government = liberalism }
 			traits = {
 				NOR_minister_of_agriculture 
 			}
@@ -801,7 +801,7 @@ characters={
 
 		corps_commander={
 			visible = {
-				NOT = { has_government = fascism }				
+				NOT = { has_government = ultranationalism }				
 			}
 			traits={ trait_reckless trickster winter_specialist }
 			skill=4
@@ -818,7 +818,7 @@ characters={
 				original_tag = NOR
 			}
 			available = {
-				NOT = {	has_government = fascism }
+				NOT = {	has_government = ultranationalism }
 				NOT = { has_government = communism }
 			}
 			traits = {
@@ -1114,7 +1114,7 @@ characters={
 						original_tag = NOR
 					}
 					available = {
-						has_government = democratic
+						has_government = liberalism
 						has_war = no  
 					}
 					traits = {
@@ -1230,7 +1230,7 @@ characters={
 			slot = high_command
 			idea_token = NOR_birger_eriksen
 			available = {
-				NOT = { has_government = fascism } 
+				NOT = { has_government = ultranationalism } 
 			}
 
 			ledger = army
@@ -1356,7 +1356,7 @@ characters={
 				slot = theorist
 				idea_token = NOR_konrad_sundlo
 				available = {
-					has_government = fascism 
+					has_government = ultranationalism 
 				}
 
 				ledger = army
@@ -1386,7 +1386,7 @@ characters={
 			slot = theorist
 			idea_token = NOR_oscar_torp
 			available = {
-				NOT = { has_government = fascism } 
+				NOT = { has_government = ultranationalism } 
 			}
 
 			ledger = army
@@ -1658,7 +1658,7 @@ characters={
 					original_tag = NOR
 				}
 				available = {
-					has_government = democratic
+					has_government = liberalism
 					OR = {
 						has_completed_focus = NOR_vote_of_no_confidence
 						has_completed_focus = NOR_continue_nygaardsvold_government

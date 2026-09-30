@@ -27,8 +27,8 @@
 #		}
 #		modifier = {
 #			add = 5
-#			# if the mapped tag has fascism give it a higher score
-#			has_government = fascism
+#			# if the mapped tag has ultranationalism give it a higher score
+#			has_government = ultranationalism
 #		}
 #	}
 #
@@ -38,7 +38,7 @@
 #	or = {
 #		#only accept targets that is ally with us or is fascist
 #		is_in_faction_with = PREV
-#		has_government = fascism
+#		has_government = ultranationalism
 #	}
 #	# trigger 2
 #	# trigger 3
@@ -166,7 +166,7 @@ SB4 = {
 
 FNO = { # Alias for Fascist Norway 
 	original_tag = NOR 
-	has_government = fascism
+	has_government = ultranationalism
 }
 
 FGR = {
@@ -175,7 +175,7 @@ FGR = {
 		base = 1
 		modifier = {
 			add = 1
-			has_government = neutrality
+			has_government = despotism
 		}
 		modifier = {
 			add = 1
@@ -183,7 +183,7 @@ FGR = {
 		}
 		modifier = {
 			add = 5
-			has_government = fascism	
+			has_government = ultranationalism	
 			exists = yes 
 		}
 	}

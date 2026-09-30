@@ -739,7 +739,7 @@ leader_traits = {
 		}
 	}
 
-	refounder_of_mexico = { # democratic Cardenas
+	refounder_of_mexico = { # liberalism Cardenas
 		random = no
 
 		stability_factor = 0.05
@@ -10348,7 +10348,7 @@ leader_traits = {
 	}
 
 	AUS_abolished_austrofascism = {
-		random = no #Schuschnigg's democratic trait
+		random = no #Schuschnigg's liberalism trait
 
 		neutrality_drift = 0.03
 		democratic_drift = 0.05

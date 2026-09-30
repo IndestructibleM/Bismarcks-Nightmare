@@ -217,25 +217,25 @@
  CAREER_PROFILE_TOOLTIP_PICTURE_LOCKED:0 "§b.§!\n\n£$ICON$£\n\n§b.§!\n\n$REQUIREMENT$" # The black . prevent the newlines from being trimmed
 
 # Countries in Profile Picture Tab, original loc key in comment
- CAREER_PROFILE_COUNTRY_BUL:0 "Bulgaria" # BUL_neutrality
- CAREER_PROFILE_COUNTRY_CHI:0 "China" # CHI_neutrality
- CAREER_PROFILE_COUNTRY_CZE:0 "Czechoslovakia" # CZE_democratic
- CAREER_PROFILE_COUNTRY_ENG:0 "United Kingdom" # ENG_democratic
- CAREER_PROFILE_COUNTRY_EST:0 "Republic of Estonia" # EST_democratic
- CAREER_PROFILE_COUNTRY_FRA:0 "France" # FRA_democratic
- CAREER_PROFILE_COUNTRY_GER:0 "German Reich" # GER_fascism
- CAREER_PROFILE_COUNTRY_GRE:0 "Kingdom of Greece" # GRE_neutrality
- CAREER_PROFILE_COUNTRY_HOL:0 "Netherlands" # HOL_democratic
- CAREER_PROFILE_COUNTRY_JAP:0 "Japan" # JAP_fascism
- CAREER_PROFILE_COUNTRY_LIT:0 "Lithuania" # LIT_neutrality
- CAREER_PROFILE_COUNTRY_MEX:0 "Mexico" # MEX_neutrality
- CAREER_PROFILE_COUNTRY_POL:0 "Poland" # POL_neutrality
- CAREER_PROFILE_COUNTRY_POR:0 "Portugal" # POR_neutrality
- CAREER_PROFILE_COUNTRY_RAJ:0 "British Raj" # RAJ_UK_neutrality
+ CAREER_PROFILE_COUNTRY_BUL:0 "Bulgaria" # BUL_despotism
+ CAREER_PROFILE_COUNTRY_CHI:0 "China" # CHI_despotism
+ CAREER_PROFILE_COUNTRY_CZE:0 "Czechoslovakia" # CZE_socialism
+ CAREER_PROFILE_COUNTRY_ENG:0 "United Kingdom" # ENG_socialism
+ CAREER_PROFILE_COUNTRY_EST:0 "Republic of Estonia" # EST_socialism
+ CAREER_PROFILE_COUNTRY_FRA:0 "France" # FRA_socialism
+ CAREER_PROFILE_COUNTRY_GER:0 "German Reich" # GER_ultranationalism
+ CAREER_PROFILE_COUNTRY_GRE:0 "Kingdom of Greece" # GRE_despotism
+ CAREER_PROFILE_COUNTRY_HOL:0 "Netherlands" # HOL_socialism
+ CAREER_PROFILE_COUNTRY_JAP:0 "Japan" # JAP_ultranationalism
+ CAREER_PROFILE_COUNTRY_LIT:0 "Lithuania" # LIT_despotism
+ CAREER_PROFILE_COUNTRY_MEX:0 "Mexico" # MEX_despotism
+ CAREER_PROFILE_COUNTRY_POL:0 "Poland" # POL_despotism
+ CAREER_PROFILE_COUNTRY_POR:0 "Portugal" # POR_despotism
+ CAREER_PROFILE_COUNTRY_RAJ:0 "British Raj" # RAJ_UK_despotism
  CAREER_PROFILE_COUNTRY_SOV:0 "Soviet Union" # SOV_communism
- CAREER_PROFILE_COUNTRY_SPR:0 "Spain" # SPR_democratic
- CAREER_PROFILE_COUNTRY_USA:0 "United States" # USA_democratic
- CAREER_PROFILE_COUNTRY_YUG:0 "Yugoslavia" # YUG_neutrality
+ CAREER_PROFILE_COUNTRY_SPR:0 "Spain" # SPR_socialism
+ CAREER_PROFILE_COUNTRY_USA:0 "United States" # USA_socialism
+ CAREER_PROFILE_COUNTRY_YUG:0 "Yugoslavia" # YUG_despotism
 
 ### BATCH 2 ###
  CAREER_PROFILE_FAILED_UPDATE_TITLE:0 "Update failed"

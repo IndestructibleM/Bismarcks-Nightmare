@@ -831,7 +831,7 @@ spain_scw_support_ITA_resistance = {
 		has_dlc = "La Resistance"
 	}
 	enable = {
-		has_government = fascism
+		has_government = ultranationalism
 		country_exists = SPA
 	}
 	abort = {
@@ -874,7 +874,7 @@ ITA_please_help_me_buget_this_my_country_is_dieing = {
 		original_tag = ITA
 	}
 	enable = {
-		has_government = fascism
+		has_government = ultranationalism
 		date < 1937.6.1
 	}
 
@@ -1133,7 +1133,7 @@ ITA_prepare_british_invasion = {
 	abort = {
 		any_other_country = {
 			original_tag = ENG
-			has_government = fascism
+			has_government = ultranationalism
 		} 
 	}
 

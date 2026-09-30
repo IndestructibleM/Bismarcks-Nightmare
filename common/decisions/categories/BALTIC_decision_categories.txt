@@ -12,7 +12,7 @@ LIT_iron_wolf_coup = {
 	}
 
 	visible = {
-		has_government = neutrality
+		has_government = despotism
 		NOT = { has_completed_focus = BALTIC_overthrow_the_government }
 	}
 	priority = 10
@@ -29,7 +29,7 @@ LIT_iron_wolf_appeasement = {
 
 	visible = {
 		has_completed_focus = LIT_free_voldemares
-		has_government = neutrality
+		has_government = despotism
 	}
 	priority = 9
 }
@@ -45,7 +45,7 @@ support_polish_falange_decisions = {
 
 	visible = {
 		has_completed_focus = LIT_support_polish_fascists
-		NOT = { POL = { has_government = fascism } }
+		NOT = { POL = { has_government = ultranationalism } }
 		NOT = { POL = { has_country_flag = banned_fascism_flag } }
 	}
 	priority = 9
@@ -98,7 +98,7 @@ march_through_estonia = {
 		has_completed_focus = EST_rally_the_nation
 		NOT = { 
 			has_country_flag = EST_vapsid_takeover_finland
-			has_government = fascism 
+			has_government = ultranationalism 
 		}
 	}
 	
@@ -126,7 +126,7 @@ EST_convert_FIN_cat = {
 			any_other_country = {
 				original_tag = FIN 
 				OR = {
-					has_government = fascism
+					has_government = ultranationalism
  					has_country_flag = estonia_started_cw_in_finland
 				}
 			}

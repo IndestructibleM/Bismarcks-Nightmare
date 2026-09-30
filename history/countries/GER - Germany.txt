@@ -171,6 +171,12 @@ if = {
 	}
 }
 
+every_state = {
+	limit = {
+		is_owned_by = GER
+	}
+	add_core_of = GER
+}
 
 
 # Starting Stats of various kinds
@@ -267,7 +273,7 @@ set_war_support = 0.3
 	unlock_national_focus = GER_molotov_ribbentrop_pact 
 	every_other_country = {
 		limit = {
-			has_government = fascism 
+			has_government = ultranationalism 
 		}
 		add_opinion_modifier = { target = GER modifier = MR_pact_fascists }
 	}
@@ -559,10 +565,10 @@ set_politics = {
 }
 set_popularities = {
 	communism =  35
-	socialist =  30
-	fascism = 10
-	neutrality = 10
-	democratic = 10
+	socialism =  30
+	ultranationalism = 10
+	despotism = 10
+	liberalism = 10
 	conservative = 5
 }
 

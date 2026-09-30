@@ -11,7 +11,7 @@
  YUG_instigate_in_hungary:0 "Instigate Peasant Uprisings in Hungary"
  YUG_instigate_in_turkey:0 "Instigate Peasant Uprisings in Turkey"
  YUG_propaganda_in_target:0 "Propaganda Campaign in [YUG_communist_coup_target.GetNameDef]"
- YUG_propaganda_in_target_desc:0 "Our target has been selected, all we need do now is supply our socialist allies with effective propaganda and soon enough we will have sewn the seeds of rebellion necessary to overthrow the upper classes of the Balkans."
+ YUG_propaganda_in_target_desc:0 "Our target has been selected, all we need do now is supply our socialism allies with effective propaganda and soon enough we will have sewn the seeds of rebellion necessary to overthrow the upper classes of the Balkans."
  YUG_arm_communist_militants:0 "Arm [YUG_communist_coup_target.GetAdjective] Militants"
  YUG_arm_communist_militants_desc:0 "We cannot bring the revolution to our comrades across the border with words alone. We must provide our allies with the arms they need to overthrow their masters."
  YUG_communist_coup:0 "Instigate a Communist Coup"

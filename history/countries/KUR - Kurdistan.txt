@@ -19,12 +19,12 @@ set_technology = {
 set_convoys = 20
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1935.2.8"
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 50
-	neutrality = 50
+	liberalism = 50
+	despotism = 50
 }
 

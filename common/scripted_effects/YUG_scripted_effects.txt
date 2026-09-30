@@ -3,7 +3,7 @@
 #	example_effect = {
 #		add_political_power = 66
 #		add_popularity = {
-#			ideology = fascism
+#			ideology = ultranationalism
 #			popularity = 0.33
 #		}
 #	}
@@ -31,11 +31,11 @@ YUG_start_peters_coup = {
 		limit = {
 			has_completed_focus = YUG_dissolve_serbia
 		}
-		start_civil_war = { ideology = democratic size = 0.6 capital = 790 states = { 2937 1507 1508 1992 1991 1510 1509 2960 1970 } }
+		start_civil_war = { ideology = liberalism size = 0.6 capital = 790 states = { 2937 1507 1508 1992 1991 1510 1509 2960 1970 } }
 	}
 	else = {
 		start_civil_war = { 
-			ideology = democratic 
+			ideology = liberalism 
 			size = 0.6 
 			capital = 790 
 			states = all
@@ -52,7 +52,7 @@ YUG_start_peters_coup = {
 		limit = {
 			original_tag = YUG
 			NOT = { tag = ROOT }
-			has_government = democratic
+			has_government = liberalism
 		}
 		add_ideas = { king_peter_1 }
 		if = {
@@ -107,9 +107,9 @@ YUG_start_peters_coup = {
 		}
 		retire_country_leader = yes
 		set_popularities = {
-			democratic = 50
-			neutrality = 40
-			fascism = 5
+			liberalism = 50
+			despotism = 40
+			ultranationalism = 5
 			communism = 5
 		}
 		set_capital = { state = 107 }

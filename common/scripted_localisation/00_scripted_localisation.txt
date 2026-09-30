@@ -13,7 +13,7 @@ defined_text = { # Country
 	text = {
 		trigger = {
 			original_tag = GER
-			has_government = neutrality
+			has_government = despotism
 		}
 		localization_key = GER_KAISER_WAGEN_NAME
 	}
@@ -22,7 +22,7 @@ defined_text = { # Country
 			original_tag = GER
 			OR = {
 				has_government = communism
-				has_government = democratic
+				has_government = liberalism
 			}
 		}
 		localization_key = GER_VOLKS_WAGEN_NAME
@@ -37,7 +37,7 @@ defined_text = { # Country
 	text = {
 		trigger = {
 			original_tag = GER
-			has_government = neutrality
+			has_government = despotism
 		}
 		localization_key = GER_HERMANN_GORING_WERKE_NAME_KAISER
 	}
@@ -51,7 +51,7 @@ defined_text = { # Country
 	text = {
 		trigger = {
 			original_tag = GER
-			has_government = fascism
+			has_government = ultranationalism
 		}
 		localization_key = GER_HERMANN_GORING_WERKE_NAME_FASCIST
 	}
@@ -368,9 +368,9 @@ defined_text = {
 		trigger = {
 			original_tag = ENG
 			OR = {
-				has_government = democratic
-				has_government = fascism
-				has_government = neutrality
+				has_government = liberalism
+				has_government = ultranationalism
+				has_government = despotism
 			}
 		}
 		localization_key = ENG_ROYAL_TANK_REGIMENT_NAME_HISTORICAL
@@ -390,9 +390,9 @@ defined_text = {
 		trigger = {
 			original_tag = ENG
 			OR = {
-				has_government = democratic
-				has_government = fascism
-				has_government = neutrality
+				has_government = liberalism
+				has_government = ultranationalism
+				has_government = despotism
 			}
 		}
 		localization_key = ENG_ROYAL_TANK_REGIMENT_DESC_HISTORICAL
@@ -412,9 +412,9 @@ defined_text = {
 		trigger = {
 			original_tag = ENG
 			OR = {
-				has_government = democratic
-				has_government = fascism
-				has_government = neutrality
+				has_government = liberalism
+				has_government = ultranationalism
+				has_government = despotism
 			}
 		}
 		localization_key = ENG_ROYAL_ORDNANCE_FACTORIES_NAME_HISTORICAL
@@ -434,9 +434,9 @@ defined_text = {
 		trigger = {
 			original_tag = ENG
 			OR = {
-				has_government = democratic
-				has_government = fascism
-				has_government = neutrality
+				has_government = liberalism
+				has_government = ultranationalism
+				has_government = despotism
 			}
 		}
 		localization_key = ENG_ROYAL_ORDNANCE_FACTORIES_DESC_HISTORICAL
@@ -456,9 +456,9 @@ defined_text = {
 		trigger = {
 			original_tag = ENG
 			OR = {
-				has_government = democratic
-				has_government = fascism
-				has_government = neutrality
+				has_government = liberalism
+				has_government = ultranationalism
+				has_government = despotism
 			}
 		}
 		localization_key = ENG_BSA_COMPANY_DESC_HISTORICAL
@@ -496,9 +496,9 @@ defined_text = {
 		trigger = {
 			original_tag = ENG
 			OR = {
-				has_government = democratic
-				has_government = fascism
-				has_government = neutrality
+				has_government = liberalism
+				has_government = ultranationalism
+				has_government = despotism
 			}
 		}
 		localization_key = ENG_AIR_REARMAMENT_DESC_HISTORICAL
@@ -518,9 +518,9 @@ defined_text = {
 		trigger = {
 			original_tag = ENG
 			OR = {
-				has_government = democratic
-				has_government = fascism
-				has_government = neutrality
+				has_government = liberalism
+				has_government = ultranationalism
+				has_government = despotism
 			}
 		}
 		localization_key = ENG_NAVAL_REARMAMENT_DESC_HISTORICAL
@@ -540,9 +540,9 @@ defined_text = {
 		trigger = {
 			original_tag = ENG
 			OR = {
-				has_government = democratic
-				has_government = fascism
-				has_government = neutrality
+				has_government = liberalism
+				has_government = ultranationalism
+				has_government = despotism
 			}
 		}
 		localization_key = ENG_COASTAL_COMMAND_DESC_HISTORICAL
@@ -562,9 +562,9 @@ defined_text = {
 		trigger = {
 			original_tag = ENG
 			OR = {
-				has_government = democratic
-				has_government = fascism
-				has_government = neutrality
+				has_government = liberalism
+				has_government = ultranationalism
+				has_government = despotism
 			}
 		}
 		localization_key = ENG_BRITANNIA_RULES_THE_WAVES_DESC_HISTORICAL
@@ -584,9 +584,9 @@ defined_text = {
 		trigger = {
 			original_tag = ENG
 			OR = {
-				has_government = democratic
-				has_government = fascism
-				has_government = neutrality
+				has_government = liberalism
+				has_government = ultranationalism
+				has_government = despotism
 			}
 		}
 		localization_key = ENG_VANGUARD_DESC_HISTORICAL
@@ -605,14 +605,14 @@ defined_text = {
 	text = {
 		trigger = {
 			original_tag = HOL
-			GER = { has_government = fascism }
+			GER = { has_government = ultranationalism }
 		}
 		localization_key = HOL_WILHELMINISM_FASCISM
 	}
 	text = {
 		trigger = {
 			original_tag = HOL
-			NOT = { GER = { has_government = fascism } }
+			NOT = { GER = { has_government = ultranationalism } }
 		}
 		localization_key = HOL_WILHELMINISM_NEUTRALITY
 	}
@@ -1012,7 +1012,7 @@ defined_text = {
 	text = { #Salazarist Portugal
 		trigger = {
 			NOT = { has_cosmetic_tag = KPB_kingdom_portugal_and_brazil }
-			has_government = neutrality
+			has_government = despotism
 		}
 		localization_key = POR_topple_government_wargoal
 	}
@@ -1282,7 +1282,7 @@ defined_text = {
 	text = {
 		trigger = {
 			SOV = {
-				NOT = { has_government = fascism }
+				NOT = { has_government = ultranationalism }
 			}
 		}
 		localization_key = SOV_USSR_ALLIANCE_DESC_COMMUNIST
@@ -1290,7 +1290,7 @@ defined_text = {
 	text = {
 		trigger = {
 			SOV = {
-				has_government = fascism
+				has_government = ultranationalism
 			}
 		}
 		localization_key = SOV_USSR_ALLIANCE_DESC_EXILES
@@ -1310,7 +1310,7 @@ defined_text = {
 	text = {
 		trigger = {
 			SOV = {
-				has_government = fascism
+				has_government = ultranationalism
 			}
 		}
 		localization_key = SOV_BULWARK_NAME_FASCISM
@@ -1319,8 +1319,8 @@ defined_text = {
 		trigger = {
 			SOV = {
 				OR = {
-					has_government = neutrality
-					has_government = democratic
+					has_government = despotism
+					has_government = liberalism
 				}
 			}
 		}
@@ -1341,7 +1341,7 @@ defined_text = {
 	text = {
 		trigger = {
 			SOV = {
-				has_government = fascism
+				has_government = ultranationalism
 			}
 		}
 		localization_key = SOV_BULWARK_BOLSHEVISM_DESC_FASCISM
@@ -1350,8 +1350,8 @@ defined_text = {
 		trigger = {
 			SOV = {
 				OR = {
-					has_government = neutrality
-					has_government = democratic
+					has_government = despotism
+					has_government = liberalism
 				}
 			}
 		}
@@ -1372,7 +1372,7 @@ defined_text = {
 	text = {
 		trigger = {
 			SOV = {
-				has_government = fascism
+				has_government = ultranationalism
 			}
 		}
 		localization_key = SOV_BULWARK_COMMUNISM_DESC_FASCISM
@@ -1381,8 +1381,8 @@ defined_text = {
 		trigger = {
 			SOV = {
 				OR = {
-					has_government = neutrality
-					has_government = democratic
+					has_government = despotism
+					has_government = liberalism
 				}
 			}
 		}
@@ -1403,7 +1403,7 @@ defined_text = {
 	text = {
 		trigger = {
 			SOV = {
-				has_government = fascism
+				has_government = ultranationalism
 			}
 		}
 		localization_key = SOV_DANZIG_GUARANTEES_BOLSHEVIKS_DESC_FASCISM
@@ -1412,8 +1412,8 @@ defined_text = {
 		trigger = {
 			SOV = {
 				OR = {
-					has_government = neutrality
-					has_government = democratic
+					has_government = despotism
+					has_government = liberalism
 				}
 			}
 		}

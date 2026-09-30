@@ -6,13 +6,13 @@
  SWE_riksdag_balance_of_power_category: "Riksdag Decisions"
 
  SWE_centre_range: "National Unity Government"
- SWE_socialist_range: "Socialists in Power"
+ SWE_socialism_range: "Socialists in Power"
  SWE_social_democrat_range: "Social-Democrats in Power"
  SWE_left_coalition: "Left-Wing Coalition in Power"
 
  SWE_right_coalition: "Right-Wing Coalition in Power"
  SWE_conservative_range: "Conservatives in Power"
- SWE_national_socialist_range: "National Socialists in Power"
+ SWE_national_socialism_range: "National Socialists in Power"
  SWE_return_of_the_king: "The §YKing§! has re-established control over §Y[SWE.GetFlag][SWE.GetAdjective]§! politics."
 
  DEN_balance_of_power: "Welfare and Warfare Balance"
@@ -60,7 +60,7 @@
  FIN_bop_modifier_reliable_leader: "Reliable Leader"
  FIN_bop_modifier_realist_conservative: "Realist Conservative"
  FIN_bop_modifier_finnish_sovereignty_threatened: "Finnish Sovereignty Threatened"
- FIN_bop_modifier_concerning_support_for_socialists: "Concerning Support for Socialists"
+ FIN_bop_modifier_concerning_support_for_socialisms: "Concerning Support for Socialists"
  FIN_bop_modifier_concerning_support_for_extremists: "Concerning Support for Extremists"
  FIN_bop_modifier_appointed_regent: "Appointed Regent"
  FIN_bop_modifier_caretaker: "Caretaker"
@@ -68,6 +68,6 @@
  FIN_bop_modifier_united_nation: "United Nation"
  FIN_bop_modifier_divided_proletariat: "Divided Proletariat"
  FIN_bop_modifier_anti_fascist_crusade: "Anti-Fascist Crusade"
- FIN_bop_modifier_obliterated_european_fascism: "Obliterated European Fascism"
+ FIN_bop_modifier_obliterated_european_ultranationalism: "Obliterated European Fascism"
  FIN_bop_modifier_forgotten_finno_karelians: "Forgotten Finno-Karelians"
  FIN_bop_modifier_a_solar_system_of_organizations: "A Solar System of Organizations"

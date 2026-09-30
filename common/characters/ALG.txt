@@ -178,7 +178,7 @@ characters={
 				}
 				do_effect  = {
 					not  = {
-						has_government  = democratic 
+						has_government  = liberalism 
 					}
 				}
 				ai_will_do  = {
@@ -332,7 +332,7 @@ characters={
 				}
 				do_effect  = {
 					not  = {
-						has_government  = fascism 
+						has_government  = ultranationalism 
 					}
 				}
 				ai_will_do  = {

@@ -5,25 +5,25 @@ is_enemy_ideology = {
 			has_government = communism
 			ROOT = {
 				OR = {
-					has_government = fascism
-					has_government = democratic
+					has_government = ultranationalism
+					has_government = liberalism
 				}
 			}
 		}
 		AND = {
-			has_government = democratic
+			has_government = liberalism
 			ROOT = {
 				OR = {
 					has_government = communism
-					has_government = fascism
+					has_government = ultranationalism
 				}
 			}
 		}
 		AND = {
-			has_government = fascism
+			has_government = ultranationalism
 			ROOT = {
 				OR = {
-					has_government = democratic
+					has_government = liberalism
 					has_government = communism
 				}
 			}
@@ -33,5 +33,5 @@ is_enemy_ideology = {
 
 #these ideologies change VP and state names upon occupation, added just in case an ideology rework is made
 occ_change_name = {
-	has_government = fascism
+	has_government = ultranationalism
 }

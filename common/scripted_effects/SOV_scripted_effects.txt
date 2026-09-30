@@ -7356,9 +7356,9 @@ SOV_initiate_civil_war = {
 
 		# Get Ideology Support
 		set_variable = { SOV_communist_support_before_civil_war = party_popularity_100@communism }
-		set_variable = { SOV_democratic_support_before_civil_war = party_popularity_100@democratic }
-		set_variable = { SOV_fascist_support_before_civil_war = party_popularity_100@fascism }
-		set_variable = { SOV_neutrality_support_before_civil_war = party_popularity_100@neutrality }
+		set_variable = { SOV_democratic_support_before_civil_war = party_popularity_100@liberalism }
+		set_variable = { SOV_fascist_support_before_civil_war = party_popularity_100@ultranationalism }
+		set_variable = { SOV_neutrality_support_before_civil_war = party_popularity_100@despotism }
 
 		# Disband the NKVD -  they will come back, no worries
 		delete_units = {
@@ -7601,7 +7601,7 @@ SOV_start_civil_war = {
 	}
 	ELSE_IF= {
 		limit = { SOV_is_exiles = yes }
-		set_temp_variable = { temp_ideology = token:neutrality }
+		set_temp_variable = { temp_ideology = token:despotism }
 	}
 
 	# Lose border war with JAP 
@@ -7704,9 +7704,9 @@ SOV_start_civil_war = {
 		}
 		set_popularities = {
 			communism = SOV.SOV_communist_support_before_civil_war
-			democratic = SOV.SOV_democratic_support_before_civil_war
-			fascism = SOV.SOV_fascist_support_before_civil_war
-			neutrality = SOV.SOV_neutrality_support_before_civil_war
+			liberalism = SOV.SOV_democratic_support_before_civil_war
+			ultranationalism = SOV.SOV_fascist_support_before_civil_war
+			despotism = SOV.SOV_neutrality_support_before_civil_war
 		}
 		# Set Stalin as Leader if alive, else set Beriya
 		# recruit_character = SOV_iosif_stalin
@@ -8170,9 +8170,9 @@ SOV_left_opposition_civil_war_start = {
 	# Set party Popularity
 	set_popularities = {
 		communism = SOV_communist_support_before_civil_war
-		democratic = SOV_democratic_support_before_civil_war
-		fascism = SOV_fascist_support_before_civil_war
-		neutrality = SOV_neutrality_support_before_civil_war
+		liberalism = SOV_democratic_support_before_civil_war
+		ultranationalism = SOV_fascist_support_before_civil_war
+		despotism = SOV_neutrality_support_before_civil_war
 	}
 
 	# Modify Stability
@@ -8218,9 +8218,9 @@ SOV_right_opposition_civil_war_start = {
 	# Set party Popularity
 	set_popularities = {
 		communism = SOV_communist_support_before_civil_war
-		democratic = SOV_democratic_support_before_civil_war
-		fascism = SOV_fascist_support_before_civil_war
-		neutrality = SOV_neutrality_support_before_civil_war
+		liberalism = SOV_democratic_support_before_civil_war
+		ultranationalism = SOV_fascist_support_before_civil_war
+		despotism = SOV_neutrality_support_before_civil_war
 	}
 
 	# Modify Stability
@@ -8271,9 +8271,9 @@ SOV_right_opposition_civil_war_start = {
 SOV_exiles_civil_war_start = {
 	set_popularities = {
 		communism = SOV_communist_support_before_civil_war
-		democratic = SOV_democratic_support_before_civil_war
-		fascism = SOV_fascist_support_before_civil_war
-		neutrality = SOV_neutrality_support_before_civil_war
+		liberalism = SOV_democratic_support_before_civil_war
+		ultranationalism = SOV_fascist_support_before_civil_war
+		despotism = SOV_neutrality_support_before_civil_war
 	}
 
 	# Modify Stability

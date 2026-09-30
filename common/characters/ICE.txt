@@ -24,8 +24,8 @@ characters={
 			}
 			available = {
 				OR = {
-					has_government = democratic
-					has_government = neutrality
+					has_government = liberalism
+					has_government = despotism
 				}
 				has_completed_focus = ICE_the_kingdom_of_iceland
 			}
@@ -156,8 +156,8 @@ characters={
 			}
 			available = {
 				OR = {
-					has_government = democratic
-					has_government = neutrality
+					has_government = liberalism
+					has_government = despotism
 				}
 			}
 			visible = {
@@ -201,8 +201,8 @@ characters={
 			}
 			available = {
 				OR = {
-					has_government = democratic
-					has_government = neutrality
+					has_government = liberalism
+					has_government = despotism
 				}
 			}
 			visible = {
@@ -250,9 +250,9 @@ characters={
 			
 			}
 			available = {
-				NOT = { has_government = fascism }
+				NOT = { has_government = ultranationalism }
 				IF = { 
-					limit = { has_government = democratic }
+					limit = { has_government = liberalism }
 					has_country_leader = {
 						ruling_only = yes
 						character = ICE_hermann_jonasson
@@ -293,9 +293,9 @@ characters={
 			
 			}
 			available = {
-				NOT = { has_government = fascism }
+				NOT = { has_government = ultranationalism }
 				IF = { 
-					limit = { has_government = democratic }
+					limit = { has_government = liberalism }
 					has_country_leader = {
 						ruling_only = yes
 						character = ICE_hermann_jonasson
@@ -336,9 +336,9 @@ characters={
 			
 			}
 			available = {
-				NOT = { has_government = fascism }
+				NOT = { has_government = ultranationalism }
 				IF = { 
-					limit = { has_government = democratic }
+					limit = { has_government = liberalism }
 					has_country_leader = {
 						ruling_only = yes
 						character = ICE_hermann_jonasson
@@ -379,9 +379,9 @@ characters={
 			
 			}
 			available = {
-				NOT = { has_government = fascism }
+				NOT = { has_government = ultranationalism }
 				IF = { 
-					limit = { has_government = democratic }
+					limit = { has_government = liberalism }
 					has_country_leader = {
 						ruling_only = yes
 						character = ICE_hermann_jonasson
@@ -455,11 +455,11 @@ characters={
 			}
 			available = {
 				OR = {
-					has_government = democratic
-					has_government = fascism
+					has_government = liberalism
+					has_government = ultranationalism
 				}
 				IF = { 
-					limit = { has_government = democratic }
+					limit = { has_government = liberalism }
 					has_country_leader = {
 						ruling_only = yes
 						character = ICE_olafur_thors
@@ -500,8 +500,8 @@ characters={
 			}
 			available = {
 				OR = {
-					has_government = neutrality
-					has_government = fascism
+					has_government = despotism
+					has_government = ultranationalism
 				}
 			}
 			visible = {
@@ -582,8 +582,8 @@ characters={
 			}
 			available = {
 				OR = {
-					has_government = neutrality
-					has_government = fascism
+					has_government = despotism
+					has_government = ultranationalism
 				}
 			}
 			visible = {
@@ -616,8 +616,8 @@ characters={
 			}
 			available = {
 				OR = {
-					has_government = neutrality
-					has_government = fascism
+					has_government = despotism
+					has_government = ultranationalism
 				}
 			}
 			visible = {
@@ -650,8 +650,8 @@ characters={
 			}
 			available = {
 				OR = {
-					has_government = neutrality
-					has_government = democratic
+					has_government = despotism
+					has_government = liberalism
 				}
 				has_completed_focus = ICE_the_kingdom_of_iceland
 			}
@@ -684,7 +684,7 @@ characters={
 			
 			}
 			available = {
-				has_government = fascism
+				has_government = ultranationalism
 			}
 			visible = {
 			
@@ -818,7 +818,7 @@ characters={
 			
 			}
 			available = {
-				has_government = fascism 
+				has_government = ultranationalism 
 				has_completed_focus = ICE_state_visits
 			}
 			visible = {
@@ -926,7 +926,7 @@ characters={
 			logistics_skill = 1
 			legacy_id=0
 			visible = {
-				has_government = fascism
+				has_government = ultranationalism
 			}
 		}
 		

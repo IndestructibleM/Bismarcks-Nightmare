@@ -20,7 +20,7 @@ POR_helps_SPD_win_civil_war = {
 	}
 	enable = {
 		SPR_scw_in_progress = yes
-		NOT = { has_government = fascism }
+		NOT = { has_government = ultranationalism }
 		has_completed_focus = POR_support_the_spanish_republic
 		country_exists = SPD
 	}
@@ -28,7 +28,7 @@ POR_helps_SPD_win_civil_war = {
 		OR = {
 			NOT = { country_exists = SPD }
 			SPD = { has_completed_focus = SPR_a_red_iberia }
-			has_government = fascism
+			has_government = ultranationalism
 			has_global_flag = scw_over
 		}
 	}
@@ -56,8 +56,8 @@ POR_helps_SPA_win_civil_war = {
 	enable = {
 		SPR_scw_in_progress = yes
 		OR = {
-			has_government = fascism
-			has_government = neutrality
+			has_government = ultranationalism
+			has_government = despotism
 		}
 		has_completed_focus = POR_support_the_spanish_nationalists
 		country_exists = SPA
@@ -67,7 +67,7 @@ POR_helps_SPA_win_civil_war = {
 			NOT = { country_exists = SPA }
 			OR = {
 				has_government = communism
-				has_government = democratic
+				has_government = liberalism
 			}
 			has_global_flag = scw_over
 		}
@@ -95,14 +95,14 @@ POR_helps_SPB_win_civil_war = {
 	}
 	enable = {
 		SPR_scw_in_progress = yes
-		has_government = neutrality
+		has_government = despotism
 		has_completed_focus = POR_support_a_spanish_monarchy_in_the_war
 		country_exists = SPB
 	}
 	abort = {
 		OR = {
 			NOT = { country_exists = SPB }
-			NOT = { has_government = neutrality }
+			NOT = { has_government = despotism }
 			has_global_flag = scw_over
 		}
 	}

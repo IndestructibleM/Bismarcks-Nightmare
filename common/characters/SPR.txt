@@ -191,12 +191,12 @@ characters={
 				}
 				visible = {
 					NOT = {
-						has_government = fascism
+						has_government = ultranationalism
 					}
 				}
 				available = {
 					NOT = {
-						has_government = fascism
+						has_government = ultranationalism
 					}
 				}
 				traits = {
@@ -265,12 +265,12 @@ characters={
 				}
 				visible = {
 					NOT = {
-						has_government = fascism
+						has_government = ultranationalism
 					}
 				}
 				available = {
 					NOT = {
-						has_government = fascism
+						has_government = ultranationalism
 					}
 				}
 				traits = {
@@ -304,10 +304,10 @@ characters={
 				original_tag = SPR
 			}
 			visible = {
-				has_government = fascism
+				has_government = ultranationalism
 			}
 			available = {
-				has_government = fascism
+				has_government = ultranationalism
 			}
 			traits = {
 				air_warfare_theorist
@@ -563,7 +563,7 @@ characters={
 					custom_trigger_tooltip = {
 						tooltip = spr_franco_unavailable_tooltip
 						OR = {
-							has_government = fascism
+							has_government = ultranationalism
 							AND = {
 								NOT = {
 									has_government = communism
@@ -574,7 +574,7 @@ characters={
 										NOT = {
 											tag = root
 										}
-										has_government = fascism
+										has_government = ultranationalism
 									}
 								}
 							}
@@ -720,10 +720,10 @@ characters={
 					original_tag = SPR
 				}
 				visible = {
-					has_government = fascism
+					has_government = ultranationalism
 				}
 				available = {
-					has_government = fascism
+					has_government = ultranationalism
 				}
 				traits = {
 					army_chief_offensive_2
@@ -817,10 +817,10 @@ characters={
 					original_tag = SPR
 				}
 				visible = {
-					has_government = fascism
+					has_government = ultranationalism
 				}
 				available = {
-					has_government = fascism
+					has_government = ultranationalism
 				}
 				traits = {
 					air_chief_reform_2
@@ -852,10 +852,10 @@ characters={
 				original_tag = SPR
 			}
 			visible = {
-				has_government = fascism
+				has_government = ultranationalism
 			}
 			available = {
-				has_government = fascism
+				has_government = ultranationalism
 			}
 			traits = {
 				army_logistics_2
@@ -938,10 +938,10 @@ characters={
 					original_tag = SPR
 				}
 				visible = {
-					has_government = fascism
+					has_government = ultranationalism
 				}
 				available = {
-					has_government = fascism
+					has_government = ultranationalism
 				}
 				traits = {
 					army_infantry_2
@@ -1058,10 +1058,10 @@ characters={
 					original_tag = SPR
 				}
 				visible = {
-					has_government = fascism
+					has_government = ultranationalism
 				}
 				available = {
-					has_government = fascism
+					has_government = ultranationalism
 				}
 				
 				traits = {
@@ -1160,10 +1160,10 @@ characters={
 					original_tag = SPR
 				}
 				visible = {
-					has_government = fascism
+					has_government = ultranationalism
 				}
 				available = {
-					has_government = fascism
+					has_government = ultranationalism
 				}
 				traits = {
 					army_chief_old_guard
@@ -1239,12 +1239,12 @@ characters={
 				}
 				visible = {
 					NOT = {
-						has_government = fascism
+						has_government = ultranationalism
 					}
 				}
 				available = {
 					NOT = {
-						has_government = fascism
+						has_government = ultranationalism
 					}
 				}
 				traits = {
@@ -1322,10 +1322,10 @@ characters={
 					original_tag = SPR
 				}
 				visible = {
-					has_government = fascism
+					has_government = ultranationalism
 				}
 				available = {
-					has_government = fascism
+					has_government = ultranationalism
 				}
 				traits = {
 					navy_chief_old_guard
@@ -1538,10 +1538,10 @@ characters={
 					original_tag = SPR
 				}
 				visible = {
-					has_government = fascism
+					has_government = ultranationalism
 				}
 				available = {
-					has_government = fascism
+					has_government = ultranationalism
 				}
 				traits = {
 					air_air_combat_training_3
@@ -1682,12 +1682,12 @@ characters={
 			}
 			visible = {
 				NOT = {
-					has_government = fascism
+					has_government = ultranationalism
 				}
 			}
 			available = {
 				NOT = {
-					has_government = fascism
+					has_government = ultranationalism
 				}
 			}
 			traits = {
@@ -1761,10 +1761,10 @@ characters={
 					original_tag = SPR
 				}
 				visible = {
-					has_government = fascism
+					has_government = ultranationalism
 				}
 				available = {
-					has_government = fascism
+					has_government = ultranationalism
 				}
 				traits = {
 					army_chief_defensive_2
@@ -1840,12 +1840,12 @@ characters={
 				}
 				visible = {
 					NOT = {
-						has_government = fascism
+						has_government = ultranationalism
 					}
 				}
 				available = {
 					NOT = {
-						has_government = fascism
+						has_government = ultranationalism
 					}
 				}
 				traits = {
@@ -1873,10 +1873,10 @@ characters={
 				original_tag = SPR
 			}
 			visible = {
-				has_government = fascism
+				has_government = ultranationalism
 			}
 			available = {
-				has_government = fascism
+				has_government = ultranationalism
 			}
 			traits = {
 				navy_chief_decisive_battle_2
@@ -1906,10 +1906,10 @@ characters={
 				original_tag = SPR
 			}
 			visible = {
-				has_government = fascism
+				has_government = ultranationalism
 			}
 			available = {
-				has_government = fascism
+				has_government = ultranationalism
 			}
 			traits = {
 				navy_chief_reform_2
@@ -1942,12 +1942,12 @@ characters={
 			}
 			visible = {
 				NOT = {
-					has_government = fascism
+					has_government = ultranationalism
 				}
 			}
 			available = {
 				NOT = {
-					has_government = fascism
+					has_government = ultranationalism
 				}
 			}
 			
@@ -2148,12 +2148,12 @@ characters={
 			}
 			visible = {
 				NOT = {
-					has_government = fascism
+					has_government = ultranationalism
 				}
 			}
 			available = {
 				NOT = {
-					has_government = fascism
+					has_government = ultranationalism
 				}
 			}
 			traits = {
@@ -2185,10 +2185,10 @@ characters={
 				original_tag = SPR
 			}
 			visible = {
-				has_government = fascism
+				has_government = ultranationalism
 			}
 			available = {
-				has_government = fascism
+				has_government = ultranationalism
 			}
 			traits = {
 				air_strategic_bombing_2
@@ -2359,10 +2359,10 @@ characters={
 				original_tag = SPR
 			}
 			visible = {
-				has_government = fascism
+				has_government = ultranationalism
 			}
 			available = {
-				has_government = fascism
+				has_government = ultranationalism
 			}
 			traits = {
 				air_chief_ground_support_2
@@ -2394,12 +2394,12 @@ characters={
 			}
 			visible = {
 				NOT = {
-					has_government = fascism
+					has_government = ultranationalism
 				}
 			}
 			available = {
 				NOT = {
-					has_government = fascism
+					has_government = ultranationalism
 				}
 			}
 			traits = {
@@ -2472,12 +2472,12 @@ characters={
 				}
 				visible = {
 					NOT = {
-						has_government = fascism
+						has_government = ultranationalism
 					}
 				}
 				available = {
 					NOT = {
-						has_government = fascism
+						has_government = ultranationalism
 					}
 				}
 				traits = {
@@ -2551,12 +2551,12 @@ characters={
 				}
 				visible = {
 					NOT = {
-						has_government = fascism
+						has_government = ultranationalism
 					}
 				}
 				available = {
 					NOT = {
-						has_government = fascism
+						has_government = ultranationalism
 					}
 				}
 				traits = {
@@ -2736,12 +2736,12 @@ characters={
 				}
 				visible = {
 					NOT = {
-						has_government = fascism
+						has_government = ultranationalism
 					}
 				}
 				available = {
 					NOT = {
-						has_government = fascism
+						has_government = ultranationalism
 					}
 				}
 				traits = {
@@ -3033,12 +3033,12 @@ characters={
 				}
 				visible = {
 					NOT = {
-						has_government = fascism
+						has_government = ultranationalism
 					}
 				}
 				available = {
 					NOT = {
-						has_government = fascism
+						has_government = ultranationalism
 					}
 				}
 				traits = {
@@ -3509,7 +3509,7 @@ characters={
 					}
 					original_tag = SPR
 					NOT = {
-						has_government = fascism 
+						has_government = ultranationalism 
 					}
 				}
 				traits = {
@@ -3591,7 +3591,7 @@ characters={
 					}
 					original_tag = SPR
 					NOT = {
-						has_government = fascism 
+						has_government = ultranationalism 
 					}
 				}
 				traits = {
@@ -3678,7 +3678,7 @@ characters={
 					}
 					original_tag = SPR
 					NOT = {
-						has_government = fascism 
+						has_government = ultranationalism 
 					}
 				}
 				available = {
@@ -3919,7 +3919,7 @@ characters={
 					}
 					original_tag = SPR
 					NOT = {
-						has_government = fascism 
+						has_government = ultranationalism 
 					}
 				}
 				traits = {
@@ -4247,7 +4247,7 @@ characters={
 			allowed = {
 				NOT = { has_dlc = "La Resistance" }
 				original_tag = SPR
-				has_government = fascism
+				has_government = ultranationalism
 			}
 			traits = {
 				prince_of_terror 
@@ -4269,7 +4269,7 @@ characters={
 			allowed = {
 				NOT = { has_dlc = "La Resistance" }
 				original_tag = SPR
-				has_government = fascism
+				has_government = ultranationalism
 			}
 			traits = {
 				compassionate_gentleman 
@@ -4291,7 +4291,7 @@ characters={
 			allowed = {
 				NOT = { has_dlc = "La Resistance" }
 				original_tag = SPR
-				has_government = fascism
+				has_government = ultranationalism
 			}
 			traits = {
 				war_industrialist 

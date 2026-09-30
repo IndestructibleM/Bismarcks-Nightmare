@@ -1392,7 +1392,7 @@ technologies = {
 			modifier = {
 				add = 1
 				date > 1932.9.1
-				NOT = { has_government = democratic }
+				NOT = { has_government = liberalism }
 				num_of_military_factories > 150
 			}
 			modifier = {
@@ -1400,7 +1400,7 @@ technologies = {
 				original_tag = GER
 				date > 1933.5.1
 				surrender_progress < 0.1
-				has_government = fascism
+				has_government = ultranationalism
 				has_war_with = SOV
 			}
 			modifier = {

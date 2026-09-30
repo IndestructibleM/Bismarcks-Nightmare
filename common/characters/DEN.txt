@@ -395,7 +395,7 @@ characters={
 				available = {
 					is_country_leader = no
 					NOT = {
-						has_government = fascism
+						has_government = ultranationalism
 						has_character_flag = DEN_political_agitator_flag
 						has_country_flag = DEN_banned_communism_flag
 					}
@@ -803,8 +803,8 @@ characters={
 						is_subject = yes
 						OVERLORD = {
 							OR = {
-								has_government = fascism
-								has_government = neutrality
+								has_government = ultranationalism
+								has_government = despotism
 							}
 						}
 						has_completed_focus = DEN_contribute_to_the_war
@@ -918,8 +918,8 @@ characters={
 							is_subject = yes
 							OVERLORD = {
 								OR = {
-									has_government = fascism
-									has_government = neutrality
+									has_government = ultranationalism
+									has_government = despotism
 								}
 							}
 							has_completed_focus = DEN_contribute_to_the_war
@@ -2225,7 +2225,7 @@ characters={
 				is_country_leader = no
 				OR = {
 					has_completed_focus = DEN_strengthen_the_officer_corp
-					has_government = fascism
+					has_government = ultranationalism
 				}	
 				NOT = {
 					has_government = communism

@@ -245,7 +245,7 @@ buildings = {
 		country_modifiers = {
 			enable_for_controllers = { GER }
 			modifiers = {
-				stability_factor = 0.05 # A symbol of German democracy and spirit. Valuable even for non-democratic germans
+				stability_factor = 0.05 # A symbol of German democracy and spirit. Valuable even for non-liberalism germans
 			}
 		}
 	}

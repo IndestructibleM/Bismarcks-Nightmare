@@ -3,7 +3,7 @@
 #	example_effect = {
 #		add_political_power = 66
 #		add_popularity = {
-#			ideology = fascism
+#			ideology = ultranationalism
 #			popularity = 0.33
 #		}
 #	}
@@ -488,7 +488,7 @@ get_best_alliance_match_democratic_effect = { #arguably a trigger, but it does s
 			any_other_country = {
 				is_faction_leader = yes
 				is_major = yes
-				has_government = democratic
+				has_government = liberalism
 				not = { has_war_with = ROOT }
 				set_temp_variable = { ROOT.best_leader = this }
 				set_temp_variable = { ROOT.best_leader_score = 0 }
@@ -500,7 +500,7 @@ get_best_alliance_match_democratic_effect = { #arguably a trigger, but it does s
 			all_other_country = {
 				is_faction_leader = yes
 				is_major = yes
-				has_government = democratic
+				has_government = liberalism
 				not = { has_war_with = ROOT }
 				set_temp_variable = { this.leader_score = num_of_factories }
 				add_to_temp_variable = { this.leader_score = num_battalions }
@@ -541,7 +541,7 @@ get_best_alliance_match_fascism_effect = { #arguably a trigger, but it does stuf
 			any_other_country = {
 				is_faction_leader = yes
 				is_major = yes
-				has_government = fascism
+				has_government = ultranationalism
 				not = { has_war_with = ROOT }
 				set_temp_variable = { ROOT.best_leader = this }
 				set_temp_variable = { ROOT.best_leader_score = 0 }
@@ -554,7 +554,7 @@ get_best_alliance_match_fascism_effect = { #arguably a trigger, but it does stuf
 
 				is_faction_leader = yes
 				is_major = yes
-				has_government = fascism
+				has_government = ultranationalism
 				not = { has_war_with = ROOT }
 
 				set_temp_variable = { this.leader_score = num_of_factories }
@@ -837,11 +837,11 @@ clear_sabotaged_resources_if_necesary = {
 
 remove_from_allowed_party = {
 	if = {
-		limit = { has_government = democratic }
+		limit = { has_government = liberalism }
 		set_temp_variable = { allowed_party_democratic = 0 }
 	}
 	else_if = {
-		limit = { has_government = fascism }
+		limit = { has_government = ultranationalism }
 		set_temp_variable = { allowed_party_fascism = 0 }
 	}
 	else_if = {
@@ -849,7 +849,7 @@ remove_from_allowed_party = {
 		set_temp_variable = { allowed_party_communism = 0 }
 	}
 	else_if = {
-		limit = { has_government = neutrality }
+		limit = { has_government = despotism }
 		set_temp_variable = { allowed_party_neutrality = 0 }
 	}
 }
@@ -1169,7 +1169,7 @@ join_allies_effect = {
 		limit = {
 			ENG = {
 				is_faction_leader = yes
-				has_government = democratic
+				has_government = liberalism
 				not = { has_war_with = ROOT }
 			}
 		}
@@ -1235,7 +1235,7 @@ remove_communist_spirits_effect = {
 	}
 }
 
-#Should remove any and all democratic foreign influence
+#Should remove any and all liberalism foreign influence
 remove_democratic_spirits_effect = {
 	if = {
 		limit = { has_idea = democratic_influence }
@@ -1249,15 +1249,15 @@ add_ruling_to_dem = {
 	hidden_effect = {
 		if = {
 			limit = {
-				has_government = neutrality
+				has_government = despotism
 			}
 			set_variable = {
 				var = neutrality_support_var
-				value = party_popularity_100@neutrality
+				value = party_popularity_100@despotism
 			}
 			set_variable = {
 				var = democratic_support_var
-				value = party_popularity_100@democratic
+				value = party_popularity_100@liberalism
 			}
 			set_variable = {
 				var = communism_support_var
@@ -1265,7 +1265,7 @@ add_ruling_to_dem = {
 			}
 			set_variable = {
 				var = fascism_support_var
-				value = party_popularity_100@fascism
+				value = party_popularity_100@ultranationalism
 			}
 			add_to_variable = {
 				democratic_support_var = neutrality_support_var
@@ -1281,11 +1281,11 @@ add_ruling_to_dem = {
 			}
 			set_variable = {
 				var = neutrality_support_var
-				value = party_popularity_100@neutrality
+				value = party_popularity_100@despotism
 			}
 			set_variable = {
 				var = democratic_support_var
-				value = party_popularity_100@democratic
+				value = party_popularity_100@liberalism
 			}
 			set_variable = {
 				var = communism_support_var
@@ -1293,7 +1293,7 @@ add_ruling_to_dem = {
 			}
 			set_variable = {
 				var = fascism_support_var
-				value = party_popularity_100@fascism
+				value = party_popularity_100@ultranationalism
 			}
 			add_to_variable = {
 				democratic_support_var = communism_support_var
@@ -1305,15 +1305,15 @@ add_ruling_to_dem = {
 		}
 		if = {
 			limit = {
-				has_government = fascism
+				has_government = ultranationalism
 			}
 			set_variable = {
 				var = neutrality_support_var
-				value = party_popularity_100@neutrality
+				value = party_popularity_100@despotism
 			}
 			set_variable = {
 				var = democratic_support_var
-				value = party_popularity_100@democratic
+				value = party_popularity_100@liberalism
 			}
 			set_variable = {
 				var = communism_support_var
@@ -1321,7 +1321,7 @@ add_ruling_to_dem = {
 			}
 			set_variable = {
 				var = fascism_support_var
-				value = party_popularity_100@fascism
+				value = party_popularity_100@ultranationalism
 			}
 			add_to_variable = {
 				democratic_support_var = fascism_support_var
@@ -1332,9 +1332,9 @@ add_ruling_to_dem = {
 			}
 		}
 		set_popularities = {
-			democratic = democratic_support_var
-			neutrality = neutrality_support_var
-			fascism = fascism_support_var
+			liberalism = democratic_support_var
+			despotism = neutrality_support_var
+			ultranationalism = fascism_support_var
 			communism = communism_support_var
 		}
 	}
@@ -1344,15 +1344,15 @@ add_ruling_to_fas = {
 	hidden_effect = {
 		if = {
 			limit = {
-				has_government = neutrality
+				has_government = despotism
 			}
 			set_variable = {
 				var = neutrality_support_var
-				value = party_popularity_100@neutrality
+				value = party_popularity_100@despotism
 			}
 			set_variable = {
 				var = democratic_support_var
-				value = party_popularity_100@democratic
+				value = party_popularity_100@liberalism
 			}
 			set_variable = {
 				var = communism_support_var
@@ -1360,7 +1360,7 @@ add_ruling_to_fas = {
 			}
 			set_variable = {
 				var = fascism_support_var
-				value = party_popularity_100@fascism
+				value = party_popularity_100@ultranationalism
 			}
 			add_to_variable = {
 				fascism_support_var = neutrality_support_var
@@ -1376,11 +1376,11 @@ add_ruling_to_fas = {
 			}
 			set_variable = {
 				var = neutrality_support_var
-				value = party_popularity_100@neutrality
+				value = party_popularity_100@despotism
 			}
 			set_variable = {
 				var = democratic_support_var
-				value = party_popularity_100@democratic
+				value = party_popularity_100@liberalism
 			}
 			set_variable = {
 				var = communism_support_var
@@ -1388,7 +1388,7 @@ add_ruling_to_fas = {
 			}
 			set_variable = {
 				var = fascism_support_var
-				value = party_popularity_100@fascism
+				value = party_popularity_100@ultranationalism
 			}
 			add_to_variable = {
 				fascism_support_var = communism_support_var
@@ -1400,15 +1400,15 @@ add_ruling_to_fas = {
 		}
 		if = {
 			limit = {
-				has_government = democratic
+				has_government = liberalism
 			}
 			set_variable = {
 				var = neutrality_support_var
-				value = party_popularity_100@neutrality
+				value = party_popularity_100@despotism
 			}
 			set_variable = {
 				var = democratic_support_var
-				value = party_popularity_100@democratic
+				value = party_popularity_100@liberalism
 			}
 			set_variable = {
 				var = communism_support_var
@@ -1416,7 +1416,7 @@ add_ruling_to_fas = {
 			}
 			set_variable = {
 				var = fascism_support_var
-				value = party_popularity_100@fascism
+				value = party_popularity_100@ultranationalism
 			}
 			add_to_variable = {
 				fascism_support_var = democratic_support_var
@@ -1427,9 +1427,9 @@ add_ruling_to_fas = {
 			}
 		}
 		set_popularities = {
-			democratic = democratic_support_var
-			neutrality = neutrality_support_var
-			fascism = fascism_support_var
+			liberalism = democratic_support_var
+			despotism = neutrality_support_var
+			ultranationalism = fascism_support_var
 			communism = communism_support_var
 		}
 	}
@@ -1439,15 +1439,15 @@ add_ruling_to_com = {
 	hidden_effect = {
 		if = {
 			limit = {
-				has_government = neutrality
+				has_government = despotism
 			}
 			set_variable = {
 				var = neutrality_support_var
-				value = party_popularity_100@neutrality
+				value = party_popularity_100@despotism
 			}
 			set_variable = {
 				var = democratic_support_var
-				value = party_popularity_100@democratic
+				value = party_popularity_100@liberalism
 			}
 			set_variable = {
 				var = communism_support_var
@@ -1455,7 +1455,7 @@ add_ruling_to_com = {
 			}
 			set_variable = {
 				var = fascism_support_var
-				value = party_popularity_100@fascism
+				value = party_popularity_100@ultranationalism
 			}
 			add_to_variable = {
 				communism_support_var = neutrality_support_var
@@ -1467,15 +1467,15 @@ add_ruling_to_com = {
 		}
 		if = {
 			limit = {
-				has_government = fascism
+				has_government = ultranationalism
 			}
 			set_variable = {
 				var = neutrality_support_var
-				value = party_popularity_100@neutrality
+				value = party_popularity_100@despotism
 			}
 			set_variable = {
 				var = democratic_support_var
-				value = party_popularity_100@democratic
+				value = party_popularity_100@liberalism
 			}
 			set_variable = {
 				var = communism_support_var
@@ -1483,7 +1483,7 @@ add_ruling_to_com = {
 			}
 			set_variable = {
 				var = fascism_support_var
-				value = party_popularity_100@fascism
+				value = party_popularity_100@ultranationalism
 			}
 			add_to_variable = {
 				communism_support_var = fascism_support_var
@@ -1495,15 +1495,15 @@ add_ruling_to_com = {
 		}
 		if = {
 			limit = {
-				has_government = democratic
+				has_government = liberalism
 			}
 			set_variable = {
 				var = neutrality_support_var
-				value = party_popularity_100@neutrality
+				value = party_popularity_100@despotism
 			}
 			set_variable = {
 				var = democratic_support_var
-				value = party_popularity_100@democratic
+				value = party_popularity_100@liberalism
 			}
 			set_variable = {
 				var = communism_support_var
@@ -1511,7 +1511,7 @@ add_ruling_to_com = {
 			}
 			set_variable = {
 				var = fascism_support_var
-				value = party_popularity_100@fascism
+				value = party_popularity_100@ultranationalism
 			}
 			add_to_variable = {
 				communism_support_var = democratic_support_var
@@ -1522,9 +1522,9 @@ add_ruling_to_com = {
 			}
 		}
 		set_popularities = {
-			democratic = democratic_support_var
-			neutrality = neutrality_support_var
-			fascism = fascism_support_var
+			liberalism = democratic_support_var
+			despotism = neutrality_support_var
+			ultranationalism = fascism_support_var
 			communism = communism_support_var
 		}
 	}
@@ -1538,11 +1538,11 @@ add_ruling_to_neu = {
 			}
 			set_variable = {
 				var = neutrality_support_var
-				value = party_popularity_100@neutrality
+				value = party_popularity_100@despotism
 			}
 			set_variable = {
 				var = democratic_support_var
-				value = party_popularity_100@democratic
+				value = party_popularity_100@liberalism
 			}
 			set_variable = {
 				var = communism_support_var
@@ -1550,7 +1550,7 @@ add_ruling_to_neu = {
 			}
 			set_variable = {
 				var = fascism_support_var
-				value = party_popularity_100@fascism
+				value = party_popularity_100@ultranationalism
 			}
 			add_to_variable = {
 				neutrality_support_var = communism_support_var
@@ -1562,15 +1562,15 @@ add_ruling_to_neu = {
 		}
 		if = {
 			limit = {
-				has_government = fascism
+				has_government = ultranationalism
 			}
 			set_variable = {
 				var = neutrality_support_var
-				value = party_popularity_100@neutrality
+				value = party_popularity_100@despotism
 			}
 			set_variable = {
 				var = democratic_support_var
-				value = party_popularity_100@democratic
+				value = party_popularity_100@liberalism
 			}
 			set_variable = {
 				var = communism_support_var
@@ -1578,7 +1578,7 @@ add_ruling_to_neu = {
 			}
 			set_variable = {
 				var = fascism_support_var
-				value = party_popularity_100@fascism
+				value = party_popularity_100@ultranationalism
 			}
 			add_to_variable = {
 				neutrality_support_var = fascism_support_var
@@ -1590,15 +1590,15 @@ add_ruling_to_neu = {
 		}
 		if = {
 			limit = {
-				has_government = democratic
+				has_government = liberalism
 			}
 			set_variable = {
 				var = neutrality_support_var
-				value = party_popularity_100@neutrality
+				value = party_popularity_100@despotism
 			}
 			set_variable = {
 				var = democratic_support_var
-				value = party_popularity_100@democratic
+				value = party_popularity_100@liberalism
 			}
 			set_variable = {
 				var = communism_support_var
@@ -1606,7 +1606,7 @@ add_ruling_to_neu = {
 			}
 			set_variable = {
 				var = fascism_support_var
-				value = party_popularity_100@fascism
+				value = party_popularity_100@ultranationalism
 			}
 			add_to_variable = {
 				neutrality_support_var = democratic_support_var
@@ -1617,9 +1617,9 @@ add_ruling_to_neu = {
 			}
 		}
 		set_popularities = {
-			democratic = democratic_support_var
-			neutrality = neutrality_support_var
-			fascism = fascism_support_var
+			liberalism = democratic_support_var
+			despotism = neutrality_support_var
+			ultranationalism = fascism_support_var
 			communism = communism_support_var
 		}
 	}

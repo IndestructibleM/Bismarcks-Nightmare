@@ -45,15 +45,15 @@ create_country_leader = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1934.3.25"
 	election_frequency = 60
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 65
-	fascism = 10
+	liberalism = 65
+	ultranationalism = 10
 	communism = 5
-	neutrality = 20
+	despotism = 20
 }

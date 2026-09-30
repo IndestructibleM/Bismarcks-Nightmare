@@ -1296,7 +1296,7 @@ allies_avoid_starting_wars_during_endgame = { #Allies should avoid attacking.. w
 	}
 	enable = {
 		is_historical_focus_on = yes
-		ENG = { has_government = democratic }
+		ENG = { has_government = liberalism }
 		OR = {
 			tag = ENG
 			is_in_faction_with = ENG

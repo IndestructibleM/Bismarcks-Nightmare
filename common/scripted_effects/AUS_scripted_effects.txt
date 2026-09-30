@@ -96,11 +96,11 @@ AUS_herrenhaus_and_vf_leaders_setup = {
 	}
 	set_variable = {
 		var = neutrality_support_var
-		value = party_popularity_100@neutrality
+		value = party_popularity_100@despotism
 	}
 	set_variable = {
 		var = fascism_support_var
-		value = party_popularity_100@fascism
+		value = party_popularity_100@ultranationalism
 	}
 	set_variable = {
 		var = communism_support_var
@@ -108,13 +108,13 @@ AUS_herrenhaus_and_vf_leaders_setup = {
 	}
 	set_variable = {
 		var = democratic_support_var
-		value = party_popularity_100@democratic
+		value = party_popularity_100@liberalism
 	}
 	set_popularities = {
-		democratic= party_popularity_100@democratic 
-		neutrality = party_popularity_100@fascism #IT IS MEANT TO BE SWAPPED!
-		fascism = party_popularity_100@neutrality #IT IS MEANT TO BE SWAPPED!
-		communism = party_popularity_100@democratic
+		liberalism= party_popularity_100@liberalism 
+		despotism = party_popularity_100@ultranationalism #IT IS MEANT TO BE SWAPPED!
+		ultranationalism = party_popularity_100@despotism #IT IS MEANT TO BE SWAPPED!
+		communism = party_popularity_100@liberalism
 	}
 }
 

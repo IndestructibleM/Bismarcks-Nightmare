@@ -77,16 +77,16 @@ ITA_is_compatible_spanish_tag = { #THIS is Spanish tag, ROOT is ITA
 	OR = { #Nationalist Spain
 		AND = {
 			tag = SPA
-			ROOT = { has_government = fascism }
+			ROOT = { has_government = ultranationalism }
 		}
 		AND = { #Carlists
 			tag = SPB
-			ROOT = { has_government = neutrality }
+			ROOT = { has_government = despotism }
 		}
 		AND = {
 			tag = SPD
 			OR = {
-				ROOT = { has_government = democratic }
+				ROOT = { has_government = liberalism }
 				ROOT = { has_government = communism }
 			}
 		}
@@ -195,7 +195,7 @@ ITA_government_is_really_fascist = {
 		}
 	}
 	else = {
-		has_government = fascism
+		has_government = ultranationalism
 	}
 }
 
@@ -205,14 +205,14 @@ ITA_government_is_somewhat_fascist = {
 			has_dlc = "By Blood Alone"
 		}
 		OR = {
-			has_government = fascism
+			has_government = ultranationalism
 			has_completed_focus = ITA_utilize_the_blackshirts
 		}
 	}
 	else = {
 		OR = {
-			has_government = fascism
-			has_government = neutrality
+			has_government = ultranationalism
+			has_government = despotism
 		}
 	}
 }
@@ -238,7 +238,7 @@ ITA_is_in_liberation_war = {
 }
 
 ITA_is_valid_free_states_of_europe_target = {
-	has_government = democratic
+	has_government = liberalism
 	is_in_faction = no
 	is_subject = no
 	NOT = { has_war_with = ROOT }
@@ -396,7 +396,7 @@ ITA_has_rejected_monarchy = { # Used to change NS names from Regio/a to somethin
 	OR = {
 		has_government = communism
 		AND = {
-			has_government = democratic
+			has_government = liberalism
 			has_completed_focus = ITA_the_italian_republic
 		}
 		has_completed_focus = ITA_capo_supremo
@@ -510,9 +510,9 @@ has_dino_grandi = {
 
 ITA_is_kinda_fascist = {
 	OR = {
-		has_government = fascism
+		has_government = ultranationalism
 		AND = {
-			has_government = neutrality
+			has_government = despotism
 			has_completed_focus = ITA_utilize_the_blackshirts
 		}
 	}
@@ -521,9 +521,9 @@ ITA_is_kinda_fascist = {
 ITA_is_anti_fascist = {
 	OR = {
 		has_government = communism
-		has_government = democratic
+		has_government = liberalism
 		AND = {
-			has_government = neutrality
+			has_government = despotism
 			has_completed_focus = ITA_disband_the_blackshirts
 		}
 	}
@@ -644,7 +644,7 @@ ITA_is_appropriate_cw_side_for_character_split = {
 			}
 			has_country_flag = ITA_fascist_side_for_character_split_flag
 			#log = "I am a FASCIST [FROM.GetName]"
-			#has_government = fascism
+			#has_government = ultranationalism
 		}
 		#MONARCHIST & ANTIFASCIST
 		else_if = {
@@ -707,7 +707,7 @@ ITA_is_appropriate_cw_side_for_character_split = {
 			}
 			NOT = { has_country_flag = ITA_antifa_side_for_character_split_flag }
 			#log = "I am a FASCIST [FROM.GetName]"
-			#has_government = fascism
+			#has_government = ultranationalism
 		}
 		else = {
 			#log ="I have no idea what I am [FROM.GetName]"

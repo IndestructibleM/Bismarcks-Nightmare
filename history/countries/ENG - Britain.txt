@@ -300,14 +300,14 @@ if = {
 set_subject_cosmetic_tags = yes
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = yes ##suspended through duration of war, which is handled via event
 }
 set_popularities = {
-	democratic = 97
-	fascism = 2
+	liberalism = 97
+	ultranationalism = 2
 	communism = 1
 }
 

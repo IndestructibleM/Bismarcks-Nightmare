@@ -32,8 +32,8 @@ characters={
 				}
 				available = {
 					NOT = { 
-						has_government = fascism
-						has_government = neutrality 
+						has_government = ultranationalism
+						has_government = despotism 
 					}
 					NOT = {
 						has_country_leader = {
@@ -530,7 +530,7 @@ characters={
 			corps_commander = {
 				visible = {
 					NOT = { 
-						has_government = fascism 
+						has_government = ultranationalism 
 					}
 				}
 				traits = { career_officer organizer }
@@ -548,7 +548,7 @@ characters={
 				}
 				available = {
 					NOT = { 
-						has_government = fascism 
+						has_government = ultranationalism 
 					}
 				}
 				
@@ -607,8 +607,8 @@ characters={
 			corps_commander = {
 				visible = {
 					OR = { 
-						has_government = democratic 
-						has_government = neutrality 
+						has_government = liberalism 
+						has_government = despotism 
 					}
 				}
 				traits = { cavalry_officer career_officer }
@@ -847,8 +847,8 @@ characters={
 				visible = {
 					NOT = { 
 						has_government = communism 
-						has_government = fascism
-						has_government = neutrality 
+						has_government = ultranationalism
+						has_government = despotism 
 					}
 					has_completed_focus = BEL_free_belgian_forces
 				}
@@ -920,8 +920,8 @@ characters={
 				}
 				available = {
 					NOT = { 
-						has_government = fascism
-						has_government = neutrality 
+						has_government = ultranationalism
+						has_government = despotism 
 					}
 				}
 				traits = {
@@ -1259,7 +1259,7 @@ characters={
 					}
 				available = {
 					NOT = { 
-						has_government = fascism
+						has_government = ultranationalism
 					}
 				}
 				traits  = {
@@ -1287,7 +1287,7 @@ characters={
 					}
 				available = {
 					NOT = { 
-						has_government = fascism
+						has_government = ultranationalism
 					}
 				}
 				traits  = {
@@ -1524,7 +1524,7 @@ characters={
 					original_tag  = BEL
 				}
 				available = {
-					has_government = democratic 
+					has_government = liberalism 
 				}
 				traits  = {
 					BEL_ambassador_to_london 

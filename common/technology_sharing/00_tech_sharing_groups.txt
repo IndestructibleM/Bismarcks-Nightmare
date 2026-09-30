@@ -96,20 +96,20 @@ technology_sharing_group = {
 			}
 			OR = {
 				AND = {
-					USA = { has_government = democratic }
-					ENG = { has_government = democratic } 
+					USA = { has_government = liberalism }
+					ENG = { has_government = liberalism } 
 				}
 				AND = {
 					USA = { has_government = communism }
 					ENG = { has_government = communism } 
 				}
 				AND = {
-					USA = { has_government = fascism }
-					ENG = { has_government = fascism } 
+					USA = { has_government = ultranationalism }
+					ENG = { has_government = ultranationalism } 
 				}
 				AND = {
-					USA = { has_government = neutrality }
-					ENG = { has_government = neutrality } 
+					USA = { has_government = despotism }
+					ENG = { has_government = despotism } 
 				}
 			}
 			NOT = { ENG = { has_war_with = USA } }
@@ -161,7 +161,7 @@ technology_sharing_group = {
 
     available = {
         is_in_faction_with = GER
-        GER = { has_government = democratic }
+        GER = { has_government = liberalism }
     }
 
 }
@@ -196,8 +196,8 @@ technology_sharing_group = {
     available = {
         is_in_faction_with = GER
         is_in_faction_with = HOL
-        GER = { has_government = fascism }
-        HOL = { has_government = fascism }
+        GER = { has_government = ultranationalism }
+        HOL = { has_government = ultranationalism }
     }
 
 }
@@ -249,7 +249,7 @@ technology_sharing_group = {
 
     available = {
         is_in_faction_with = HOL
-        HOL = { has_government = democratic }
+        HOL = { has_government = liberalism }
     }
 
 }
@@ -320,8 +320,8 @@ technology_sharing_group = {
 				original_tag = BUL
 			}
 			OR = {
-				has_government = neutrality
-				has_government = democratic
+				has_government = despotism
+				has_government = liberalism
 			}
 			is_in_faction_with = TUR
 		}
@@ -349,8 +349,8 @@ technology_sharing_group = {
 				original_tag = BUL
 			}
 			OR = {
-				has_government = neutrality
-				has_government = democratic
+				has_government = despotism
+				has_government = liberalism
 			}
 			is_in_faction_with = TUR
 		}
@@ -375,8 +375,8 @@ technology_sharing_group = {
 				original_tag = BUL
 			}
 			OR = {
-				has_government = fascism
-				has_government = neutrality
+				has_government = ultranationalism
+				has_government = despotism
 			}
 			is_in_faction_with = GER
 		}
@@ -402,8 +402,8 @@ technology_sharing_group = {
 				original_tag = BUL
 			}
 			OR = {
-				has_government = fascism
-				has_government = neutrality
+				has_government = ultranationalism
+				has_government = despotism
 			}
 			is_in_faction_with = GER
 		}

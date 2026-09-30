@@ -1102,7 +1102,7 @@ characters = {
 				}
 				do_effect = {
 					NOT = {
-						has_government = democratic 
+						has_government = liberalism 
 					}
 				}
 				name = POR_augusto_de_vasconcelos 
@@ -1246,7 +1246,7 @@ characters = {
 				}
 				do_effect = {
 					NOT = {
-						has_government = fascism 
+						has_government = ultranationalism 
 					}
 				}
 				ai_will_do = {
@@ -1280,7 +1280,7 @@ characters = {
 				}
 				do_effect = {
 					NOT = {
-						has_government = fascism 
+						has_government = ultranationalism 
 					}
 				}
 				ai_will_do = {

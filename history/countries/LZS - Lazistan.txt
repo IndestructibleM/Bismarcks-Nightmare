@@ -80,8 +80,8 @@ if = {
 }
 
 set_popularities = {
-	democratic = 50
-	neutrality = 20
+	liberalism = 50
+	despotism = 20
 	communism = 5
-	fascism = 25
+	ultranationalism = 25
 }

@@ -2086,7 +2086,7 @@ ITA_super_heavy_tanks = {
 		priority = {
 			factor = 10
 			modifier = { 
-				has_government = fascism
+				has_government = ultranationalism
 				factor = 5
 			}
 			

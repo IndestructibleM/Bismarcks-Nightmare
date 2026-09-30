@@ -1468,14 +1468,14 @@ characters={
 			}
 			available = {
 				OR = {
-					has_government = democratic
+					has_government = liberalism
 					has_government = communism
 				}
 			}
 
 			visible = {
 				OR = {
-					has_government = democratic
+					has_government = liberalism
 					has_government = communism
 				}
 			}
@@ -1500,17 +1500,17 @@ characters={
 			idea_token = SWE_herman_eriksson
 			visible = { 
 				OR = {
-					has_government = democratic 
+					has_government = liberalism 
 					has_government = communism
-					has_government = neutrality
+					has_government = despotism
 				}
 			}
 
 			available = {
 				OR = {
-					has_government = democratic 
+					has_government = liberalism 
 					has_government = communism
-					has_government = neutrality
+					has_government = despotism
 				}
 			}
 			allowed  = {
@@ -1538,10 +1538,10 @@ characters={
 
 	SWE_ebba_palmstierna={
 		advisor={
-			#visible = { has_government = democratic }
+			#visible = { has_government = liberalism }
 			available = {
 				OR = {
-					has_government = democratic 
+					has_government = liberalism 
 					has_government = communism
 				}
 			}
@@ -1715,7 +1715,7 @@ characters={
 			available = { 
 				has_completed_focus = SWE_education_reform
 				#OR = {
-				#	has_government = democratic
+				#	has_government = liberalism
 				#	has_government = communism
 				#}
 			}
@@ -1763,7 +1763,7 @@ characters={
 			available = { 
 				has_completed_focus = SWE_education_reform
 				#OR = {
-				#	has_government = democratic
+				#	has_government = liberalism
 				#	has_government = communism
 				#}
 			}
@@ -1809,14 +1809,14 @@ characters={
 				original_tag  = SWE
 			}
 			visible = { 
-				has_government = democratic 
-				has_government = neutrality
+				has_government = liberalism 
+				has_government = despotism
 				has_government = communism
 			}
 
 			available = {
-				has_government = democratic 
-				has_government = neutrality
+				has_government = liberalism 
+				has_government = despotism
 				has_government = communism
 			}
 			traits = { SWE_minister_of_defense }
@@ -1838,7 +1838,7 @@ characters={
 				original_tag  = SWE
 			}
 			available = { is_country_leader = no }
-			visible = { has_government = fascism }
+			visible = { has_government = ultranationalism }
 			available = {
 				is_country_leader = no
 			}
@@ -1886,7 +1886,7 @@ characters={
 			allowed  = {
 				original_tag  = SWE
 			}
-			visible = { has_government = fascism }
+			visible = { has_government = ultranationalism }
 			traits = { prince_of_terror }
 		}
 		name=SWE_sven_hedengren
@@ -1908,8 +1908,8 @@ characters={
 			}
 			visible = { 
 				OR = {
-					has_government = fascism
-					has_government = neutrality
+					has_government = ultranationalism
+					has_government = despotism
 					has_completed_focus = SWE_the_old_enemy_stirs
 				}
 			}
@@ -1942,7 +1942,7 @@ characters={
 			allowed  = {
 				original_tag  = SWE
 			}
-			visible = { has_government = fascism }
+			visible = { has_government = ultranationalism }
 			traits = {  munckska_karens_member }
 
 		}
@@ -1968,7 +1968,7 @@ characters={
 					has_government = communism
 					AND = {
 						has_completed_focus = SWE_align_more_closely_with_the_landsorganisationen
-						has_government = democratic
+						has_government = liberalism
 					}
 				}
 			}
@@ -1978,7 +1978,7 @@ characters={
 					has_government = communism
 					AND = {
 						has_completed_focus = SWE_align_more_closely_with_the_landsorganisationen
-						has_government = democratic
+						has_government = liberalism
 					}
 				}
 			}
@@ -2017,7 +2017,7 @@ characters={
 					has_government = communism
 					AND = {
 						has_completed_focus = SWE_align_more_closely_with_the_landsorganisationen
-						has_government = democratic
+						has_government = liberalism
 					}
 				}
 			}
@@ -2027,7 +2027,7 @@ characters={
 					has_government = communism
 					AND = {
 						has_completed_focus = SWE_align_more_closely_with_the_landsorganisationen
-						has_government = democratic
+						has_government = liberalism
 					}
 				}
 			}
@@ -2058,7 +2058,7 @@ characters={
 					has_government = communism
 					AND = {
 						has_completed_focus = SWE_align_more_closely_with_the_landsorganisationen
-						has_government = democratic
+						has_government = liberalism
 					}
 				}
 			}
@@ -2068,7 +2068,7 @@ characters={
 					has_government = communism
 					AND = {
 						has_completed_focus = SWE_align_more_closely_with_the_landsorganisationen
-						has_government = democratic
+						has_government = liberalism
 					}
 				}
 			}
@@ -2093,7 +2093,7 @@ characters={
 			}
 			visible = {
 				OR = {
-					has_government = democratic
+					has_government = liberalism
 					has_government = communism
 				}
 			}

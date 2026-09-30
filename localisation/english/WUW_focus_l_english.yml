@@ -393,7 +393,7 @@
  wuw_HUN_pass_statute_xix_desc: "Seeing as [ROOT.GetLeader] is ailing, it would be beneficial to pass Statute XIX regarding establishing of a National Council when the Regent seat is vacant, allowing us for the creation of an Országtanács that will pick out a new regent once our current one has passed away. Some may see this as attempted dynasty-founding, but we are okay with that."
 
  wuw_HUN_restrict_voting_rights: "Restrict Voting Rights"
- wuw_HUN_restrict_voting_rights_desc: "In order to properly put a stop to the growing communist and left-wing democratic influence, it will be necessary to restrict the voting rights, making the requirements harsher and ensuring that only those who have our country's best in mind are allowed to take part in the elections."
+ wuw_HUN_restrict_voting_rights_desc: "In order to properly put a stop to the growing communist and left-wing liberalism influence, it will be necessary to restrict the voting rights, making the requirements harsher and ensuring that only those who have our country's best in mind are allowed to take part in the elections."
 
  wuw_HUN_renounce_the_treaty_of_trianon: "Renounce the Treaty of Trianon"
  wuw_HUN_renounce_the_treaty_of_trianon_desc: "The injustice forced upon our nation at the end of the Great War, ripping away two-thirds of our once-great nation's territory and population, rivals that of the disgrace visited upon Germany in the Treaty of Versailles, and it must be undone."
@@ -436,7 +436,7 @@
  wuw_HUN_spur_on_the_trianon_trauma_desc: "It is common knowledge that [ROOT.GetNameDef] was better in the past than it is in the present. In that cursed The Treaty of Trianon, we lost two-thirds of our rightful land to our neighbors who took advantage of our vulnerable position. They will all know fear, the day the [ROOT.GetAdjective] armies come marching to claim it all back!"
 
  wuw_HUN_outlaw_the_party_of_national_will: "Outlaw the Party of National Will"
- wuw_HUN_outlaw_the_party_of_national_will_desc: "The national socialist Party of National Will led by Ferenc Szálasi is a threat to our current rule, as they are more popular with the [GER.GetAdjective] Nazis and dislike our current leader's almost absolute rule."
+ wuw_HUN_outlaw_the_party_of_national_will_desc: "The national socialism Party of National Will led by Ferenc Szálasi is a threat to our current rule, as they are more popular with the [GER.GetAdjective] Nazis and dislike our current leader's almost absolute rule."
 
  wuw_HUN_carrying_on_arpads_legacy: "Carrying on Árpád's Legacy"
  wuw_HUN_carrying_on_arpads_legacy_desc: "The great Árpád, head of the confederation of the Magyar tribes at the turn of the 9th and 10th centuries is a big inspiration for [ROOT.GetLeader], and his dynasty carried on for a long time, making [ROOT.GetnameDef] the best it could be. We should take a page out of his book and follow his example."
@@ -523,8 +523,8 @@
  wuw_HUN_abide_by_the_little_ententes_stipulations: "Abide by the Little Entente's Stipulations"
  wuw_HUN_abide_by_the_little_ententes_stipulations_desc: "Since the end of the Great War, the Little Entente, comprised of Romania, Czechoslovakia and Yugoslavia have stipulated that we cannot ever again have a Habsburg king. Frankly, it suits us just fine, as we have another candidate for the throne in mind."
 
- wuw_HUN_elect_a_democratic_king: "Elect a Democratic King"
- wuw_HUN_elect_a_democratic_king_desc: "We must seek a King who will uphold the democratic principles of our nation and the rights of our people, and in order to do so we must turn our gaze to the social democratic constitutional monarchies of northern Europe, and see if they might have any potential candidates for us to offer our throne to."
+ wuw_HUN_elect_a_socialism_king: "Elect a Democratic King"
+ wuw_HUN_elect_a_socialism_king_desc: "We must seek a King who will uphold the liberalism principles of our nation and the rights of our people, and in order to do so we must turn our gaze to the social liberalism constitutional monarchies of northern Europe, and see if they might have any potential candidates for us to offer our throne to."
 
  wuw_HUN_honor_the_great_war_veterans: "Honor the Great War Veterans"
  wuw_HUN_honor_the_great_war_veterans_desc: "Though new and bright commanders hold the future in their hands, we cannot forget the debt we owe to our veterans of the Greta War, who fought for us to protect the homelands of our people. We should decorate them, and make sure that more are willing to become in the future, what they are today."
@@ -690,7 +690,7 @@
  wuw_HUN_joint_oil_exploitation_company_desc: "With the prospect of possible oil fields in our territory, we have attracted foreign attention. Friendly powers are eager to support our oil industry with their technical know-how, and this would be a lucrative opportunity to learn from their advances."
 
  wuw_HUN_join_the_allies: "Join the Allies"
- wuw_HUN_join_the_allies_desc: "The future of Hungary and its democratic values lies with the major Western democracies and their alliance. As a member of this alliance, we may lend our strength to theirs, as well as count on their support ourselves."
+ wuw_HUN_join_the_allies_desc: "The future of Hungary and its liberalism values lies with the major Western democracies and their alliance. As a member of this alliance, we may lend our strength to theirs, as well as count on their support ourselves."
 
  wuw_HUN_a_responsible_government: "A Responsible Government"
  wuw_HUN_a_responsible_government_desc: "Traditionally, the government has ultimately answered to the king, allowing it to ignore the will of the people. We will change the constitution to ensure that it is the people, and not the ruler, who holds the government responsible."
@@ -732,14 +732,14 @@
  wuw_HUN_join_the_comintern: "Join the Comintern"
  wuw_HUN_join_the_comintern_desc: "The way forward for the Revolution lies with the Comintern. Standing together with our comrades, we will sweep aside capitalist injustice and the fascist threat that looms in the West."
 
- wuw_HUN_restore_the_socialist_federative_republic: "Restore the Socialist Federative Republic"
- wuw_HUN_restore_the_socialist_federative_republic_desc: "The Comintern has abandoned the struggle against imperialism, instead opting to settle for coexistence. If the workers of the world are to be free, we must carry the torch of Marx and Lenin forward - even against the Soviet Union, if need be."
+ wuw_HUN_restore_the_socialism_federative_republic: "Restore the Socialist Federative Republic"
+ wuw_HUN_restore_the_socialism_federative_republic_desc: "The Comintern has abandoned the struggle against imperialism, instead opting to settle for coexistence. If the workers of the world are to be free, we must carry the torch of Marx and Lenin forward - even against the Soviet Union, if need be."
 
  wuw_HUN_restore_the_hungarian_red_army: "Restore the Hungarian Red Army"
  wuw_HUN_restore_the_hungarian_red_army_desc: "All motherland-loving patriots must do their duty in defense of their homeland. We will form a Hungarian Red Army, following the example of the Soviets in the East, which will protect our fledgling Revolution."
 
- wuw_HUN_instate_a_socialist_economy: "Instate a Socialist Economy"
- wuw_HUN_instate_a_socialist_economy_desc: "In order to truly change our society for the better, we must change the way in which the money flows, and remove heads of corporations who have only gotten their positions through nepotism. The working man shall one again have a say in his country, and all [ROOT.GetAdjective]s will be equal!"
+ wuw_HUN_instate_a_socialism_economy: "Instate a Socialist Economy"
+ wuw_HUN_instate_a_socialism_economy_desc: "In order to truly change our society for the better, we must change the way in which the money flows, and remove heads of corporations who have only gotten their positions through nepotism. The working man shall one again have a say in his country, and all [ROOT.GetAdjective]s will be equal!"
 
  wuw_HUN_nationalize_key_industries: "Nationalize Key Industries"
  wuw_HUN_nationalize_key_industries_desc: "There still remain many factories and enterprises in our country run by foreign companies and businessmen, despite our attempted socialization of the economy. The next step towards socialism shall thus be the nationalization of foreign assets."
@@ -858,10 +858,10 @@
  wuw_HUN_undermine_the_admiral_desc: "The Rear Admiral Miklós Horthy has enjoyed his time sitting upon the empty [ROOT.GetAdjective] throne for far too long, and might start dynasty-building. We must put and end to his reign, and have a more wise man, like Gyula Gömbös take charge of the regency. The MOVE can help this become reality."
 
  wuw_HUN_integrate_the_volksbund: "Integrate the Volksbund"
- wuw_HUN_integrate_the_volksbund_desc: "In order to overthrow Horthy, we would need a lot of men. Such men, we can find in the national-socialist movement, Volksbund der Deutschen in Ungarn, insignificant as they may be. If we sway them to our side, we could use them not only for our takeover, but also as a paramilitary force later down the line."
+ wuw_HUN_integrate_the_volksbund_desc: "In order to overthrow Horthy, we would need a lot of men. Such men, we can find in the national-socialism movement, Volksbund der Deutschen in Ungarn, insignificant as they may be. If we sway them to our side, we could use them not only for our takeover, but also as a paramilitary force later down the line."
 
  wuw_HUN_volksbund_der_deutschen_in_ungarn: "Volksbund der Deutschen in Ungarn"
- wuw_HUN_volksbund_der_deutschen_in_ungarn_desc: "The DNSAP-sponsored national-socialist movement; Volksbund der Deutschen in Ungarn, would make for a perfect organization of guards and militias loyal to our new German monarch. We should reach out to them, and encourage cooperation with their leadership."
+ wuw_HUN_volksbund_der_deutschen_in_ungarn_desc: "The DNSAP-sponsored national-socialism movement; Volksbund der Deutschen in Ungarn, would make for a perfect organization of guards and militias loyal to our new German monarch. We should reach out to them, and encourage cooperation with their leadership."
  franz_and_henrik_available_tt: "§YFranz Anton Basch§! and §YHenrik Werth§! become available as a level 2 §YGeneral§! and level 3 §YField Marshal§! respectively"
  HUN_volksbund_militia_recruitment_tt: "Gain four Volksbund §YMilitia§! units"
 
@@ -907,7 +907,7 @@
  HUN_increase_economic_cooperation_tt: "We will receive an off-map §YCivilian Factory§! for every starting country in the §YWestern Balkans§!, the §YEastern Balkans§!, and the §YNorthern Balkans§! that has a higher than §G85§! §Yopinion§! of us. This applies also to §Y[AUS.GetNameDef]§!, §Y[CZE.GetNameDef]§!, §Y[TRA.GetNameDef]§! and §Y[SLO.GetNameDef]§!."
 
  wuw_HUN_hold_territorial_referendums: "Hold Territorial Referendums"
- wuw_HUN_hold_territorial_referendums_desc: "After the Great War, many territories with high amounts of Hungarians were stripped away from us without a democratic process overseen by international observers, as was however the case for regions in Silesia and Schleswig. We should diplomatically approach our neighbors, and ask for such referendums to be held, so that the people can decide in which nation they wish to live."
+ wuw_HUN_hold_territorial_referendums_desc: "After the Great War, many territories with high amounts of Hungarians were stripped away from us without a liberalism process overseen by international observers, as was however the case for regions in Silesia and Schleswig. We should diplomatically approach our neighbors, and ask for such referendums to be held, so that the people can decide in which nation they wish to live."
  wuw_HUN_hold_territorial_referendums_tt: "Unlocks decisions to §YHold Referendums in Lost Territories§! to try and regain them once more"
 
  wuw_HUN_sailing_the_danube: "Sailing the Danube"
@@ -927,7 +927,7 @@
 
  AUS_clamp_down_on_dnsap: "Clamp Down on DNSAP"
  AUS_clamp_down_on_dnsap_desc: "Political parties beyond our Vaterländische Front have long since been banned from our country. Despite this some still linger, and most troubling is the so-called DNSAP. Falsely claiming that they represent the true Austrofascism they argue that we should give up our sovereignty and join in union with [GER.GetNameDef]. We should deal with them at once!"
- AUS_clamp_down_on_dnsap_tt: "§Y$AUS_kurt_schuschnigg$§! becomes the leader of §Y$AUS_fascism_vaterlandische_front_long$§! and the ruling party will switch to §YFascism§!."
+ AUS_clamp_down_on_dnsap_tt: "§Y$AUS_kurt_schuschnigg$§! becomes the leader of §Y$AUS_ultranationalism_vaterlandische_front_long$§! and the ruling party will switch to §YFascism§!."
 
  AUS_supporting_italy_in_ethiopia_focus: "Support [ITA.GetNameDef] in [ETH.GetNameDef]"
  AUS_supporting_italy_in_ethiopia_focus_desc: "For a long time [ITA.GetNameDef] has been on our side. As one of the guarantors of our independence it is of utmost importance that we stay on good terms with them and that we do not let them be swayed by [GER.GetAdjective] attempts to persuade them. By helping the [ITA.GetAdjective]s in [ETH.GetNameDef] we build trust between our countries, and raise the chance that they will come to our help, should the need arise."
@@ -936,9 +936,9 @@
  AUS_reach_out_to_italy: "Reach Out To Italy"
  AUS_reach_out_to_italy_desc: "Though we have had our fair share of disagreements Italy remains the most trustworthy ally that we have in our current situation. As unrest and tensions grow in our vicinity it would seem beneficial to reach out to them for support."
 
- AUS_approach_democratic_guarantors: "Approach the Democratic Guarantors"
- AUS_approach_democratic_guarantors_desc: "After the Treaty of Saint-Germain-En-Laye was signed we found ourselves with a way too small army to defend ourselves. If we are to prevail in an increasingly dangerous situation we will need support. Though we do not see eye to eye with the other signatories of the Treaty most of the time, we should reach out to them and ask their support in the event that the cold conflict around us goes hot"
- AUS_approach_democratic_guarantors_tt: "§YEffects for respective country if they accept:§!"
+ AUS_approach_socialism_guarantors: "Approach the Democratic Guarantors"
+ AUS_approach_socialism_guarantors_desc: "After the Treaty of Saint-Germain-En-Laye was signed we found ourselves with a way too small army to defend ourselves. If we are to prevail in an increasingly dangerous situation we will need support. Though we do not see eye to eye with the other signatories of the Treaty most of the time, we should reach out to them and ask their support in the event that the cold conflict around us goes hot"
+ AUS_approach_socialism_guarantors_tt: "§YEffects for respective country if they accept:§!"
 
  AUS_refine_vaterlandische_front: "Refine the Vaterländische Front"
  AUS_refine_vaterlandische_front_desc: "For very long Vaterländische Front has been a collaboration of political Parties merged into one by the Self-Elimination of The Parliament. The initial ideology of Austrofascism has slowly changed over time in a way that has not exactly been in our favor. It is time that we steer ourselves back on the correct course."
@@ -1072,8 +1072,8 @@
  AUS_repeal_the_may_constitution: "Repeal the May Constitution"
  AUS_repeal_the_may_constitution_desc: "The so called May Constitution installed by Engelbert Dolfuss in 1934 has hampered the politics of [AUS.GetNameDef] for the last few years. Political parties have been banned stripping the nation of all possibilities of change for the better. We must repeal this unjust constitution if our country is ever to flourish again."
 
- AUS_austria_against_fascism: "Reichsbund der Österreicher"
- AUS_austria_against_fascism_desc: "As our nation recovers from the political isolation that we have endured, it is no surprise to see political groups emerging as people finally dare to speak their mind. The legitimist Reichsbund Der Österreich is one such group. Conveniently their political agenda overlaps what we have planned for the nation. We should make sure to make the most out of this cooperation."
+ AUS_austria_against_ultranationalism: "Reichsbund der Österreicher"
+ AUS_austria_against_ultranationalism_desc: "As our nation recovers from the political isolation that we have endured, it is no surprise to see political groups emerging as people finally dare to speak their mind. The legitimist Reichsbund Der Österreich is one such group. Conveniently their political agenda overlaps what we have planned for the nation. We should make sure to make the most out of this cooperation."
 
  AUS_reinstate_the_imperial_council: "Reinstate the Herrenhaus"
  AUS_reinstate_the_imperial_council_desc: "Much like we expected our people are expressing a wish to return to the old times. We have no need for a clearly flawed system that could be abused like the fascists did in the Self-Elimination of the Parliament in 1934 any more. The single person rule was always a safe, and well received system back in the Dual Monarchy, it is time we bring it back."
@@ -1224,12 +1224,12 @@
  AUS_hold_elections: "Hold Elections"
  AUS_hold_elections_desc: "With our last election being held the 9th of November in 1930, before the 'Self-Elimination of the Parliament' in 1934, our people have all but lost faith in the [ROOT.GetAdjective] democracy. It should be our first priority to restore the faith and let the people have their say!"
 
- AUS_rebuild_democratic_systems: "Rebuild the Democratic Systems"
- AUS_rebuild_democratic_systems_desc: "A democratic system is something very delicate, it is easy to dismantle, but difficult to build or restore. But for the sake of the people this is something that must be done at once. Parties that promote dictatorships must be banned, for the sake of the nation."
- AUS_rebuild_democratic_systems_tt: "The current §YFascist§! party §YDNSAP§!, will be banned and:"
+ AUS_rebuild_socialism_systems: "Rebuild the Democratic Systems"
+ AUS_rebuild_socialism_systems_desc: "A liberalism system is something very delicate, it is easy to dismantle, but difficult to build or restore. But for the sake of the people this is something that must be done at once. Parties that promote dictatorships must be banned, for the sake of the nation."
+ AUS_rebuild_socialism_systems_tt: "The current §YFascist§! party §YDNSAP§!, will be banned and:"
 
  AUS_a_new_constitution: "A New Constitution"
- AUS_a_new_constitution_desc: "Our last constitutional revision ended in disaster with the May Constitution and an authoritarian regime tightening their grasp of the country. We must ensure no such thing can happen ever again by re-establishing a strictly democratic constitution."
+ AUS_a_new_constitution_desc: "Our last constitutional revision ended in disaster with the May Constitution and an authoritarian regime tightening their grasp of the country. We must ensure no such thing can happen ever again by re-establishing a strictly liberalism constitution."
 
  AUS_seek_support_from_guarantors: "Seek Support from the Guarantors"
  AUS_seek_support_from_guarantors_desc: "The Treaty of Saint-Germain-En-Laye carries many restrictions for us, but there are silver linings. Since we have been disallowed to have any form of respectable army, the so called guarantors are to protect us. We should reach out to them and request this support."
@@ -1242,14 +1242,14 @@
  AUS_outlaw_the_radicals_desc: "We are in a most delicate of political situations. Now is not the time for infighting between radical parties on different ends of the political spectrum. Until the worst has passed we cannot let them spew their vile propaganda!"
 
  AUS_strengthen_the_cabinet: "Strengthening the Cabinet"
- AUS_strengthen_the_cabinet_desc: "While democratic sentiments have spread decently fast throughout [ROOT.GetNameDef] our Cabinet still remains relatively weak. The power should of course belong to the people, and only by extension the Parliament and the Cabinet, that said, to effectively govern, the Cabinet must be prioritized."
+ AUS_strengthen_the_cabinet_desc: "While liberalism sentiments have spread decently fast throughout [ROOT.GetNameDef] our Cabinet still remains relatively weak. The power should of course belong to the people, and only by extension the Parliament and the Cabinet, that said, to effectively govern, the Cabinet must be prioritized."
 
  AUS_pardon_political_exiles: "Pardon Political Exiles"
  AUS_pardon_political_exiles_desc: "During the time of the so-called Corporate State under the reign of Austrofascism, many brilliant politicians fled our country. We should extend the offer for them to return, regardless of their political stance."
 
  AUS_join_the_allies: "Join the Allies"
- AUS_join_the_allies_desc: "Traditionally we have always regarded ourselves as strongest on our own, yet, as the situation around us continues to deteriorate, we are forced to face the fact, that this might not be true. Being all alone is not always the best option. We should seek to join a strong democratic faction."
- AUS_join_the_allies_tt: "The likelihood of being accepted as a member depends on being democratic and your opinion with the faction leader.\n\nIf we are rejected, we will be able to start our own faction instead."
+ AUS_join_the_allies_desc: "Traditionally we have always regarded ourselves as strongest on our own, yet, as the situation around us continues to deteriorate, we are forced to face the fact, that this might not be true. Being all alone is not always the best option. We should seek to join a strong liberalism faction."
+ AUS_join_the_allies_tt: "The likelihood of being accepted as a member depends on being liberalism and your opinion with the faction leader.\n\nIf we are rejected, we will be able to start our own faction instead."
 
  AUS_industrial_exchange: "Exchange of Knowledge"
  AUS_industrial_exchange_desc: "We have much to learn from our new allies, particularly in the matter of construction, but just as well in terms of military strategies. As our allies willingly share this information with us we should make the most of this."
@@ -1284,10 +1284,10 @@
  AUS_deal_with_the_german_threat: "Deal with the German Threat"
  AUS_deal_with_the_german_threat_desc: "[GER.GetNameDefCap] has been a menace on our north-western border for many decades now. Their politics have been harsh and more than often has not have they voiced threats against our very existence. It is time that we end this threat, once and for all."
 
- AUS_end_european_fascism: "An End to European Fascism"
- AUS_end_european_fascism_desc: "No one is safe, before we all are safe. Fascism is still prominent within Europe and will without doubt spark more problems in the future. We should take action to preventing this ideology from spreading."
- AUS_end_european_fascism_tt: "Gains §YPuppet§! Wargoal on all §YFascist§! countries in §YEurope§!"
- AUS_end_european_fascism_d_tt: "Gains §YTopple Government§! Wargoal on all §YFascist§! countries in §YEurope§!"
+ AUS_end_european_ultranationalism: "An End to European Fascism"
+ AUS_end_european_ultranationalism_desc: "No one is safe, before we all are safe. Fascism is still prominent within Europe and will without doubt spark more problems in the future. We should take action to preventing this ideology from spreading."
+ AUS_end_european_ultranationalism_tt: "Gains §YPuppet§! Wargoal on all §YFascist§! countries in §YEurope§!"
+ AUS_end_european_ultranationalism_d_tt: "Gains §YTopple Government§! Wargoal on all §YFascist§! countries in §YEurope§!"
 
  AUS_austromarxism_focus: "Austromarxism"
  AUS_austromarxism_focus_desc: "Pioneered by the group of Victor Adler, Otto Bauer, Karl Renner, Max Adler and Rudolf Hilferding the concept of Austromarxism has long guided us. Fueled by their different perspectives yet striving for understanding a middleground between social democracy and communism was born. It has allowed for a far broader support from the people than either of the two would on their own."
@@ -1358,8 +1358,8 @@
  AUS_join_comintern: "Join the Comintern"
  AUS_join_comintern_desc: "Having aligned with the USSR there is now a very clear way paved for us. We must join our comrades in the Comintern, it is what our people wants and deserves!"
 
- AUS_danubian_socialist_communes: "Establish the Danubian Bloc"
- AUS_danubian_socialist_communes_desc: "So far [ROOT.GetNameDef] has stood alone against our adversaries. We do not wish for this to be the case in the future, however there are no alliances that align with our country's ideals at the moment. Creating our own faction is clearly the best option!"
+ AUS_danubian_socialism_communes: "Establish the Danubian Bloc"
+ AUS_danubian_socialism_communes_desc: "So far [ROOT.GetNameDef] has stood alone against our adversaries. We do not wish for this to be the case in the future, however there are no alliances that align with our country's ideals at the moment. Creating our own faction is clearly the best option!"
 
  AUS_womens_education_initiative: "Women's Education Initiative"
  AUS_womens_education_initiative_desc: "Since the early 1900's women has been allowed to pursue education at universities but only within select faculties. A drive for universities to be open for everyone likely would do our nation well."
@@ -1375,7 +1375,7 @@
  AUS_centralize_the_industrial_sector_desc: "As time passes and communist sentiments take root within the nation we are now capable of taking more drastic measures. A few years back the mere idea of centralizing the industry would be frowned upon by our people, now it just seems the next logical step."
 
  AUS_cut_ties_with_the_church: "Cut Ties With the Church"
- AUS_cut_ties_with_the_church_desc: "Our governmental connection with the church is but a remnant of the so called clerical fascism. The fascism has already been removed, it is time we also remove the clergy from political power."
+ AUS_cut_ties_with_the_church_desc: "Our governmental connection with the church is but a remnant of the so called clerical ultranationalism. The ultranationalism has already been removed, it is time we also remove the clergy from political power."
  generic_remove_as_political_advisor_tt: "§RRemoves§! as §YPolitical Advisor§!:"
 
  AUS_spur_the_communist_resistance: "Encourage Communist Sentiments"
@@ -1395,8 +1395,8 @@
  AUS_demand_liberation_of_workers_tt: "Unlocks decisions to §YDemand Liberation of Workers§! in countries where we have previously successfully bolstered communist sentiments."
 
 
- AUS_union_of_danubian_socialist_republics: "The Union of Danubian Socialists"
- AUS_union_of_danubian_socialist_republics_desc: "Our influence now spreads across Europe as workers around us are being liberated. Our old name is no longer descriptive of what we truly are, we should consider how we wish to be known."
+ AUS_union_of_danubian_socialism_republics: "The Union of Danubian Socialists"
+ AUS_union_of_danubian_socialism_republics_desc: "Our influence now spreads across Europe as workers around us are being liberated. Our old name is no longer descriptive of what we truly are, we should consider how we wish to be known."
 
  AUS_the_correct_communism: "The Correct Form of Communism"
  AUS_the_correct_communism_desc: "There are many ways of practicing communism, and most of them are not to our liking. [SOV.GetNameDefCap] is dragging the name of our ideology in the dirt the way they are governing. They cannot be allowed to continue."
@@ -1698,14 +1698,14 @@
  ### BELGIAN FOCUS TREE ###
 
 
-BEL_perpetual_neutrality: "Perpetual Neutrality"
-BEL_perpetual_neutrality_desc: "Due to our being the primary battlefield, our nation was left in rubble following the First World War. Never again should this be allowed to be repeated. As such, we will announce that [BEL.GetNameDef] shall form an independent and perpetually neutral state, and it shall observe the same neutrality toward all other states."
+BEL_perpetual_despotism: "Perpetual Neutrality"
+BEL_perpetual_despotism_desc: "Due to our being the primary battlefield, our nation was left in rubble following the First World War. Never again should this be allowed to be repeated. As such, we will announce that [BEL.GetNameDef] shall form an independent and perpetually neutral state, and it shall observe the same despotism toward all other states."
 
 BEL_independent_neutral_and_loyal: "Independent, Neutral and Loyal"
 BEL_independent_neutral_and_loyal_desc: "During the last war, we relied on our allies, and our country became a battlefield as a result. Therefore, in a bid to keep war out of [BEL.GetNameDef], our ruler has declared us to be "Independent, Neutral and Loyal". \n \n This will rally the political classes together in the need to address our own defenses, and thus develop our own military deterrent."
 
-BEL_defensive_neutrality: "Defensive Neutrality"
-BEL_defensive_neutrality_desc: "Now that we have made our neutral stance clear, it is time for us to begin working towards enforcing it. We will make ourselves too difficult to conquer, thereby making invasion unfeasible."
+BEL_defensive_despotism: "Defensive Neutrality"
+BEL_defensive_despotism_desc: "Now that we have made our neutral stance clear, it is time for us to begin working towards enforcing it. We will make ourselves too difficult to conquer, thereby making invasion unfeasible."
 
 BEL_national_redoubt_at_antwerp: "National Redoubt at Antwerp"
 BEL_national_redoubt_at_antwerp_available_tt: "One of the following must be true:\n 1 §Y$bunker$§! can be constructed in the city of Brussels\n 2 §Y$bunker$s§! can be constructed in the city of Antwerpen"
@@ -1752,7 +1752,7 @@ BEL_defensive_reorganization: "Defensive Reorganization"
 BEL_defensive_reorganization_desc: "We have done what we can to prepare for invasion, the only thing left to do is identify more strategic and high-level doctrinal changes directed along the most modern lines of defensive thinking."
 
 BEL_defense_bill: "Defense Bill"
-BEL_defense_bill_desc: "Our declaration of perpetual neutrality was not precisely well received on the international stage, however, the reality is this needed to be done to concentrate political support towards a significant rearmament program."
+BEL_defense_bill_desc: "Our declaration of perpetual despotism was not precisely well received on the international stage, however, the reality is this needed to be done to concentrate political support towards a significant rearmament program."
 
 BEL_royal_military_academy: "Royal Military Academy"
 BEL_royal_military_academy_desc: "The Royal Military Academy is [ROOT.GetNameDef]'s only institute of military learning, but with the global situation becoming more uncertain we must ensure we prepare the officers of tomorrow with the best of military theory, and this will require expansion of the academy."
@@ -1825,10 +1825,10 @@ BEL_repudiate_treaty_with_france: "Repudiate Treaty With France"
 BEL_repudiate_treaty_with_france_desc: "[FRA.GetNameDefCap]'s refusal to extend the Maginot line along our borders, in essence leaves a wide open door through which an enemy will be forced to attack. By repudiating our treaties with them, we can be free of any military obligations to assist them, but they will still be forced to intervene should we be attacked, or risk a follow-through invasion into their unguarded territory."
 
 BEL_german_non_aggression: "German Non-Aggression"
-BEL_german_non_aggression_desc: "[GER.GetName] has applauded our announcement of neutrality, and have publicly indicated their interest in a mutual non-aggression pact to reinforce this stance, and secure the security of their borders."
+BEL_german_non_aggression_desc: "[GER.GetName] has applauded our announcement of despotism, and have publicly indicated their interest in a mutual non-aggression pact to reinforce this stance, and secure the security of their borders."
 
 BEL_dyle_plan: "Dyle Plan"
-BEL_dyle_plan_desc: "Despite all our public announcements of neutrality and military non-interventionism, behind closed doors we continue to work with our strategic partners and draw up plans and contingencies in case of invasion. The general idea being that we hold as long as we can behind the Dyle river until expeditionary forces can arrive to bolster our defenses."
+BEL_dyle_plan_desc: "Despite all our public announcements of despotism and military non-interventionism, behind closed doors we continue to work with our strategic partners and draw up plans and contingencies in case of invasion. The general idea being that we hold as long as we can behind the Dyle river until expeditionary forces can arrive to bolster our defenses."
 BEL_dyle_plan_tt: "In the event that war breaks out, §Y[ENG.GetNameWithFlag]§! and §Y[FRA.GetNameWithFlag]§! will be more likely to come to our aid!"
 
 BEL_british_guarantee: "British Guarantee"
@@ -1839,7 +1839,7 @@ BEL_government_resigns_desc: "Pressure on the government has been mounting due t
 BEL_auto_complete_government_resigns_tt: "This focus is auto-completed by the outcome of the §YGovernment Resigns§! event."
 
 BEL_government_of_national_unity: "Government of National Unity"
-BEL_government_of_national_unity_desc: "Despite growing opposition from the Fascist movement, the democratic Liberal, Socialist and Catholic parties unified under Paul van Zeeland once more, and formed a new Government of National Unity."
+BEL_government_of_national_unity_desc: "Despite growing opposition from the Fascist movement, the liberalism Liberal, Socialist and Catholic parties unified under Paul van Zeeland once more, and formed a new Government of National Unity."
 
 BEL_investigate_bribery_charges: "Investigate Bribery Charges"
 BEL_investigate_bribery_charges_desc: "The allegations of corruption never left the government, and calls for an investigation have intensified. Leon Degrelle, the Fascists Rexist leader has even directly implicated Paul van Zeeland himself accusing him of taking bribes."
@@ -1865,14 +1865,14 @@ BEL_benelux_union_desc: "Prime Minister Spaak has put forward a proposal to unif
 BEL_benelux_union_tt: "If they are Democratic or Non-Aligned, §Y[HOL.GetNameWithFlag]§! and §Y[LUX.GetNameWithFlag]§! are invited to the §Y$BEL_benelux_union_faction$§!"
 
 BEL_tripartite_government: "Tripartite Government"
-BEL_tripartite_government_desc: "Like the government's of national unity that came before, Prime Minister Pierlot has managed to unite several democratic parties together in a show of Belgian solidarity. With this politically united front, he finally has the power to push through more radical legislation."
+BEL_tripartite_government_desc: "Like the government's of national unity that came before, Prime Minister Pierlot has managed to unite several liberalism parties together in a show of Belgian solidarity. With this politically united front, he finally has the power to push through more radical legislation."
 
 BEL_the_council_of_europe: "The Council of Europe"
-BEL_the_council_of_europe_desc: "It has become increasingly clear that neutrality is no protection against military expansionism from aggressive neighbors. As such, the only way to ensure peace in Europe is unity. We should bring together the diplomats and heads of state to a singular table, and so found the Council of Europe."
+BEL_the_council_of_europe_desc: "It has become increasingly clear that despotism is no protection against military expansionism from aggressive neighbors. As such, the only way to ensure peace in Europe is unity. We should bring together the diplomats and heads of state to a singular table, and so found the Council of Europe."
 BEL_the_council_of_europe_tt: "Unlocks decisions to §YInvite other countries to $BEL_european_union$§!."
 
-BEL_broken_neutrality: "Broken Neutrality"
-BEL_broken_neutrality_desc: "Our declaration of neutrality has served our nation well, and allowed us to grow to a position of strength. We can now cast off these shackles, and usher [BEL.GetNameDef] into a new era."
+BEL_broken_despotism: "Broken Neutrality"
+BEL_broken_despotism_desc: "Our declaration of despotism has served our nation well, and allowed us to grow to a position of strength. We can now cast off these shackles, and usher [BEL.GetNameDef] into a new era."
 
 BEL_degrelle: "Degrelle"
 BEL_degrelle_desc: "Leon Degrelle, leader of the Rexist party and one of the foremost fascists in [BEL.GetName], has been agitating for some time against the current leadership, successfully revealing their corruption to the public. After the Van Zealand government fell, the King stepped in and appointed Degrelle the new Prime Minister."
@@ -1913,11 +1913,11 @@ BEL_the_french_horse_and_the_red_rider_desc: "Belgium has for too long been cast
 BEL_nationalize_the_banks: "Nationalize the Banks"
 BEL_nationalize_the_banks_desc: "For too long the banks have been run by greedy little men, caring nothing more than for profit. The banks are an institution in the service of all, so it is only just that we seize control of them, and properly guide their financial instruments to our collective benefit."
 
-BEL_abandon_neutrality: "Abandon Neutrality"
-BEL_abandon_neutrality_desc: "The cries for neutrality were the words of the weak. In this world, the only diplomacy that matters is demonstrated through strength."
+BEL_abandon_despotism: "Abandon Neutrality"
+BEL_abandon_despotism_desc: "The cries for despotism were the words of the weak. In this world, the only diplomacy that matters is demonstrated through strength."
 
 BEL_international_stipend: "International Stipend"
-BEL_international_stipend_desc: "We have been offered a stipend from fellow fascist nations in order to buy our continued neutrality in their own affairs. If this is to be the price of non-interference, then it is one we can accept. After all, they seem to have forgotten to enter an end-date."
+BEL_international_stipend_desc: "We have been offered a stipend from fellow fascist nations in order to buy our continued despotism in their own affairs. If this is to be the price of non-interference, then it is one we can accept. After all, they seem to have forgotten to enter an end-date."
 
 BEL_civil_service_purge: "Civil Service Purge"
 BEL_civil_service_purge_desc: "The taint of corruption went untreated for too long, and it has thoroughly infiltrated all ranks of the government. Radical diseases need radical cures, and in this instance that cure is the complete purge of anyone we suspect of corrupt practices."
@@ -1985,8 +1985,8 @@ BEL_auto_complete_snap_election_tt: "This focus is auto-completed by the outcome
 BEL_liberal_victory: "Liberal Victory"
 BEL_liberal_victory_desc: "The economically liberal Catholic Party took the top spot in the recent election, and Hubert Pierlot will lead [BEL.GetName] promising to defend it and the Belgian people to the last."
 
-BEL_socialist_victory: "Socialist Victory"
-BEL_socialist_victory_desc: "Paul-Henri Spaak led the Labour Party to victory in the snap election, and has vowed to do all in his power to maintain the integrity of Belgian borders, regardless of whether they align with the Communists or Democrats to do so."
+BEL_socialism_victory: "Socialist Victory"
+BEL_socialism_victory_desc: "Paul-Henri Spaak led the Labour Party to victory in the snap election, and has vowed to do all in his power to maintain the integrity of Belgian borders, regardless of whether they align with the Communists or Democrats to do so."
 
 BEL_expression_of_belgian_unity: "Expression of Belgian Unity"
 BEL_expression_of_belgian_unity_desc: "The cultures that comprise the [BEL.GetAdjective] identity are our greatest strength, for it is from different ideals, perspectives, and indeed languages that we can find true understanding. That which divides us, unites us."
@@ -1995,7 +1995,7 @@ BEL_anti_corruption_taskforce: "Anti-Corruption Taskforce"
 BEL_anti_corruption_taskforce_desc: "Corruption has been rampant within the state for too long, now that we have rid ourselves of the rot at the top, it is time we clamp down on the rest. We shall order a special investigatory task force with sweeping powers to uncover, and cast out those who have been enriching themselves at the cost of the taxpayer."
 
 BEL_diplomatic_rapprochment: "Diplomatic Rapprochement"
-BEL_diplomatic_rapprochment_desc: "Our expression of neutrality was necessary to the political and diplomatic realities of the time, however, this has now changed. We never stopped speaking to our friends in other nations, but we should now be more open and public about this."
+BEL_diplomatic_rapprochment_desc: "Our expression of despotism was necessary to the political and diplomatic realities of the time, however, this has now changed. We never stopped speaking to our friends in other nations, but we should now be more open and public about this."
 
 BEL_belgian_maginot: "Belgian Maginot"
 BEL_belgian_maginot_desc: "Belgium is a buffer state between two mighty, military nations and throughout its history has been threatened by both. As such, we have become masters of defensive warfare. The French Maginot line reaches our border, and we need to lengthen it to defend our own nation. If we make ourselves unconquerable, we will never even be attacked."
@@ -2004,7 +2004,7 @@ BEL_belgian_maginot_bypass_tt: "Does §RNOT§! control or cannot build at least 
 BEL_belgian_maginot_tt: "Add §YLand Forts§! along the §Y[ROOT.GetAdjective]§!-§Y[HOL.GetAdjective]§! Border"
 
 BEL_soviet_guarantee: "Soviet Guarantee"
-BEL_soviet_guarantee_desc: "Despite our more democratic leanings, we have embraced the socialist way, and we have much to offer [SOV.GetNameDef]. So long as we offer the correct platitudes, and abide by their broad diplomatic overtures then we might make a friend of the Russian Bear."
+BEL_soviet_guarantee_desc: "Despite our more liberalism leanings, we have embraced the socialism way, and we have much to offer [SOV.GetNameDef]. So long as we offer the correct platitudes, and abide by their broad diplomatic overtures then we might make a friend of the Russian Bear."
 BEL_soviet_guarantee_tt: "They will be more likely to §Gaccept§! if we have completed §Y$BEL_raise_the_red_flag$§!."
 
 BEL_expedite_fort_construction: "Expedite Fort Construction"
@@ -2023,7 +2023,7 @@ BEL_unity_makes_strength: "Unity Makes Strength"
 BEL_unity_makes_strength_desc: "Initially the motto of the Dutch Republic, back when it ruled both the Netherlands and Belgium. It was formally embraced by the Belgian state following the Revolution in 1830 which led to our independence. It was really enshrined by the unity of liberal progressives and Catholic conservatives who stood at the center of Belgian politics, and has embodied the Belgian ideal ever since."
 
 BEL_join_comintern: "Join Comintern"
-BEL_join_comintern_desc: "The Comintern has a history of aiding those who stand for the socialist way, and beset as we are on all sides by those who wish to stifle the burgeoning liberation of our workers, we must look to the east for new friends."
+BEL_join_comintern_desc: "The Comintern has a history of aiding those who stand for the socialism way, and beset as we are on all sides by those who wish to stifle the burgeoning liberation of our workers, we must look to the east for new friends."
 
 BEL_better_than_maginot: "Better Than Maginot"
 BEL_better_than_maginot_desc: "Our fortifications must go from world leading, to world beating. We never know where the next attack will come from, so we must be prepared for anything. We must build trenches supported by trenches, bunkers upon bunkers, and most importantly. We need more guns. Lots more guns. Big ones."
@@ -2041,37 +2041,37 @@ BEL_cooperative_cooperation: "Cooperative Cooperation"
 BEL_cooperative_cooperation_desc: "Cooperatives have been a part of Belgian society for some time, and their business model is very compatible with the economic ideal which we espouse. We should cooperate with those already established, and use their expertise to train a new generation of socially aware businesses."
 
 BEL_aid_for_spain: "Aid For Spain"
-BEL_aid_for_spain_desc: "The Spanish Republicans are fighting for their democratic ideals against dangerous fascist and anarchist radicals. We should quietly offer them support in their struggle, but be careful to maintain our appearance of neutrality."
+BEL_aid_for_spain_desc: "The Spanish Republicans are fighting for their liberalism ideals against dangerous fascist and anarchist radicals. We should quietly offer them support in their struggle, but be careful to maintain our appearance of despotism."
 
 BEL_the_grand_place: "The Grand-Place"
-BEL_the_grand_place_desc: "The grand square at the center of Brussels has long been a hotbed of socialist thinking. Most famously, Karl Marx wrote the Communist Manifesto here, followed to that same place hosting the 3rd Congress of the First International, and eventually being the foundational location of the first socialist party, the Belgian Workers Party."
+BEL_the_grand_place_desc: "The grand square at the center of Brussels has long been a hotbed of socialism thinking. Most famously, Karl Marx wrote the Communist Manifesto here, followed to that same place hosting the 3rd Congress of the First International, and eventually being the foundational location of the first socialism party, the Belgian Workers Party."
 
 BEL_la_belgique_et_le_congo: "La Belgique et le Congo"
-BEL_la_belgique_et_le_congo_desc: "Belgium's role in the Congo has long been one of exploitation and persecution, when it should be one of promoting equality and opportunity. With our renewed domestic emphasis on socialist ideals, it is high time that we begin to educate our colonial brethren in this philosophy, and begin to invest in their socialist future."
+BEL_la_belgique_et_le_congo_desc: "Belgium's role in the Congo has long been one of exploitation and persecution, when it should be one of promoting equality and opportunity. With our renewed domestic emphasis on socialism ideals, it is high time that we begin to educate our colonial brethren in this philosophy, and begin to invest in their socialism future."
 
 BEL_spanish_intervention: "Spanish Intervention"
 BEL_spanish_intervention_desc: "The Republican situation in Spain is tenuous, and it is clear that for democracy to prevail, those who hold it dear must escalate their support of those who fight for it."
 BEL_spanish_intervention_tt: "Unlocks decisions for further §Y$BEL_intervention_in_spain_cat$§!.\n\nWe will be able to send equipment, encourage emmigration to help their effort, and support them politically."
 
 BEL_contradictions_in_socialism: "Contradictions in Socialism"
-BEL_contradictions_in_socialism_desc: "Our recent successes in expanding socialist ideals in the Congo has clearly borne fruit, as the people there are more prosperous than ever. As such it is very clear to us that we must expand this, our "Socializing Mission" throughout Africa!" 
+BEL_contradictions_in_socialism_desc: "Our recent successes in expanding socialism ideals in the Congo has clearly borne fruit, as the people there are more prosperous than ever. As such it is very clear to us that we must expand this, our "Socializing Mission" throughout Africa!" 
 BEL_contradictions_in_socialism_tt: "Gains §YTake Claimed State§! Wargoals against countries currently holding claims gained from this focus."
 
-BEL_growing_threat_of_fascism: "Growing Threat of Fascism"
-BEL_growing_threat_of_fascism_desc: "The rise of radical fascist support throughout Europe, and indeed the world, has become a very concerning trend, and we should be prepared to do what we must to prevent its spread. Even if such actions must be preemptive."
+BEL_growing_threat_of_ultranationalism: "Growing Threat of Fascism"
+BEL_growing_threat_of_ultranationalism_desc: "The rise of radical fascist support throughout Europe, and indeed the world, has become a very concerning trend, and we should be prepared to do what we must to prevent its spread. Even if such actions must be preemptive."
 
 BEL_peacekeeping_missions: "Peacekeeping Missions"
-BEL_peacekeeping_missions_desc: "Ongoing conflicts throughout the world continue to cause us concern, however, in order to maintain an outward veneer of neutrality we can only send troops abroad in sanctioned peacekeeping missions."
+BEL_peacekeeping_missions_desc: "Ongoing conflicts throughout the world continue to cause us concern, however, in order to maintain an outward veneer of despotism we can only send troops abroad in sanctioned peacekeeping missions."
 
-BEL_international_socialist_bureau: "International Socialist Bureau"
-BEL_international_socialist_bureau_desc: "The Second International had a permanent secretariat stationed in Brussels, and while that organization was dissolved in 1916, the socialist struggle continues. Now that we have regained our footing on the international stage, we should reestablish the institution and take a leadership role within the Socialist International again."
+BEL_international_socialism_bureau: "International Socialist Bureau"
+BEL_international_socialism_bureau_desc: "The Second International had a permanent secretariat stationed in Brussels, and while that organization was dissolved in 1916, the socialism struggle continues. Now that we have regained our footing on the international stage, we should reestablish the institution and take a leadership role within the Socialist International again."
 
 BEL_raise_the_red_flag: "Raise the Red Flag"
-BEL_raise_the_red_flag_desc: "To date, most of our efforts have been in line with the more moderate socialist ideal, however, in order to align ourselves more with the Soviet bloc, we may need to increase our support of the Communist party. The first step towards this would be to endorse "Le Drapeau Rouge" (The Red Flag), the Communist Newspaper within Belgium."
+BEL_raise_the_red_flag_desc: "To date, most of our efforts have been in line with the more moderate socialism ideal, however, in order to align ourselves more with the Soviet bloc, we may need to increase our support of the Communist party. The first step towards this would be to endorse "Le Drapeau Rouge" (The Red Flag), the Communist Newspaper within Belgium."
 BEL_raise_the_red_flag_tt: "Unlocks the decisions to §Y$BEL_rekindle_the_red_flame_cat$§! and turn [BEL.GetNameDef] §YCommunist§!."
 
 BEL_support_the_european_project: "Support the European Project"
-BEL_support_the_european_project_desc: "In a world dominated by war and conflict, it has become extremely apparent to us that neutrality is no guarantee of peace. As such, we should reach out to fellow European states and create a body dedicated to mutual security and economic stability, and thus together we can prosper."
+BEL_support_the_european_project_desc: "In a world dominated by war and conflict, it has become extremely apparent to us that despotism is no guarantee of peace. As such, we should reach out to fellow European states and create a body dedicated to mutual security and economic stability, and thus together we can prosper."
 
 BEL_european_community: "European Community"
 BEL_european_community_desc: "The early days of the European Project have gone well, so we should consider expansion of our membership and the ratification of a series of treaties that govern the future of our community. We could even consider moving towards a more federal model, with Belgium taking a leading role at it's heart."
@@ -2099,8 +2099,8 @@ BEL_moi_dabord_desc: "Moi d'abord! Me first! Spaak's famous cry when the enemy a
 BEL_v_for_victory: "V For Victory"
 BEL_v_for_victory_desc: "Victoire! Vryheid! Two words, victory and freedom, found between the Belgian languages and identified by the same letter. The upraised index and middle finger have become a symbol of defiance and determination among the Belgian populace before spreading to foreign shores, and is even being adopted by similarly defiant national leaders."
 
-BEL_democratic_homecoming: "Democratic Homecoming"
-BEL_democratic_homecoming_desc: "It was not royalty that won us our homeland back, but our democratic institutions and the process of raising the most able of our citizens to lead us. We should acknowledge their valuable contribution to this moment, and enshrine their successes for future generations."
+BEL_socialism_homecoming: "Democratic Homecoming"
+BEL_socialism_homecoming_desc: "It was not royalty that won us our homeland back, but our liberalism institutions and the process of raising the most able of our citizens to lead us. We should acknowledge their valuable contribution to this moment, and enshrine their successes for future generations."
 
 BEL_charles_count_of_flanders: "Charles, Count of Flanders"
 BEL_charles_count_of_flanders_desc: "It is clear that Leopold cannot be trusted to resume the throne, having abdicated his responsibility as soon as he surrendered the nation. Thankfully he has a younger brother, Prince Charles, the Count of Flanders, who would make an excellent regent until we can formerly decide what to do with the 'king'."
@@ -2648,7 +2648,7 @@ BEL_corruption_ns_fake_tt: "Daily Political Power Gain: §R-0.25%§! \nStability
  COG_formally_recognize_the_kimbanguist_church_desc: "Simon Kimbangu, self proclaimed special envoy of Jesus Christ himself, has been a thorn in the side of our administration for many years. With the amount of support from the local populace that his movement has garnered however, it may be the right time to formally recognize Jesus Christ's Church on earth by his special Envoy Simon Kimbangu as a legitimate religious group within our nation."
 
  COG_found_the_parti_solidaire_africain: "Found the Parti Solidaire Africain"
- COG_found_the_parti_solidaire_africain_desc: "The Pan-Africanist movement is growing stronger by the day, and as one of the largest states in Africa, we cannot be allowed to fall behind these developments. Thus, we must found the African Mutual Party with the goal of furthering cooperation between socialist and democratic states on our continent."
+ COG_found_the_parti_solidaire_africain_desc: "The Pan-Africanist movement is growing stronger by the day, and as one of the largest states in Africa, we cannot be allowed to fall behind these developments. Thus, we must found the African Mutual Party with the goal of furthering cooperation between socialism and liberalism states on our continent."
 
  COG_the_intore_lion_dancers: "The Intore Lion Dancers"
  COG_the_intore_lion_dancers_desc: "The Intore Lion Dancers are the elite royal guard of the Ruandan Mwami, being often referred to as the Chosen Ones within the traditional Ruandan army. It would be for the best to make sure that this armed force is under the command of the central government."
@@ -2699,7 +2699,7 @@ BEL_corruption_ns_fake_tt: "Daily Political Power Gain: §R-0.25%§! \nStability
  COG_alliance_de_bakongo_desc: "The Alliance of Bakongo is headed by the great thinker Joseph Kasa-Vubu, a man who is sure to be a guiding light for an independent Congo. We should make sure that the ABAKO is allowed to operate without interference from the government."
 
  COG_progressive_congolese_students: "Progressive Congolese Students"
- COG_progressive_congolese_students_desc: "With many in our country beginning to believe socialist rhetoric, it may prove wise to establish youth organizations where these ideas can be spread and developed further. The youth are the future, and as such they must be taught what they need to lead us when their time comes."
+ COG_progressive_congolese_students_desc: "With many in our country beginning to believe socialism rhetoric, it may prove wise to establish youth organizations where these ideas can be spread and developed further. The youth are the future, and as such they must be taught what they need to lead us when their time comes."
 
  COG_manifeste_convience_africaine: "Le Manifeste de Conscience Africaine"
  COG_manifeste_convience_africaine_desc: "Congolese national awareness is beginning to take shape, and the évolué have begun to grow disillusioned with Jef Van Bilsen's thirty-year plan. It is time that the Congolese intellectuals make themselves heard, and show the world where the Congo is headed!"
@@ -2779,8 +2779,8 @@ BEL_corruption_ns_fake_tt: "Daily Political Power Gain: §R-0.25%§! \nStability
  COG_establish_the_west_african_national_secretariat: "The African National Secretariat"
  COG_establish_the_west_african_national_secretariat_desc: "The time has come to enact that which was decided upon at the Pan-African congress. We must supply arms to revolutionaries, and aid in the global anti-colonialist struggle, so that this dark age can come to an end once and for all!"
 
- COG_socialist_education_reforms: "Socialist Education Reforms"
- COG_socialist_education_reforms_desc: "The people must be properly educated so that they can think for themselves, without falling back into the traps of tribalism and savagery. We must therefore strive to shape the educational systems and curriculum to fit our desired viewpoints."
+ COG_socialism_education_reforms: "Socialist Education Reforms"
+ COG_socialism_education_reforms_desc: "The people must be properly educated so that they can think for themselves, without falling back into the traps of tribalism and savagery. We must therefore strive to shape the educational systems and curriculum to fit our desired viewpoints."
 
  COG_foster_a_personality_cult: "Foster a Personality Cult"
  COG_foster_a_personality_cult_desc: "There is no-one other than [ROOT.GetLeader] who can bring prosperity to the people of Africa. He is the great leader who stands as the foundations to our independence, and must be treated accordingly."
@@ -3066,9 +3066,9 @@ BEL_corruption_ns_fake_tt: "Daily Political Power Gain: §R-0.25%§! \nStability
  GER_war_production: "War Production"
  GER_war_production_desc: "War has engulfed us once again, but we will not buckle and we will not fall! We will mobilize our industrial might and outproduce any foe unwise enough to think they can crush the German people’s unbending will!"
  GER_construct_the_reichsautobahn: "Construct the [GetAutobahnName]"
- GER_autobahn_fascism: "Reichsautobahn"
+ GER_autobahn_ultranationalism: "Reichsautobahn"
  GER_autobahn_neutral: "Kaiserliche Autobahn"
- GER_autobahn_democratic: "Autobahn"
+ GER_autobahn_liberalism: "Autobahn"
  GER_autobahn_communism: "Volksautobahn"
  GER_construct_the_reichsautobahn_desc: "$GER_autobahn_desc$"
  GER_kdf_wagen_factories: "[GetKfdWagenNames]"
@@ -3221,9 +3221,9 @@ BEL_corruption_ns_fake_tt: "Daily Political Power Gain: §R-0.25%§! \nStability
  GER_develop_the_knickebein: "Develop the Knickebein"
  GER_develop_the_knickebein_desc: "By using an intricate system of radio navigation we have found a way of guiding our aircraft to make more accurate precision bombing. By utilizing these new technologies, we might be able to more effectively level our enemy's factories with the ground - even during the night."
  GER_defense_of_the_reich: "Defense of [GetDefenseofGermanyName]"
- GER_defense_of_the_reich_fascism: "the Reich"
+ GER_defense_of_the_reich_ultranationalism: "the Reich"
  GER_defense_of_the_reich_neutral: "the Empire"
- GER_defense_of_the_reich_democratic: "[GER.GetName]"
+ GER_defense_of_the_reich_liberalism: "[GER.GetName]"
  GER_defense_of_the_reich_communism: "the Proletarian Revolution"
  GER_defense_of_the_reich_desc: "We must safeguard the Vaterland from enemy air raids. Securing the skies over [ROOT.GetNameDef] and protecting the industries on the ground must take precedence over everything else!"
  GER_construct_the_kammhuber_line: "Construct the Kammhuber Line"
@@ -3244,15 +3244,15 @@ BEL_corruption_ns_fake_tt: "Daily Political Power Gain: §R-0.25%§! \nStability
  GER_unlocks_statue_of_liberty_raid_tt: "Unlocks §YAir Raid§! on §Ythe Statue of Liberty§! when at war with §Y[USA.GetNameWithFlag]§!"
  #KRIEGSMARINE
  GER_strengthen_the_kriegsmarine: "Strengthen the [GetStrengthenKriegsmarineName]"
- GER_strengthen_kriegsmarine_fascism: "Kriegsmarine" 
- GER_strengthen_kriegsmarine_neutrality: "Kaiserliche Marine" 
- GER_strengthen_kriegsmarine_democratic: "Deutsche Marine" 
+ GER_strengthen_kriegsmarine_ultranationalism: "Kriegsmarine" 
+ GER_strengthen_kriegsmarine_despotism: "Kaiserliche Marine" 
+ GER_strengthen_kriegsmarine_liberalism: "Deutsche Marine" 
  GER_strengthen_kriegsmarine_communism: "Volksmarine" 
  GER_strengthen_the_kriegsmarine_desc: "$GER_naval_rearmament_desc$" #old loc
  GER_expand_kriegsmarinewerft: "Expand the [GetKriegsmarinewerftName]" 
- GER_expand_kriegsmarinewerft_fascism: "Kriegsmarinewerft" 
- GER_expand_kriegsmarinewerft_neutrality: "Kaiserliche Marinewerft" 
- GER_expand_kriegsmarinewerft_democratic: "Marinewerft" 
+ GER_expand_kriegsmarinewerft_ultranationalism: "Kriegsmarinewerft" 
+ GER_expand_kriegsmarinewerft_despotism: "Kaiserliche Marinewerft" 
+ GER_expand_kriegsmarinewerft_liberalism: "Marinewerft" 
  GER_expand_kriegsmarinewerft_communism: "Volksmarinewerft" 
  GER_expand_kriegsmarinewerft_desc: "We must double down on our efforts to build a navy to rival that of our enemies. By deploying technologies at the forefront of shipbuilding and constructing cutting-edge warships we will assuredly wrestle the control of the high seas out of our foes' control." 
  GER_construct_aircraft_carriers: "Construct Aircraft Carriers"
@@ -3618,15 +3618,15 @@ BEL_corruption_ns_fake_tt: "Daily Political Power Gain: §R-0.25%§! \nStability
  GER_the_peoples_victory: "The People's Victory"
  GER_the_peoples_victory_desc: "The people have spoken, and the people have been heard. Our old and corrupt government has shown signs of weakness and we must seize the opportunity to demand their resignation and take the power for ourselves, in the name of the people!"
  GER_legacy_of_the_spartacus_league: "Legacy of the Spartacus League"
- GER_legacy_of_the_spartacus_league_desc: "The Spartacus League ceased to exist in 1919 as Kommunistische Partei Deutschlands was formed, but some of their ideas are worth bringing back. The League had visions of creating a socialist republic with its basis in democratic elections and the will of the people, yet allowing revolutionary groups if need be. It is time we work towards this goal once more."
+ GER_legacy_of_the_spartacus_league_desc: "The Spartacus League ceased to exist in 1919 as Kommunistische Partei Deutschlands was formed, but some of their ideas are worth bringing back. The League had visions of creating a socialism republic with its basis in liberalism elections and the will of the people, yet allowing revolutionary groups if need be. It is time we work towards this goal once more."
  GER_social_ownership: "Social Ownership"
  GER_social_ownership_desc: "We have seen what happens when important state services are allowed to be run by people whose goal is not aligned with what is best for the people. To prevent this from ever happening again we should transfer our industry into public ownership."
  GER_civil_liberties: "Civil Liberties"
  GER_civil_liberties_desc: "There is a misconception among our comrades that inorder for the state to function efficiently and securely, it must coerce every individual into conformity. But this runs counter to the objectives of socialism. Only through the protection of civil liberties will the people be truly loyal to the state."
- GER_embrace_democratic_institutions: "Embrace Democratic Institutions"
- GER_embrace_democratic_institutions_desc: "Liberal democracy is nothing more than a front for the bourgeoisie. True democracy requires economic as well as social equality. As such, we alone are positioned to fully incorporate the will of the people into the process of governing the nation."
+ GER_embrace_socialism_institutions: "Embrace Democratic Institutions"
+ GER_embrace_socialism_institutions_desc: "Liberal democracy is nothing more than a front for the bourgeoisie. True democracy requires economic as well as social equality. As such, we alone are positioned to fully incorporate the will of the people into the process of governing the nation."
  GER_establish_volkskommissariats: "Establish Volkskommissariats"
- GER_establish_volkskommissariats_desc: "Foreign occupation is unacceptable, but in order to establish legitimate worker-led governments among our newly liberated neighbors, we shall take on the difficult responsibility of stewardship and guide them towards the socialist ideal."
+ GER_establish_volkskommissariats_desc: "Foreign occupation is unacceptable, but in order to establish legitimate worker-led governments among our newly liberated neighbors, we shall take on the difficult responsibility of stewardship and guide them towards the socialism ideal."
  GER_establish_volkskommissariats_tt: "Unlocks decisions to §YEstablish Volkskommissariats§! in any current and future §Yneighboring subject states§! that share our ideology."
  GER_industrialize_volkskommissariats: "Industrialize Volkskommissariats"
  GER_industrialize_volkskommissariats_desc: "The inefficient application of labor due to a lack of equipment is causing the industries of the Volkskommissariats to lag behind their [ROOT.GetAdjective] counterparts. We must invest in industrialization schemes to correct this imbalance."
@@ -3641,7 +3641,7 @@ BEL_corruption_ns_fake_tt: "Daily Political Power Gain: §R-0.25%§! \nStability
  GER_current_future_volkskommisariats_tt: "All current and future §YVolkskommissariats§!:"
  GER_integrate_volkskommissariats: "Integrate Volkskommissariats"
  GER_integrate_volkskommissariats_desc: "The Volkskommissariats were intended to guide the liberated peoples of Europe towards socialism. However, as our economies and cultures have become intertwined, a new sense of identity has emerged that advocates for an expansion of what it means to be [ROOT.GetAdjective]. From here on, we are one people, one country."
- GER_integrate_volkskommissariats_tt: "Unlocks Decisions to §YIntegrate Volkskommissariats§!. Once §Y[ROOT.GetNameWithFlag]§! integrates the first §YVolkskommissariat§! the country will be known as §Y$GER_german_socialist_union_communism$§!"
+ GER_integrate_volkskommissariats_tt: "Unlocks Decisions to §YIntegrate Volkskommissariats§!. Once §Y[ROOT.GetNameWithFlag]§! integrates the first §YVolkskommissariat§! the country will be known as §Y$GER_german_socialism_union_communism$§!"
  GER_expand_social_welfare: "Expand Social Welfare"
  GER_expand_social_welfare_desc: "After the Great War, we began to develop a welfare system to benefit the people, but this became more limited after the Great Depression. We should pour resources into rebuilding this institution and make it a badge of honor for every German, proving to the world the superiority of Communism."
  GER_liberate_austria: "Liberate Austria"
@@ -3667,7 +3667,7 @@ BEL_corruption_ns_fake_tt: "Daily Political Power Gain: §R-0.25%§! \nStability
  GER_the_end_to_fascist_europe: "The End to Fascist Europe"
  GER_the_end_to_fascist_europe_desc: "Even at this time there remains countries in Europe that are subject to a Fascist rule. As we are well aware of the strain this puts on a population we must see to that these countries are liberated at once!"
  GER_bypass_end_to_fascist_europe_tt: "Not: Any other country:\n   Capital State: Is in §YEurope§!\n   Current ruling party is §YFascist§!." #The indentations are there so the tt looks correct
- GER_war_against_fascism_tt: "Gain §YAnnex§! war goal against any §YFascist§! nation in §YEurope§! that [GER.GetNameDef] does not already have a war goal against. Current effect:"
+ GER_war_against_ultranationalism_tt: "Gain §YAnnex§! war goal against any §YFascist§! nation in §YEurope§! that [GER.GetNameDef] does not already have a war goal against. Current effect:"
  GER_red_europe: "A Red Europe"
  GER_red_europe_desc: "We cannot limit our efforts to encourage workers to pick up arms and raise the red flag to our immediate neighboring countries. We must spread the proletarian revolution across Europe!"
  GER_spark_the_flame_of_revolution_red_europe_tt: "Unlocks decisions to §YBolster Communist Sentiments§! in §Yminor European countries§!. Once the communists have majority support in the influenced country a §YCivil War§! to turn the country §YCommunist§! will break out."
@@ -3676,15 +3676,15 @@ BEL_corruption_ns_fake_tt: "Daily Political Power Gain: §R-0.25%§! \nStability
  GER_root_out_imperialism_tt: "Unlocks §YDecisions§! to increase resistance and autonomy gain in §YAfrican§! and §YAsian§! countries."
  GER_strengthen_the_proletarian_international_internationally_tt: "Every country §Youtside Europe§! that §Y[GER.GetNameWithFlag]§! has influenced towards §YCommunism§! will be invited to the §YProletarian International§!. This effect will apply to countries that are influenced towards Communism §Yafter this focus was taken§! as well."
  GER_hegemony_over_europe: "Hegemony over Europe"
- GER_hegemony_over_europe_desc: "The old, imperial Europe is crumbling. We will establish a new socialist order in its place, with the workers of Europe looking to us to lead them against the bourgeois tyranny. A proletarian victory will establish our hegemony across the continent."
+ GER_hegemony_over_europe_desc: "The old, imperial Europe is crumbling. We will establish a new socialism order in its place, with the workers of Europe looking to us to lead them against the bourgeois tyranny. A proletarian victory will establish our hegemony across the continent."
  GER_war_against_major_countries_in_europe_tt: "Gain §YAnnex§! war goal against all §YMajor§! nations that controls at least one state in §YEurope§!. Current effect:"
  GER_align_south_america: "Align South America"
  GER_align_south_america_desc: "The South American workers have suffered long enough under the yoke of capitalism. Swaying them to our cause will surely lead to staunch allies across the continent"
  GER_communist_propaganda_south_america_decision_tt: "Unlocks decisions to §YBolster Communist Sentiments§! in §Yminor South American countries§!. Once the communists have majority support in the influenced country a §YCivil War§! to turn the country §YCommunist§! will break out."
  GER_wage_war_on_capitalism: "Wage War on Capitalism"
- GER_wage_war_on_capitalism_desc: "Capitalism is the natural enemy of Communism and must be dismantled by force if necessary. We will lead this charge against [USA.GetNameDef], which is the very symbol of capitalism, paving the way for a new socialist era."
+ GER_wage_war_on_capitalism_desc: "Capitalism is the natural enemy of Communism and must be dismantled by force if necessary. We will lead this charge against [USA.GetNameDef], which is the very symbol of capitalism, paving the way for a new socialism era."
  GER_instigate_middle_eastern_revolutions: "Instigate Middle-Eastern Revolutions"
- GER_instigate_middle_eastern_revolutions_desc: "The Middle East has long been oppressed by foreign powers and is ripe for a socialist revolution. We should stir the people's lingering desire to finally become free from exploitation and raise the red flag of socialism."
+ GER_instigate_middle_eastern_revolutions_desc: "The Middle East has long been oppressed by foreign powers and is ripe for a socialism revolution. We should stir the people's lingering desire to finally become free from exploitation and raise the red flag of socialism."
  GER_communist_propaganda_middle_east_decision_tt: "Unlocks decisions to §YBolster Communist Sentiments§! in §Yminor Middle-Eastern countries§!. Once the communists have majority support in the influenced country a §YCivil War§! to turn the country §YCommunist§! will break out."
  GER_intervene_in_spain: "Intervene in Spain"
  GER_intervene_in_spain_desc: "It is our duty to help our comrades in Spain in whatever way we can against the forces of Fascism. Sending battle-hardened troops will surely be appreciated."
@@ -3771,9 +3771,9 @@ BEL_corruption_ns_fake_tt: "Daily Political Power Gain: §R-0.25%§! \nStability
  GER_strive_for_conservative_values_desc: "Liberal ideas have run rampant in our nation for too long, weakening the minds of our men, and corrupting our politicians. We must return to our good old fashioned values, so that the chaos of the Weimar Republic may never return."
  GER_strengthen_the_welfare_state: "Strengthen the Welfare State"
  GER_strengthen_the_welfare_state_desc: "Our nation has a long history as a welfare state, and it is not something we intend on changing now. We must stick to our principles, and ensure that our people live as good lives as we can possibly provide them."
- GER_democratic_shield: "Democratic Shield"
- GER_democratic_shield_desc: "Democracy is in danger all around the world, as it once was in our nation. We know the horrors of the authoritarian and totalitarian populists, and must ensure that the people of other nations do not have to go through what we once did."
- GER_send_military_support_democratic_shield_tt: "Unlocks decisions to §YSend Military Equipment§! to §YDemocratic§! countries at war"
+ GER_socialism_shield: "Democratic Shield"
+ GER_socialism_shield_desc: "Democracy is in danger all around the world, as it once was in our nation. We know the horrors of the authoritarian and totalitarian populists, and must ensure that the people of other nations do not have to go through what we once did."
+ GER_send_military_support_socialism_shield_tt: "Unlocks decisions to §YSend Military Equipment§! to §YDemocratic§! countries at war"
  GER_revive_the_kaiserreich_ww: "$GER_revive_the_kaiserreich$"
  GER_revive_the_kaiserreich_ww_desc: "$GER_revive_the_kaiserreich_desc$"
  GER_return_of_the_kaiser_ww: "The Return of the Kaiser"
@@ -3888,8 +3888,8 @@ BEL_corruption_ns_fake_tt: "Daily Political Power Gain: §R-0.25%§! \nStability
 
  GER_establish_eastern_grand_duchies: "[GetEasternDuchiesName]"
  GER_establish_eastern_grand_duchies_desc: "All of the territory encompassed in the treaty can't be held directly by us. We do however have plans for Grand Duchies and Satellite Kingdoms in the east that will be able to hold onto these territories for us."
- GER_eastern_duchies_name_democratic: "Eastern Autonomous States"
- GER_eastern_duchies_name_neutrality: "Establish Eastern Grand Duchies"
+ GER_eastern_duchies_name_liberalism: "Eastern Autonomous States"
+ GER_eastern_duchies_name_despotism: "Establish Eastern Grand Duchies"
 
  GER_subduing_the_baltic_states: "Subduing the Baltic States"
  GER_subduing_the_baltic_states_desc: "The Baltic states are illegitimate, claiming the territories of our United Baltic Duchy. We must subjugate them, and hand the lands over to the Baltic-German aristocracy."
@@ -3906,8 +3906,8 @@ BEL_corruption_ns_fake_tt: "Daily Political Power Gain: §R-0.25%§! \nStability
  GER_sea_lion_eq_trigger_tt: "More than §Y90.000§! infantry equipment in the army"
  GER_puppet_finland: "Ensure [FIN.GetAdjective] Loyalty"
  GER_puppet_finland_desc: "[GetFinlandpuppetDescription]"
- GER_finland_puppet_description_democratic: "The [FIN.GetAdjective] people may be our brothers in arms, but we can never be certain if there will come a day in which they betray us and switch sides. We must ensure that such a day never comes, no matter the cost!"
- GER_finland_puppet_description_neutrality: "The [FIN.GetAdjective] people rejected our offer to instate a king in the past, but we will not allow them to do so again. It is time for Prince Wolfgang of Hesse to take his place on their throne, whether they like it or not."
+ GER_finland_puppet_description_liberalism: "The [FIN.GetAdjective] people may be our brothers in arms, but we can never be certain if there will come a day in which they betray us and switch sides. We must ensure that such a day never comes, no matter the cost!"
+ GER_finland_puppet_description_despotism: "The [FIN.GetAdjective] people rejected our offer to instate a king in the past, but we will not allow them to do so again. It is time for Prince Wolfgang of Hesse to take his place on their throne, whether they like it or not."
  GER_see_to_the_eastern_front_ww: "See to the Eastern Front"
  GER_see_to_the_eastern_front_ww_desc: "Our actions in the previous war are still in recent memory with many. We must refocus the fears of the continent on the true danger: the great [GER.GetGreatRedMenaceDesc] that looms in the East. We will begin a massive propaganda campaign to open the eyes of the continent."
  GER_the_eastern_threat: "The Eastern Threat"
@@ -4007,8 +4007,8 @@ BEL_corruption_ns_fake_tt: "Daily Political Power Gain: §R-0.25%§! \nStability
  GER_reinstate_imperial_possessions_ww: "$GER_reinstate_imperial_possessions$"
  GER_reinstate_imperial_possessions_ww_desc: "$GER_reinstate_imperial_possessions_desc$"
  GER_establish_western_grand_duchies: "[GetWesternDuchiesName]"
- GER_western_duchies_name_democratic: "Western Autonomous States"
- GER_western_duchies_name_neutrality: "Establish Western Grand Duchies"
+ GER_western_duchies_name_liberalism: "Western Autonomous States"
+ GER_western_duchies_name_despotism: "Establish Western Grand Duchies"
  GER_establish_western_grand_duchies_desc: "As was the plan in the Septemberprogramm, we should try to establish our control over the western regions by creating client states of our own, carving up the borders as we see fit."
  GER_integrate_western_german_speakers: "Integrate Western German Speakers"
  GER_integrate_western_german_speakers_desc: "The Septemberprogramm envisioned the greater Luxembourg area integrated with the German state. Both that region and Switzerland used to be part of the Holy Roman Empire, of which we are the sole rightful successor. These Germanic areas must be reincorporated into our realm as rapidly as possible."
@@ -4016,9 +4016,9 @@ BEL_corruption_ns_fake_tt: "Daily Political Power Gain: §R-0.25%§! \nStability
  GER_core_german_switzerland_tt: "If [ROOT.GetnameDef] is §Ynot in a faction§! with [SWI.GetNameDef] and §Yfully controls§! [3.GetName], [847.GetName], and [151.GetName]:"
  GER_core_alto_adige_tt: "If [ROOT.GetnameDef] is §Ynot in a faction§! with [ITA.GetNameDef] and §Yfully controls§! [39.GetName]:"
  GER_assassinate_mussolini_ww: "Assassinate Mussolini"
- GER_assassinate_mussolini_ww_desc: "The time has come to ensure the end of the linchpin of [ITA.GetAdjective] fascism. German hands will assassinate the leader, after which the [ITA.GetAdjective] royalists will seize power in one swift motion."
+ GER_assassinate_mussolini_ww_desc: "The time has come to ensure the end of the linchpin of [ITA.GetAdjective] ultranationalism. German hands will assassinate the leader, after which the [ITA.GetAdjective] royalists will seize power in one swift motion."
  GER_prepare_italian_coup_ww: "Prepare [ITA.GetAdjective] Coup"
- GER_prepare_italian_coup_ww_desc: "Italy's fall into fascism must be undone. We will approach the [ITA.GetAdjective] royalists with a proposal for a coup with our support."
+ GER_prepare_italian_coup_ww_desc: "Italy's fall into ultranationalism must be undone. We will approach the [ITA.GetAdjective] royalists with a proposal for a coup with our support."
 
 
 

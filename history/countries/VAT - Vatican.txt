@@ -27,15 +27,15 @@ set_technology = {
 set_convoys = 10
 add_ideas = { neutrality_idea civilian_economy }
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = despotism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 10
-	fascism = 5
+	liberalism = 10
+	ultranationalism = 5
 	communism = 0
-	neutrality = 85
+	despotism = 85
 }

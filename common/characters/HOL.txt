@@ -460,7 +460,7 @@ characters={
 					has_dlc = "Man the Guns"
 				}
 				available = {
-					has_government = fascism
+					has_government = ultranationalism
 				}
 				traits = {
 					army_chief_offensive_2
@@ -621,8 +621,8 @@ characters={
 				available  = {
 					has_capitulated  = yes 
 					or  = {
-						has_government  = democratic 
-						has_government  = neutrality 
+						has_government  = liberalism 
+						has_government  = despotism 
 					}
 				}
 				traits  = {
@@ -646,8 +646,8 @@ characters={
 				}
 				available  = {
 					or  = {
-						has_government  = democratic 
-						has_government  = neutrality 
+						has_government  = liberalism 
+						has_government  = despotism 
 					}
 				}
 				traits  = {
@@ -711,8 +711,8 @@ characters={
 				}
 				available  = {
 					or  = {
-						has_government  = democratic 
-						has_government  = neutrality 
+						has_government  = liberalism 
+						has_government  = despotism 
 					}
 				}
 				traits  = {
@@ -758,7 +758,7 @@ characters={
 					original_tag  = HOL
 				}
 				available  = {
-					has_government  = fascism 
+					has_government  = ultranationalism 
 				}
 				traits  = {
 					prince_of_terror 
