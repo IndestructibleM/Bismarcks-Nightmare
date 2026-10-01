@@ -25,6 +25,27 @@ on_actions = {
 					}
 				}
 			}
+			BAY = {
+				every_owned_state = {
+					add_core_of = BAY
+					remove_core_of = GER
+					add_claim_by = GER
+				}
+			}
+			BDN = {
+				every_owned_state = {
+					add_core_of = BAY
+					remove_core_of = GER
+					add_claim_by = GER
+				}
+			}
+			WUR = {
+				every_owned_state = {
+					add_core_of = WUR
+					remove_core_of = GER
+					add_claim_by = GER
+				}
+			}
 		}
 	}
 }

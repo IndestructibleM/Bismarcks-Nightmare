@@ -3,7 +3,7 @@
 		id = shared_gen_economic_modernization
 		icon = GFX_generic_cash_stimulus_plan
 		cost = 5
-		x = 25
+		x = 30
 		y = 0
 		offset = {
         x = 10
@@ -353,7 +353,7 @@
 		id = shared_gen_militarization
 		icon = GFX_generic_army_training
 		cost = 5
-		x = 30
+		x = 35
 		y = 0
 		offset = {
         x = 10
@@ -643,7 +643,7 @@
 		id = shared_gen_skies_and_seas
 		icon = GFX_generic_sea_and_air
 		cost = 5
-		x = 35
+		x = 40
 		y = 0
 		offset = {
         x = 10

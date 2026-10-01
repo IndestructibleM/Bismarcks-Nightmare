@@ -16,6 +16,8 @@ focus_tree = {
     allow_branch = {
         always = yes
     }
+	
+	continuous_focus_position = { x = 100 y = 1000 }
 
 	focus = {
 		id = GER_the_old_chairman
@@ -251,8 +253,7 @@ focus_tree = {
 	focus = {
 		id = GER_the_beacon_of_socialism
 		relative_position_id = GER_the_old_chairman
-		prerequisite = { focus = GER_the_german_ideology }
-		prerequisite = { focus = GER_spirit_of_1848 }
+		prerequisite = { focus = GER_the_german_ideology focus = GER_spirit_of_1848}
 		icon = GFX_focus_JAP_raise_the_red_flag_high
 		x = 0
 		y = 3
@@ -321,4 +322,481 @@ focus_tree = {
 		completion_reward = {
 		}
 	}
+
+	focus = {
+		id = GER_restart_hannovers_trade_with_england
+		relative_position_id = GER_the_old_chairman
+		prerequisite = { focus = GER_breaking_isolation }
+		icon = GFX_focus_generic_british_trade
+		x = 4
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 2
+		}
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = GER_restart_hannovers_trade_with_england
+		relative_position_id = GER_the_old_chairman
+		prerequisite = { focus = GER_breaking_isolation }
+		icon = GFX_focus_generic_british_trade
+		x = 4
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 2
+		}
+		completion_reward = {
+		}
+	}
+    # ============================================================
+    # FOREIGN POLICY
+    # ============================================================
+
+    focus = {
+        id = GER_foreign_policy
+        icon = GFX_focus_ger_great_red_menace
+        x = 14
+        y = 0
+        cost = 5
+		available = {
+			has_completed_focus = GER_breaking_isolation
+		}
+        completion_reward = {
+			create_faction = internationale
+        }
+    }
+
+    focus = {
+        id = GER_spread_the_revolution
+        icon = GFX_goal_support_communism
+        relative_position_id = GER_foreign_policy
+        x = -1
+        y = 1
+        cost = 5
+
+        prerequisite = {
+            focus = GER_foreign_policy
+        }
+
+        completion_reward = {
+        }
+    }
+
+    focus = {
+        id = GER_breaking_the_prisons_of_nations
+        icon = GFX_focus_GER_liberate_exploited_colonial_workers
+        relative_position_id = GER_foreign_policy
+        x = -5
+        y = 2
+        cost = 5
+
+        prerequisite = {
+            focus = GER_spread_the_revolution
+        }
+
+        completion_reward = {
+        }
+    }
+
+    focus = {
+        id = GER_support_irish_revolutionaries
+        icon = GFX_goal_IRE_Labour
+        relative_position_id = GER_foreign_policy
+        x = -6
+        y = 3
+        cost = 5
+
+        prerequisite = {
+            focus = GER_breaking_the_prisons_of_nations
+        }
+
+        completion_reward = {
+        }
+    }
+
+    focus = {
+        id = GER_naval_arms_race_with_the_uk
+        icon = GFX_goal_naval_rearmament
+        relative_position_id = GER_foreign_policy
+        x = -6
+        y = 4
+        cost = 5
+
+        prerequisite = {
+            focus = GER_support_irish_revolutionaries
+        }
+
+        completion_reward = {
+        }
+    }
+
+    focus = {
+        id = GER_warsaw_berlin_pact
+        icon = GFX_focus_generic_befriend_poland
+        relative_position_id = GER_foreign_policy
+        x = -4
+        y = 3
+        cost = 5
+
+        prerequisite = {
+            focus = GER_breaking_the_prisons_of_nations
+        }
+
+        completion_reward = {
+        }
+    }
+
+    focus = {
+        id = GER_topple_the_tsarist_empire
+        icon = GFX_goal_RUS_self_determination
+        relative_position_id = GER_foreign_policy
+        x = -4
+        y = 4
+        cost = 5
+
+        prerequisite = {
+            focus = GER_warsaw_berlin_pact
+        }
+
+        completion_reward = {
+        }
+    }
+
+    focus = {
+        id = GER_friendship_of_rome_and_berlin
+        icon = GFX_goal_generic_diplomacy
+        relative_position_id = GER_foreign_policy
+        x = -2
+        y = 2
+        cost = 5
+
+        prerequisite = {
+            focus = GER_spread_the_revolution
+        }
+
+        completion_reward = {
+			add_to_faction = ITA
+        }
+    }
+
+    focus = {
+        id = GER_sabotage_the_doppelaedler
+        relative_position_id = GER_foreign_policy
+        x = -2
+        y = 3
+        cost = 5
+
+        prerequisite = {
+            focus = GER_friendship_of_rome_and_berlin
+        }
+
+        completion_reward = {
+        }
+    }
+
+    focus = {
+        id = GER_support_pan_german_revolutionaries
+        icon = GFX_goal_support_communism
+        relative_position_id = GER_foreign_policy
+        x = -2
+        y = 4
+        cost = 5
+
+        prerequisite = {
+            focus = GER_sabotage_the_doppelaedler
+        }
+
+        completion_reward = {
+        }
+    }
+
+    focus = {
+        id = GER_rally_the_hungarian_communists
+        icon = GFX_focus_HUN_officialize_the_rakosi_battalion
+        relative_position_id = GER_foreign_policy
+        x = 0
+        y = 2
+        cost = 5
+
+        prerequisite = {
+            focus = GER_spread_the_revolution
+        }
+
+        completion_reward = {
+			add_to_faction = HUN
+        }
+    }
+
+    focus = {
+        id = GER_czechia_either_with_us_or_against_us
+        icon = GFX_focus_generic_communist_attack_czechoslovakia
+        relative_position_id = GER_foreign_policy
+        x = 0
+        y = 3
+        cost = 5
+
+        prerequisite = {
+            focus = GER_rally_the_hungarian_communists
+        }
+
+        completion_reward = {
+        }
+    }
+
+    focus = {
+        id = GER_influence_and_ally_bulgaria
+        icon = GFX_goal_generic_diplomacy
+        relative_position_id = GER_foreign_policy
+        x = 0
+        y = 4
+        cost = 5
+
+        prerequisite = {
+            focus = GER_czechia_either_with_us_or_against_us
+        }
+
+        completion_reward = {
+        }
+    }
+
+    focus = {
+        id = GER_where_bismarck_failed
+        relative_position_id = GER_foreign_policy
+        x = 4
+        y = 1
+        cost = 5
+
+        prerequisite = {
+            focus = GER_foreign_policy
+        }
+
+        completion_reward = {
+			add_war_support = 0.1
+			add_manpower = 30000
+			add_political_power = 35
+        }
+    }
+
+    focus = {
+        id = GER_the_revolution_into_swabia
+        icon = GFX_goal_support_communism
+        relative_position_id = GER_foreign_policy
+        x = 2
+        y = 2
+        cost = 5
+
+        prerequisite = {
+            focus = GER_where_bismarck_failed
+        }
+
+        completion_reward = {
+			declare_war_on = {
+				target = WUR
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = BDN
+				type = annex_everything
+			}
+        }
+    }
+
+    focus = {
+        id = GER_liberate_the_bavarian_chains
+        icon = GFX_goal_support_communism
+        relative_position_id = GER_foreign_policy
+        x = 4
+        y = 2
+        cost = 5
+
+        prerequisite = {
+            focus = GER_where_bismarck_failed
+        }
+
+        completion_reward = {
+			declare_war_on = {
+				target = BAY
+				type = annex_everything
+			}
+        }
+    }
+
+    focus = {
+        id = GER_integrate_upper_germany
+        relative_position_id = GER_foreign_policy
+        x = 3
+        y = 3
+        cost = 5
+		available = {
+			has_war = no
+		}
+        prerequisite = {
+            focus = GER_the_revolution_into_swabia
+        }
+
+        prerequisite = {
+            focus = GER_liberate_the_bavarian_chains
+        }
+
+        completion_reward = {
+			BAY = {
+				every_core_state = {
+					add_core_of = GER
+				}
+			}
+			WUR = {
+				every_core_state = {
+					add_core_of = GER
+				}
+			}
+			BDN = {
+				every_core_state = {
+					add_core_of = GER
+				}
+			}
+        }
+    }
+
+    focus = {
+        id = GER_demand_a_referendum_in_the_rhine
+        relative_position_id = GER_foreign_policy
+        x = 6
+        y = 2
+        cost = 5
+		available = {
+			has_war = no
+			has_army_manpower = {
+				size > 350000
+			}
+		}
+        prerequisite = {
+            focus = GER_where_bismarck_failed
+        }
+
+        completion_reward = {
+			custom_effect_tooltip = ToDo
+        }
+    }
+
+    focus = {
+        id = GER_instigate_a_rhine_revolution
+        icon = GFX_goal_support_communism
+        relative_position_id = GER_foreign_policy
+        x = 5
+        y = 3
+        cost = 5
+		available = {
+			has_army_manpower = {
+				size > 450000
+			}
+		}
+		mutually_exclusive = {
+			focus = GER_invade_the_rhineland
+		}
+        prerequisite = {
+            focus = GER_demand_a_referendum_in_the_rhine
+        }
+
+        completion_reward = {
+        }
+    }
+
+    focus = {
+        id = GER_invade_the_rhineland
+        relative_position_id = GER_foreign_policy
+		icon = GFX_focus_GER_remilitarize_the_rhineland
+        x = 7
+        y = 3
+        cost = 5
+		available = {
+			has_army_manpower = {
+				size > 450000
+			}
+		}
+		mutually_exclusive = {
+			focus = GER_instigate_a_rhine_revolution
+		}
+        prerequisite = {
+            focus = GER_demand_a_referendum_in_the_rhine
+        }
+
+        completion_reward = {
+			declare_war_on = {
+				target = RHN
+				type = annex_everything
+			}
+        }
+    }
+
+    focus = {
+        id = GER_the_palatine_or_war
+        relative_position_id = GER_foreign_policy
+        x = 4
+        y = 4
+        cost = 5
+
+        prerequisite = {
+            focus = GER_integrate_upper_germany
+        }
+
+        prerequisite = {
+            focus = GER_instigate_a_rhine_revolution
+            focus = GER_invade_the_rhineland
+        
+        }
+
+        completion_reward = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = FRA
+			}
+        }
+    }
+
+    focus = {
+        id = GER_integrate_the_rhineland
+        icon = GFX_goal_generic_territory
+        relative_position_id = GER_foreign_policy
+        x = 6
+        y = 4
+        cost = 5
+		available = {
+			owns_state = 1751
+		}
+        prerequisite = {
+            focus = GER_demand_a_referendum_in_the_rhine
+        }
+
+        completion_reward = {
+			RHN = {
+				every_core_state = {
+					add_core_of = GER
+				}
+			}
+        }
+    }
+
+    focus = {
+        id = GER_bonapartes_nightmare
+        relative_position_id = GER_foreign_policy
+        x = 5
+        y = 5
+        cost = 5
+
+        prerequisite = {
+            focus = GER_the_palatine_or_war
+        }
+
+        prerequisite = {
+            focus = GER_integrate_the_rhineland
+        }
+
+        completion_reward = {
+        }
+    }
+}
 }
