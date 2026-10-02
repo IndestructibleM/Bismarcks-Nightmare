@@ -192,7 +192,6 @@ focus_tree = {
 			factor = 2
 		}
 		completion_reward = {
-			add_to_faction = ITA
 		}
 	}
 
@@ -361,6 +360,9 @@ focus_tree = {
         icon = GFX_focus_ger_great_red_menace
         x = 14
         y = 0
+		ai_will_do = {
+			factor = 3
+		}
         cost = 5
 		available = {
 			has_completed_focus = GER_breaking_isolation
@@ -372,12 +374,14 @@ focus_tree = {
 
     focus = {
         id = GER_spread_the_revolution
-        icon = GFX_goal_support_communism
+        icon = GFX_goal_generic_spreading_the_revolution
         relative_position_id = GER_foreign_policy
         x = -1
         y = 1
         cost = 5
-
+		ai_will_do = {
+			factor = 2
+		}
         prerequisite = {
             focus = GER_foreign_policy
         }
@@ -393,7 +397,9 @@ focus_tree = {
         x = -5
         y = 2
         cost = 5
-
+		ai_will_do = {
+			factor = 2
+		}
         prerequisite = {
             focus = GER_spread_the_revolution
         }
@@ -409,7 +415,9 @@ focus_tree = {
         x = -6
         y = 3
         cost = 5
-
+		ai_will_do = {
+			factor = 2
+		}
         prerequisite = {
             focus = GER_breaking_the_prisons_of_nations
         }
@@ -420,11 +428,14 @@ focus_tree = {
 
     focus = {
         id = GER_naval_arms_race_with_the_uk
-        icon = GFX_goal_naval_rearmament
+        icon = GFX_focus_PER_the_peoples_navy
         relative_position_id = GER_foreign_policy
         x = -6
         y = 4
         cost = 5
+		ai_will_do = {
+			factor = 2
+		}
 
         prerequisite = {
             focus = GER_support_irish_revolutionaries
@@ -441,6 +452,9 @@ focus_tree = {
         x = -4
         y = 3
         cost = 5
+		ai_will_do = {
+			factor = 2
+		}
 
         prerequisite = {
             focus = GER_breaking_the_prisons_of_nations
@@ -457,6 +471,9 @@ focus_tree = {
         x = -4
         y = 4
         cost = 5
+		ai_will_do = {
+			factor = 2
+		}
 
         prerequisite = {
             focus = GER_warsaw_berlin_pact
@@ -468,11 +485,14 @@ focus_tree = {
 
     focus = {
         id = GER_friendship_of_rome_and_berlin
-        icon = GFX_goal_generic_diplomacy
+        icon = GFX_ITA_irridentism
         relative_position_id = GER_foreign_policy
         x = -2
         y = 2
         cost = 5
+		ai_will_do = {
+			factor = 2
+		}
 
         prerequisite = {
             focus = GER_spread_the_revolution
@@ -485,11 +505,17 @@ focus_tree = {
 
     focus = {
         id = GER_sabotage_the_doppelaedler
+        icon = GFX_focus_AUS_austromarxism
         relative_position_id = GER_foreign_policy
         x = -2
         y = 3
         cost = 5
-
+		ai_will_do = {
+			factor = 2
+		}
+		available = {
+			
+		}
         prerequisite = {
             focus = GER_friendship_of_rome_and_berlin
         }
@@ -500,11 +526,14 @@ focus_tree = {
 
     focus = {
         id = GER_support_pan_german_revolutionaries
-        icon = GFX_goal_support_communism
+        icon = GFX_focus_GER_legacy_of_the_spartacus_league
         relative_position_id = GER_foreign_policy
         x = -2
         y = 4
         cost = 5
+		ai_will_do = {
+			factor = 2
+		}
 
         prerequisite = {
             focus = GER_sabotage_the_doppelaedler
@@ -521,7 +550,9 @@ focus_tree = {
         x = 0
         y = 2
         cost = 5
-
+		ai_will_do = {
+			factor = 2
+		}
         prerequisite = {
             focus = GER_spread_the_revolution
         }
@@ -538,7 +569,12 @@ focus_tree = {
         x = 0
         y = 3
         cost = 5
-
+		ai_will_do = {
+			factor = 2
+		}
+		available = {
+			country_exists = CZE
+		}
         prerequisite = {
             focus = GER_rally_the_hungarian_communists
         }
@@ -549,12 +585,14 @@ focus_tree = {
 
     focus = {
         id = GER_influence_and_ally_bulgaria
-        icon = GFX_goal_generic_diplomacy
+        icon = GFX_focus_BUL_the_peoples_republic_of_bulgaria
         relative_position_id = GER_foreign_policy
         x = 0
         y = 4
         cost = 5
-
+		ai_will_do = {
+			factor = 2
+		}
         prerequisite = {
             focus = GER_czechia_either_with_us_or_against_us
         }
@@ -566,13 +604,22 @@ focus_tree = {
     focus = {
         id = GER_where_bismarck_failed
         relative_position_id = GER_foreign_policy
-        x = 4
+		icon = GFX_focus_SOV_builder_of_the_red_army
+		x = 4
         y = 1
         cost = 5
 
+		ai_will_do = {
+			factor = 2
+		}
         prerequisite = {
             focus = GER_foreign_policy
         }
+		available = {
+			has_army_manpower = {
+				size > 250000
+			}
+		}
 
         completion_reward = {
 			add_war_support = 0.1
@@ -583,12 +630,14 @@ focus_tree = {
 
     focus = {
         id = GER_the_revolution_into_swabia
-        icon = GFX_goal_support_communism
+        icon = GFX_goal_generic_political_pressure
         relative_position_id = GER_foreign_policy
         x = 2
         y = 2
         cost = 5
-
+		ai_will_do = {
+			factor = 2
+		}
         prerequisite = {
             focus = GER_where_bismarck_failed
         }
@@ -607,12 +656,14 @@ focus_tree = {
 
     focus = {
         id = GER_liberate_the_bavarian_chains
-        icon = GFX_goal_support_communism
+        icon = GFX_focus_PHI_return_of_the_exiles
         relative_position_id = GER_foreign_policy
         x = 4
         y = 2
         cost = 5
-
+		ai_will_do = {
+			factor = 2
+		}
         prerequisite = {
             focus = GER_where_bismarck_failed
         }
@@ -628,11 +679,15 @@ focus_tree = {
     focus = {
         id = GER_integrate_upper_germany
         relative_position_id = GER_foreign_policy
+        icon = GFX_focus_generic_workers_and_farmers_rise
         x = 3
         y = 3
         cost = 5
 		available = {
 			has_war = no
+		}
+		ai_will_do = {
+			factor = 4
 		}
         prerequisite = {
             focus = GER_the_revolution_into_swabia
@@ -664,14 +719,18 @@ focus_tree = {
     focus = {
         id = GER_demand_a_referendum_in_the_rhine
         relative_position_id = GER_foreign_policy
+		icon = GFX_goal_generic_democratic_socialism
         x = 6
         y = 2
         cost = 5
 		available = {
 			has_war = no
 			has_army_manpower = {
-				size > 350000
+				size > 400000
 			}
+		}
+		ai_will_do = {
+			factor = 2
 		}
         prerequisite = {
             focus = GER_where_bismarck_failed
@@ -684,15 +743,18 @@ focus_tree = {
 
     focus = {
         id = GER_instigate_a_rhine_revolution
-        icon = GFX_goal_support_communism
+        icon = GFX_focus_JAP_a_free_asia_pacific
         relative_position_id = GER_foreign_policy
         x = 5
         y = 3
         cost = 5
 		available = {
 			has_army_manpower = {
-				size > 450000
+				size > 400000
 			}
+		}
+		ai_will_do = {
+			factor = 2
 		}
 		mutually_exclusive = {
 			focus = GER_invade_the_rhineland
@@ -717,6 +779,9 @@ focus_tree = {
 				size > 450000
 			}
 		}
+		ai_will_do = {
+			factor = 2
+		}
 		mutually_exclusive = {
 			focus = GER_instigate_a_rhine_revolution
 		}
@@ -735,10 +800,13 @@ focus_tree = {
     focus = {
         id = GER_the_palatine_or_war
         relative_position_id = GER_foreign_policy
+		icon = GFX_focus_attack_france
         x = 4
         y = 4
         cost = 5
-
+		ai_will_do = {
+			factor = 2
+		}
         prerequisite = {
             focus = GER_integrate_upper_germany
         }
@@ -759,11 +827,14 @@ focus_tree = {
 
     focus = {
         id = GER_integrate_the_rhineland
-        icon = GFX_goal_generic_territory
         relative_position_id = GER_foreign_policy
+		icon = GFX_focus_generic_befriend_germany_democratic
         x = 6
         y = 4
         cost = 5
+		ai_will_do = {
+			factor = 2
+		}
 		available = {
 			owns_state = 1751
 		}
@@ -783,9 +854,13 @@ focus_tree = {
     focus = {
         id = GER_bonapartes_nightmare
         relative_position_id = GER_foreign_policy
+		icon = GFX_focus_GER_hegemony_over_europe
         x = 5
         y = 5
         cost = 5
+		ai_will_do = {
+			factor = 2
+		}
 
         prerequisite = {
             focus = GER_the_palatine_or_war
@@ -798,5 +873,4 @@ focus_tree = {
         completion_reward = {
         }
     }
-}
 }

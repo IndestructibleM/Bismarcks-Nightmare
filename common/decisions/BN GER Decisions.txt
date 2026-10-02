@@ -6,7 +6,8 @@ political_actions = {
     available = {
         always = no
     }
-    icon = mission_icon     # For GFX_decision_mission_icon
+    fire_only_once = yes
+    icon = mission_icon
     is_good = yes
     days_mission_timeout = 300
     timeout_effect = {

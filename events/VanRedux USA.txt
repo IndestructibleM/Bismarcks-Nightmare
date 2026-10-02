@@ -2,8 +2,22 @@ add_namespace = germany
 add_namespace = RedGer
 
 country_event = {
-	id = RedGer.2
+	id = RedGer.1
 	title = RedGer.1.t
+	desc = desc.temp.d
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { 
+		name = germany.1.a
+	}
+
+}
+
+country_event = {
+	id = RedGer.2
+	title = RedGer.2.t
 	desc = desc.temp.d
 
 	fire_only_once = yes
