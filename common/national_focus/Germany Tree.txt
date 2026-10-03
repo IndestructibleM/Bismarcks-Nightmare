@@ -17,7 +17,7 @@ focus_tree = {
         always = yes
     }
 	
-	continuous_focus_position = { x = 100 y = 1000 }
+	continuous_focus_position = { x = 100 y = 1600 }
 
 	focus = {
 		id = GER_the_old_chairman
@@ -358,7 +358,7 @@ focus_tree = {
     focus = {
         id = GER_foreign_policy
         icon = GFX_focus_ger_great_red_menace
-        x = 14
+        x = 16
         y = 0
 		ai_will_do = {
 			factor = 3
@@ -868,6 +868,561 @@ focus_tree = {
 
         prerequisite = {
             focus = GER_integrate_the_rhineland
+        }
+
+        completion_reward = {
+        }
+    }
+	
+	 focus = {
+        id = GER_spartacist
+        icon = GFX
+        x = -6
+        y = 1
+        relative_position_id = GER_the_beacon_of_socialism
+        cost = 5
+
+        prerequisite = {
+            focus = GER_the_beacon_of_socialism
+        }
+
+        mutually_exclusive = {
+            focus = GER_nationalist_socialist
+        }
+
+        ai_will_do = {
+            factor = 2
+        }
+
+        completion_reward = {
+        }
+    }
+
+    focus = {
+        id = GER_nationalist_socialist
+        x = -2
+        y = 1
+        relative_position_id = GER_the_beacon_of_socialism
+        cost = 5
+
+        prerequisite = {
+            focus = GER_the_beacon_of_socialism
+        }
+
+        mutually_exclusive = {
+            focus = GER_spartacist
+            focus = GER_liberal
+        }
+
+        ai_will_do = {
+            factor = 2
+        }
+
+        completion_reward = {
+        }
+    }
+
+    focus = {
+        id = GER_liberal
+        icon = GFX_goal_generic_political_reform
+        x = 2
+        y = 1
+        relative_position_id = GER_the_beacon_of_socialism
+        cost = 5
+
+        prerequisite = {
+            focus = GER_the_beacon_of_socialism
+        }
+
+        mutually_exclusive = {
+            focus = GER_nationalist_socialist
+            focus = GER_adav_victorious
+        }
+
+        ai_will_do = {
+            factor = 2
+        }
+
+        completion_reward = {
+        }
+    }
+
+    focus = {
+        id = GER_adav_victorious
+        icon = GFX_goal_generic_political_reform
+        x = 6
+        y = 1
+        relative_position_id = GER_the_beacon_of_socialism
+        cost = 5
+
+        prerequisite = {
+            focus = GER_the_beacon_of_socialism
+        }
+
+        mutually_exclusive = {
+            focus = GER_liberal
+        }
+
+        ai_will_do = {
+            factor = 2
+        }
+
+        completion_reward = {
+        }
+    }
+
+    # ============================================================
+    # SECOND TIER
+    # ============================================================
+
+    focus = {
+        id = GER_power_to_the_councils
+        icon = GFX
+        x = -7
+        y = 2
+        relative_position_id = GER_the_beacon_of_socialism
+        cost = 5
+
+        prerequisite = {
+            focus = GER_spartacist
+        }
+
+        ai_will_do = {
+            factor = 2
+        }
+
+        completion_reward = {
+        }
+    }
+
+    focus = {
+        id = GER_no_masters_no_ministers
+        icon = GFX
+        x = -5
+        y = 2
+        relative_position_id = GER_the_beacon_of_socialism
+        cost = 5
+
+        prerequisite = {
+            focus = GER_spartacist
+        }
+
+        ai_will_do = {
+            factor = 2
+        }
+
+        completion_reward = {
+        }
+    }
+
+    focus = {
+        id = GER_a_national_peoples_economy
+        icon = GFX_
+        x = -3
+        y = 2
+        relative_position_id = GER_the_beacon_of_socialism
+        cost = 5
+
+        prerequisite = {
+            focus = GER_nationalist_socialist
+			focus = GER_spartacist
+        }
+
+        ai_will_do = {
+            factor = 2
+        }
+
+        completion_reward = {
+        }
+    }
+
+    focus = {
+        id = GER_a_germanic_socialism
+        x = -1
+        y = 2
+        relative_position_id = GER_the_beacon_of_socialism
+        cost = 5
+
+        prerequisite = {
+            focus = GER_nationalist_socialist
+        }
+
+        ai_will_do = {
+            factor = 2
+        }
+
+        completion_reward = {
+        }
+    }
+
+    focus = {
+        id = GER_raise_the_fire_of_pan_germanism
+        icon = GFX_goal_support_nationalism
+        x = 1
+        y = 2
+        relative_position_id = GER_the_beacon_of_socialism
+        cost = 5
+
+        prerequisite = {
+            focus = GER_nationalist_socialist
+			focus = GER_liberal
+        }
+
+        ai_will_do = {
+            factor = 2
+        }
+
+        completion_reward = {
+        }
+    }
+
+    focus = {
+        id = GER_radical_equality
+        icon = GFX
+        x = 3
+        y = 2
+        relative_position_id = GER_the_beacon_of_socialism
+        cost = 5
+
+        prerequisite = {
+            focus = GER_liberal
+            focus = GER_adav_victorious
+        }
+
+        ai_will_do = {
+            factor = 2
+        }
+
+        completion_reward = {
+        }
+    }
+
+    focus = {
+        id = GER_the_mandate_of_democracy
+        icon = GFX_goal_generic_political_reform
+        x = 5
+        y = 2
+        relative_position_id = GER_the_beacon_of_socialism
+        cost = 5
+
+        prerequisite = {
+            focus = GER_adav_victorious
+			focus = GER_liberal
+        }
+        ai_will_do = {
+            factor = 2
+        }
+
+        completion_reward = {
+        }
+    }
+
+    focus = {
+        id = GER_state_socialism
+        icon = GFX
+        x = 7
+        y = 2
+        relative_position_id = GER_the_beacon_of_socialism
+        cost = 5
+
+        prerequisite = {
+            focus = GER_adav_victorious
+        }
+
+        ai_will_do = {
+            factor = 2
+        }
+
+        completion_reward = {
+        }
+    }
+
+    # ============================================================
+    # THIRD TIER
+    # ============================================================
+
+    focus = {
+        id = GER_internationalism_against_imperialism
+        icon = GFX
+        x = -8
+        y = 3
+        relative_position_id = GER_the_beacon_of_socialism
+        cost = 5
+
+        prerequisite = {
+            focus = GER_power_to_the_councils
+        }
+
+        ai_will_do = {
+            factor = 2
+        }
+
+        completion_reward = {
+        }
+    }
+
+    focus = {
+        id = GER_dictatorship_of_the_proletariat
+        icon = GFX
+        x = -6
+        y = 3
+        relative_position_id = GER_the_beacon_of_socialism
+        cost = 5
+
+        prerequisite = {
+            focus = GER_power_to_the_councils
+        }
+
+        prerequisite = {
+            focus = GER_no_masters_no_ministers
+        }
+
+        ai_will_do = {
+            factor = 2
+        }
+
+        completion_reward = {
+        }
+    }
+
+    focus = {
+        id = GER_power_to_the_councils_2
+        icon = GFX
+        x = -4
+        y = 3
+        relative_position_id = GER_the_beacon_of_socialism
+        cost = 5
+
+        prerequisite = {
+            focus = GER_spartacist
+            focus = GER_nationalist_socialist
+        }
+
+        ai_will_do = {
+            factor = 2
+        }
+
+        completion_reward = {
+        }
+    }
+
+    focus = {
+        id = GER_a_workers_and_soldiers_state
+        icon = GFX
+        x = -2
+        y = 3
+        relative_position_id = GER_the_beacon_of_socialism
+        cost = 5
+
+        prerequisite = {
+            focus = GER_a_national_peoples_economy
+        }
+
+        prerequisite = {
+            focus = GER_a_germanic_socialism
+        }
+
+        ai_will_do = {
+            factor = 2
+        }
+
+        completion_reward = {
+        }
+    }
+
+    focus = {
+        id = GER_the_great_german_revolution
+        icon = GFX
+        x = 0
+        y = 3
+        relative_position_id = GER_the_beacon_of_socialism
+        cost = 5
+
+        prerequisite = {
+            focus = GER_a_germanic_socialism
+        }
+
+        prerequisite = {
+            focus = GER_raise_the_fire_of_pan_germanism
+        }
+
+        ai_will_do = {
+            factor = 2
+        }
+
+        completion_reward = {
+        }
+    }
+
+    focus = {
+        id = GER_foster_trade_and_the_market
+        icon = GFX_
+        x = 2
+        y = 3
+        relative_position_id = GER_the_beacon_of_socialism
+        cost = 5
+
+        prerequisite = {
+            focus = GER_raise_the_fire_of_pan_germanism
+        }
+
+        prerequisite = {
+            focus = GER_radical_equality
+        }
+
+        ai_will_do = {
+            factor = 2
+        }
+
+        completion_reward = {
+        }
+    }
+
+    focus = {
+        id = GER_improve_worker_living_conditions
+        icon = GFX
+        x = 4
+        y = 3
+        relative_position_id = GER_the_beacon_of_socialism
+        cost = 5
+
+        prerequisite = {
+            focus = GER_radical_equality
+        }
+
+        prerequisite = {
+            focus = GER_the_mandate_of_democracy
+        }
+
+        ai_will_do = {
+            factor = 2
+        }
+
+        completion_reward = {
+        }
+    }
+
+    focus = {
+        id = GER_agrarian_planning
+        icon = GFX
+        x = 6
+        y = 3
+        relative_position_id = GER_the_beacon_of_socialism
+        cost = 5
+
+        prerequisite = {
+            focus = GER_state_socialism
+        }
+
+        ai_will_do = {
+            factor = 2
+        }
+
+        completion_reward = {
+        }
+    }
+
+    focus = {
+        id = GER_reform_over_revolution
+        icon = GFX_goal_generic_political_reform
+        x = 8
+        y = 3
+        relative_position_id = GER_the_beacon_of_socialism
+        cost = 5
+
+        prerequisite = {
+            focus = GER_state_socialism
+        }
+
+        ai_will_do = {
+            factor = 2
+        }
+
+        completion_reward = {
+        }
+    }
+
+    # ============================================================
+    # FOURTH TIER
+    # ============================================================
+
+    focus = {
+        id = GER_the_revolution_continues
+        icon = GFX
+        x = -6
+        y = 4
+        relative_position_id = GER_the_beacon_of_socialism
+        cost = 5
+
+        prerequisite = {
+            focus = GER_dictatorship_of_the_proletariat
+        }
+
+        ai_will_do = {
+            factor = 2
+        }
+
+        completion_reward = {
+        }
+    }
+
+    focus = {
+        id = GER_breaking_germanys_chains
+        icon = GFX
+        x = -2
+        y = 4
+        relative_position_id = GER_the_beacon_of_socialism
+        cost = 5
+
+        prerequisite = {
+            focus = GER_a_workers_and_soldiers_state
+        }
+
+        prerequisite = {
+            focus = GER_the_great_german_revolution
+        }
+
+        ai_will_do = {
+            factor = 2
+        }
+
+        completion_reward = {
+        }
+    }
+
+    focus = {
+        id = GER_the_social_liberal_dream
+        icon = GFX_goal_generic_political_reform
+        x = 2
+        y = 4
+        relative_position_id = GER_the_beacon_of_socialism
+        cost = 5
+
+        prerequisite = {
+            focus = GER_foster_trade_and_the_market
+        }
+
+        ai_will_do = {
+            factor = 2
+        }
+
+        completion_reward = {
+        }
+    }
+
+    focus = {
+        id = GER_a_socialism_for_the_millions
+        x = 6
+        y = 4
+        relative_position_id = GER_the_beacon_of_socialism
+        cost = 5
+
+        prerequisite = {
+            focus = GER_agrarian_planning
+        }
+
+        ai_will_do = {
+            factor = 2
         }
 
         completion_reward = {
