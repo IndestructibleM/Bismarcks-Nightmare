@@ -610,7 +610,7 @@ focus_tree = {
         cost = 5
 
 		ai_will_do = {
-			factor = 2
+			factor = 5
 		}
         prerequisite = {
             focus = GER_foreign_policy
@@ -636,7 +636,7 @@ focus_tree = {
         y = 2
         cost = 5
 		ai_will_do = {
-			factor = 2
+			factor = 5
 		}
         prerequisite = {
             focus = GER_where_bismarck_failed
@@ -662,7 +662,7 @@ focus_tree = {
         y = 2
         cost = 5
 		ai_will_do = {
-			factor = 2
+			factor = 5
 		}
         prerequisite = {
             focus = GER_where_bismarck_failed
@@ -687,7 +687,7 @@ focus_tree = {
 			has_war = no
 		}
 		ai_will_do = {
-			factor = 4
+			factor = 5
 		}
         prerequisite = {
             focus = GER_the_revolution_into_swabia
@@ -730,7 +730,7 @@ focus_tree = {
 			}
 		}
 		ai_will_do = {
-			factor = 2
+			factor = 4
 		}
         prerequisite = {
             focus = GER_where_bismarck_failed
@@ -833,7 +833,7 @@ focus_tree = {
         y = 4
         cost = 5
 		ai_will_do = {
-			factor = 2
+			factor = 4
 		}
 		available = {
 			owns_state = 1751
@@ -876,7 +876,7 @@ focus_tree = {
 	
 	 focus = {
         id = GER_spartacist
-        icon = GFX
+        icon = GFX_focus_AFG_retire_the_uncles
         x = -6
         y = 1
         relative_position_id = GER_the_beacon_of_socialism
@@ -904,6 +904,7 @@ focus_tree = {
         y = 1
         relative_position_id = GER_the_beacon_of_socialism
         cost = 5
+		icon = GFX_goal_FRA_end_the_chaos
 
         prerequisite = {
             focus = GER_the_beacon_of_socialism
@@ -924,7 +925,7 @@ focus_tree = {
 
     focus = {
         id = GER_liberal
-        icon = GFX_goal_generic_political_reform
+        icon = GFX_goal_ideology_coalition_social_democrat_social_liberal
         x = 2
         y = 1
         relative_position_id = GER_the_beacon_of_socialism
@@ -949,7 +950,7 @@ focus_tree = {
 
     focus = {
         id = GER_adav_victorious
-        icon = GFX_goal_generic_political_reform
+        icon = GFX_goal_RUS_socialist_democracy
         x = 6
         y = 1
         relative_position_id = GER_the_beacon_of_socialism
@@ -976,8 +977,8 @@ focus_tree = {
     # ============================================================
 
     focus = {
-        id = GER_power_to_the_councils
-        icon = GFX
+        id = GER_end_the_bourgeoisie_parties
+        icon = GFX_focus_NORDIC_com_capstone_materiel
         x = -7
         y = 2
         relative_position_id = GER_the_beacon_of_socialism
@@ -997,7 +998,7 @@ focus_tree = {
 
     focus = {
         id = GER_no_masters_no_ministers
-        icon = GFX
+        icon = GFX_focus_NORDIC_com_institution_1
         x = -5
         y = 2
         relative_position_id = GER_the_beacon_of_socialism
@@ -1017,7 +1018,7 @@ focus_tree = {
 
     focus = {
         id = GER_a_national_peoples_economy
-        icon = GFX_
+        icon = GFX_focus_GER_stakhanovite_movement
         x = -3
         y = 2
         relative_position_id = GER_the_beacon_of_socialism
@@ -1042,6 +1043,7 @@ focus_tree = {
         y = 2
         relative_position_id = GER_the_beacon_of_socialism
         cost = 5
+		icon = GFX_goal_ideology_totalist
 
         prerequisite = {
             focus = GER_nationalist_socialist
@@ -1057,7 +1059,7 @@ focus_tree = {
 
     focus = {
         id = GER_raise_the_fire_of_pan_germanism
-        icon = GFX_goal_support_nationalism
+        icon = GFX_focus_GER_defender_of_democracy
         x = 1
         y = 2
         relative_position_id = GER_the_beacon_of_socialism
@@ -1078,7 +1080,7 @@ focus_tree = {
 
     focus = {
         id = GER_radical_equality
-        icon = GFX
+        icon = GFX_goal_social_reforms
         x = 3
         y = 2
         relative_position_id = GER_the_beacon_of_socialism
@@ -1099,7 +1101,7 @@ focus_tree = {
 
     focus = {
         id = GER_the_mandate_of_democracy
-        icon = GFX_goal_generic_political_reform
+        icon = GFX_focus_ARG_defense_and_democracy
         x = 5
         y = 2
         relative_position_id = GER_the_beacon_of_socialism
@@ -1119,7 +1121,7 @@ focus_tree = {
 
     focus = {
         id = GER_state_socialism
-        icon = GFX
+        icon = GFX_socialist_constitution
         x = 7
         y = 2
         relative_position_id = GER_the_beacon_of_socialism
@@ -1143,14 +1145,14 @@ focus_tree = {
 
     focus = {
         id = GER_internationalism_against_imperialism
-        icon = GFX
+        icon = GFX_focus_NORDIC_com_selector_army
         x = -8
         y = 3
         relative_position_id = GER_the_beacon_of_socialism
         cost = 5
 
         prerequisite = {
-            focus = GER_power_to_the_councils
+            focus = GER_end_the_bourgeoisie_parties
         }
 
         ai_will_do = {
@@ -1163,14 +1165,14 @@ focus_tree = {
 
     focus = {
         id = GER_dictatorship_of_the_proletariat
-        icon = GFX
+        icon = GFX_focus_NORDIC_com_selector_civilian
         x = -6
         y = 3
         relative_position_id = GER_the_beacon_of_socialism
         cost = 5
 
         prerequisite = {
-            focus = GER_power_to_the_councils
+            focus = GER_end_the_bourgeoisie_parties
         }
 
         prerequisite = {
@@ -1187,7 +1189,7 @@ focus_tree = {
 
     focus = {
         id = GER_power_to_the_councils_2
-        icon = GFX
+        icon = GFX_goal_HOL_council_communism
         x = -4
         y = 3
         relative_position_id = GER_the_beacon_of_socialism
@@ -1208,7 +1210,7 @@ focus_tree = {
 
     focus = {
         id = GER_a_workers_and_soldiers_state
-        icon = GFX
+        icon = GFX_goal_mass_concentration_of_army
         x = -2
         y = 3
         relative_position_id = GER_the_beacon_of_socialism
@@ -1232,7 +1234,7 @@ focus_tree = {
 
     focus = {
         id = GER_the_great_german_revolution
-        icon = GFX
+        icon = GFX_goal_GER_republic_coat_of_arms
         x = 0
         y = 3
         relative_position_id = GER_the_beacon_of_socialism
@@ -1256,7 +1258,7 @@ focus_tree = {
 
     focus = {
         id = GER_foster_trade_and_the_market
-        icon = GFX_
+        icon = GFX_goal_generic_market_socialism
         x = 2
         y = 3
         relative_position_id = GER_the_beacon_of_socialism
@@ -1280,7 +1282,7 @@ focus_tree = {
 
     focus = {
         id = GER_improve_worker_living_conditions
-        icon = GFX
+        icon = GFX_goal_Workers_Paradise
         x = 4
         y = 3
         relative_position_id = GER_the_beacon_of_socialism
@@ -1304,7 +1306,7 @@ focus_tree = {
 
     focus = {
         id = GER_agrarian_planning
-        icon = GFX
+        icon = GFX_focus_prc_agrarian_socialism
         x = 6
         y = 3
         relative_position_id = GER_the_beacon_of_socialism
@@ -1324,7 +1326,7 @@ focus_tree = {
 
     focus = {
         id = GER_reform_over_revolution
-        icon = GFX_goal_generic_political_reform
+        icon = GFX_goal_generic_solidarity
         x = 8
         y = 3
         relative_position_id = GER_the_beacon_of_socialism
@@ -1348,7 +1350,7 @@ focus_tree = {
 
     focus = {
         id = GER_the_revolution_continues
-        icon = GFX
+        icon = GFX_focus_NORDIC_com_capstone_army
         x = -6
         y = 4
         relative_position_id = GER_the_beacon_of_socialism
@@ -1368,7 +1370,7 @@ focus_tree = {
 
     focus = {
         id = GER_breaking_germanys_chains
-        icon = GFX
+        icon = GFX_focus_GER_proletarian_solidarity
         x = -2
         y = 4
         relative_position_id = GER_the_beacon_of_socialism
@@ -1392,7 +1394,7 @@ focus_tree = {
 
     focus = {
         id = GER_the_social_liberal_dream
-        icon = GFX_goal_generic_political_reform
+        icon = GFX_focus_generic_social_democracy
         x = 2
         y = 4
         relative_position_id = GER_the_beacon_of_socialism
@@ -1414,6 +1416,7 @@ focus_tree = {
         id = GER_a_socialism_for_the_millions
         x = 6
         y = 4
+		icon = GFX_focus_GER_the_peoples_victory
         relative_position_id = GER_the_beacon_of_socialism
         cost = 5
 
