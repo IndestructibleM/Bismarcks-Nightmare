@@ -136,15 +136,22 @@ set_popularities = {
 	despotism = 42
 }
 
+every_state = {
+	limit = {
+		is_owned_by = RUS
+	}
+	add_core_of = RUS
+}
+
 recruit_character = RUS_nicholas_romanov
 recruit_character = RUS_Peter_Wrangel
 activate_advisor = RUS_Peter_Wrangel_advisor
 
 add_ideas = {
-	RUS_orthodoxy_3
-	RUS_autocracy_3
-	RUS_nationality_2
-	RUS_economic_cartelization
+	RUS_burden_of_industrialization_1
+	RUS_economic_cartelization_1
+	RUS_prestige_of_empire_2
+	RUS_realities_of_russification_1
 }
 ### VARIANTS ###
 # 1936 Start #

@@ -885,8 +885,12 @@ focus_tree = {
         prerequisite = {
             focus = GER_the_beacon_of_socialism
         }
-
+        available = {
+            has_government = communism
+        }
         mutually_exclusive = {
+            focus = GER_adav_victorious
+            focus = GER_liberal
             focus = GER_nationalist_socialist
         }
 
@@ -910,9 +914,14 @@ focus_tree = {
             focus = GER_the_beacon_of_socialism
         }
 
+        available = {
+            has_government = socialism
+        }
+
         mutually_exclusive = {
             focus = GER_spartacist
             focus = GER_liberal
+            focus = GER_adav_victorious
         }
 
         ai_will_do = {
@@ -934,10 +943,13 @@ focus_tree = {
         prerequisite = {
             focus = GER_the_beacon_of_socialism
         }
-
+        available = {
+            has_government = liberalism
+        }
         mutually_exclusive = {
-            focus = GER_nationalist_socialist
             focus = GER_adav_victorious
+            focus = GER_nationalist_socialist
+            focus = GER_spartacist
         }
 
         ai_will_do = {
@@ -960,8 +972,14 @@ focus_tree = {
             focus = GER_the_beacon_of_socialism
         }
 
+        available = {
+            has_government = socialism
+        }
+
         mutually_exclusive = {
             focus = GER_liberal
+            focus = GER_nationalist_socialist
+            focus = GER_spartacist
         }
 
         ai_will_do = {

@@ -1422,8 +1422,11 @@
  RCO_ultranationalism_party: "NSDAP"
  RCO_ultranationalism_party_long: "Nationalsozialistische Deutsche Arbeiterpartei"
 
- RUS_ultranationalism_party: "SRN"
- RUS_ultranationalism_party_long: "Union of the Russian People"
+ RUS_ultranationalism_party: "RNNP"
+ RUS_ultranationalism_party_long: "Russian National People's Party"
+
+ RUS_reactionism_party: "SRN"
+ RUS_reactionism_party_long: "Union of the Russian People"
 
  RUS_despotism_party: "Imperial Cabinet"
  RUS_despotism_party_long: "Imperial Cabinet of the Russian Empire"

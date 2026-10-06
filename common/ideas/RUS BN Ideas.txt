@@ -1,43 +1,20 @@
 ideas = {
 	country = {
-		RUS_nationality_2 = {
+		RUS_burden_of_industrialization_1 = {
 			allowed_civil_war = {
 				always = yes
 			}
-			picture = FRA_scw_intervention_nationalists_focus
+			picture = ARG_rapid_militarization
 			modifier = {
-				conscription_factor = 0.1
-				war_support_factor = 0.1
-				surrender_limit = 0.1
-				army_core_defence_factor = 0.1
-				resistance_growth_on_our_occupied_states = 0.25
+				stability_factor = -0.075
+				liberalism_drift = 0.02
+				socialism_drift = 0.02
+				political_power_factor = -0.15
+				conscription_factor = -0.075
+				factory_energy_consumption = 0.1
 			}
 		}
-		RUS_orthodoxy_3 = {
-			allowed_civil_war = {
-				always = yes
-			}
-			picture = SOV_crowning_jewel_of_russia
-			modifier = {
-				stability_factor = 0.15
-				consumer_goods_expected_value = 0.05
-				army_morale_factor = 0.1
-				war_stability_factor = 0.1
-			}
-		}
-		RUS_autocracy_3 = {
-			allowed_civil_war = {
-				always = yes
-			}
-			picture = SOV_the_true_tsars
-			modifier = {
-				political_power_gain = 0.2
-				annex_cost_factor = -0.2
-				defensive_war_stability_factor = 0.1
-				fascism_drift = 0.03
-			}
-		}
-		RUS_economic_cartelization = {
+		RUS_economic_cartelization_1 = {
 			allowed_civil_war = {
 				always = yes
 			}
@@ -49,17 +26,33 @@ ideas = {
 				production_factory_max_efficiency_factor = -0.075
 			}
 		}
-		RUS_realities_of_russification = {
+		RUS_realities_of_russification_1 = {
 			allowed_civil_war = {
 				always = yes
 			}
 			picture = chi_war_of_resistance3
 			modifier = {
-				non_core_manpower = -0.5
-				resistance_target = 0.1
+				non_core_manpower = -0.35
+				resistance_target = 0.08
 				consumer_goods_expected_value = 0.05
-				compliance_growth = -0.25
+				compliance_growth = -0.15
 				political_power_factor = -0.25
+			}
+		}
+		RUS_prestige_of_empire_2 = {
+			allowed_civil_war = {
+				always = yes
+			}
+			picture = SOV_the_true_tsars
+			modifier = {
+				political_power_gain = 0.05
+				defensive_war_stability_factor = 0.1
+				despotism_drift = 0.02
+				ultranationalism_drift = 0.02
+				conscription_factor = 0.1
+				war_support_factor = 0.1
+				army_core_defence_factor = 0.1
+				resistance_growth_on_our_occupied_states = 0.25
 			}
 		}
 	}

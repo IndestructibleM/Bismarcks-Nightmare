@@ -108,9 +108,9 @@ defined_text = {
 	name = GetSubIdeologyAth
 	text = {
 		trigger = {
-			has_country_leader_ideology = despotism
+			has_country_leader_ideology = monarchism
 		}
-		localization_key = despotism
+		localization_key = "Monarchism"
 		
 	}
 	text = {
