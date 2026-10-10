@@ -187,9 +187,12 @@ country_event = {
 	desc = austria.8.d
 
 	trigger = {
-		has_war_with = HUN
 		tag = AUS
+		has_war = yes
 		AUS = { surrender_progress > 0.8 }
+		NOT = {
+			has_country_flag = AUS_lost_cw
+		}
 	}
 	fire_only_once = yes
 	option = {
@@ -218,10 +221,9 @@ country_event = {
 			transfer_state = 1514
 		}
 		white_peace = SLO
+		release = WUK
 		SLO = { every_core_state = { transfer_state_to = SLO } every_enemy_country = { white_peace = SLO } }
-		WUK = { 
-			every_core_state = limit = { is_owned_by = AUS { transfer_state_to = WUK } }
-		}
+		SLO = { release = WUK }
 		white_peace = CRO
  		white_peace = BNT
 		BNT = {

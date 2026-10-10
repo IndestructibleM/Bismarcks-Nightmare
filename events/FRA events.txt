@@ -1,0 +1,80 @@
+add_namespace = france
+add_namespace = francediplo
+
+country_event = {
+	id = francediplo.1
+	title = francediplo.1.t
+	desc = desc.temp.d
+
+	fire_only_once = yes
+	trigger = {
+		tag = FRA
+		has_war_with = GER
+		surrender_progress > 0.5
+		GER = {
+			controls_state = 571
+		}
+	}
+
+	option = { 
+		name = francediplo.1.a
+		white_peace = GER
+		set_politics = {
+			ruling_party = socialism
+		}
+		add_popularity = { ideology = socialism popularity = 0.2 }
+		release = FLA
+		release = WLN
+		give_military_access = GER
+		GER = {
+			transfer_state = 1756
+			transfer_state = 506
+			transfer_state = 524
+			transfer_state = 2340
+			transfer_state = 537
+			transfer_state = 1758
+			transfer_state = 1753
+			transfer_state = 1760
+			transfer_state = 606
+			transfer_state = 2764
+			transfer_state = 2747
+			transfer_state = 2608
+			transfer_state = 547
+			transfer_state = 1757
+			transfer_state = 2337
+			transfer_state = 427
+			transfer_state = 485
+			transfer_state = 512
+			transfer_state = 2746
+			transfer_state = 2367
+			transfer_state = 544
+			transfer_state = 2368
+			transfer_state = 638
+			transfer_state = 404
+			transfer_state = 2343
+			transfer_state = 566
+			transfer_state = 521
+			annex_country = {
+				target = RHN
+			}
+			puppet = FLA
+			puppet = WLN
+			diplomatic_relation = {
+				country = FRA
+				relation = docking_rights
+				active = yes
+			}
+			diplomatic_relation = {
+				country = FRA
+				relation = air_base_access
+				active = yes
+			}
+			diplomatic_relation = {
+				country = FRA
+				relation = non_aggression_pact
+				active = yes
+			}
+		}
+	}
+
+}
