@@ -39,6 +39,7 @@ political_actions = {
 			}
 			white_peace = SLO
 			SLO = { every_core_state = { transfer_state_to = SLO } }
+			WUK = { every_core_state = { transfer_state_to = WUK } }
 			white_peace = CRO
  			white_peace = BNT
 			BNT = {

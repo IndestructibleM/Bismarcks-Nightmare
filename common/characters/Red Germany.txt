@@ -77,7 +77,7 @@ characters={
 			}		
 		}
 		country_leader={
-			ideology=reformist_marxism
+			ideology=democratic_socialism
 			traits={  }
 		}
 	}

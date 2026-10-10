@@ -98,10 +98,22 @@ ideas = {
 				always = yes
 			}
 			modifier = {
-				conscription_factor = -0.
+				conscription_factor = -0.1
 				consumer_goods_expected_value = 0.025
 				political_power_factor = -0.05
 				war_support_factor = -0.075
+			}
+			picture = ARG_state_atheism
+		}
+		GER_der_kulturkampf = {
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				production_speed_buildings_factor = -0.1
+				consumer_goods_factor = 0.2
+				political_power_cost = 0.15
+				research_speed_factor = -0.05
 			}
 			picture = ARG_state_atheism
 		}

@@ -588,8 +588,9 @@ add_ideas = {
 # Character Recruitment
 recruit_character = GER_Karl_Kautsky
 recruit_character = GER_Karl_Liebknecht
-recruit_character = GER_adolf_hitler
-recruit_character = GER_albert_kesselring
+recruit_character = GER_Heinrich_Laufenberg
+recruit_character = GER_Eduard_Bernstein
+recruit_character = GER_Hellmut_von_Gerlach
 recruit_character = GER_alfred_jodl
 recruit_character = GER_alfred_saalwachter
 recruit_character = GER_erhard_milch

@@ -20,6 +20,14 @@ set_technology = {
 	trench_warfare = 1
 }
 
+every_state = {
+	limit = {
+		is_owned_by = RHN
+	}
+	remove_core_of = GER
+	add_claim_by = GER
+}
+
 set_politics = {
 	ruling_party = conservative
 	last_election = "1936.1.1"

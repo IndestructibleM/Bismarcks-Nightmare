@@ -1,6 +1,6 @@
 ﻿l_english:
 
-    
+    economy_model: "Economic Model"
     RUS_communism:0 "Russian Socialist Republic"
     RUS_communism_DEF:0 "the Russian Socialist Republic"
     RUS_communism_ADJ:0 "Russian"
@@ -532,9 +532,9 @@
     BUL_communism_DEF:0 "the People's Republic of Bulgaria"
     BUL_communism_ADJ:0 "Bulgarian"
     
-    BUL_socialist:0 "People's Republic of Bulgaria"
-    BUL_socialist_DEF:0 "the People's Republic of Bulgaria"
-    BUL_socialist_ADJ:0 "Bulgarian"
+    BUL_socialism:0 "Bulgarian Republic"
+    BUL_socialism_DEF:0 "the Bulgarian Republic"
+    BUL_socialism_ADJ:0 "Bulgarian"
     BUL_aleksandar_stamboliyski: "Aleksandr Stambolyiski"
    #DEMOCRATIC
 
@@ -3734,6 +3734,10 @@
     UKR_communism:0 "Ukrainian People's Republic"
     UKR_communism_DEF:0 "the Ukrainian People's Republic"
     UKR_communism_ADJ:0 "Ukrainian"
+    
+    UKR_socialism:0 "Ukrainian People's Republic"
+    UKR_socialism_DEF:0 "the Ukrainian People's Republic"
+    UKR_socialism_ADJ:0 "Ukrainian"
 
    #DEMOCRATIC
 
