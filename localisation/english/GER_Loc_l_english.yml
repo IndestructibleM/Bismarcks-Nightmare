@@ -1,15 +1,16 @@
 ﻿l_english:
 
- GER_socialism_military: "Democratic Army Organization"
- GER_socialism_military_desc: "The socialism revolution was born from workers and soldiers councils; those councils are the backbone of the republic. One of the promises to the soldiers' councils is autonomy to choose their own leaders, which caused a rapid spread of new doctrines, experience, and generally a high morale. But also caused indecisiveness, slow reaction, and infighting. This gets worse when the self-defence militias are taken into account, who are organized to defend the republic and thus has it’s own councils and their own infrastructure to support them, separate from the professional soldiers."
- GER_socialism_turnismo: "The Socialist Turnismo"
- GER_socialism_turnismo_desc: "In the political councils of the Republic, there are effectively two parties: The Social Democratic Workers' Party (SDAP) and the General German Workers' Association (ADAV). That’s because all others are either passively dismissed as too bourgeois and un-German or are actively worked against by state actors from the SDAP and ADAV. This effectively creates a Socialist Turnismo where only the SDAP and ADAV can lead and form coalitions, often only with each other."
+ GER_democratic_military: "Democratic Army Organization"
+ GER_democratic_military_desc: "The socialism revolution was born from workers and soldiers councils; those councils are the backbone of the republic. One of the promises to the soldiers' councils is autonomy to choose their own leaders, which caused a rapid spread of new doctrines, experience, and generally a high morale. But also caused indecisiveness, slow reaction, and infighting. This gets worse when the self-defence militias are taken into account, who are organized to defend the republic and thus has it’s own councils and their own infrastructure to support them, separate from the professional soldiers."
+ GER_socialist_turnismo: "The Socialist Turnismo"
+ GER_socialist_turnismo_desc: "In the political councils of the Republic, there are effectively two parties: The Social Democratic Workers' Party (SDAP) and the General German Workers' Association (ADAV). That’s because all others are either passively dismissed as too bourgeois and un-German or are actively worked against by state actors from the SDAP and ADAV. This effectively creates a Socialist Turnismo where only the SDAP and ADAV can lead and form coalitions, often only with each other."
  GER_struggle_for_republic: "Struggle for the Soul of the Republic"
  GER_struggle_for_republic_desc: "Our republic, the German Republic, is a mix between Socialism and Liberals, Nationalism and Internationalism, Councilism and State Power. This makes for a rich political landscape in the many political councils in our republic. But this also causes much political strife between the factions, and with the Socialist Turnismo that barred liberals and nationalists from higher office, the lower councils become a battleground of regret and revenge where each side tries to undermine each other more often than work together."
  GER_foreign_isolation: "Foreign Isolation"
  GER_foreign_isolation_desc: "From revolution, the German Republic is born, to spread revolution, it’s her goal. Germany backed plenty of socialism, Marxist, and even nationalist, liberal, and anarchist groups hostile to its enemies. But this also caused our republic to be isolated from foreign powers."
  GER_kulturkampf:0 "Der Kulturkampf"
  GER_kulturkampf_desc:0 "Officially, our state is secular, recognizing no god. But in practice, atheistic, materialistic, and Marxist ideology is pushed by the state, as it tries to dismantle the rights and privileges of organized religion until it’s slowly put under the might of the state, and no longer independent from it. This causes much friction with both the protestant and catholic churches in Germany, who resist this "Culture Struggle"."
+ GER_der_kulturkampf: "Kulturkampf Escalation"
  
  GER_the_old_chairman:0 "The Old Chairman"
  GER_completing_the_kulturkampf:0 "Completing the Kulturkampf"
@@ -102,3 +103,9 @@
  GER_breaking_germanys_chains: "Breaking Germany's Chains"
  GER_the_social_liberal_dream: "The Social Liberal Dream"
  GER_a_socialism_for_the_millions: "A Socialism for the Millions"
+
+ RedGer.1.t: "Kautsky Announces Retirement by Year's End"
+ RedGer.1.d: "News comes from Berlin that the leader of Germany, Karl Kautsky, has officially announced his resignation from the central governing council by the end of the year. The reason given is Kautsky's advancing age and the increasing difficulties of governing a country at such an age. \n\nKarl Kautsky was known as the "Pope of Marxism." His orthodox and centrist approach to Marxism served as a guiding light for many within Germany. With his resignation, however, this faction of the SDAP (Social Democratic Workers' Party) appears to be coming to an end. His likely successor, Paul Levi, has refused to run against the "Red Prince" of the party and Kautsky's most likely successor, Karl Liebknecht. Levi's decision appears motivated by a desire to preserve unity within the party, which in recent years has become increasingly divided between reformist and radical factions. This division was further deepened by the departure of prominent reformist leader Eduard Bernstein, who left the party for the ADAV (All-German Workers' Association). \n\nLiebknecht himself formed his own faction within the SDAP, the Spartacists, in the wake of the Silesian War in 1916. The faction advocates more radical Marxist reforms than Kautsky's orthodox wing, particularly in foreign policy. The Spartacists argue that the German Revolution must be aggressively spread abroad. \n\nWith the orthodox faction of the SDAP effectively withdrawing from the succession struggle, a question now hangs over both the party and the country: does Germany truly desire the radical course that Karl Liebknecht promises? Or is this the chance for others to step into the gap left by Kautsky's resignation?"
+ RedGer.1.a: "The Councils Begin to Murmur"
+
+GER_upcoming_elections: "Upcoming Chairman Elections"

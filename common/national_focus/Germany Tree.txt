@@ -232,12 +232,13 @@ focus_tree = {
 		ai_will_do = {
 			factor = 2
 		}
+        available = {
+            NOT = { has_idea = GER_der_kulturkampf }
+            has_idea = GER_kulturkampf3
+        }
 		completion_reward = {
 			add_popularity = { ideology = conservatism popularity = -0.075 }
-            swap_ideas = {
-				remove_idea = GER_kulturkampf2
-				add_idea = GER_kulturkampf3
-			}
+            remove_ideas = GER_kulturkampf3
 		}
 	}
 
@@ -436,7 +437,7 @@ focus_tree = {
         }
         available = {
             NOT = { has_war_with = FRA }
-            571 = { is_controlled_by_ROOT_or_ally = yes }
+            2608 = { owns_or_subject_of = yes }
         }
         completion_reward = {
         }
@@ -512,8 +513,12 @@ focus_tree = {
         prerequisite = {
             focus = GER_warsaw_berlin_pact
         }
-
+        will_lead_to_war_with = RUS
         completion_reward = {
+            create_wargoal = {
+				type = puppet_wargoal_focus
+				target = RUS
+			}
         }
     }
 
@@ -612,7 +617,7 @@ focus_tree = {
         prerequisite = {
             focus = GER_rally_the_hungarian_communists
         }
-
+        will_lead_to_war_with = CZE
         completion_reward = {
             create_wargoal = {
 				type = puppet_wargoal_focus
@@ -680,7 +685,8 @@ focus_tree = {
         prerequisite = {
             focus = GER_where_bismarck_failed
         }
-
+        will_lead_to_war_with = WUR
+        will_lead_to_war_with = BDN
         completion_reward = {
 			declare_war_on = {
 				target = WUR
@@ -706,6 +712,7 @@ focus_tree = {
         prerequisite = {
             focus = GER_where_bismarck_failed
         }
+        will_lead_to_war_with = BAY
 
         completion_reward = {
 			declare_war_on = {
@@ -827,7 +834,7 @@ focus_tree = {
         prerequisite = {
             focus = GER_demand_a_referendum_in_the_rhine
         }
-
+        will_lead_to_war_with = RHN
         completion_reward = {
 			declare_war_on = {
 				target = RHN
@@ -855,7 +862,7 @@ focus_tree = {
             focus = GER_invade_the_rhineland
         
         }
-
+        will_lead_to_war_with = FRA
         completion_reward = {
 			create_wargoal = {
 				type = puppet_wargoal_focus
@@ -1259,6 +1266,7 @@ focus_tree = {
         }
 
         completion_reward = {
+            remove_ideas = GER_struggle_for_republic2
         }
     }
 
@@ -1304,6 +1312,7 @@ focus_tree = {
         }
 
         completion_reward = {
+            remove_ideas = GER_struggle_for_republic2
         }
     }
 
@@ -1481,6 +1490,7 @@ focus_tree = {
         }
 
         completion_reward = {
+            remove_ideas = GER_struggle_for_republic2
         }
     }
 
@@ -1501,6 +1511,7 @@ focus_tree = {
         }
 
         completion_reward = {
+            remove_ideas = GER_struggle_for_republic2
         }
     }
 }

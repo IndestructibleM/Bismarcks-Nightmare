@@ -25,6 +25,7 @@ ideas = {
 			picture = GER_limited_democratic_principles
 		}
 		GER_struggle_for_republic2 = {
+			name = GER_struggle_for_republic
 			allowed_civil_war = {
 				always = yes
 			}
@@ -70,6 +71,7 @@ ideas = {
 			}
 		}
 		GER_kulturkampf = {
+			name = GER_kulturkampf
 			allowed_civil_war = {
 				always = yes
 			}
@@ -82,6 +84,7 @@ ideas = {
 			picture = ARG_state_atheism
 		}
 		GER_kulturkampf2 = {
+			name = GER_kulturkampf
 			allowed_civil_war = {
 				always = yes
 			}
@@ -94,6 +97,7 @@ ideas = {
 			picture = ARG_state_atheism
 		}
 		GER_kulturkampf3 = {
+			name = GER_kulturkampf
 			allowed_civil_war = {
 				always = yes
 			}
@@ -114,6 +118,10 @@ ideas = {
 				consumer_goods_factor = 0.2
 				political_power_cost = 0.15
 				research_speed_factor = -0.05
+			}
+			on_remove = {
+				remove_ideas = GER_kulturkampf2
+				add_ideas = GER_kulturkampf3
 			}
 			picture = ARG_state_atheism
 		}

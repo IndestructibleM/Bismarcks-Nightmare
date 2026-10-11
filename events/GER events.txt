@@ -4,13 +4,13 @@ add_namespace = RedGer
 country_event = {
 	id = RedGer.1
 	title = RedGer.1.t
-	desc = desc.temp.d
+	desc = RedGer.1.d
 
 	fire_only_once = yes
 	is_triggered_only = yes
 
 	option = { 
-		name = germany.1.a
+		name = RedGer.1.a
 	}
 
 }
@@ -24,20 +24,35 @@ country_event = {
 	is_triggered_only = yes
 
 	option = { 
-		name = germany.1.a
+		name = RedGer.2.a
+		trigger = {
+			check_variable = {
+				party_popularity@communism > 0.25
+			}
+		}
 		promote_character = GER_Karl_Liebknecht
 	}
 
 	option = { 
-		name = germany.1.b
+		name = RedGer.2.b
+		trigger = {
+			check_variable = {
+				party_popularity@socialism > 0.25
+			}
+		}
 		promote_character = GER_Eduard_Bernstein
 		set_politics = {
 			ruling_party = socialism
 		}
 	}
 
-	option = { 
-		name = germany.1.c
+	option = {
+		trigger = {
+			check_variable = {
+				party_popularity@socialism > 0.25
+			}
+		}
+		name = RedGer.2.c
 		promote_character = GER_Heinrich_Laufenberg
 		set_politics = {
 			ruling_party = socialism
@@ -45,7 +60,12 @@ country_event = {
 	}
 
 	option = { 
-		name = germany.1.d
+		trigger = {
+			check_variable = {
+				party_popularity@liberalism > 0.25
+			}
+		}
+		name = RedGer.2.d
 		promote_character = GER_Hellmut_von_Gerlach
 		set_politics = {
 			ruling_party = liberalism

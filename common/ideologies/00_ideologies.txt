@@ -66,7 +66,7 @@ ideologies = {
 		types = {
 
 			reactionary_test = {}
-
+			reactionary_nationalism = { }
 			### NEW
 
 		}

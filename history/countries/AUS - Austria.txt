@@ -49,7 +49,7 @@ every_owned_state = {
 
 	#Political
 	recruit_character = AUS_Franz_Ferdinand
-	recruit_character = AUS_kurt_schuschnigg
+	recruit_character = AUS_engelbert_dolfuss
 	recruit_character = AUS_karl_renner
 	recruit_character = AUS_alfred_klahr
 	recruit_character = AUS_ernst_rudiger_starhemberg
@@ -84,52 +84,6 @@ every_owned_state = {
 	recruit_character = AUS_maximilian_ronge
 	recruit_character = AUS_egon_schonhof
 	recruit_character = AUS_friedrich_mandl
-
-	#Army
-
-	recruit_character = AUS_karl_eglseer
-	recruit_character = AUS_friedrich_materna
-	recruit_character = AUS_emil_liebitzky
-	recruit_character = AUS_ludwig_von_eimannsberger
-	recruit_character = AUS_alfred_ritter_von_hubicki
-	recruit_character = AUS_valentin_feuerstein
-	recruit_character = AUS_ernst_hammer
-	recruit_character = AUS_eduard_barger
-	recruit_character = AUS_mauritz_von_wiktorin
-	recruit_character = AUS_curt_von_jesser
-	recruit_character = AUS_anton_kienbauer
-	recruit_character = AUS_julius_deutsch
-	recruit_character = AUS_alfred_jansa
-	recruit_character = AUS_wilhelm_gebauer
-	recruit_character = AUS_theodor_korner
-	recruit_character = AUS_arthur_von_pongracz
-	recruit_character = AUS_gottfried_freiherr_von_banfeld
-	recruit_character = AUS_josef_brunner
-	recruit_character = AUS_alexander_lohr
-	recruit_character = AUS_julius_yllam
-	recruit_character = AUS_wilhelm_zehner
-	recruit_character = AUS_otto_schobel
-	recruit_character = AUS_viktor_seebauer
-	recruit_character = AUS_lothar_rendulic
-	recruit_character = AUS_franz_bohme
-	recruit_character = AUS_eugen_beyer
-	recruit_character = AUS_richard_steidle
-	recruit_character = AUS_godwin_von_brumowski
-	recruit_character = AUS_johann_jacob_reverta
-
-	#Navy
-
-	recruit_character = AUS_carl_heinz_birnbacher
-	recruit_character = AUS_franz_von_keil
-
-
-
-	#scientists, commented out before we know how to handle them
-	recruit_character = AUS_herbert_wagner
-	recruit_character = AUS_eugen_sanger
-	recruit_character = AUS_hedy_lamarr
-	recruit_character = AUS_egon_schweidler
-	recruit_character = AUS_paul_eisler
 
 	#Operative
 
@@ -178,10 +132,13 @@ set_politics = {
 }
 
 set_popularities = {
-	despotism = 48
-	ultranationalism = 50
-	liberalism = 1
-	communism = 1
+	despotism = 36
+	ultranationalism = 10
+	reactionism = 20
+ 	conservative = 10
+	liberalism = 10
+	socialism = 10
+	communism = 4
 }
 
 set_stability = 0.50

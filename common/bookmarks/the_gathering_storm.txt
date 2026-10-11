@@ -9,7 +9,7 @@ bookmarks = {
 		
 		"FRA"={
 			history = "FRA_GATHERING_STORM_DESC"
-			ideology = liberalism
+			ideology = conservatism
 			available = { NOT = { has_dlc = "La Resistance" } }
 			ideas = {
 				FRA_victors_of_wwi
@@ -24,7 +24,7 @@ bookmarks = {
 		}
 		"FRA"={
 			history = "FRA_GATHERING_STORM_DESC"
-			ideology = liberalism
+			ideology = conservatism
 			available = { has_dlc = "La Resistance" } 
 			ideas = {
 				FRA_victors_of_wwi
@@ -37,19 +37,9 @@ bookmarks = {
 				FRA_je_suis_la_deluge
 			}
 		}
-		"USA"={
-			history = "USA_GATHERING_STORM_DESC"
-			ideology = liberalism
-			ideas = {
-				home_of_the_free
-				great_depression
-				undisturbed_isolation
-			}
-			focuses = {
-				USA_war_plan_black
-				USA_limited_intervention
-				USA_reestablish_the_gold_standard
-			}
+		"AUS"={
+			history = "AUS_GATHERING_STORM_DESC"
+			ideology = despotism
 		}
 		"ENG"={
 			history = "ENG_GATHERING_STORM_DESC"
@@ -100,7 +90,7 @@ bookmarks = {
 
 		GER = {
 			history = "GER_GATHERING_STORM_DESC"
-			ideology = ultranationalism
+			ideology = communism
 			available = { NOT = { has_dlc = "Gotterdammerung" } }
 			ideas = {
 				GER_mefo_bills_1936_fake_ns
@@ -116,7 +106,7 @@ bookmarks = {
 
 		"ITA"={
 			history = "ITA_GATHERING_STORM_DESC"
-			ideology = ultranationalism
+			ideology = socialism
 			available = { has_dlc = "By Blood Alone" }
 			ideas = {
 				vittorio_emanuele
@@ -131,7 +121,7 @@ bookmarks = {
 		}
 		"ITA"={
 			history = "ITA_GATHERING_STORM_DESC"
-			ideology = ultranationalism
+			ideology = socialism
 			available = { NOT = { has_dlc = "By Blood Alone" } }
 			ideas = {
 				vittorio_emanuele
@@ -144,35 +134,9 @@ bookmarks = {
 				ITA_a_colonial_empire
 			}		
 		}
-		"SOV"={
-			history = "SOV_GATHERING_STORM_DESC"
-			ideology = communism
-			available = { has_dlc = "No Step Back" }
-			ideas = {
-				trotskyite_plot_nsb
-				SOV_second_five_year_plan_fake_1936_ns
-				SOV_politicized_military
-			}
-			focuses = {
-				SOV_behead_the_snake
-				SOV_the_supreme_soviet
-				SOV_reconvene_the_zemsky_sobor
-			}	
-		}
-		"SOV"={
-			history = "SOV_GATHERING_STORM_DESC"
-			ideology = communism
-			available = { NOT = { has_dlc = "No Step Back" } }
-			ideas = {
-				trotskyite_plot_nsb
-				SOV_second_five_year_plan_fake_1936_ns
-				SOV_politicized_military
-			}
-			focuses = {
-				SOV_behead_the_snake
-				SOV_father_of_nations
-				SOV_the_supreme_soviet
-			}	
+		"RUS"={
+			history = "RUS_GATHERING_STORM_DESC"
+			ideology = despotism
 		}
 
 		"---"={
