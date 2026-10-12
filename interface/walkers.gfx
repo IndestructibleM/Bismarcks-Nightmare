@@ -1,0 +1,45 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_archetype_walker_equipment_medium"
+		texturefile = "gfx/interface/archetypes/archetype_walker_equipment.dds"
+	}	
+	spriteType = {
+		name = "GFX_sp_land_walkers"
+		texturefile = "gfx/interface/special_project/project_icons/sp_land_walkers.dds"
+	}
+	spriteType = { name = "GFX_unit_walkers_light_icon_medium_white"						textureFile = "gfx/interface/counters/divisions_small/onmap_walkers_light_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_walkers_light_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_walkers_light_icon.dds" noOfFrames = 2 }
+	spriteType = {
+		name = "GFX_unit_walkers_light_icon_small"
+		texturefile = "gfx/texticons/unit_walkers_light_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_nato_unit_walkers_light_icon_small"
+		texturefile = "gfx/texticons/nato_unit_walkers_light_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	
+	###
+	spriteType = {
+		name = "GFX_TC_generic_walker"
+		textureFile = "gfx/interface/equipmentdesigner/tanks/generic/generic_walker.dds"
+		legacy_lazy_load = no
+	}
+	
+	### 
+	SpriteType = {
+		name = "GFX_walker_chassis_0_medium"
+		texturefile = "gfx/interface/technologies/walker.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_walker_chassis_0_medium"
+		texturefile = "gfx/interface/technologies/GER_walker.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_walker_chassis_0_medium"
+		texturefile = "gfx/interface/technologies/SOV_walker.dds"
+	}
+
+}

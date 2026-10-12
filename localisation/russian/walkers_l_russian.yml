@@ -1,0 +1,12 @@
+﻿l_russian:
+ sp_land_walkers:0 "Шагоход"
+ sp_land_walker:0 "Шагоход"
+ sp_land_walkers_desc:0 "Одновременно высокие и грозные машины, имеющие высоченные ноги с помощью которых они спокойно продвигаются по болотам и лесам, наблюдая за противниками свысока."
+ walkers_light:0 "Шагоход"
+ walker_chassis:0 "Шагоход"
+ walker_chassis_0:0 "Базовый корпус шагохода"
+ tank_designer_walker_chassis:0 "Корпус шагохода"
+ 
+ ## names
+ GER_walker_chassis_0:0 "Wandertraktor"
+ SOV_walker_chassis_0:0 "Ш-28"

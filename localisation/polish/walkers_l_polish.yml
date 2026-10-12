@@ -1,0 +1,12 @@
+﻿l_polish:
+ sp_land_walkers:0 "Piechur"
+ sp_land_walker:0 "Piechur"
+ sp_land_walkers_desc:0 "Jednocześnie wysokie i groźne maszyny o wysokich nogach, za pomocą których spokojnie poruszają się po bagnach i lasach, obserwując swoich przeciwników z góry."
+ walkers_light:0 "Piechur"
+ walker_chassis:0 "Piechur"
+ walker_chassis_0:0 "Podstawowy korpus chodzika"
+ tank_designer_walker_chassis:0 "Korpus chodzika"
+ 
+ ## names
+ GER_walker_chassis_0:0 "Wandertraktor"
+ SOV_walker_chassis_0:0 "Sz-28"

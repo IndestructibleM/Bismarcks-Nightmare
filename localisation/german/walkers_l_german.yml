@@ -1,0 +1,12 @@
+﻿l_german:
+ sp_land_walkers:0 "Kampfläufer"
+ sp_land_walker:0 "Kampfläufer"
+ sp_land_walkers_desc:0 "Sie sind zugleich bedrohliche und ungeschickte Maschinen. Dank ihrer langen Beine können sie sich ruhig durch Sümpfe und Wälder bewegen und ihre Feinde von oben beobachten."
+ walkers_light:0 "Kampfläufer"
+ walker_chassis:0 "Kampfläufer"
+ walker_chassis_0:0 "Basisrumpf der Kampfläufer"
+ tank_designer_walker_chassis:0 "Rumpf der Kampfläufer"
+ 
+ ## names
+ GER_walker_chassis_0:0 "Wandertraktor"
+ SOV_walker_chassis_0:0 "Sch-28"

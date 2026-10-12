@@ -1,0 +1,45 @@
+default = {
+	walker_chassis_0 = {
+		pool = {
+			weight = 2
+			icons = { 
+				GFX_walker_chassis_0_medium
+			}
+		}
+		pool = {
+			models = { 
+				walkers_entity
+			 }
+		}
+	}
+}
+GER = {
+	walker_chassis_0 = {
+		pool = {
+			weight = 2
+			icons = { 
+				GFX_GER_walker_chassis_0_medium
+			}
+		}
+		pool = {
+			models = { 
+				GER_walkers_entity
+			 }
+		}
+	}
+}
+SOV = {
+	walker_chassis_0 = {
+		pool = {
+			weight = 2
+			icons = { 
+				GFX_SOV_walker_chassis_0_medium
+			}
+		}
+		pool = {
+			models = { 
+				SOV_walkers_entity
+			 }
+		}
+	}
+}
