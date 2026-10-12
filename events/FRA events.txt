@@ -23,6 +23,8 @@ country_event = {
 			ruling_party = socialism
 		}
 		add_popularity = { ideology = socialism popularity = 0.2 }
+		dismantle_faction = yes
+		set_cosmetic_tag = FRA_republic
 		release = FLA
 		release = WLN
 		give_military_access = GER
@@ -59,21 +61,7 @@ country_event = {
 			}
 			puppet = FLA
 			puppet = WLN
-			diplomatic_relation = {
-				country = FRA
-				relation = docking_rights
-				active = yes
-			}
-			diplomatic_relation = {
-				country = FRA
-				relation = air_base_access
-				active = yes
-			}
-			diplomatic_relation = {
-				country = FRA
-				relation = non_aggression_pact
-				active = yes
-			}
+			add_to_facton = FRA
 		}
 	}
 

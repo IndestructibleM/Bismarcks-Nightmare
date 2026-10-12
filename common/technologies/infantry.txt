@@ -477,6 +477,172 @@ technologies = {
 		}
 	}
 
+	stormtroopers = {
+
+		enable_subunits = {
+			stormtrooper
+		}
+
+		path = {
+			leads_to_tech = stormtroopers2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+		start_year = 1928
+		folder = {
+			name = infantry_folder
+			position = { x = 3 y = @1928 }
+		}
+
+		on_research_complete_limit = {
+			NOT = {
+				has_template_containing_unit = stormtrooper
+			}
+		}
+		on_research_complete = {
+			hidden_effect = {
+				load_oob = "unlock_stormtroopers"
+			}
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
+		}
+
+		categories = {
+			stoormtroopers_tech
+			cat_special_forces_generic
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+ 	stormtroopers2 = {
+
+		stormtrooper = {
+			max_organisation = 5
+			soft_attack = 0.05
+		}
+
+		path = {
+			leads_to_tech = stormtroopers3
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1930
+		folder = {
+			name = infantry_folder
+			position = { x = 3 y = @1930 }
+		}
+
+		categories = {
+			stoormtroopers_tech
+			cat_special_forces_generic
+		}
+
+		ai_will_do = {
+			factor = 0.5
+
+			modifier = {
+				factor = 2
+				tag = FRA
+			}
+
+			modifier = {
+				factor = 2
+				tag = RUS
+			}
+
+			modifier = {
+				factor = 2
+				tag = ENG
+			}
+
+			modifier = {
+				factor = 2
+				tag = GER
+			}
+		}
+	}
+	
+ 	stormtroopers3 = {
+
+		stormtrooper = {
+			max_organisation = 5
+			soft_attack = 0.05
+		}
+
+		path = {
+			leads_to_tech = armored_stormtroopers
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1932
+		folder = {
+			name = infantry_folder
+			position = { x = 3 y = @1932 }
+		}
+
+		categories = {
+			stoormtroopers_tech
+			cat_special_forces_generic
+		}
+
+		ai_will_do = {
+			factor = 0.5
+
+			modifier = {
+				factor = 2
+				tag = RUS
+			}
+
+			modifier = {
+				factor = 2
+				tag = FRA
+			}
+
+			modifier = {
+				factor = 2
+				tag = ENG
+			}
+
+			modifier = {
+				factor = 2
+				tag = GER
+			}
+		}
+	}
+	
+ 	armored_stormtroopers = {
+
+		stormtrooper = {
+			armor_value = 0.2
+			hard_attack = 0.05
+		}
+
+		path = {
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1934
+		folder = {
+			name = infantry_folder
+			position = { x = 3 y = @1934 }
+		}
+
+		categories = {
+			stoormtroopers_tech
+			cat_special_forces_generic
+		}
+
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+
 	paratroopers = {
 
 		enable_subunits = {

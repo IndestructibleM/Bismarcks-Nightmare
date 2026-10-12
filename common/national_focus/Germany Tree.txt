@@ -526,7 +526,7 @@ focus_tree = {
         id = GER_friendship_of_rome_and_berlin
         icon = GFX_ITA_irridentism
         relative_position_id = GER_foreign_policy
-        x = -2
+        x = 0
         y = 2
         cost = 5
 		ai_will_do = {
@@ -546,7 +546,7 @@ focus_tree = {
         id = GER_sabotage_the_doppelaedler
         icon = GFX_focus_AUS_austromarxism
         relative_position_id = GER_foreign_policy
-        x = -2
+        x = 0
         y = 3
         cost = 5
 		ai_will_do = {
@@ -567,7 +567,7 @@ focus_tree = {
         id = GER_support_pan_german_revolutionaries
         icon = GFX_focus_GER_legacy_of_the_spartacus_league
         relative_position_id = GER_foreign_policy
-        x = -2
+        x = 0
         y = 4
         cost = 5
 		ai_will_do = {
@@ -586,7 +586,7 @@ focus_tree = {
         id = GER_rally_the_hungarian_communists
         icon = GFX_focus_HUN_officialize_the_rakosi_battalion
         relative_position_id = GER_foreign_policy
-        x = 0
+        x = -2
         y = 2
         cost = 5
 		ai_will_do = {
@@ -605,7 +605,7 @@ focus_tree = {
         id = GER_czechia_either_with_us_or_against_us
         icon = GFX_focus_generic_communist_attack_czechoslovakia
         relative_position_id = GER_foreign_policy
-        x = 0
+        x = -2
         y = 3
         cost = 5
 		ai_will_do = {
@@ -630,7 +630,7 @@ focus_tree = {
         id = GER_influence_and_ally_bulgaria
         icon = GFX_focus_BUL_the_peoples_republic_of_bulgaria
         relative_position_id = GER_foreign_policy
-        x = 0
+        x = -2
         y = 4
         cost = 5
 		ai_will_do = {
@@ -642,6 +642,37 @@ focus_tree = {
 
         completion_reward = {
             add_to_faction = BUL
+        }
+    }
+
+    focus = {
+        id = GER_strike_austria
+        icon = GFX_focus_
+        relative_position_id = GER_foreign_policy
+        x = 2
+        y = 4
+        cost = 5
+		ai_will_do = {
+			factor = 2
+		}
+        prerequisite = {
+            focus = GER_sabotage_the_doppelaedler
+        }
+        prerequisite = {
+            focus = GER_integrate_upper_germany
+        }
+        will_lead_to_war_with = AUS
+        completion_reward = {
+            every_state = {
+                limit = {
+                    region = 7
+                }
+                add_claim_by = GER
+            }
+            declare_war_on = {
+                target = AUS
+                type = annex_everything
+            }
         }
     }
 
@@ -868,6 +899,7 @@ focus_tree = {
 				type = puppet_wargoal_focus
 				target = FRA
 			}
+            upgrade_economy_law = yes
         }
     }
 

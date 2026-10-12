@@ -28,6 +28,8 @@ idea_categories = {
 		slot = trade_laws
 		slot = economy
 		slot = economy_model
+		slot = government_type
+		slot = draft
 		
 		ledger = civilian
 		
