@@ -11,9 +11,6 @@ country_event = {
 		tag = FRA
 		has_war_with = GER
 		surrender_progress > 0.5
-		GER = {
-			controls_state = 571
-		}
 	}
 
 	option = { 
@@ -63,6 +60,24 @@ country_event = {
 			puppet = WLN
 			add_to_facton = FRA
 		}
+	}
+}
+
+country_event = {
+	id = francediplo.2
+	title = francediplo.2.t
+	desc = desc.temp.d
+
+	fire_only_once = yes
+	trigger = {
+		tag = FRA
+		has_war_with = GER
+		surrender_progress > 0.25
+	}
+
+	option = { 
+		name = francediplo.2.a
+		add_to_facton = ENG
 	}
 
 }

@@ -17,7 +17,8 @@ state={
 			}
 		}
 
-		add_core_of = FRA
+		add_core_of = COG
+		add_claim_by = FRA
     }
 	manpower=11184000
 	buildings_max_level_factor=1.000
