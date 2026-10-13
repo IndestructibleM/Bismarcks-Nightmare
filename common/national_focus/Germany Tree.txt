@@ -331,36 +331,6 @@ focus_tree = {
 			factor = 2
 		}
 		completion_reward = {
-		}
-	}
-
-	focus = {
-		id = GER_restart_hannovers_trade_with_england
-		relative_position_id = GER_the_old_chairman
-		prerequisite = { focus = GER_breaking_isolation }
-		icon = GFX_focus_generic_british_trade
-		x = 4
-		y = 3
-		cost = 5
-		ai_will_do = {
-			factor = 2
-		}
-		completion_reward = {
-		}
-	}
-
-	focus = {
-		id = GER_restart_hannovers_trade_with_england
-		relative_position_id = GER_the_old_chairman
-		prerequisite = { focus = GER_breaking_isolation }
-		icon = GFX_focus_generic_british_trade
-		x = 4
-		y = 3
-		cost = 5
-		ai_will_do = {
-			factor = 2
-		}
-		completion_reward = {
             1702 = {
                 add_extra_state_shared_building_slots = 1
                 add_building_construction = {

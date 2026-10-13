@@ -11,13 +11,14 @@ sub_units = {
 
 		type = {
 			infantry
-			support
 		}
 		
 		group = infantry
 		
 		categories = {
 			#category_support_battalions #To prevent Integrated Support doctrines making them extremely good
+			category_front_line
+			category_all_infantry
 			category_army
 		}
 
