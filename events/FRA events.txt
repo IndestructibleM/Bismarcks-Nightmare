@@ -77,7 +77,7 @@ country_event = {
 
 	option = { 
 		name = francediplo.2.a
-		add_to_facton = ENG
+		add_to_faction = ENG
 	}
 
 }
