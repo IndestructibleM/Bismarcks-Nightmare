@@ -5,9 +5,8 @@ state={
 		20187 
 	}
 	history = {
-		owner = SER
-		add_core_of = YUG
-		add_core_of = HRZ
+		owner = CRO
+		add_core_of = SER
 		add_core_of = BOS
 		buildings = {
 			infrastructure = 2

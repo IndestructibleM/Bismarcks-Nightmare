@@ -4,8 +4,7 @@ state={
 	name="STATE_1969"
 
 	history={
-		owner = RUS
-		add_claim_by = RUS
+		owner = BUL
 		add_core_of = GRE
 		add_core_of = THR
 		add_core_of = TUR

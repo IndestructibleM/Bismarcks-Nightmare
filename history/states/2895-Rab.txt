@@ -7,7 +7,7 @@ state={
 	history={
 		owner = SER
 		add_core_of = YUG
-		owner = AUS add_core_of = AUS
+		owner = CRO
 		add_core_of = CRO
 		add_core_of = IST
 		buildings = {

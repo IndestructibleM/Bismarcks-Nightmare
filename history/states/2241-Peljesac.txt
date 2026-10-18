@@ -5,13 +5,11 @@ state={
 		20147 
 	}
 	history = {
-		owner = SER
-		add_core_of = YUG
-		owner = AUS add_core_of = AUS
+		owner = CRO
+		add_core_of = CRO
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = CRO
 	}
 	manpower=8450
 	state_category=pastoral

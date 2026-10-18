@@ -6,7 +6,7 @@ state={
 	history={
 		add_core_of = ROM
 		add_core_of = BNT
-		owner = AUS		
+		owner = BNT		
 		add_core_of = AUS
 		victory_points = {
 			14213 20 

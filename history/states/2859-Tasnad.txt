@@ -6,10 +6,10 @@ state={
 		2562 5152 13698 
 	}
 	history={
-		owner = ROM
+		owner = HUN
 		add_core_of = ROM
-		owner = AUS add_core_of = AUS
-		add_core_of = CRS
+
+		add_core_of = HUN
 		buildings = {
 			infrastructure = 2
 

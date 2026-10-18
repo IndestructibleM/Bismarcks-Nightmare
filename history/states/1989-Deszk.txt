@@ -2,12 +2,10 @@ state={
 	id=1989
 	name="STATE_1989"
 	history = {
-		owner = AUS
-		add_core_of = HUN
+		owner = BNT		add_core_of = BNT
 		buildings = {
 			infrastructure = 2
 		}
-		owner = AUS		add_core_of = AUS
 		add_core_of = CRS
 	}
 	provinces={

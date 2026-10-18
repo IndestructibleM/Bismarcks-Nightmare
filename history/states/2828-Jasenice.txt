@@ -11,7 +11,7 @@ state={
 
 		}
 		add_core_of = YUG
-		add_core_of = CRO
+		owner = CRO
 		add_core_of = CRO
 	}
 

@@ -13,8 +13,7 @@ state={
 			industrial_complex = 1
 			19389 = { naval_base = 1 }
 		}
-		add_core_of = NIR
-		add_core_of = IRE
+		owner = IRE		add_core_of = IRE
 	
         victory_points = {
             19389 5

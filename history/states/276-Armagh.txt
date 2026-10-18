@@ -13,8 +13,7 @@ state={
 		victory_points = {
 			10897 2 
 		}
-		add_core_of = NIR
-		add_core_of = IRE
+		owner = IRE		add_core_of = IRE
 
 	}
 

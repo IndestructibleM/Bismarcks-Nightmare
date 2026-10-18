@@ -15,7 +15,7 @@ state={
 			dockyard = 1
 			14668 = { naval_base = 3 }
 		}
-		add_core_of = YUG
+		owner = CRO
 		add_core_of = CRO
 		victory_points = { 14668 10 }
 	}

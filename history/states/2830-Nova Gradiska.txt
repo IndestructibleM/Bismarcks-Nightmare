@@ -6,8 +6,7 @@ state={
 		1089 8994 14327 
 	}
 	history={
-		owner = AUS 
-		add_core_of = AUS
+		owner = CRO
 		add_core_of = CRO
 		buildings = {
 			infrastructure = 2

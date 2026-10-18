@@ -44,6 +44,13 @@ create_country_leader = {
 	}
 }
 
+puppet = SYR
+puppet = IRQ
+puppet = LEB
+puppet = PAL
+puppet = JBS
+puppet = HJZ
+
 create_country_leader = {
 	name = "Saeed Ahmadi"
 	desc = ""

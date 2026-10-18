@@ -12,8 +12,7 @@ state={
 		buildings = {
 			infrastructure = 2
 		}
-		owner = AUS		
-		add_core_of = AUS
+		owner = BNT		
 		victory_points = { 8299 5 }
 	}
 	manpower=175693

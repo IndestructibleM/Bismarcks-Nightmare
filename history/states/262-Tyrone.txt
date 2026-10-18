@@ -10,8 +10,7 @@ state={
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = NIR
-		add_core_of = IRE
+		owner = IRE		add_core_of = IRE
 	
         victory_points = {
             10876 2
