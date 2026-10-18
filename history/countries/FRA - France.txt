@@ -72,6 +72,15 @@ if = {
 	}
 }
 
+every_state = {
+	limit = {
+		is_owned_by = FRA
+		is_core_of = GER
+	}
+	remove_core_of = GER
+	add_claim_by = GER
+}
+
 #################
 # Starting tech #
 #################
@@ -344,19 +353,7 @@ if = {
 if = {
 	limit = { has_dlc = "Together for Victory" }
 	set_autonomy = {
-		target = SYR
-		autonomous_state = autonomy_colony
-	}
-	set_autonomy = {
-		target = ALW
-		autonomous_state = autonomy_colony
-	}
-	set_autonomy = {
 		target = JDZ
-		autonomous_state = autonomy_colony
-	}
-	set_autonomy = {
-		target = LEB
 		autonomous_state = autonomy_colony
 	}
 	set_autonomy = {
@@ -372,11 +369,9 @@ if = {
 		autonomous_state = autonomy_colony
 	}
 	else = {
-		puppet = SYR
 		puppet = JDZ
-		puppet = ALW
-		puppet = LEB
 		puppet = MOR
+		puppet = MRT
 		puppet = TUN
 	}
 }

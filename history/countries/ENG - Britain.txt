@@ -216,14 +216,6 @@ if = {
    
 	}
 	set_autonomy = {
-		target = PAL
-		autonomous_state = autonomy_colony
-	}
-	set_autonomy = {
-		target = JOR
-		autonomous_state = autonomy_colony
-	}
-	set_autonomy = {
 		target = UAE
 		autonomous_state = autonomy_colony
 	}
@@ -258,8 +250,6 @@ if = {
 	add_to_tech_sharing_group = commonwealth_research
 	else = {
 		puppet = MLT
-		puppet = PAL
-		puppet = JOR
 		puppet = UAE
 		puppet = QAT
 		puppet = BHR

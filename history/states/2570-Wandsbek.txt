@@ -12,8 +12,8 @@ state={
 			infrastructure = 3
 		}
 		add_core_of = PRE
-		add_core_of = SHL
-		add_core_of = HLS
+		owner = SHL
+		add_core_of = SHL		add_core_of = HLS
 		add_core_of = HAM
     }
 	manpower=254758

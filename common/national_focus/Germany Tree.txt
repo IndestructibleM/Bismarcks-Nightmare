@@ -549,6 +549,7 @@ focus_tree = {
         }
 
         completion_reward = {
+            unlock_decision_category_tooltip = GER_pan_german_revolution_cat
         }
     }
 
@@ -635,7 +636,15 @@ focus_tree = {
         completion_reward = {
             every_state = {
                 limit = {
-                    region = 7
+                    OR = {
+                        region = 7
+                        state = 1431
+                        state = 1432
+                        state = 1433
+                        state = 1802
+                        state = 1430
+                    }
+                    is_owned_by = AUS
                 }
                 add_claim_by = GER
             }

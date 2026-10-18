@@ -12,8 +12,8 @@ state={
 			dockyard = 1
 		}
 		add_core_of = PRE
-		add_core_of = SHL
-		add_core_of = SLW
+		owner = SHL
+		add_core_of = SHL		
 		victory_points = {
 			9110 5 #Flensburg
 		}

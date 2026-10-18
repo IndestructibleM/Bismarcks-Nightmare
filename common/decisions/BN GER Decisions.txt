@@ -100,3 +100,142 @@ political_actions = {
         }
     }
 }
+
+GER_pan_german_revolution_cat = {  
+    GER_integrate_austria = {
+        allowed = {
+            tag = GER
+        }
+        available = {
+            NOT = {
+                has_war_with = AUS
+            }
+            owns_state = 1817
+            owns_state = 1810
+        }
+        modifier = {
+            political_power_factor = -0.2
+        }
+        fire_only_once = yes
+        days_remove = 30
+        cost = 25
+        remove_effect = {
+            every_owned_state = {
+                limit = {
+                    is_core_of = AUS
+                    is_owned_by = GER
+                }
+                add_core_of = ROOT
+            }
+        }
+    }
+    
+    GER_integrate_palatinate = {
+        allowed = {
+            tag = GER
+        }
+        available = {
+            NOT = {
+                has_war_with = FRA
+            }
+            owns_state = 1756
+            owns_state = 1758
+        }
+        modifier = {
+            political_power_factor = -0.2
+        }
+        fire_only_once = yes
+        days_remove = 30
+        cost = 25
+        remove_effect = {
+            add_state_core = 1756
+            add_state_core = 1758
+            add_state_core = 506
+            add_state_core = 521
+            add_state_core = 1757
+            add_state_core = 1760
+            add_state_core = 2343
+            add_state_core = 1753
+            add_state_core = 2337
+        }
+    }
+
+    GER_integrate_alsace = {
+        allowed = {
+            tag = GER
+        }
+        available = {
+            NOT = {
+                has_war_with = FRA
+            }
+            owns_state = 566
+            owns_state = 2746
+        }
+        modifier = {
+            political_power_factor = -0.2
+        }
+        fire_only_once = yes
+        days_remove = 30
+        cost = 25
+        remove_effect = {
+            add_state_core = 566
+            add_state_core = 606
+            add_state_core = 2746
+            add_state_core = 2376
+            add_state_core = 638
+        }
+    }
+
+    GER_integrate_lorraine = {
+        allowed = {
+            tag = GER
+        }
+        available = {
+            NOT = {
+                has_war_with = FRA
+            }
+            owns_state = 524
+            owns_state = 2340
+        }
+        modifier = {
+            political_power_factor = -0.2
+        }
+        fire_only_once = yes
+        days_remove = 30
+        cost = 25
+        remove_effect = {
+            add_state_core = 524
+            add_state_core = 544
+            add_state_core = 2340
+            add_state_core = 547
+            add_state_core = 537
+            add_state_core = 2747
+            add_state_core = 2608
+        }
+    }
+
+    GER_integrate_luxembourg = {
+        allowed = {
+            tag = GER
+        }
+        available = {
+            NOT = {
+                has_war_with = FRA
+            }
+            owns_state = 512
+            owns_state = 404
+        }
+        modifier = {
+            political_power_factor = -0.2
+        }
+        fire_only_once = yes
+        days_remove = 30
+        cost = 25
+        remove_effect = {
+            add_state_core = 404
+            add_state_core = 2368
+            add_state_core = 512
+            add_state_core = 427
+        }
+    }
+}

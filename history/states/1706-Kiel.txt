@@ -13,8 +13,8 @@ state={
 			7341 = { naval_base = 8 }
 		}
 		add_core_of = PRE
-		add_core_of = SHL
-		add_core_of = HLS
+		owner = SHL
+		add_core_of = SHL		add_core_of = HLS
 		victory_points = {
 			7341 20 
 		}

@@ -11,8 +11,10 @@
     RUS_ultranationalism_DEF:0 "the Russian Empire"
     RUS_ultranationalism_ADJ:0 "Russian"
     RUS_despotism:0 "Russian Empire"
-    RUS_despotism_DEF:0 "the Russian Empire"
-    RUS_despotism_ADJ:0 "Russian" 
+    RUS_despotism_DEF:0 "the Russian Empire" 
+    RUS_reactionism:0 "Russian Empire"
+    RUS_reactionism_DEF:0 "the Russian Empire"
+    RUS_ADJ:0 "Russian" 
     ###ABKHAZIA
     #COMMUNISM
 
@@ -299,6 +301,9 @@
     AZR:0 "Azerbaijan"
     AZR_DEF:0 "the Azerbaijani State"
     AZR_ADJ:0 "Azerbaijani"
+    
+    BNT_socialism:0 "Banat Republic"
+    BNT_socialism_DEF:0 "the Banat Republic"
 
  ###BASHKORTOSTAN
 
@@ -2993,33 +2998,35 @@
 
    #COMMUNISM
 
-    ROM_communism:0 "Rumanian People's Republic"
-    ROM_communism_DEF:0 "the Rumanian People's Republic"
-    ROM_communism_ADJ:0 "Rumanian"
+    ROM_communism:0 "Romanian People's Republic"
+    ROM_communism_DEF:0 "the Romanian People's Republic"
+    ROM_communism_ADJ:0 "Romanian"
 
    #DEMOCRATIC
 
     ROM_liberalism:0 "Kingdom of Romania"
     ROM_liberalism_DEF:0 "the Kingdom of Romania"
-    ROM_liberalism_ADJ:0 "Rumanian"
+    ROM_conservative:0 "Kingdom of Romania"
+    ROM_conservative_DEF:0 "the Kingdom of Romania"
+    ROM_liberalism_ADJ:0 "Romanian"
 
    #FASCISM
 
-    ROM_ultranationalism:0 "Rumanian National Legionary State"
-    ROM_ultranationalism_DEF:0 "the Rumanian National Legionary State"
-    ROM_ultranationalism_ADJ:0 "Rumanian"
+    ROM_ultranationalism:0 "Romanian National Legionary State"
+    ROM_ultranationalism_DEF:0 "the Romanian National Legionary State"
+    ROM_ultranationalism_ADJ:0 "Romanian"
 
    #NEUTRALITY
 
-    ROM_despotism:0 "Kingdom of Rumania"
-    ROM_despotism_DEF:0 "the Kingdom of Rumania"
-    ROM_despotism_ADJ:0 "Rumanian"
+    ROM_despotism:0 "Kingdom of Romania"
+    ROM_despotism_DEF:0 "the Kingdom of Romania"
+    ROM_despotism_ADJ:0 "Romanian"
 
    #TAG
 
-    ROM:0 "Rumania"
-    ROM_DEF:0 "the Rumanian State"
-    ROM_ADJ:0 "Rumanian"
+    ROM:0 "Romania"
+    ROM_DEF:0 "the Romanian State"
+    ROM_ADJ:0 "Romanian"
 
  ###SAUDI ARABIA
 
@@ -3226,6 +3233,10 @@
     SLO_liberalism:0 "Slovak Republic"
     SLO_liberalism_DEF:0 "the Slovak Republic"
     SLO_liberalism_ADJ:0 "Slovak"
+
+    SLO_conservative:0 "Slovak Republic"
+    SLO_conservative_DEF:0 "the Slovak Republic"
+    SLO_conservative_ADJ:0 "Slovak"
 
    #FASCISM
 

@@ -11,8 +11,8 @@ state={
 			infrastructure = 3
 		}
 		add_core_of = PRE
-		add_core_of = SHL
-		add_core_of = HLS
+		owner = SHL
+		add_core_of = SHL		add_core_of = HLS
 		victory_points = {
 			8430 5 #Neumünster
 		}

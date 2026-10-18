@@ -1,0 +1,50 @@
+on_actions = {
+
+	on_capitulation = {
+		effect = {
+			if = {
+				limit = {
+					ROOT = { tag = AUS }
+                    FROM = {
+						OR = {
+                        	tag = GER
+							tag = ITA
+							tag = HUN
+						}
+                    }	
+				}
+				GER = {
+					white_peace = AUS
+				}
+				every_state = {
+					limit = {
+						is_core_of = AUS
+						is_claimed_by = GER
+					}
+					transfer_state_to = GER
+				}
+			}
+		}
+	}
+	
+	on_capitulation = {
+		effect = {
+			if = {
+				limit = {
+					ROOT = { tag = CZE }
+                    FROM = {
+						OR = {
+                        	tag = GER
+							tag = ITA
+							tag = HUN
+						}
+                    }	
+				}
+				GER = {
+					white_peace = CZE
+					puppet = CZE
+				}
+			}
+		}
+	}
+}

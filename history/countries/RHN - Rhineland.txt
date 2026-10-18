@@ -20,6 +20,8 @@ set_technology = {
 	trench_warfare = 1
 }
 
+set_oob = RHN
+
 every_state = {
 	limit = {
 		is_owned_by = RHN

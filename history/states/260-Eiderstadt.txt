@@ -11,9 +11,9 @@ state={
 
 		}
 		add_core_of = PRE
-		add_core_of = SHL
-		add_core_of = SLW
-		add_core_of = NFR
+		owner = SHL
+		owner = SHL
+		add_core_of = SHL		add_core_of = NFR
 		victory_points = {
 			10903 2 
 		}

@@ -8,8 +8,8 @@ state={
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = SHL
-		add_core_of = GER
+		owner = SHL
+		add_core_of = SHL		add_core_of = GER
 	}
 	provinces={
 		7789 9548 10729 
