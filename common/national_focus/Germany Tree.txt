@@ -782,7 +782,7 @@ focus_tree = {
 		available = {
 			has_war = no
 			has_army_manpower = {
-				size > 400000
+				size > 500000
 			}
 		}
 		ai_will_do = {
@@ -804,11 +804,6 @@ focus_tree = {
         x = 5
         y = 3
         cost = 5
-		available = {
-			has_army_manpower = {
-				size > 400000
-			}
-		}
 		ai_will_do = {
 			factor = 2
 		}
@@ -830,11 +825,6 @@ focus_tree = {
         x = 7
         y = 3
         cost = 5
-		available = {
-			has_army_manpower = {
-				size > 450000
-			}
-		}
 		ai_will_do = {
 			factor = 2
 		}
@@ -905,6 +895,35 @@ focus_tree = {
 					add_core_of = GER
 				}
 			}
+        }
+    }
+
+    focus = {
+        id = GER_ultimatum_over_schleswig_holstein
+        relative_position_id = GER_foreign_policy
+		icon = GFX_focus_generic_attack_denmark
+        x = 8
+        y = 2
+        cost = 5
+		ai_will_do = {
+			factor = 4
+		}
+		available = {
+			has_war = no
+            has_army_manpower = {
+				size > 350000
+			}
+		}
+        prerequisite = {
+            focus = GER_where_bismarck_failed
+        }
+        will_lead_to_war_with = DEN
+        will_lead_to_war_with = SHL
+        completion_reward = {
+			declare_war_on = {
+                target = SHL
+                type = annex_everything
+            }
         }
     }
 

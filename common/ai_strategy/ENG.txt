@@ -1081,14 +1081,9 @@ ENG_USA_focus_on_europe = {
 	}
 
 	enable = {
-		is_historical_focus_on = yes
-		OR = {
-			date > 1941.6.1
-			SOV = {
-				surrender_progress > 0.50
-			}
+		FRA = {
+			surrender_progress > 0.25
 		}
-		has_global_flag = FRA_already_surrendered
 	}
 
 	ai_strategy = {
@@ -1169,79 +1164,6 @@ ENG_USA_focus_on_europe_loads_more = {
 	}
 }
 
-ENG_evacuate_troops_after_fall_of_france = {
-	allowed = {
-		OR = {
-			tag = ENG
-			tag = USA
-		}
-	}
-
-	abort_when_not_enabled = yes
-
-	enable = {
-		is_historical_focus_on = yes
-		OR = {
-			date < 1942.6.1
-			SOV = {
-				surrender_progress < 0.65
-				date < 1942.6.1
-			}
-		}
-		has_global_flag = FRA_already_surrendered
-	}
-
-	ai_strategy = {
-		type = front_unit_request
-		area = mainland_europe
-		value = -100
-	}
-}
-
-ENG_time_to_ditch_FRA = {
-	allowed = {
-		original_tag = ENG
-	}
-
-	enable = {
-		is_historical_focus_on = yes
-		FRA = {
-			has_capitulated = no
-			surrender_progress > 0.25
-		}
-		OR = {
-			NOT = { has_global_flag = FRA_already_surrendered }
-			#lets give a month of retreat time after capitulation
-			set_temp_variable = { t = global.num_days }
-			subtract_from_temp_variable = { t = global.FRA_capitulation_days }
-			check_variable = { t < 30 }
-		}
-	}
-
-	abort_when_not_enabled = yes
-
-	ai_strategy = {
-		type = dont_defend_ally_borders
-		id = FRA
-		value = 100
-	}
-	ai_strategy = {
-		type = dont_defend_ally_borders
-		id = BEL
-		value = 100
-	}
-	ai_strategy = {
-		type = dont_defend_ally_borders
-		id = HOL
-		value = 100
-	}
-	ai_strategy = {
-		type = dont_defend_ally_borders
-		id = LUX
-		value = 100
-	}
-}
-
 ENG_gang_up_GER_with_USA = {
 	allowed = { original_tag = ENG }
 	enable = {
@@ -1290,35 +1212,6 @@ ENG_accept_USA_access = {
 		target = military_access
 		value = 1000
 	}
-}
-
-
-dont_get_sucked_into_FRA_and_die = {
-
-	enable = {
-		OR = {
-			tag = ENG
-			is_subject_of = ENG
-		}
-		has_war_with = GER
-		has_war_together_with = FRA
-
-		date < 1941.9.9
-
-		NOT = { has_global_flag = FRA_already_surrendered }
-	}
-	abort_when_not_enabled = yes
-
-	ai_strategy = {
-		type = front_unit_request
-		area = europe
-		value = -60
-	}
-
-	ai_strategy = {
-  		type = garrison
-   		value = 70
-   	}
 }
 
 ENG_please_stop_stomping_italy_so_hard_in_africa_ty = {
@@ -1897,81 +1790,6 @@ ENG_USA_more_landings = {
 #		value = 30
 #	}
 #}
-
-COMMONWEALTH_disregard_france_a_bit = {
-	allowed = {
-		is_in_faction_with = ENG
-		is_subject_of = ENG
-	}
-	enable = {
-		is_historical_focus_on = yes
-	}
-	abort = {
-		FRA = { 
-			OR = {
-				has_capitulated = yes
-				is_government_in_exile = yes 
-			}
-		}
-	}
-	ai_strategy = {
-		type = strategic_air_importance
-		id = 89 #Strategic Region ID - Northern France
-		value = -30000 #value of stocked main front in active combat is usually around 35,000
-	}
-	ai_strategy = {
-		type = strategic_air_importance
-		id = 88 #Strategic Region ID - Alsace
-		value = -30000 #value of stocked main front in active combat is usually around 35,000
-	}
-	ai_strategy = {
-		type = strategic_air_importance
-		id = 4 #Strategic Region ID - HOL
-		value = -30000 #value of stocked main front in active combat is usually around 35,000
-	}
-	ai_strategy = {
-		type = strategic_air_importance
-		id = 5 #Strategic Region ID - BEL
-		value = -30000 #value of stocked main front in active combat is usually around 35,000
-	}
-}
-
-ENG_disregard_france_a_bit = {
-	allowed = {
-		original_tag = ENG
-	}
-	enable = {
-		is_historical_focus_on = yes
-	}
-	abort = {
-		FRA = { 
-			OR = {
-				has_capitulated = yes
-				is_government_in_exile = yes 
-			}
-		}
-	}
-	ai_strategy = {
-		type = strategic_air_importance
-		id = 89 #Strategic Region ID - Northern France
-		value = -20000 #value of stocked main front in active combat is usually around 35,000
-	}
-	ai_strategy = {
-		type = strategic_air_importance
-		id = 88 #Strategic Region ID - Alsace
-		value = -20000 #value of stocked main front in active combat is usually around 35,000
-	}
-	ai_strategy = {
-		type = strategic_air_importance
-		id = 4 #Strategic Region ID - HOL
-		value = -20000 #value of stocked main front in active combat is usually around 35,000
-	}
-	ai_strategy = {
-		type = strategic_air_importance
-		id = 5 #Strategic Region ID - BEL
-		value = -20000 #value of stocked main front in active combat is usually around 35,000
-	}
-}
 
 ENG_dont_kick_russia_out_from_triple_entente_due_to_gobbling_up_breakaway_states = {
 		allowed = {

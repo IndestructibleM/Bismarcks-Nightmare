@@ -28,21 +28,15 @@ if = {
 }
 
 # Diplomacy
-IF = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
-	}
-	set_autonomy = {
-		target = ICE
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.4
-	}
-	ELSE = {
-		puppet = ICE
-	}
+set_autonomy = {
+	target = ICE
+	autonomous_state = autonomy_dominion
+	freedom_level = 0.4
+}
+set_autonomy = {
+	target = SHL
+	autonomous_state = autonomy_dominion
+	freedom_level = 0.4
 }
 
 #### COUNTRY LEADERS ####
@@ -157,7 +151,7 @@ recruit_character = DEN_viggo_kampman
 
 set_research_slots = 3
 set_stability = 0.9
-set_war_support = 0.1
+set_war_support = 0.25
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1

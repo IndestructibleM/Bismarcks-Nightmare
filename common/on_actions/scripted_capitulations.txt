@@ -47,4 +47,24 @@ on_actions = {
 			}
 		}
 	}
+
+	on_capitulation = {
+		effect = {
+			if = {
+				limit = {
+					ROOT = { tag = DEN }
+                    FROM = {
+						tag = GER
+                    }	
+				}
+				GER = {
+					white_peace = DEN
+					annex_country = {
+						target = SHL
+						transfer_troops = no
+					}
+				}
+			}
+		}
+	}
 }
