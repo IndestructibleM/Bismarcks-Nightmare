@@ -994,6 +994,9 @@
     DEN_liberalism:0 "Kingdom of Denmark"
     DEN_liberalism_DEF:0 "the Kingdom of Denmark"
     DEN_liberalism_ADJ:0 "Danish"
+    DEN_conservative:0 "Kingdom of Denmark"
+    DEN_conservative_DEF:0 "the Kingdom of Denmark"
+    DEN_conservative_ADJ:0 "Danish"
 
    #FASCISM
 

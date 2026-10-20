@@ -1,0 +1,370 @@
+focus_tree = {
+    id = france
+    country = {
+        factor = 0
+        modifier = {
+            add = 10
+            tag = FRA
+        }
+    }
+    default = no
+
+    shared_focus = shared_gen_economic_modernization
+    shared_focus = shared_gen_militarization
+    shared_focus = shared_gen_skies_and_seas
+
+    allow_branch = {
+        always = yes
+    }
+
+    focus = {
+        id = FRA_the_domain_of_france
+        x = 12
+        y = 0
+        icon = GFX_goal_NFA_france_first
+        cost = 5
+        ai_will_do = { factor = 2 }
+        completion_reward = { 
+
+        }
+    }
+
+    focus = {
+        id = FRA_imperial_mission
+        x = -1
+        y = 1
+        icon = GFX_goal_NFA_imperial
+        relative_position_id = FRA_the_domain_of_france
+        prerequisite = { focus = FRA_the_domain_of_france }
+        cost = 5
+        ai_will_do = { factor = 2 }
+        completion_reward = { 
+
+        }
+    }
+
+    focus = {
+        id = FRA_continental_system
+        x = 1
+        y = 1
+        icon = GFX_focus_GER_european_confederation
+        relative_position_id = FRA_the_domain_of_france
+        prerequisite = { focus = FRA_the_domain_of_france }
+        cost = 5
+        ai_will_do = { factor = 2 }
+        completion_reward = { 
+			send_embargo = GER
+            send_embargo = HUN
+            send_embargo = ITA
+		}
+    }
+
+    focus = {
+        id = FRA_security_in_holland
+        x = -3
+        y = 2
+        icon = GFX_focus_hol_war_on_pacifism
+        relative_position_id = FRA_the_domain_of_france
+        prerequisite = { focus = FRA_imperial_mission }
+        cost = 5
+        ai_will_do = { factor = 2 }
+        completion_reward = { }
+    }
+
+    focus = {
+        id = FRA_defend_the_mediterranean
+        x = -1
+        y = 2
+        icon = GFX_focus_generic_mediterranean_sea_focus
+        relative_position_id = FRA_the_domain_of_france
+        prerequisite = { focus = FRA_imperial_mission }
+        cost = 5
+        ai_will_do = { factor = 2 }
+        completion_reward = { }
+    }
+
+    focus = {
+        id = FRA_support_the_franco_austrian_alliance
+        x = 1
+        y = 2
+        icon = GFX_goal_align_austria
+        relative_position_id = FRA_the_domain_of_france
+        prerequisite = { focus = FRA_continental_system }
+        cost = 5
+        ai_will_do = { factor = 2 }
+        completion_reward = { }
+    }
+
+    focus = {
+        id = FRA_contain_hungarian_communism
+        x = 3
+        y = 2
+        icon = GFX_focus_generic_communist_attack_hungary
+        relative_position_id = FRA_the_domain_of_france
+        prerequisite = { focus = FRA_continental_system }
+        cost = 5
+        ai_will_do = { factor = 2 }
+        completion_reward = { }
+    }
+
+    focus = {
+        id = FRA_overtures_with_spain
+        x = 5
+        y = 2
+        icon = GFX_focus_spa_strengthen_the_supreme_reality_of_spain
+        relative_position_id = FRA_the_domain_of_france
+        prerequisite = { focus = FRA_continental_system }
+        cost = 5
+        ai_will_do = { factor = 2 }
+        completion_reward = { }
+    }
+
+    focus = {
+        id = FRA_ally_the_greeks
+        icon = GFX_focus_generic_befriend_greece
+        x = -5
+        y = 3
+        relative_position_id = FRA_the_domain_of_france
+        prerequisite = { focus = FRA_defend_the_mediterranean }
+        mutually_exclusive = { focus = FRA_a_friendship_with_the_turks }
+        cost = 5
+        ai_will_do = { factor = 2 }
+        completion_reward = { 
+            add_to_faction = GRE
+        }
+    }
+
+    focus = {
+        id = FRA_a_friendship_with_the_turks
+        x = -3
+        y = 3
+        icon = GFX_focus_generic_befriend_turkey
+        relative_position_id = FRA_the_domain_of_france
+        prerequisite = { focus = FRA_defend_the_mediterranean }
+        mutually_exclusive = { focus = FRA_ally_the_greeks }
+        cost = 5
+        ai_will_do = { factor = 2 }
+        completion_reward = { 
+            add_to_faction = TUR
+        }
+    }
+
+    focus = {
+        id = FRA_expand_the_imperial_reserve
+        x = -1
+        y = 3
+        relative_position_id = FRA_the_domain_of_france
+        prerequisite = { focus = FRA_defend_the_mediterranean }
+        icon = GFX_goal_NFA_foreign_legion
+        cost = 5
+        ai_will_do = { factor = 2 }
+        completion_reward = { }
+    }
+
+    focus = {
+        id = FRA_campaign_in_arabia
+        x = -4
+        y = 4
+        icon = GFX_goal_Unite_Arabia
+        relative_position_id = FRA_the_domain_of_france
+        prerequisite = { focus = FRA_ally_the_greeks focus = FRA_a_friendship_with_the_turks }
+        cost = 5
+        ai_will_do = { factor = 2 }
+        completion_reward = { 
+            create_wargoal = {
+                type = puppet_wargoal_focus
+                target = JOR
+            }
+        }
+    }
+
+    focus = {
+        id = FRA_campaign_in_libya
+        x = -2
+        y = 4
+        icon = GFX_EGY_Liberate_Tripolitania
+        relative_position_id = FRA_the_domain_of_france
+        prerequisite = { focus = FRA_defend_the_mediterranean }
+        cost = 5
+        ai_will_do = { factor = 2 }
+        completion_reward = {
+            create_wargoal = {
+                type = annex_everything
+                target = LBA
+            }
+        }
+    }
+
+    focus = {
+        id = FRA_conquest_of_persia
+        x = -3
+        y = 5
+        icon = GFX_focus_generic_attack_iran
+        relative_position_id = FRA_the_domain_of_france
+        prerequisite = { focus = FRA_campaign_in_arabia }
+        prerequisite = { focus = FRA_campaign_in_libya }
+        cost = 5
+        ai_will_do = { factor = 2 }
+        completion_reward = { 
+            create_wargoal = {
+                type = puppet_wargoal_focus
+                target = PER
+            }
+        }
+    }
+
+    focus = {
+        id = FRA_detente_with_britain
+        x = 0
+        y = 4
+        icon = GFX_focus_eng_the_sun_never_sets
+        relative_position_id = FRA_the_domain_of_france
+        prerequisite = { focus = FRA_imperial_mission }
+        prerequisite = { focus = FRA_continental_system }
+        cost = 5
+        ai_will_do = { factor = 2 }
+        completion_reward = { }
+    }
+
+    focus = {
+        id = FRA_protect_southern_germany
+        x = 1
+        y = 3
+        icon = GFX_focus_GER_defender_of_democracy
+        relative_position_id = FRA_the_domain_of_france
+        prerequisite = { focus = FRA_support_the_franco_austrian_alliance }
+        cost = 5
+        ai_will_do = { factor = 2 }
+        completion_reward = { 
+            add_to_faction = AUS
+        }
+    }
+
+    focus = {
+        id = FRA_the_red_peril
+        x = 3
+        y = 3
+        icon = GFX_focus_ger_great_red_menace
+        relative_position_id = FRA_the_domain_of_france
+        prerequisite = { focus = FRA_contain_hungarian_communism }
+        cost = 5
+        ai_will_do = { factor = 2 }
+        completion_reward = { }
+    }
+
+    focus = {
+        id = FRA_the_northern_security_pact
+        x = 5
+        y = 3
+        icon = GFX_goal_NOR_nordic_council
+        relative_position_id = FRA_the_domain_of_france
+        prerequisite = { focus = FRA_overtures_with_spain }
+        cost = 5
+        ai_will_do = { factor = 2 }
+        completion_reward = { 
+            give_guarantee = SWE
+            give_guarantee = DEN
+            give_guarantee = NOR
+        }
+    }
+
+    focus = {
+        id = FRA_extinguish_german_communism
+        x = 2
+        y = 4
+        icon = GFX_focus_GER_end_european_communism
+        relative_position_id = FRA_the_domain_of_france
+        prerequisite = {
+            focus = FRA_protect_southern_germany
+        }
+        prerequisite = {
+            focus = FRA_the_red_peril
+        }
+        available = {
+            threat > 0.25
+			has_war = no
+			has_army_manpower = {
+				size > 600000
+			}
+        }
+        cost = 5
+        ai_will_do = { factor = 2 }
+        completion_reward = { 
+            create_wargoal = {
+                type = puppet_wargoal_focus
+                target = GER
+            }
+        }
+    }
+
+    focus = {
+        id = FRA_back_in_the_shade_of_olive_trees
+        x = 4
+        y = 4
+        icon = GFX_focus_attack_italy
+        relative_position_id = FRA_the_domain_of_france
+        prerequisite = {
+            focus = FRA_protect_southern_germany
+        }
+        prerequisite = {
+            focus = FRA_the_red_peril
+        }
+        available = {
+            threat > 0.25
+			has_war = no
+			has_army_manpower = {
+				size > 600000
+			}
+        }
+        cost = 5
+        ai_will_do = { factor = 2 }
+        completion_reward = {
+            create_wargoal = {
+                type = puppet_wargoal_focus
+                target = ITA
+            }
+        }
+    }
+
+    focus = {
+        id = FRA_1812_come_again
+        x = 3
+        y = 5
+        icon = GFX_goal_MON_we_dont_need_russia
+        relative_position_id = FRA_the_domain_of_france
+        prerequisite = {
+            focus = FRA_extinguish_german_communism
+        }
+        prerequisite = {
+            focus = FRA_back_in_the_shade_of_olive_trees
+        }
+        cost = 5
+        ai_will_do = { factor = 2 }
+        completion_reward = {
+            create_wargoal = {
+                type = puppet_wargoal_focus
+                target = JOR
+            }
+        }
+    }
+
+    focus = {
+        id = FRA_the_master_of_europe
+        x = 0
+        y = 5
+        icon = GFX_focus_fra_le_deluge
+        relative_position_id = FRA_the_domain_of_france
+        prerequisite = {
+            focus = FRA_campaign_in_libya
+        }
+        prerequisite = {
+            focus = FRA_detente_with_britain
+        }
+        prerequisite = {
+            focus = FRA_extinguish_german_communism
+        }
+        cost = 5
+        ai_will_do = { factor = 2 }
+        completion_reward = { }
+    }
+}

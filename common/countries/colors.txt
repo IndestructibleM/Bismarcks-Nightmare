@@ -30,12 +30,12 @@ LUX = {
 	color_ui = rgb { 0 161 222 }
 }
 BEL = { 
-	color 	 = rgb { 253 218 37 }
+	color = rgb { 253 218 37 }
 	color_ui = rgb { 253 218 37 }
 }
 HOL = {	
-	color = rgb { 255 153 0 }
-	color_ui = rgb { 255 153 0 }
+	color = rgb { 215 110 0 }
+	color_ui = rgb { 215 110 0 }
 }
 ENG = {
 	color = rgb { 180 0 0 }
@@ -76,8 +76,8 @@ CZE = {
 	color_ui = rgb { 54 167 156 }
 }
 SLO = {
-	color = rgb { 158  161  188 }
-	color_ui = rgb { 158  161  188 }
+	color = rgb { 150 150 188 }
+	color_ui = rgb { 150 155 185 }
 }
 HUN = {
 	color = rgb { 170 40 15 }
@@ -988,8 +988,8 @@ BRW = {
 	color_ui = rgb { 109 92 55 }
 }
 SHL = {
-	color = rgb { 220 150 158 }
-	color_ui = rgb { 220 150 158 }
+	color = rgb { 180 155 52 }
+	color_ui = rgb { 180 155 52 }
 }
 SLW = {
 	color = rgb { 220 150 158 }
