@@ -104,7 +104,10 @@ focus_tree = {
         prerequisite = { focus = FRA_continental_system }
         cost = 5
         ai_will_do = { factor = 2 }
-        completion_reward = { }
+        completion_reward = {
+            add_to_faction = ROM
+            give_guarantee = SLO
+        }
     }
 
     focus = {
@@ -170,6 +173,9 @@ focus_tree = {
         prerequisite = { focus = FRA_ally_the_greeks focus = FRA_a_friendship_with_the_turks }
         cost = 5
         ai_will_do = { factor = 2 }
+        available = {
+            has_war = no
+        }
         completion_reward = { 
             create_wargoal = {
                 type = puppet_wargoal_focus
@@ -187,6 +193,9 @@ focus_tree = {
         prerequisite = { focus = FRA_defend_the_mediterranean }
         cost = 5
         ai_will_do = { factor = 2 }
+        available = {
+            has_war = no
+        }
         completion_reward = {
             create_wargoal = {
                 type = annex_everything
@@ -205,6 +214,9 @@ focus_tree = {
         prerequisite = { focus = FRA_campaign_in_libya }
         cost = 5
         ai_will_do = { factor = 2 }
+        available = {
+            has_war = no
+        }
         completion_reward = { 
             create_wargoal = {
                 type = puppet_wargoal_focus
