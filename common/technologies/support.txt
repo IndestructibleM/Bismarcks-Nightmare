@@ -1996,6 +1996,11 @@ technologies = {
 			leads_to_tech = railway_gun
 			research_cost_coeff = 1
 		}
+		
+		path = {
+			leads_to_tech = walkers
+			research_cost_coeff = 1
+		}
 
 		research_cost = 1.5
 		start_year = 1925

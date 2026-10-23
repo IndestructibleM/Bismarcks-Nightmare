@@ -551,6 +551,15 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
+			
+			gridboxtype = {
+				name = "walkers_tree"
+				position = { x = 400 y = 1380 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+
+			
 
 		}
 
@@ -843,6 +852,7 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
+
 		}
 
 		containerWindowType = {
@@ -1138,7 +1148,6 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 				}
 			}
-
 
 			gridboxtype = {
 				name = "gwtank_chassis_tree"

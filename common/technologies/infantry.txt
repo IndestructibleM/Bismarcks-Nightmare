@@ -492,7 +492,7 @@ technologies = {
 		start_year = 1928
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = @1928 }
+			position = { x = 4 y = @1928 }
 		}
 
 		on_research_complete_limit = {
@@ -508,7 +508,7 @@ technologies = {
 		}
 
 		categories = {
-			stoormtroopers_tech
+			stormtroopers_tech
 			cat_special_forces_generic
 		}
 
@@ -533,11 +533,11 @@ technologies = {
 		start_year = 1930
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = @1930 }
+			position = { x = 4 y = @1930 }
 		}
 
 		categories = {
-			stoormtroopers_tech
+			stormtroopers_tech
 			cat_special_forces_generic
 		}
 
@@ -582,11 +582,11 @@ technologies = {
 		start_year = 1932
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = @1932 }
+			position = { x = 4 y = @1932 }
 		}
 
 		categories = {
-			stoormtroopers_tech
+			stormtroopers_tech
 			cat_special_forces_generic
 		}
 
@@ -630,11 +630,11 @@ technologies = {
 		start_year = 1934
 		folder = {
 			name = infantry_folder
-			position = { x = 3 y = @1934 }
+			position = { x = 4 y = @1934 }
 		}
 
 		categories = {
-			stoormtroopers_tech
+			stormtroopers_tech
 			cat_special_forces_generic
 		}
 

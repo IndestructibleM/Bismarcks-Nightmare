@@ -1,5 +1,113 @@
 technologies = {
-	### GERMAN TANK NAMES IN COMMENTS SO YOU CAN FIND STUFF MORE EASILY
+	walkers = {
+
+		enable_equipments = {
+			walker_chassis_0
+		}
+		enable_subunits = { 
+			walkers_light
+		}
+
+		path = {
+			leads_to_tech = walkers_2
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1929
+		folder = {
+			name = support_folder
+			position = { x = 2 y = 8 }
+		}
+
+		ai_will_do = {
+			base = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "1926.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "1927.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "1928.1.1"
+			}
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_light_armor
+			walkers_tech
+			mio_cat_tech_light_armor_and_modules
+		}
+
+		special_project_specialization = { specialization_land }
+	}
+	
+	walkers_2 = {
+
+		walkers_light = {
+			soft_attack = 0.05
+			breakthrough = 0.05
+			urban = {
+				attack = 0.15
+				defence = 0.15
+			}
+		}
+
+		research_cost = 1.5
+		start_year = 1931
+		folder = {
+			name = support_folder
+			position = { x = 2 y = 13 }
+		}
+
+		ai_will_do = {
+			base = 1
+
+			modifier = {
+				factor = 2
+				is_major = yes
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "1926.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "1927.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "1928.1.1"
+			}
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+			cat_light_armor
+			walkers_tech
+			mio_cat_tech_light_armor_and_modules
+		}
+
+		special_project_specialization = { specialization_land }
+	}
+	
 	gwtank = { #Leichttraktor
 
 		enable_equipments = {
