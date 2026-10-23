@@ -6,8 +6,8 @@ state={
 		16189 
 	}
 	history={
-		owner = ITA
-		owner = TUR		add_core_of = LBA
+		owner = LBA		
+		add_core_of = LBA
 		buildings = {
 			infrastructure = 0
 

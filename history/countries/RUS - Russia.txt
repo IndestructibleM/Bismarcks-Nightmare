@@ -110,7 +110,7 @@ if = {
 set_convoys = 50
 
 set_politics = {
-	ruling_party = despotism
+	ruling_party = reactionism
 	last_election = "1933.7.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -129,11 +129,11 @@ set_autonomy = {
 set_popularities = {
 	liberalism = 10
 	conservative = 12
-	reactionism = 21
+	reactionism = 40
 	ultranationalism = 10
 	communism = 2
 	socialism = 3
-	despotism = 42
+	despotism = 23
 }
 
 every_state = {

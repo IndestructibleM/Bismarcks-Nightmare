@@ -178,7 +178,7 @@ focus_tree = {
         }
         completion_reward = { 
             create_wargoal = {
-                type = puppet_wargoal_focus
+                type = annex_everything
                 target = JOR
             }
         }

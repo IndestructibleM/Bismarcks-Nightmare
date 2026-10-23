@@ -130,8 +130,8 @@ characters={
 				large="gfx/leaders/RUS/Portrait_RUS_Nicholas_romanov.png"
 			}		
 		}
-		country_leader={
-			ideology=monarchism
+		country_leader= {
+			ideology = reactionary_nationalism
 			traits={  }
 			expire="1965.1.1.1"
 			id=-1
