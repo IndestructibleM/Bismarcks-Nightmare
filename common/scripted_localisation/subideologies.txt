@@ -115,9 +115,9 @@ defined_text = {
 	}
 	text = {
 		trigger = {
-			has_country_leader_ideology = conservatism_n
+			has_country_leader_ideology = kemalism
 		}
-		localization_key = conservatism_n
+		localization_key = Kemalism
 	}
 	text = {
 		trigger = {
