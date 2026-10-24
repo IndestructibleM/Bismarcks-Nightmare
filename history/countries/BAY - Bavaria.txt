@@ -1,5 +1,7 @@
 ﻿capital = 1790
 
+set_oob = "AUS_1936"
+
 set_research_slots = 3
 
 recruit_character = BAY_crown_prince_rupprecht

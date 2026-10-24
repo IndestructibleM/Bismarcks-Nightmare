@@ -89,6 +89,8 @@ if = {
 #	}
 #}
 
+puppet = BNT
+
 #Start Horty as neutral if DOD
 recruit_character = HUN_miklos_horthy
 recruit_character = HUN_matyas_rakosi
