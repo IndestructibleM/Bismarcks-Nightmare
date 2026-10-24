@@ -386,7 +386,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_ideas = gen_proletariat_democracy_idea
-			add_ideas = council_democracy
+			add_ideas = soviet_democracy
 		}
 	}
 	focus = {
@@ -427,7 +427,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = gen_socialism_unites_human_race }
 		completion_reward = {
-			add_ideas = party_state
+			add_ideas = partystate
 			add_ideas = gen_proletariat_dictatorship_idea
 		}
 	}

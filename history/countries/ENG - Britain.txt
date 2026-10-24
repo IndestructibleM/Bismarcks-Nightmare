@@ -238,7 +238,7 @@ if = {
 	}
 	set_autonomy = {
 		target = EGY
-		autonomous_state = autonomy_dominion
+		autonomous_state = autonomy_colony
 					 
 	}
 	set_autonomy = {

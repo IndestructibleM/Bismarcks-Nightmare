@@ -44,12 +44,40 @@ create_country_leader = {
 	}
 }
 
-puppet = SYR
-puppet = IRQ
-puppet = LEB
-puppet = PAL
-puppet = JBS
-puppet = HJZ
+set_autonomy = {
+	target = SYR
+	autonomous_state = autonomy_integrated_puppet
+}
+
+set_autonomy = {
+	target = IRQ
+	autonomous_state = autonomy_integrated_puppet
+}
+
+set_autonomy = {
+	target = LEB
+	autonomous_state = autonomy_integrated_puppet
+}
+
+set_autonomy = {
+	target = PAL
+	autonomous_state = autonomy_integrated_puppet
+}
+
+set_autonomy = {
+	target = JBS
+	autonomous_state = autonomy_integrated_puppet
+}
+
+set_autonomy = {
+	target = HJZ
+	autonomous_state = autonomy_integrated_puppet
+}
+
+set_autonomy = {
+	target = ALW
+	autonomous_state = autonomy_integrated_puppet
+}
 
 create_country_leader = {
 	name = "Saeed Ahmadi"
