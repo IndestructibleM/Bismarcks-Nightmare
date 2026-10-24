@@ -37,6 +37,10 @@ HOL = {
 	color = rgb { 215 110 0 }
 	color_ui = rgb { 215 110 0 }
 }
+NLD = {
+	color = rgb { 190 50 45 }
+	color_ui = rgb { 190 50 45 }
+}
 ENG = {
 	color = rgb { 180 0 0 }
 	color_ui = rgb { 180 0 0 }

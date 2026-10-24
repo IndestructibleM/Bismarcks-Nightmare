@@ -9,8 +9,9 @@ state={
 		steel=4.000
 	}
 	history={
-		owner = HOL
+		owner = NLD
 		add_core_of = HOL
+		add_core_of = NLD
 		buildings = {
 			infrastructure = 4
 			11729 = { naval_base = 6 }

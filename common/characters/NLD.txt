@@ -1,0 +1,106 @@
+characters = {
+	NLD_pieter_jelles_troelstra = {
+		name = NLD_pieter_jelles_troelstra
+		portraits = {
+			civilian = {
+				large = GFX_portrait_NLD_pieter_jelles_troelstra
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			traits = { }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+
+	NLD_anton_pannekoek = {
+		name = NLD_anton_pannekoek
+		portraits = {
+			civilian = {
+				large = GFX_portrait_NLD_anton_pannekoek
+			}
+		}
+		country_leader = {
+			ideology = marxism
+			traits = { }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+
+	NLD_samuel_van_houten = {
+		name = NLD_samuel_van_houten
+		portraits = {
+			civilian = {
+				large = GFX_portrait_NLD_samuel_van_houten
+			}
+		}
+		country_leader = {
+			ideology = populism
+			traits = { }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+
+	NLD_pieter_van_vliet = {
+		name = NLD_pieter_van_vliet
+		portraits = {
+			civilian = {
+				large = GFX_portrait_NLD_pieter_van_vliet
+			}
+		}
+		country_leader = {
+			ideology = social_conservative
+			traits = { }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+
+	NLD_pierre_versteegh = {
+		name = NLD_pierre_versteegh
+		portraits = {
+			civilian = {
+				large = GFX_portrait_NLD_pierre_versteegh
+			}
+		}
+		country_leader = {
+			ideology = moderatism
+			traits = { }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+
+	NLD_gerrit_hendrik_kersten = {
+		name = NLD_gerrit_hendrik_kersten
+		portraits = {
+			civilian = {
+				large = GFX_portrait_NLD_gerrit_hendrik_kersten
+			}
+		}
+		country_leader = {
+			ideology = reactionary_nationalism
+			traits = { }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+
+	NLD_hugo_sinclair_de_rochemont = {
+		name = NLD_hugo_sinclair_de_rochemont
+		portraits = {
+			civilian = {
+				large = GFX_portrait_NLD_hugo_sinclair_de_rochemont
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			traits = { }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+}

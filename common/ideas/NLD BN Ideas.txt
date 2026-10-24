@@ -1,0 +1,62 @@
+ideas = {
+	country = {
+		NLD_eel_riot_legacy = {
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				political_power_gain = 0.15
+				stability_factor = 0.1
+				war_support_factor = 0.05
+				socialism_drift = 0.02
+				communism_drift = 0.02
+			}
+			picture = home_of_revolution
+		}
+
+		NLD_railways_and_canals = {
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				industrial_capacity_factory = -0.1
+				production_speed_industrial_complex_factor = -0.15
+				production_speed_arms_factory_factor = -0.15
+				production_speed_infrastructure_factor = 0.3
+				production_speed_rail_way_factor = 0.3
+				production_speed_dockyard_factor = 0.1
+			}
+			picture = generic_railroads
+		}
+
+		NLD_whos_in_charge = {
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				political_power_factor = -0.15
+				stability_factor = -0.1
+			}
+			picture = SPR_anarchist_society
+		}
+
+		NLD_german_support = {
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				army_morale_factor = 0.1
+				army_org_factor = -0.1
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+				command_power_gain_mult = -0.1
+				trade_opinion_factor = -0.25
+				research_speed_factor = -0.03
+				stability_factor = -0.05
+				war_support_factor = -0.05
+				political_power_factor = -0.05
+			}
+			picture = german_advisors
+		}
+	}
+}

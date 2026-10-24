@@ -60,7 +60,7 @@ characters={
 		name=HOL_pieter_sjoerds_gerbrandy
 		country_leader={
 			expire = "1965.1.1"
-			ideology = conservatism
+			ideology = social_conservative
 			traits = {
 				little_churchill
 			}
@@ -76,7 +76,7 @@ characters={
 		gender = female 
 		country_leader={
 			expire = "1965.1.1"
-			ideology = centrism
+			ideology = monarchism
 			traits = {
 				wilhelmina
 				disdain_for_politicians_1
@@ -804,6 +804,98 @@ characters={
 			army={
 				small="GFX_idea_HOL_meinout_rost_van_tonningen"
 			}
+		}
+	}
+
+
+	HOL_anton_pannekoek = {
+		name = HOL_anton_pannekoek
+		portraits = {
+			civilian = {
+				large = GFX_portrait_HOL_anton_pannekoek
+			}
+		}
+		country_leader = {
+			ideology = marxism
+			traits = { }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+
+	HOL_pieter_jelles_troelstra = {
+		name = HOL_pieter_jelles_troelstra
+		portraits = {
+			civilian = {
+				large = GFX_portrait_HOL_pieter_jelles_troelstra
+			}
+		}
+		country_leader = {
+			ideology = democratic_socialism
+			traits = { }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+
+	HOL_pieter_cort_van_der_linden = { 
+		name = HOL_pieter_cort_van_der_linden
+		portraits = {
+			civilian = {
+				large = GFX_portrait_HOL_pieter_cort_van_der_linden
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			traits = { }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+
+	HOL_gerrit_hendrik_kersten = { 
+		name = HOL_gerrit_hendrik_kersten
+		portraits = {
+			civilian = {
+				large = GFX_portrait_HOL_gerrit_hendrik_kersten
+			}
+		}
+		country_leader = {
+			ideology = reactionary_nationalism
+			traits = { }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+
+	HOL_hugo_sinclair_de_rochemont = {
+		name = HOL_hugo_sinclair_de_rochemont
+		portraits = {
+			civilian = {
+				large = GFX_portrait_HOL_hugo_sinclair_de_rochemont
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			traits = { }
+			expire = "1965.1.1.1"
+			id = -1
+		}
+	}
+
+	HOL_cornelis_jacobus_snijders = {
+		name = HOL_cornelis_jacobus_snijders
+		portraits = {
+			civilian = {
+				large = GFX_portrait_HOL_cornelis_jacobus_snijders
+				small = GFX_portrait_HOL_cornelis_jacobus_snijders_small
+			}
+		}
+		advisor = {
+			slot = second_command
+			idea_token = HOL_cornelis_jacobus_snijders_hog
+			traits = { }
+			can_be_fired = no
 		}
 	}
 }

@@ -1,0 +1,14 @@
+﻿air_wings = {
+	358 = {
+		small_plane_airframe_0 = {
+			owner = "NLD"
+			amount = 12
+			version_name = "Fokker D.XVI"
+		}
+		medium_plane_airframe_0 = {
+			owner = "NLD"
+			amount = 12
+			version_name = "Fokker T.IV"
+		}
+	}
+}

@@ -1,0 +1,61 @@
+ideas = {
+	country = {
+		HOL_beloved_queen = {
+			allowed_civil_war = {
+				always = yes
+			}
+			# TODO: remove when Wilhelmina dies
+			modifier = {
+				political_power_gain = 0.1
+				stability_factor = 0.1
+				war_support_factor = 0.05
+			}
+			picture = HOL_wilhelmina_ns
+		}
+
+		HOL_illegitimate_state = {
+			allowed_civil_war = {
+				always = yes
+			}
+			# Goes away once the Kingdom is back in Amsterdam and The Hague
+			cancel = {
+				owns_state = 358
+				owns_state = 402
+			}
+			modifier = {
+				political_power_factor = -0.15
+				trade_opinion_factor = -0.15
+				opinion_gain_monthly_factor = -0.2
+				stability_factor = -0.05
+			}
+			picture = man_low_legitimacy
+		}
+
+		HOL_bankrupt_army = {
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+				training_time_army_factor = -0.1
+				experience_gain_army_factor = 0.1
+				consumer_goods_factor = 0.1
+				production_speed_buildings_factor = -0.15
+			}
+			picture = hol_expand_the_colonial_army
+		}
+
+		HOL_protestant_vs_catholics = {
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				stability_factor = -0.1
+				political_power_factor = -0.05
+				conscription_factor = -0.1
+			}
+			picture = hol_depillarization
+		}
+	}
+}

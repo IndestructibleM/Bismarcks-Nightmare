@@ -1,4 +1,4 @@
-﻿capital = 358
+﻿capital = 2845
 
 oob = "HOL_1936"
 if = {
@@ -33,8 +33,8 @@ every_owned_state = {
 }
 
 set_research_slots = 3
-set_stability = 0.75
-set_war_support = 0
+set_stability = 0.5
+set_war_support = 0.55
 add_command_power = 10
 
 set_technology = {
@@ -89,76 +89,60 @@ if = {
 	}
 }
 
-set_variable = { var = gateway_to_europe_influence_pp_total value = 0 }
-
-add_ideas = {
-	HOL_wilhelmina
-}
-
 2975 = {
 	add_dynamic_modifier = { modifier = colonies_modifier }
 }
 
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	add_ideas = {
-		HOL_aloof_neutrality
-		HOL_shell_shocked_spectator_5
-		HOL_de_crisisjaren_5
-		HOL_weak_government
-	}
+add_ideas = {
+	HOL_beloved_queen
+	HOL_illegitimate_state
+	HOL_bankrupt_army
+	HOL_protestant_vs_catholics
 }
-
-recruit_character = HOL_hendrikus_colijn
-recruit_character = HOL_anton_mussert
-recruit_character = HOL_lou_de_visser
-recruit_character = HOL_willem_schermerhorn
-recruit_character = HOL_izaak_reijnders
-recruit_character = HOL_petrus_wilhelmus_best
-recruit_character = HOL_godfried_van_voorst_tot_voorst
-recruit_character = HOL_johannes_theodorus_furstner
-recruit_character = HOL_conrad_helfrich
-recruit_character = HOL_karel_doorman
-recruit_character = HOL_charles_douw_van_der_krap
-recruit_character = HOL_nico_van_straten
-recruit_character = HOL_hein_ter_poorten
-recruit_character = HOL_adrianus_rudolphus_van_den_bent
-recruit_character = HOL_hendrik_van_oyen
-recruit_character = HOL_hendrik_seyffardt
-recruit_character = HOL_henri_winkelman
-recruit_character = HOL_maarten_belzer
-recruit_character = HOL_marius_raaijmakers
-recruit_character = HOL_saul_de_groot
-recruit_character = HOL_antonie_pannekoek
-recruit_character = HOL_walraven_van_hall
-recruit_character = HOL_jacob_adriaan_de_wilde
-recruit_character = HOL_anton_de_kom
-recruit_character = HOL_jan_goudriaan
-recruit_character = HOL_adriaan_dijxhoorn
-recruit_character = HOL_prince_bernhard
-recruit_character = HOL_cornelis_van_geelkerken
-recruit_character = HOL_meinout_rost_van_tonningen
-recruit_character = HOL_dirk_jan_de_geer
-recruit_character = HOL_pieter_sjoerds_gerbrandy
-recruit_character = HOL_wilhelmina
-
 
 set_politics = {
-	ruling_party = liberalism
-	last_election = "1933.4.26"
+	ruling_party = despotism
+	last_election = "1922.7.5"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	liberalism = 93
-	ultranationalism = 4
+	despotism = 35
+	conservative = 25
+	liberalism = 15
+	reactionism = 12
+	ultranationalism = 5
+	socialism = 5
 	communism = 3
 }
 
 set_convoys = 150
-set_stability = 0.75
+
+recruit_character = HOL_wilhelmina
+recruit_character = HOL_cornelis_jacobus_snijder
+recruit_character = HOL_anton_pannekoek
+recruit_character = HOL_pieter_jelles_troelstra
+recruit_character = HOL_pieter_cort_van_der_linden
+recruit_character = HOL_pieter_sjoerds_gerbrandy
+recruit_character = HOL_gerrit_hendrik_kersten
+recruit_character = HOL_hugo_sinclair_de_rochemont
+
+activate_advisor = HOL_cornelis_jacobus_snijders_hog
+
+recruit_character = HOL_izaak_reijnders
+recruit_character = HOL_petrus_wilhelmus_best
+recruit_character = HOL_godfried_van_voorst_tot_voorst
+recruit_character = HOL_henri_winkelman
+recruit_character = HOL_johannes_theodorus_furstner
+recruit_character = HOL_conrad_helfrich
+recruit_character = HOL_karel_doorman
+recruit_character = HOL_charles_douw_van_der_krap
+recruit_character = HOL_hein_ter_poorten
+recruit_character = HOL_adrianus_rudolphus_van_den_bent
+recruit_character = HOL_hendrik_van_oyen
+recruit_character = HOL_hendrik_seyffardt
+recruit_character = HOL_prince_bernhard
+recruit_character = HOL_adriaan_dijxhoorn
 
 
 ### VARIANTS ###

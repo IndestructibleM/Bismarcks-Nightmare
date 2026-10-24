@@ -1,0 +1,84 @@
+division_template = {
+	name = "Volksdivisie"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Communale Militie"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+	}
+	priority = 0
+}
+
+units = {
+	division = {
+		name = "1e Volksdivisie 'Domela Nieuwenhuis'"
+		location = 11729  # Amsterdam
+		division_template = "Volksdivisie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "2e Volksdivisie"
+		location = 1809  # The Hague
+		division_template = "Volksdivisie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "3e Volksdivisie"
+		location = 11886  # Rotterdam
+		division_template = "Volksdivisie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "4e Volksdivisie"
+		location = 11312  # Groningen
+		division_template = "Volksdivisie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+
+	### Commune militias ###
+	division = {
+		name = "Jordaan Communale Militie"
+		location = 11729  # Amsterdam
+		division_template = "Communale Militie"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.4
+	}
+	division = {
+		name = "Friese Communale Militie"
+		location = 11364  # Friesland
+		division_template = "Communale Militie"
+		start_experience_factor = 0.05
+		start_equipment_factor = 0.4
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "NLD"
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 100
+	}
+}

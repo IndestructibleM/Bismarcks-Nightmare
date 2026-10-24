@@ -1,0 +1,71 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_portrait_NLD_pieter_jelles_troelstra"
+		texturefile = "gfx/leaders/HOL/Portrait_Pieter_Jelles_Troelstra.png"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_NLD_anton_pannekoek"
+		texturefile = "gfx/leaders/HOL/Portrait_Anton_Pannekoek.png"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_NLD_samuel_van_houten"
+		texturefile = "gfx/leaders/HOL/Portrait_Samuel_Van_Houten.png"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_NLD_pieter_van_vliet"
+		texturefile = "gfx/leaders/HOL/Portrait_Pieter_Van_Vliet.png"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_NLD_pierre_versteegh"
+		texturefile = "gfx/leaders/HOL/Portrait_Pierre_Versteegh.png"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_NLD_gerrit_hendrik_kersten"
+		texturefile = "gfx/leaders/HOL/Portrait_Gerrit_Hendrik_Kersten.png"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_NLD_hugo_sinclair_de_rochemont"
+		texturefile = "gfx/leaders/HOL/Portrait_Hugo_Sinclair_De_Rochemont.png"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_HOL_anton_pannekoek"
+		texturefile = "gfx/leaders/HOL/Portrait_Anton_Pannekoek.png"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_HOL_pieter_jelles_troelstra"
+		texturefile = "gfx/leaders/HOL/Portrait_Pieter_Jelles_Troelstra.png"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_HOL_pieter_cort_van_der_linden"
+		texturefile = "gfx/leaders/HOL/Portrait_Pieter_Cort_Van_Der_Linden.png"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_HOL_gerrit_hendrik_kersten"
+		texturefile = "gfx/leaders/HOL/Portrait_Gerrit_Hendrik_Kersten.png"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_HOL_hugo_sinclair_de_rochemont"
+		texturefile = "gfx/leaders/HOL/Portrait_Hugo_Sinclair_De_Rochemont.png"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_HOL_cornelis_jacobus_snijders"
+		texturefile = "gfx/leaders/HOL/Portrait_Cornelis_Jacobus_Snijders.png"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_HOL_cornelis_jacobus_snijders_small"
+		texturefile = "gfx/interface/advisors/HOL_Cornelis_Jacobus_Snijders_advisor.png"
+	}
+}

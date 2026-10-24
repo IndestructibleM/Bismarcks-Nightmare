@@ -1,0 +1,27 @@
+﻿units = {
+
+	##### NAVAL UNITS #####
+	fleet = {
+		name = "Volksmarine"			
+		naval_base = 11729  # Amsterdam
+		task_force = {				
+			name = "Volksvloot"			
+			location = 11729  # Amsterdam
+			ship = { name = "Hertog Hendrik" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = NLD version_name = "Hertog Hendrik Class" } } }		
+			ship = { name = "Jacob van Heemskerck" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = NLD version_name = "Soerabaja Class" } } }		
+			ship = { name = "Van Galen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NLD version_name = "Van Galen Class" } } }		
+		}				
+		task_force = {				
+			name = "Onderzeeboot Smaldeel"			
+			location = 11729  # Amsterdam
+			ship = { name = "O-8" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NLD version_name = "K-III Class" } } }
+			ship = { name = "O-9" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NLD version_name = "O9 Class" } } }
+			ship = { name = "O-10" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NLD version_name = "O9 Class" } } }
+			ship = { name = "O-11" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NLD version_name = "O9 Class" } } }
+			ship = { name = "O-12" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NLD version_name = "O9 Class" } } }
+			ship = { name = "O-13" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NLD version_name = "O9 Class" } } }
+			ship = { name = "O-14" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NLD version_name = "O9 Class" } } }
+			ship = { name = "O-15" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NLD version_name = "O9 Class" } } }
+		}				
+	}
+}
