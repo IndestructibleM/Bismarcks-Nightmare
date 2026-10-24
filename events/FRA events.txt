@@ -15,12 +15,12 @@ country_event = {
 
 	option = { 
 		name = francediplo.1.a
-		white_peace = GER
 		set_politics = {
 			ruling_party = socialism
 		}
 		add_popularity = { ideology = socialism popularity = 0.2 }
 		dismantle_faction = yes
+		white_peace = GER
 		set_cosmetic_tag = FRA_republic
 		release = FLA
 		release = WLN

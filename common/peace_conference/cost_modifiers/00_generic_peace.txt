@@ -18,7 +18,7 @@ peace_action_modifiers = {
             }
         }
 
-        cost_multiplier = 0.25 # Reduced by ~75%
+        cost_multiplier = 0.1 # Reduced by ~75%
     }
 
 
@@ -31,7 +31,7 @@ peace_action_modifiers = {
             ROOT.FROM = { pc_is_puppeted = yes } # Taker is puppet or will be
         }
 
-        cost_multiplier = 0.5
+        cost_multiplier = 0.1
     }
 
     # State isn't Core of losing country - cheaper to take colonies
@@ -44,7 +44,7 @@ peace_action_modifiers = {
             NOT = { FROM.FROM.FROM = { is_core_of = ROOT.FROM.FROM } }
         }
 
-        cost_multiplier = 0.95 # Reduced by 5%
+        cost_multiplier = 0.80 # Reduced by 5%
     }
 
 
@@ -61,7 +61,7 @@ peace_action_modifiers = {
             }
         }
 
-        cost_multiplier = 0.9
+        cost_multiplier = 0.25
     }
 
 
@@ -76,7 +76,7 @@ peace_action_modifiers = {
 				compliance > 0 #To prevent capitulation-occupation kicking in
 			}
         }
-        cost_multiplier = 0.80
+        cost_multiplier = 0.4
     }
 
 
