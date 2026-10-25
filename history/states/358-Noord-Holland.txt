@@ -9,7 +9,7 @@ state={
 		steel=4.000
 	}
 	history={
-		owner = NLD
+		owner = HOL
 		add_core_of = HOL
 		add_core_of = NLD
 		buildings = {
