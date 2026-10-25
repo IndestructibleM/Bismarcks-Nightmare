@@ -9,6 +9,287 @@
 # that'll be used if trigger passes
 
 defined_text = { # Country
+	name = GER_industrial_support
+	text = {
+		trigger = {
+			original_tag = GER
+			check_variable = {
+				industrial_workers < 2
+			}
+		}
+		localization_key = GER_industrial_workers_low
+
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+			check_variable = {
+				industrial_workers < 3
+			} 
+			check_variable = {
+				industrial_workers > 1.9
+			}
+		}
+		localization_key = GER_industrial_workers_medium
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+			check_variable = {
+				industrial_workers = 3
+			}
+		}
+		localization_key = GER_industrial_workers_high
+	}
+}
+
+defined_text = { # Country
+	name = GER_rural_support
+	text = {
+		trigger = {
+			original_tag = GER
+				check_variable = {
+					rural_workers < 2
+				}
+			}
+		localization_key = GER_rural_workers_low
+
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+				check_variable = {
+					rural_workers < 3
+				} 
+				check_variable = {
+					rural_workers > 1.9
+				}
+		}
+		localization_key = GER_rural_workers_medium
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+			check_variable = {
+				rural_workers = 3
+			}
+		}
+		localization_key = GER_rural_workers_high
+	}
+}
+
+
+defined_text = { # Country
+	name = GER_soldier_support
+	text = {
+		trigger = {
+			original_tag = GER
+				check_variable = {
+					soldiers < 2
+				}
+		}
+		localization_key = GER_soldiers_low
+
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+				check_variable = {
+					soldiers < 3
+				} 
+				check_variable = {
+					soldiers > 1.9
+				}
+		}
+		localization_key = GER_soldiers_medium
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+			check_variable = {
+				soldiers = 3
+			}
+		}
+		localization_key = GER_soldiers_high
+	}
+}
+
+defined_text = { # Country
+	name = GER_engineers_support
+	text = {
+		trigger = {
+			original_tag = GER
+			check_variable = {
+				engineers < 2
+			}
+		}
+		localization_key = GER_engineers_low
+
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+				check_variable = {
+					engineers < 3
+				} 
+				check_variable = {
+					engineers > 1.9
+				}
+		}
+		localization_key = GER_engineers_medium
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+			check_variable = {
+				engineers = 3
+			}
+		}
+		localization_key = GER_engineers_high
+	}
+}
+
+defined_text = { # Country
+	name = GER_farmers_support
+	text = {
+		trigger = {
+			original_tag = GER
+			check_variable = {
+				farmers < 2
+			}
+		}
+		localization_key = GER_farmers_low
+
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+			check_variable = {
+				farmers < 3
+			} 
+			check_variable = {
+				farmers > 1.9
+			}
+		}
+		localization_key = GER_farmers_medium
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+			check_variable = {
+				farmers = 3
+			}
+		}
+		localization_key = GER_farmers_high
+	}
+}
+
+defined_text = { # Country
+	name = GER_intellectual_support
+	text = {
+		trigger = {
+			original_tag = GER
+			check_variable = {
+				intellectuals < 2
+			}
+		}
+		localization_key = GER_intellectuals_low
+
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+				check_variable = {
+					intellectuals < 3
+				} 
+				check_variable = {
+					intellectuals > 1.9
+				}
+		}
+		localization_key = GER_intellectuals_medium
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+			check_variable = {
+				intellectuals = 3
+			}
+		}
+		localization_key = GER_intellectuals_high
+	}
+}
+
+defined_text = { # Country
+	name = GER_civil_servant_support
+	text = {
+		trigger = {
+			original_tag = GER
+			check_variable = {
+				civil_servants < 2
+			}
+		}
+		localization_key = GER_civil_servants_low
+
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+				check_variable = {
+					civil_servants < 3
+				} 
+				check_variable = {
+					civil_servants > 1.9
+				}
+		}
+		localization_key = GER_civil_servants_medium
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+			check_variable = {
+				civil_servants = 3
+			}
+		}
+		localization_key = GER_civil_servants_high
+	}
+}
+
+defined_text = { # Country
+	name = GER_sailors_support
+	text = {
+		trigger = {
+			original_tag = GER
+				check_variable = {
+					sailors < 2
+				}
+		}
+		localization_key = GER_sailors_low
+
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+				check_variable = {
+					sailors < 3
+				} 
+				check_variable = {
+					sailors > 1.9
+				}
+		}
+		localization_key = GER_sailors_medium
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+			check_variable = {
+				sailors = 3
+			}
+		}
+		localization_key = GER_sailors_high
+	}
+}
+
+defined_text = { # Country
 	name = GetKdfWagenName
 	text = {
 		trigger = {

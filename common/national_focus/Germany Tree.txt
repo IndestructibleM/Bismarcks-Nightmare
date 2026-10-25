@@ -167,6 +167,9 @@ focus_tree = {
 		completion_reward = {
 			add_popularity = { ideology = communism popularity = 0.05 }
 			add_popularity = { ideology = socialism popularity = 0.05 }
+            support_councilist_side = yes
+            support_internationalist_side = yes
+            support_revolutionary_side = yes
 		}
 	}
 
@@ -186,7 +189,10 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_popularity = { ideology = liberalism popularity = 0.075 }
-			add_popularity = { ideology = socialism popularity = 0.035 }
+			add_popularity = { ideology = socialism popularity = 0.05 }
+            support_nationalist_side = yes
+            support_statist_side = yes
+            support_reformist_side = yes
 		}
 	}
 

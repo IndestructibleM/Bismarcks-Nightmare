@@ -1,201 +1,214 @@
 
 #Important to put HIGHEST first
-GER_mefo_bills_level_up = {
-	if = {
-		limit = { has_idea = GER_mefo_bills_17 }
-		swap_ideas = {
-			remove_idea = GER_mefo_bills_17
-			add_idea = GER_mefo_bills_18
-		}
+support_nationalist_side = {
+	add_to_variable = {
+		civil_servants = 0.5
 	}
-	else_if = {
-		limit = { has_idea = GER_mefo_bills_16 }
-		swap_ideas = {
-			remove_idea = GER_mefo_bills_16
-			add_idea = GER_mefo_bills_17
-		}
+	add_to_variable = {
+		industrial_workers = 0.5
 	}
-	else_if = {
-		limit = { has_idea = GER_mefo_bills_15 }
-		swap_ideas = {
-			remove_idea = GER_mefo_bills_15
-			add_idea = GER_mefo_bills_16
-		}		
+	add_to_variable = {
+		farmers = 0.5
 	}
-	else_if = {
-		limit = { has_idea = GER_mefo_bills_14 }
-		swap_ideas = {
-			remove_idea = GER_mefo_bills_14
-			add_idea = GER_mefo_bills_15
-		}
+	add_to_variable = {
+		rural_workers = 0.5
 	}
-	else_if = {
-		limit = { has_idea = GER_mefo_bills_13 }
-		swap_ideas = {
-			remove_idea = GER_mefo_bills_13
-			add_idea = GER_mefo_bills_14
-		}
+	clamp_variable = {
+		var = civil_servants
+		max = 3
+		min = 1
 	}
-	else_if = {
-		limit = { has_idea = GER_mefo_bills_12 }
-		swap_ideas = {
-			remove_idea = GER_mefo_bills_12
-			add_idea = GER_mefo_bills_13
-		}
+	clamp_variable = {
+		var = industrial_workers
+		max = 3
+		min = 1
 	}
-	else_if = {
-		limit = { has_idea = GER_mefo_bills_11 }
-		swap_ideas = {
-			remove_idea = GER_mefo_bills_11
-			add_idea = GER_mefo_bills_12
-		}		
+	clamp_variable = {
+		var = farmers
+		max = 3
+		min = 1
 	}
-	else_if = {
-		limit = { has_idea = GER_mefo_bills_10 }
-		swap_ideas = {
-			remove_idea = GER_mefo_bills_10
-			add_idea = GER_mefo_bills_11
-		}
+	clamp_variable = {
+		var = rural_workers
+		max = 3
+		min = 1
 	}
-	else_if = {
-		limit = { has_idea = GER_mefo_bills_9 }
-		swap_ideas = {
-			remove_idea = GER_mefo_bills_9
-			add_idea = GER_mefo_bills_10
-		}
-	}
-	else_if = {
-		limit = { has_idea = GER_mefo_bills_8 }
-		swap_ideas = {
-			remove_idea = GER_mefo_bills_8
-			add_idea = GER_mefo_bills_9
-		}
-	}
-	else_if = {
-		limit = { has_idea = GER_mefo_bills_7 }
-		swap_ideas = {
-			remove_idea = GER_mefo_bills_7
-			add_idea = GER_mefo_bills_8
-		}		
-	}
-	else_if = {
-		limit = { has_idea = GER_mefo_bills_6 }
-		swap_ideas = {
-			remove_idea = GER_mefo_bills_6
-			add_idea = GER_mefo_bills_7
-		}
-	}
-	else_if = {
-		limit = { has_idea = GER_mefo_bills_5 }
-		swap_ideas = {
-			remove_idea = GER_mefo_bills_5
-			add_idea = GER_mefo_bills_6
-		}
-	}
-	else_if = {
-		limit = { has_idea = GER_mefo_bills_4 }
-		swap_ideas = {
-			remove_idea = GER_mefo_bills_4
-			add_idea = GER_mefo_bills_5
-		}
-	}
-	else_if = {
-		limit = { has_idea = GER_mefo_bills_3 }
-		swap_ideas = {
-			remove_idea = GER_mefo_bills_3
-			add_idea = GER_mefo_bills_4
-		}		
-	}
-	else_if = {
-		limit = { has_idea = GER_mefo_bills_2 }
-		swap_ideas = {
-			remove_idea = GER_mefo_bills_2
-			add_idea = GER_mefo_bills_3
-		}
-	}
-	else_if = {
-		limit = { has_idea = GER_mefo_bills_1 }
-		swap_ideas = {
-			remove_idea = GER_mefo_bills_1
-			add_idea = GER_mefo_bills_2
-		}
-	}
+	custom_effect_tooltip = tt_support_nationalist_side
 }
-
-#Important to put HIGHEST first
-GER_remove_mefo_bills = { #TODO_Danne Remove this once the MEFO Bills have been converted to DM's
-	if = {
-		limit = { has_idea = GER_mefo_bills_1 }
-		remove_ideas = GER_mefo_bills_1
+support_internationalist_side = {
+	add_to_variable = {
+		soldiers = 0.5
 	}
-	else_if = {
-		limit = { has_idea = GER_mefo_bills_2 }
-		remove_ideas = GER_mefo_bills_2
+	add_to_variable = {
+		engineers = 0.5
 	}
-	else_if = {
-		limit = { has_idea = GER_mefo_bills_3 }
-		remove_ideas = GER_mefo_bills_3
+	add_to_variable = {
+		intellectuals = 0.5
 	}
-	else_if = {
-		limit = { has_idea = GER_mefo_bills_4 }
-		remove_ideas = GER_mefo_bills_4
+	add_to_variable = {
+		sailors = 0.5
 	}
-	else_if = {
-		limit = { has_idea = GER_mefo_bills_5 }
-		remove_ideas = GER_mefo_bills_5
+	clamp_variable = {
+		var = soldiers
+		max = 3
+		min = 1
 	}
-	else_if = {
-		limit = { has_idea = GER_mefo_bills_6 }
-		remove_ideas = GER_mefo_bills_6
+	clamp_variable = {
+		var = engineers
+		max = 3
+		min = 1
 	}
-	else_if = {
-		limit = { has_idea = GER_mefo_bills_7 }
-		remove_ideas = GER_mefo_bills_7
+	clamp_variable = {
+		var = intellectuals
+		max = 3
+		min = 1
 	}
-	else_if = {
-		limit = { has_idea = GER_mefo_bills_8 }
-		remove_ideas = GER_mefo_bills_8
+	clamp_variable = {
+		var = sailors
+		max = 3
+		min = 1
 	}
-	else_if = {
-		limit = { has_idea = GER_mefo_bills_9 }
-		remove_ideas = GER_mefo_bills_9
+	custom_effect_tooltip = tt_support_internationlist_side
+}
+support_reformist_side = {
+	add_to_variable = {
+		rural_workers = 0.5
 	}
-	else_if = {
-		limit = { has_idea = GER_mefo_bills_10 }
-		remove_ideas = GER_mefo_bills_10
+	add_to_variable = {
+		farmers = 0.5
 	}
-	else_if = {
-		limit = { has_idea = GER_mefo_bills_11 }
-		remove_ideas = GER_mefo_bills_11
+	add_to_variable = {
+		civil_servants = 0.5
 	}
-	else_if = {
-		limit = { has_idea = GER_mefo_bills_12 }
-		remove_ideas = GER_mefo_bills_12
+	clamp_variable = {
+		var = rural_workers
+		max = 3
+		min = 1
 	}
-	else_if = {
-		limit = { has_idea = GER_mefo_bills_13 }
-		remove_ideas = GER_mefo_bills_13
+	clamp_variable = {
+		var = farmers
+		max = 3
+		min = 1
 	}
-	else_if = {
-		limit = { has_idea = GER_mefo_bills_14 }
-		remove_ideas = GER_mefo_bills_14
+	clamp_variable = {
+		var = civil_servants
+		max = 3
+		min = 1
 	}
-	else_if = {
-		limit = { has_idea = GER_mefo_bills_15 }
-		remove_ideas = GER_mefo_bills_15
+	custom_effect_tooltip = tt_support_reformist_side
+}
+support_revolutionary_side = {
+	add_to_variable = {
+		soldiers = 0.5
 	}
-	else_if = {
-		limit = { has_idea = GER_mefo_bills_16 }
-		remove_ideas = GER_mefo_bills_16
+	add_to_variable = {
+		intellectuals = 0.5
 	}
-	else_if = {
-		limit = { has_idea = GER_mefo_bills_17 }
-		remove_ideas = GER_mefo_bills_17
+	add_to_variable = {
+		engineers = 0.5
 	}
-	else_if = {
-		limit = { has_idea = GER_mefo_bills_18 }
-		remove_ideas = GER_mefo_bills_18
+	add_to_variable = {
+		sailors = 0.5
 	}
+	add_to_variable = {
+		industrial_workers = 0.5
+	}
+	clamp_variable = {
+		var = soldiers
+		max = 3
+		min = 1
+	}
+	clamp_variable = {
+		var = intellectuals
+		max = 3
+		min = 1
+	}
+	clamp_variable = {
+		var = engineers
+		max = 3
+		min = 1
+	}
+	clamp_variable = {
+		var = sailors
+		max = 3
+		min = 1
+	}
+	clamp_variable = {
+		var = industrial_workers
+		max = 3
+		min = 1
+	}
+	custom_effect_tooltip = tt_support_revolutionary_side
+}
+support_statist_side = {
+	add_to_variable = {
+		civil_servants = 0.5
+	}
+	add_to_variable = {
+		intellectuals = 0.5
+	}
+	add_to_variable = {
+		engineers = 0.5
+	}
+	clamp_variable = {
+		var = engineers
+		max = 3
+		min = 1
+	}
+	clamp_variable = {
+		var = civil_servants
+		max = 3
+		min = 1
+	}
+	clamp_variable = {
+		var = intellectuals
+		max = 3
+		min = 1
+	}
+	custom_effect_tooltip = tt_support_statist_side
+}
+support_councilist_side = {
+	add_to_variable = {
+		soldiers = 0.5
+	}
+	add_to_variable = {
+		farmers = 0.5
+	}
+	add_to_variable = {
+		industrial_workers = 0.5
+	}
+	add_to_variable = {
+		rural_workers = 0.5
+	}
+	add_to_variable = {
+		sailors = 0.5
+	}
+	clamp_variable = {
+		var = soldiers
+		max = 3
+		min = 1
+	}
+	clamp_variable = {
+		var = farmers
+		max = 3
+		min = 1
+	}
+	clamp_variable = {
+		var = industrial_workers
+		max = 3
+		min = 1
+	}
+	clamp_variable = {
+		var = rural_workers
+		max = 3
+		min = 1
+	}
+	clamp_variable = {
+		var = sailors
+		max = 3
+		min = 1
+	}
+	custom_effect_tooltip = tt_support_councilist_side
 }
 
 give_SOV_armor_research_bonuses = { #this effect is run for the Soviets!

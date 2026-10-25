@@ -11,3 +11,11 @@ GER_pan_german_revolution_cat = {
 	}
 	priority = 20
 }
+
+GER_council_support_cat = {
+	icon = GFX_decision_category_generic_foreign_policy
+	allowed = {
+		original_tag = GER
+	}
+	priority = 30
+}

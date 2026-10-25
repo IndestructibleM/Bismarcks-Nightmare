@@ -112,4 +112,55 @@
  RedGer.1.d: "News comes from Berlin that the leader of Germany, Karl Kautsky, has officially announced his resignation from the central governing council by the end of the year. The reason given is Kautsky's advancing age and the increasing difficulties of governing a country at such an age. \n\nKarl Kautsky was known as the "Pope of Marxism." His orthodox and centrist approach to Marxism served as a guiding light for many within Germany. With his resignation, however, this faction of the SDAP (Social Democratic Workers' Party) appears to be coming to an end. His likely successor, Paul Levi, has refused to run against the "Red Prince" of the party and Kautsky's most likely successor, Karl Liebknecht. Levi's decision appears motivated by a desire to preserve unity within the party, which in recent years has become increasingly divided between reformist and radical factions. This division was further deepened by the departure of prominent reformist leader Eduard Bernstein, who left the party for the ADAV (All-German Workers' Association). \n\nLiebknecht himself formed his own faction within the SDAP, the Spartacists, in the wake of the Silesian War in 1916. The faction advocates more radical Marxist reforms than Kautsky's orthodox wing, particularly in foreign policy. The Spartacists argue that the German Revolution must be aggressively spread abroad. \n\nWith the orthodox faction of the SDAP effectively withdrawing from the succession struggle, a question now hangs over both the party and the country: does Germany truly desire the radical course that Karl Liebknecht promises? Or is this the chance for others to step into the gap left by Kautsky's resignation?"
  RedGer.1.a: "The Councils Begin to Murmur"
 
-GER_upcoming_elections: "Upcoming Chairman Elections"
+ GER_upcoming_elections: "Upcoming Chairman Elections"
+ GER_council_elections: "Regular Council Elections"
+ 
+ GER_council_support_cat: "The Clockwork of Councils"
+ GER_council_support_cat_desc: "Germany’s councils represent competing interests within the republic, each shaped by its position on the Internationalist-Nationalist, Statist-Councilist, and Revolutionary-Reformist axes. Through political decisions, we can shift the balance of opinion and win the support of sympathetic councils. Sufficient backing from the right factions will open the door to new policies and actions, while opposition may obstruct our ambitions. \n\nThe decisions below will allow you to favor one side of an axes at a time, winning support from their related councils. Regular council elections are held every 200 days, reshuffling the support you have in the councils. \n\nIndustrial Workers (§5Nationalist§!-§RRevolutionary§!-§2Councilist§!) \n[GER_industrial_support] \n\nRural Workers (§5Nationalist§!-§OReformist§!-§2Councilist§!) \n[GER_rural_support] \n\nMaritime Workers (§GInternationalist§!-§RRevolutionary§!-§2Councilist§!) \n[GER_sailors_support] \n\nEngineers (§GInternationalist§!-§RRevolutionary§!-§0Statist§!) \n[GER_engineers_support] \n\nFarmers (§5Nationalist§!-§OReformist§!-§2Councilist§!) \n[GER_farmers_support] \n\nIntellectuals (§GInternationalist§!-§RRevolutionary§!-§0Statist§!) \n[GER_intellectual_support] \n\nSoldiers (§GInternationalist§!-§RRevolutionary§!-§2Councilist§!) \n[GER_soldier_support] \n\nCivil Servants (§5Nationalist§!-§OReformist§!-§0Statist§!) \n[GER_civil_servant_support]"
+ 
+ GER_industrial_workers_low: "§RLow Support§!"
+ GER_industrial_workers_medium: "§YMedium Support§!"
+ GER_industrial_workers_high: "§GHigh Support§!"
+  
+ GER_rural_workers_low: "§RLow Support§!"
+ GER_rural_workers_medium: "§YMedium Support§!"
+ GER_rural_workers_high: "§GHigh Support§!"
+ 
+ GER_farmers_low: "§RLow Support§!"
+ GER_farmers_medium: "§YMedium Support§!"
+ GER_farmers_high: "§GHigh Support§!"
+ 
+ GER_intellectuals_low: "§RLow Support§!"
+ GER_intellectuals_medium: "§YMedium Support§!"
+ GER_intellectuals_high: "§GHigh Support§!"
+ 
+ GER_engineers_low: "§RLow Support§!"
+ GER_engineers_medium: "§YMedium Support§!"
+ GER_engineers_high: "§GHigh Support§!"
+ 
+ GER_soldiers_low: "§RLow Support§!"
+ GER_soldiers_medium: "§YMedium Support§!"
+ GER_soldiers_high: "§GHigh Support§!" 
+ 
+ GER_civil_servants_low: "§RLow Support§!"
+ GER_civil_servants_medium: "§YMedium Support§!"
+ GER_civil_servants_high: "§GHigh Support§!"
+ 
+ GER_sailors_low: "§RLow Support§!"
+ GER_sailors_medium: "§YMedium Support§!"
+ GER_sailors_high: "§GHigh Support§!"
+ 
+ GER_take_internationalist_side: "Take the Internationalists Side"
+ GER_take_nationalist_side: "Take the Nationalists Side"
+ GER_take_statist_side: "Take the Statists Side"
+ GER_take_councilist_side: "Take the Councilists Side"
+ GER_take_reformist_side: "Take the Reformists Side"
+ GER_take_revolutionary_side: "Take the Revolutionaries Side"
+ 
+ tt_shuffle_councils: "§CShuffles the Support of the Councils!§!"
+ tt_support_internationlist_side: "§7Raises Support Amongst Internationalist Councils!§!"
+ tt_support_nationalist_side: "§7Raises Support Amongst Nationalist Councils!§!"
+ tt_support_statist_side: "§7Raises Support Amongst Statist Councils!§!"
+ tt_support_councilist_side: "§7Raises Support Amongst Councilist Councils!§!"
+ tt_support_reformist_side: "§7Raises Support Amongst Reformist Councils!§!"
+ tt_support_revolutionary_side: "§7Raises Support Amongst Revolutionary Councils!§!"

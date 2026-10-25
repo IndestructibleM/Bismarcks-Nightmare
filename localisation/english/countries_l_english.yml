@@ -1146,11 +1146,26 @@
 
  ###FRANCE
 
+    WST:0 "Social Democracy of Westralia"
+    WST_DEF:0 "the Social Democracy of Westralia"
+    WST_ADJ:0 "Westralian"
+    
+    AST:0 "Hitlerian Hate Nation of Canberra"
+    AST:0 "the Hitlerian Hate Nation of Canberra"
+    AST:0 "EVIL Canberran"
+    
+
+    SPT:0 "Hitler Nation Where Spotify is Banned"
+    SPT_DEF:0 "theHitler Nation Where Spotify is Banned"
+    SPT_ADJ:0 "Hitler Nation Where Spotify is Bannedese"
    #COMMUNISM
 
     FRA_communism:0 "French Socialist Republic"
     FRA_communism_DEF:0 "the French Socialist Republic"
     FRA_communism_ADJ:0 "French"
+    FRA_socialism:0 "French Republic"
+    FRA_socialism_DEF:0 "the French Republic"
+    FRA_socialism_ADJ:0 "French"
 
    #DEMOCRATIC
     FRA:0 "French Empire"

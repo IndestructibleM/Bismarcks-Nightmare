@@ -60,6 +60,29 @@ country_event = {
 			puppet = WLN
 			add_to_facton = FRA
 		}
+		if = {
+			limit = { has_war_with = ITA }
+			ITA = {
+				transfer_state = 810
+				transfer_state = 817
+				transfer_state = 2855
+				transfer_state = 842
+				transfer_state = 2854
+				transfer_state = 2852
+				transfer_state = 771
+				transfer_state = 825
+				transfer_state = 2853
+				transfer_state = 746
+				transfer_state = 2851
+				transfer_state = 750
+				transfer_state = 719
+				transfer_state = 1422
+				transfer_state = 866
+				annex_country = {
+					target = VAT
+				}
+			}
+		}
 	}
 }
 

@@ -1,102 +1,211 @@
-political_actions = {
+GER_council_support_cat = {
 	GER_upcoming_elections = {
         activation = {
             has_completed_focus = GER_the_old_chairman
-
+            tag = GER
         }
         available = {
             always = no
         }
+        icon = GFX_decision_SWI_no_elected_president
         fire_only_once = yes
-        icon = mission_icon
         is_good = yes
         days_mission_timeout = 300
         timeout_effect = {
             country_event = { id = RedGer.2 }
         }
     }
-	GER_rally_spartakists = {
-        visible = {
-            has_completed_focus = GER_prepare_for_elections
-            has_country_leader = {
-                character = GER_Karl_Kautsky
-                ruling_only = yes
-            }
-        }
-        allowed = {
+	GER_council_elections = {
+        activation = {
             tag = GER
         }
-        days_re_enable = 30
-        days_remove = 10
-        cost = 25
-        remove_effect = {
-            add_popularity = {
-                ideology = communism
-                popularity = 0.05
+        available = {
+            always = no
+        }
+        icon = GFX_decision_generic_political_discourse
+        fire_only_once = no
+        is_good = yes
+        days_mission_timeout = 200
+        timeout_effect = {
+            custom_effect_tooltip = tt_shuffle_councils
+            hidden_effect = {
+                random = { 
+                    chance = 50
+                    set_variable_to_random = {
+                        var = soldiers
+                        min = 1
+                        max = 3
+                        integer = yes
+                    }
+                }
+                random = { 
+                    chance = 50
+                    set_variable_to_random = {
+                        var = industrial_workers
+                        min = 1
+                        max = 3
+                        integer = yes
+                    }
+                }
+                random = { 
+                    chance = 50
+                    set_variable_to_random = {
+                        var = sailors
+                        min = 1
+                        max = 3
+                        integer = yes
+                    }
+                }
+                random = { 
+                    chance = 50
+                    set_variable_to_random = {
+                        var = engineers
+                        min = 1
+                        max = 3
+                        integer = yes
+                    }
+                }
+                random = { 
+                    chance = 50
+                    set_variable_to_random = {
+                        var = intellectuals
+                        min = 1
+                        max = 3
+                        integer = yes
+                    }
+                }
+                random = { 
+                    chance = 50
+                    set_variable_to_random = {
+                        var = farmers
+                        min = 1
+                        max = 3
+                        integer = yes
+                    }
+                }
+                random = { 
+                    chance = 50
+                    set_variable_to_random = {
+                        var = rural_workers
+                        min = 1
+                        max = 3
+                        integer = yes
+                    }
+                }
+                random = { 
+                    chance = 50
+                    set_variable_to_random = {
+                        var = civil_servants
+                        min = 1
+                        max = 3
+                        integer = yes
+                    }
+                }
             }
         }
     }
-	GER_rally_nationalists = {
-        visible = {
-            has_completed_focus = GER_prepare_for_elections
-            has_country_leader = {
-                character = GER_Karl_Kautsky
-                ruling_only = yes
-            }
-        }
+	GER_take_internationalist_side = {
         allowed = {
             tag = GER
         }
-        days_re_enable = 30
-        days_remove = 10
-        cost = 25
-        remove_effect = {
-            add_popularity = {
-                ideology = socialism
-                popularity = 0.05
+        visible = {
+            NOT = {
+                has_decision = GER_take_nationalist_side
             }
+        }
+        icon = GFX_decision_SOV_place_hq
+        days_re_enable = 20
+        days_remove = 60
+        cost = 20
+        complete_effect = {
+            support_internationalist_side = yes
         }
     }
-	GER_rally_social_liberals = {
+	GER_take_nationalist_side = {
+        visible = {
+            NOT = { 
+                has_decision = GER_take_internationalist_side
+            }
+        }
         allowed = {
             tag = GER
         }
-        visible = {
-            has_completed_focus = GER_prepare_for_elections
-            has_country_leader = {
-                character = GER_Karl_Kautsky
-                ruling_only = yes
-            }
-        }
-        days_re_enable = 30
-        days_remove = 10
-        cost = 25
-        remove_effect = {
-            add_popularity = {
-                ideology = liberalism
-                popularity = 0.05
-            }
+        icon = GFX_decision_generic_form_nation
+        days_re_enable = 20
+        days_remove = 60
+        cost = 20
+        complete_effect = {
+            support_nationalist_side = yes
         }
     }
-	GER_rally_adav = {
+    
+	GER_take_revolutionary_side = {
+        allowed = {
+            tag = GER
+        }
         visible = {
-            has_completed_focus = GER_prepare_for_elections
-            has_country_leader = {
-                character = GER_Karl_Kautsky
-                ruling_only = yes
+            NOT = {
+                has_decision = GER_take_reformist_side
+            }
+        }
+        icon = GFX_decision_generic_civil_support
+        days_re_enable = 20
+        days_remove = 60
+        cost = 20
+        complete_effect = {
+            support_revolutionary_side = yes
+        }
+    }
+	GER_take_reformist_side = {
+        visible = {
+            NOT = { 
+                has_decision = GER_take_revolutionary_side
             }
         }
         allowed = {
             tag = GER
         }
-        days_re_enable = 30
-        days_remove = 10
-        cost = 25
-        remove_effect = {
-            add_popularity = {
-                ideology = socialism
-                popularity = 0.05
+        icon = GFX_decision_eng_trade_unions_support
+        days_re_enable = 20
+        days_remove = 60
+        cost = 20
+        complete_effect = {
+            support_reformist_side = yes
+        }
+    }
+    
+	GER_take_councilist_side = {
+        allowed = {
+            tag = GER
+        }
+        visible = {
+            NOT = {
+                has_decision = GER_take_statist_side
             }
+        }
+        icon = GFX_decision_hol_exchange_intelligence_data
+        days_re_enable = 20
+        days_remove = 60
+        cost = 20
+        complete_effect = {
+            support_councilist_side = yes
+        }
+    }
+	GER_take_statist_side = {
+        visible = {
+            NOT = { 
+                has_decision = GER_take_councilist_side
+            }
+        }
+        allowed = {
+            tag = GER
+        }
+        icon = GFX_decision_generic_speech
+        days_re_enable = 20
+        days_remove = 60
+        cost = 20
+        complete_effect = {
+            support_statist_side = yes
         }
     }
 }
@@ -118,7 +227,7 @@ GER_pan_german_revolution_cat = {
         }
         fire_only_once = yes
         days_remove = 30
-        cost = 25
+        cost = 20
         remove_effect = {
             every_owned_state = {
                 limit = {
