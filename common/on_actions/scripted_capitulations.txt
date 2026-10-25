@@ -15,13 +15,34 @@ on_actions = {
 				}
 				GER = {
 					white_peace = AUS
+					puppet = CZE
 				}
 				every_state = {
 					limit = {
-						is_core_of = AUS
-						is_claimed_by = GER
+						OR = {
+							region = 7
+							state = 1431
+							state = 1432
+							state = 1433
+							state = 1802
+							state = 1430
+							state = 2535
+						}
 					}
 					transfer_state_to = GER
+				}
+				AUS = {
+					release = CZE
+				}
+				HUN = {
+					transfer_state = 695
+				}
+				every_state = {
+					limit = {
+						is_owned_by = AUS
+						region = 16
+					}
+					transfer_state_to = ITA
 				}
 			}
 		}

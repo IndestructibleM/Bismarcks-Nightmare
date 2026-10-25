@@ -149,6 +149,15 @@
  GER_sailors_low: "§RLow Support§!"
  GER_sailors_medium: "§YMedium Support§!"
  GER_sailors_high: "§GHigh Support§!"
+
+ tt_farmers_support: "§7Has High Support in the Farmers§!"
+ tt_rural_workers_support: "§7Has High Support in the Rural Workers§!"
+ tt_industrial_workers_support: "§7Has High Support in the Industrial Workers§!"
+ tt_intellectuals_support: "§7Has High Support in the Intellectuals§!"
+ tt_engineers_support: "§7Has High Support in the Engineers§!"
+ tt_soldiers_support: "7GHas High Support in the Soldiers§!"
+ tt_civil_servants_support: "§7Has High Support in the Civil Servants§!"
+ tt_sailors_support: "§7Has High Support in the Sailors§!"
  
  GER_take_internationalist_side: "Take the Internationalists Side"
  GER_take_nationalist_side: "Take the Nationalists Side"
