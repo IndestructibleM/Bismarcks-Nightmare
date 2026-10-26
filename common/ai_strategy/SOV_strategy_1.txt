@@ -111,22 +111,6 @@ SOV_war_with_fascism_ITA = {
 		value = 1000
 	}
 }
-SOV_dont_want_AFG_join = {
-	allowed = {
-		original_tag = SOV
-	}
-	enable = {
-		is_historical_focus_on = yes
-	}
-	abort_when_not_enabled = yes
-
-	ai_strategy = {
-		type = diplo_action_acceptance
-		id = AFG
-		value = -1000
-		target = join_allies
-	}
-}
 SOV_JAP_dont_want_PER_join = {
 	allowed = {
 		original_tag = JAP

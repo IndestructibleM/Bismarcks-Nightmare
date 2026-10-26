@@ -269,6 +269,10 @@ set_popularities = {
 # Setup of National Spirits
 add_ideas = {
 	limited_exports
+	isolation
+	decentralized_planning
+	soviet_democracy
+	
 	GER_socialist_turnismo
 	GER_struggle_for_republic
 	GER_democratic_military

@@ -9593,7 +9593,6 @@ spriteTypes = {
 	}
 
 
-		#### AFG ####
 		## National Spirits ##
 	spriteType = {
 		name = "GFX_idea_AFG_economic_regionalism"

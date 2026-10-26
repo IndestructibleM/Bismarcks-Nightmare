@@ -793,7 +793,6 @@ is_unlikely_country_tag = {
 	    tag = CHU
 	    tag = MEL
 	    tag = RIF
-	    tag = HAR
 	    tag = PAP
 	    tag = TOS
 		tag = BSK

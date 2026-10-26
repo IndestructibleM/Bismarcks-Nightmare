@@ -45,7 +45,7 @@ AFG_economic_regionalism = { #STATE MODIFIER
 	state_resources_factor = AFG_state_development_state_resources_factor
 	state_production_speed_infrastructure_factor = AFG_state_production_speed_infrastructure_factor
 	remove_trigger = {
-		NOT = { OWNER = { original_tag = AFG } }
+				always = yes
 	}
 }
 
@@ -55,7 +55,7 @@ AFG_electrification_modifier = {
 		ROOT = { 
 			NOT = {
 				OWNER = {
-					original_tag = AFG
+				always = no
 				}
 			} # ROOT refers to the state on which the modifier is added
 		}
@@ -134,7 +134,7 @@ AFG_border_resistance_modifier = {
 AFG_amanullah_insurection_modifier = {
 	enable = { always = yes }
 	icon = GFX_idea_generic_fascism_drift_bonus	
-	
+
 	stability_factor = AFG_amanullah_modifier_stability_factor
 	fascism_drift = AFG_amanullah_modifier_fascism_drift
 	army_core_defence_factor = AFG_amanullah_modifier_core_defense_factor
@@ -174,7 +174,7 @@ AFG_1923_constitution_modifier = {
 	fascism_drift = 0.03 
 	army_core_defence_factor = 0.1 		
 	army_core_attack_factor = 0.05  	
-	
+
 }
 
 AFG_resistance_active_here = {
@@ -190,7 +190,7 @@ AFG_resistance_active_here = {
 AFG_disgruntled_minority = {
 	enable = { always = yes }
 	remove_trigger = {
-		NOT = { OWNER = { original_tag = AFG } }
+				always = yes
 	}
 	icon = GFX_modifiers_generic_resistance
 	local_manpower = -0.4
@@ -346,7 +346,7 @@ idea_RAJ_five_year_plan = {
 	production_factory_max_efficiency_factor = RAJ_fyp_production_factory_max_efficiency_factor
 	local_resources_factor = RAJ_fyp_local_resources_factor
 	production_lack_of_resource_penalty_factor = RAJ_fyp_production_lack_of_resource_penalty_factor
-	
+
 	line_change_production_efficiency_factor = RAJ_fyp_line_change_production_efficiency_factor
 	production_factory_start_efficiency_factor = RAJ_fyp_production_factory_start_efficiency_factor
 	industry_air_damage_factor = RAJ_fyp_industry_air_damage_factor

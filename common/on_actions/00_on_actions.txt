@@ -564,8 +564,6 @@ on_actions = {
 					OR = {
 						original_tag = CAN
 						original_tag = RAJ
-						original_tag = MAL
-						original_tag = INS
 					}
 				}
 				if = {
@@ -1417,8 +1415,6 @@ on_actions = {
 					OR = {
 						original_tag = RAJ
 						original_tag = CAN
-						original_tag = MAL
-						original_tag = INS
 					}
 					is_puppet = no
 				}
@@ -4236,49 +4232,6 @@ on_actions = {
 				   type = alliance
 				   id = GER
 				   value = -2000
-				}
-			}
-			AFG = {
-				IF = {
-					limit = {
-						has_dlc = "Graveyard of Empires"
-						OR = {
-							AND = {
-								is_historical_focus_on = no
-								has_game_rule = {
-									rule = AFG_AI_BEHAVIOR
-									option = DEFAULT
-								}
-							}
-							has_game_rule = {
-								rule = AFG_AI_BEHAVIOR
-								option = RANDOM
-							}
-						}
-					}
-					random_list = {
-						50 = {
-							AFG = { set_country_flag = AFG_AI_RANDOM_HISTORICAL }
-						}
-						10 = {
-							AFG = { set_country_flag = AFG_AI_RANDOM_FASCISM }
-						}
-						10 = {
-							AFG = { set_country_flag = AFG_AI_RANDOM_DEMOCRATIC }
-						}
-						10 = {
-							AFG = { set_country_flag = AFG_AI_RANDOM_COMMUNIST }
-						}
-						5 = {
-							AFG = { set_country_flag = AFG_AI_RANDOM_CALIPHATE }
-						}
-						2 = {
-							AFG = { set_country_flag = AFG_AI_RANDOM_EMPIRE }
-						}
-						3 = {
-							AFG = { set_country_flag = AFG_AI_RANDOM_MUGHAL }
-						}
-					}
 				}
 			}
 			IRQ = {

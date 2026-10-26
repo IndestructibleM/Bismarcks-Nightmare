@@ -4685,7 +4685,6 @@ leader_traits = {
 		foreign_subversive_activites = -0.1
 	}
 
-	#### AFG ###
 
 	AFG_popular_figurehead = {
 		random = no

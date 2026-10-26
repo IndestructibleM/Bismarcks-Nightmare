@@ -1752,7 +1752,6 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_portrait_yemen_imam_yahya"
-		texturefile = "gfx/leaders/YEM/portrait_yem_imam_yaha.dds"
 	}
 
 	spriteType = {
@@ -1788,7 +1787,6 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_portrait_indonesia_at_van_starkenborgh"
-		texturefile = "gfx/leaders/INS/portrait_ins_at_van_starkenborgh.dds"
 	}
 
 	spriteType = {
@@ -1797,7 +1795,6 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_portrait_malaya_shenton_thomas"
-		texturefile = "gfx/leaders/MAL/portrait_mal_shenton_thomas.dds"
 	}
 
 	spriteType = {
@@ -2996,7 +2993,6 @@ spriteTypes = {
 
 	spriteType = {
 		name = GFX_portrait_Mohammed_Zahir_Shah
-		texturefile = "gfx/leaders/AFG/Portrait_Afghanistan_Mohammed_Zahir_Shah.dds"
 	}
 
 	spriteType = {

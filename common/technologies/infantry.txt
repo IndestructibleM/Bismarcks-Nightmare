@@ -1788,12 +1788,6 @@ technologies = {
 					original_tag = MAN
 					original_tag = MEN
 					original_tag = JAP
-					original_tag = GSM
-					original_tag = NXM
-					original_tag = HBC
-					original_tag = SND
-					original_tag = GDC
-					original_tag = KHM
 				}
 			}
 

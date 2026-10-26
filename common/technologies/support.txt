@@ -180,19 +180,6 @@ technologies = {
 				PROJECT = sp_land_military_engineering_vehicles
 			}
 
-			if = {
-				limit = {
-					original_tag = AFG
-					has_dlc = "Graveyard of Empires"
-					has_completed_focus = AFG_expand_quami_template
-				}
-				add_units_to_division_template = {
-					template_name = "Pashtun Levy" 
-					support = {
-						engineer = 0 
-					}
-				}
-			}
 		}
 	}
 
@@ -761,19 +748,6 @@ technologies = {
 		}
 
 		on_research_complete = {
-			if = {
-				limit = {
-					original_tag = AFG
-					has_dlc = "Graveyard of Empires"
-					has_completed_focus = AFG_expand_quami_template
-				}
-				add_units_to_division_template = {
-					template_name = "Pashtun Levy" 
-					support = {
-						military_police = 0 
-					}
-				}
-			}
 		}
 	}
 
@@ -1201,19 +1175,6 @@ technologies = {
 		}
 
 		on_research_complete = {
-			if = {
-				limit = {
-					original_tag = AFG
-					has_dlc = "Graveyard of Empires"
-					has_completed_focus = AFG_expand_quami_template
-				}
-				add_units_to_division_template = {
-					template_name = "Pashtun Levy" 
-					support = {
-						field_hospital = 0 
-					}
-				}
-			}
 		}
 	}
 

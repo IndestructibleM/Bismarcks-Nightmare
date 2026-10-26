@@ -77,12 +77,14 @@ ideas = {
 			allowed_to_remove = {
 				IF = {
 					limit = {
-						original_tag = USA
+						original_tag = GER
 					}
 					OR = {
-						has_war_support > 0.75
-						has_war = yes
-						has_completed_focus = USA_limited_intervention
+						has_war_support > 0.5
+						NOT = {
+							has_idea = GER_foreign_isolation
+							has_idea = GER_foreign_isolation2
+						}
 					}
 				}
 				ELSE = {

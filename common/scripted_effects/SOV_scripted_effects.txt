@@ -2989,18 +2989,6 @@ SOV_set_appropriate_national_academy_of_sciences_flag_effect = {
 	}
 	else_if = {
 		limit = {
-			FROM = { tag = KYR }
-		}
-		ROOT = { set_country_flag = SOV_national_academy_of_sciences_built_KYR_flag }
-	}
-	else_if = {
-		limit = {
-			FROM = { tag = TAJ }
-		}
-		ROOT = { set_country_flag = SOV_national_academy_of_sciences_built_TAJ_flag }
-	}
-	else_if = {
-		limit = {
 			FROM = { tag = TAN }
 		}
 		ROOT = { set_country_flag = SOV_national_academy_of_sciences_built_TAN_flag }
