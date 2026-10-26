@@ -39,7 +39,7 @@ recalc_council_support_modifiers = {
 		soldier_sailors_modifier = 0.04 
 	}
 	multiply_variable = {
-		farmers_rural_workers_modifier = 0.04 
+		farmers_rural_workers_modifier = 0.02 
 	}
 }
 #Important to put HIGHEST first
