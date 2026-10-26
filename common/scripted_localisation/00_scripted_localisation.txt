@@ -9,6 +9,146 @@
 # that'll be used if trigger passes
 
 defined_text = { # Country
+	name = GER_internationalist_side_support
+	text = {
+		trigger = {
+			original_tag = GER
+			check_variable = {
+				internationalist_support < 3
+			}
+		}
+		localization_key = tt_internationalist_low
+
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+			check_variable = {
+				internationalist_support < 5
+			} 
+			check_variable = {
+				internationalist_support > 2
+			} 
+		}
+		localization_key = tt_internationalist_med
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+			check_variable = {
+				internationalist_support = 5
+			}
+		}
+		localization_key = tt_internationalist_high
+	}
+}
+
+defined_text = { # Country
+	name = GER_nationalist_side_support
+	text = {
+		trigger = {
+			original_tag = GER
+			check_variable = {
+				internationalist_support < 3
+			}
+		}
+		localization_key = tt_internationalist_low
+
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+			check_variable = {
+				internationalist_support < 5
+			} 
+			check_variable = {
+				internationalist_support > 2
+			} 
+		}
+		localization_key = tt_internationalist_med
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+			check_variable = {
+				internationalist_support = 5
+			}
+		}
+		localization_key = tt_internationalist_high
+	}
+}
+
+defined_text = { # Country
+	name = GER_councilist_side_support
+	text = {
+		trigger = {
+			original_tag = GER
+			check_variable = {
+				councilist_support < 3
+			}
+		}
+		localization_key = tt_councilist_low
+
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+			check_variable = {
+				councilist_support < 5
+			} 
+			check_variable = {
+				councilist_support > 2
+			} 
+		}
+		localization_key = tt_councilist_med
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+			check_variable = {
+				councilist_support = 5
+			}
+		}
+		localization_key = tt_councilist_high
+	}
+}
+
+defined_text = { # Country
+	name = GER_statist_side_support
+	text = {
+		trigger = {
+			original_tag = GER
+			check_variable = {
+				statist_support < 3
+			}
+		}
+		localization_key = tt_statist_low
+
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+			check_variable = {
+				statist_support < 5
+			} 
+			check_variable = {
+				statist_support > 2
+			} 
+		}
+		localization_key = tt_statist_med
+	}
+	text = {
+		trigger = {
+			original_tag = GER
+			check_variable = {
+				statist_support = 5
+			}
+		}
+		localization_key = tt_statist_high
+	}
+}
+
+defined_text = { # Country
 	name = GER_industrial_support
 	text = {
 		trigger = {

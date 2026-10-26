@@ -27,17 +27,29 @@ country_event = {
 		name = RedGer.2.a
 		trigger = {
 			check_variable = {
-				party_popularity@communism > 0.25
+				internationalist_support > nationalist_support
+			}
+			check_variable = {
+				revolutionary_support > reformist_support
+			}
+			check_variable = {
+				councilist_support > statist_support
 			}
 		}
 		promote_character = GER_Karl_Liebknecht
 	}
-
+	
 	option = { 
 		name = RedGer.2.b
 		trigger = {
 			check_variable = {
-				party_popularity@socialism > 0.25
+				internationalist_support > nationalist_support
+			}
+			check_variable = {
+				reformist_support > revolutionary_support
+			}
+			check_variable = {
+				councilist_support > statist_support
 			}
 		}
 		promote_character = GER_Eduard_Bernstein
@@ -49,7 +61,13 @@ country_event = {
 	option = {
 		trigger = {
 			check_variable = {
-				party_popularity@socialism > 0.25
+				nationalist_support > internationalist_support
+			}
+			check_variable = {
+				revolutionary_support > reformist_support
+			}
+			check_variable = {
+				statist_support > councilist_support
 			}
 		}
 		name = RedGer.2.c
@@ -62,7 +80,13 @@ country_event = {
 	option = { 
 		trigger = {
 			check_variable = {
-				party_popularity@liberalism > 0.25
+				nationalist_support > internationalist_support
+			}
+			check_variable = {
+				reformist_support > revolutionary_support
+			}
+			check_variable = {
+				statist_support > councilist_support
 			}
 		}
 		name = RedGer.2.d

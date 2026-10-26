@@ -210,6 +210,30 @@ set_variable = {
 	civil_servants = 1
 }
 
+set_variable = {
+	internationalist_support = 3
+}
+
+set_variable = {
+	nationalist_support = 2
+}
+
+set_variable = {
+	councilist_support = 4
+}
+
+set_variable = {
+	statist_support = 1
+}
+
+set_variable = {
+	revolutionary_support = 3
+}
+
+set_variable = {
+	reformist_support = 2
+}
+
 
 # Starting Stats of various kinds
 set_research_slots = 4

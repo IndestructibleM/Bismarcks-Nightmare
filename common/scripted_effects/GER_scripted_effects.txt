@@ -2,6 +2,12 @@
 #Important to put HIGHEST first
 support_nationalist_side = {
 	add_to_variable = {
+		nationalist_support = 1
+	}
+	subtract_from_variable = {
+		internationalist_support = 1
+	}
+	add_to_variable = {
 		civil_servants = 0.5
 	}
 	add_to_variable = {
@@ -32,11 +38,27 @@ support_nationalist_side = {
 		var = rural_workers
 		max = 3
 		min = 1
+	}
+	clamp_variable = {
+		var = internationalist_support
+		max = 5
+		min = 0
+	}
+	clamp_variable = {
+		var = nationalist_support
+		max = 5
+		min = 0
 	}
 	custom_effect_tooltip = tt_support_nationalist_side
 }
 support_internationalist_side = {
 	add_to_variable = {
+		internationalist_support = 1
+	}
+	subtract_from_variable = {
+		nationalist_support = 1
+	}
+	add_to_variable = {
 		soldiers = 0.5
 	}
 	add_to_variable = {
@@ -67,11 +89,27 @@ support_internationalist_side = {
 		var = sailors
 		max = 3
 		min = 1
+	}
+	clamp_variable = {
+		var = internationalist_support
+		max = 5
+		min = 0
+	}
+	clamp_variable = {
+		var = nationalist_support
+		max = 5
+		min = 0
 	}
 	custom_effect_tooltip = tt_support_internationlist_side
 }
 support_reformist_side = {
 	add_to_variable = {
+		reformist_support = 1
+	}
+	subtract_from_variable = {
+		revolutionary_support = 1
+	}
+	add_to_variable = {
 		rural_workers = 0.5
 	}
 	add_to_variable = {
@@ -94,11 +132,27 @@ support_reformist_side = {
 		var = civil_servants
 		max = 3
 		min = 1
+	}
+	clamp_variable = {
+		var = reformist_support
+		max = 5
+		min = 0
+	}
+	clamp_variable = {
+		var = revolutionary_support
+		max = 5
+		min = 0
 	}
 	custom_effect_tooltip = tt_support_reformist_side
 }
 support_revolutionary_side = {
 	add_to_variable = {
+		revolutionary_support = 1
+	}
+	subtract_from_variable = {
+		reformist_support = 1
+	}
+	add_to_variable = {
 		soldiers = 0.5
 	}
 	add_to_variable = {
@@ -138,9 +192,25 @@ support_revolutionary_side = {
 		max = 3
 		min = 1
 	}
+	clamp_variable = {
+		var = reformist_support
+		max = 5
+		min = 0
+	}
+	clamp_variable = {
+		var = revolutionary_support
+		max = 5
+		min = 0
+	}
 	custom_effect_tooltip = tt_support_revolutionary_side
 }
 support_statist_side = {
+	add_to_variable = {
+		statist_support = 1
+	}
+	subtract_from_variable = {
+		councilist_support = 1
+	}
 	add_to_variable = {
 		civil_servants = 0.5
 	}
@@ -165,9 +235,25 @@ support_statist_side = {
 		max = 3
 		min = 1
 	}
+	clamp_variable = {
+		var = councilist_support
+		max = 5
+		min = 0
+	}
+	clamp_variable = {
+		var = statist_support
+		max = 5
+		min = 0
+	}
 	custom_effect_tooltip = tt_support_statist_side
 }
 support_councilist_side = {
+	add_to_variable = {
+		councilist_support = 1
+	}
+	subtract_from_variable = {
+		statist_support = 1
+	}
 	add_to_variable = {
 		soldiers = 0.5
 	}
@@ -207,6 +293,16 @@ support_councilist_side = {
 		var = sailors
 		max = 3
 		min = 1
+	}
+	clamp_variable = {
+		var = councilist_support
+		max = 5
+		min = 0
+	}
+	clamp_variable = {
+		var = statist_support
+		max = 5
+		min = 0
 	}
 	custom_effect_tooltip = tt_support_councilist_side
 }

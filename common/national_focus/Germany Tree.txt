@@ -73,7 +73,7 @@ focus_tree = {
 	}
 
 	focus = {
-		id = GER_prepare_for_elections
+		id = GER_remake
 		icon = GFX_focus_generic_social_democracy
 		relative_position_id = GER_the_old_chairman
 		prerequisite = { focus = GER_the_old_chairman }
@@ -167,7 +167,7 @@ focus_tree = {
 	focus = {
 		id = GER_the_german_ideology
 		relative_position_id = GER_the_old_chairman
-		prerequisite = { focus = GER_prepare_for_elections }
+		prerequisite = { focus = GER_remake }
 		icon = GFX_focus_eng_liberate_the_home_of_marx
 		x = -1
 		y = 2
@@ -190,7 +190,7 @@ focus_tree = {
 	focus = {
 		id = GER_spirit_of_1848
 		relative_position_id = GER_the_old_chairman
-		prerequisite = { focus = GER_prepare_for_elections }
+		prerequisite = { focus = GER_remake }
 		icon = GFX_focus_GER_defender_of_democracy
 		mutually_exclusive = {
 			focus = GER_the_german_ideology
@@ -236,6 +236,14 @@ focus_tree = {
 		ai_will_do = {
 			factor = 2
 		}
+        available = {
+            custom_trigger_tooltip = {
+		        tooltip = tt_intellectuals_support
+                check_variable = {
+                intellectuals = 3
+                }
+	        }
+        }
 		completion_reward = {
 			add_research_slot = 1
 		}
@@ -307,6 +315,14 @@ focus_tree = {
 		ai_will_do = {
 			factor = 2
 		}
+        available = {
+            custom_trigger_tooltip = {
+		        tooltip = tt_industrial_workers_support
+                check_variable = {
+                industrial_workers = 3
+                }
+	        }
+        }
 		completion_reward = {
 			391 = {
 				add_building_construction = {
@@ -412,8 +428,22 @@ focus_tree = {
         prerequisite = {
             focus = GER_foreign_policy
         }
-
+        available = {
+            custom_trigger_tooltip = {
+		        tooltip = tt_soldiers_support
+                check_variable = {
+                soldiers = 3
+                }
+	        }
+            custom_trigger_tooltip = {
+		        tooltip = tt_sailors_support
+                check_variable = {
+                sailors = 3
+                }
+	        }
+        }
         completion_reward = {
+            
         }
     }
 
@@ -678,6 +708,12 @@ focus_tree = {
 			has_army_manpower = {
 				size > 250000
 			}
+            custom_trigger_tooltip = {
+		        tooltip = tt_soldiers_support
+                check_variable = {
+                soldiers = 3
+                }
+	        }
 		}
 
         completion_reward = {
@@ -1010,8 +1046,6 @@ focus_tree = {
                 character = GER_Heinrich_Laufenberg
                 ruling_only = yes
             }
-
-
         }
 
         mutually_exclusive = {
