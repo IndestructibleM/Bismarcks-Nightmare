@@ -812,7 +812,7 @@ characters={
 		name = HOL_anton_pannekoek
 		portraits = {
 			civilian = {
-				large = GFX_portrait_HOL_anton_pannekoek
+				large = "gfx/leaders/HOL/Portrait_Anton_Pannekoek.png"
 			}
 		}
 		country_leader = {
@@ -827,7 +827,7 @@ characters={
 		name = HOL_pieter_jelles_troelstra
 		portraits = {
 			civilian = {
-				large = GFX_portrait_HOL_pieter_jelles_troelstra
+				large = "gfx/leaders/HOL/Portrait_Pieter_Jelles_Troelstra.png"
 			}
 		}
 		country_leader = {
@@ -842,7 +842,7 @@ characters={
 		name = HOL_pieter_cort_van_der_linden
 		portraits = {
 			civilian = {
-				large = GFX_portrait_HOL_pieter_cort_van_der_linden
+				large = "gfx/leaders/HOL/Portrait_Pieter_Cort_Van_Der_Linden.png"
 			}
 		}
 		country_leader = {
@@ -857,7 +857,7 @@ characters={
 		name = HOL_gerrit_hendrik_kersten
 		portraits = {
 			civilian = {
-				large = GFX_portrait_HOL_gerrit_hendrik_kersten
+				large = "gfx/leaders/HOL/Portrait_Gerrit_Hendrik_Kersten.png"
 			}
 		}
 		country_leader = {
@@ -872,7 +872,7 @@ characters={
 		name = HOL_hugo_sinclair_de_rochemont
 		portraits = {
 			civilian = {
-				large = GFX_portrait_HOL_hugo_sinclair_de_rochemont
+				large = "gfx/leaders/HOL/Portrait_Hugo_Sinclair_De_Rochemont.png"
 			}
 		}
 		country_leader = {
@@ -887,8 +887,8 @@ characters={
 		name = HOL_cornelis_jacobus_snijders
 		portraits = {
 			civilian = {
-				large = GFX_portrait_HOL_cornelis_jacobus_snijders
-				small = GFX_portrait_HOL_cornelis_jacobus_snijders_small
+				large = "gfx/leaders/HOL/Portrait_Cornelis_Jacobus_Snijders.png"
+				small = "gfx/interface/advisors/HOL_Cornelis_Jacobus_Snijders_advisor.png"
 			}
 		}
 		advisor = {

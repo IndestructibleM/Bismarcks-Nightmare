@@ -3,7 +3,7 @@ characters = {
 		name = NLD_pieter_jelles_troelstra
 		portraits = {
 			civilian = {
-				large = GFX_portrait_NLD_pieter_jelles_troelstra
+				large = "gfx/leaders/HOL/Portrait_Pieter_Jelles_Troelstra.png"
 			}
 		}
 		country_leader = {
@@ -18,7 +18,7 @@ characters = {
 		name = NLD_anton_pannekoek
 		portraits = {
 			civilian = {
-				large = GFX_portrait_NLD_anton_pannekoek
+				large = "gfx/leaders/HOL/Portrait_Anton_Pannekoek.png"
 			}
 		}
 		country_leader = {
@@ -33,7 +33,7 @@ characters = {
 		name = NLD_samuel_van_houten
 		portraits = {
 			civilian = {
-				large = GFX_portrait_NLD_samuel_van_houten
+				large = "gfx/leaders/HOL/Portrait_Samuel_Van_Houten.png"
 			}
 		}
 		country_leader = {
@@ -48,7 +48,7 @@ characters = {
 		name = NLD_pieter_van_vliet
 		portraits = {
 			civilian = {
-				large = GFX_portrait_NLD_pieter_van_vliet
+				large = "gfx/leaders/HOL/Portrait_Pieter_Van_Vliet.png"
 			}
 		}
 		country_leader = {
@@ -63,7 +63,7 @@ characters = {
 		name = NLD_pierre_versteegh
 		portraits = {
 			civilian = {
-				large = GFX_portrait_NLD_pierre_versteegh
+				large = "gfx/leaders/HOL/Portrait_Pierre_Versteegh.png"
 			}
 		}
 		country_leader = {
@@ -78,7 +78,7 @@ characters = {
 		name = NLD_gerrit_hendrik_kersten
 		portraits = {
 			civilian = {
-				large = GFX_portrait_NLD_gerrit_hendrik_kersten
+				large = "gfx/leaders/HOL/Portrait_Gerrit_Hendrik_Kersten.png"
 			}
 		}
 		country_leader = {
@@ -93,7 +93,7 @@ characters = {
 		name = NLD_hugo_sinclair_de_rochemont
 		portraits = {
 			civilian = {
-				large = GFX_portrait_NLD_hugo_sinclair_de_rochemont
+				large = "gfx/leaders/HOL/Portrait_Hugo_Sinclair_De_Rochemont.png"
 			}
 		}
 		country_leader = {

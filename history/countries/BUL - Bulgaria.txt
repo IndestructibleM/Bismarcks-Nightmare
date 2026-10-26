@@ -15,6 +15,13 @@ set_convoys = 5 #VANILLA & DLC
 
 recruit_character = BUL_aleksandar_stamboliyski
 
+add_ideas = {
+	BUL_bn_imro
+	BUL_bn_first_national_catastrophe
+	BUL_bn_prussia_of_the_balkans
+	BUL_bn_political_violence
+}
+
 set_politics = {
 	ruling_party = socialism
 	last_election = "1933.3.5"
