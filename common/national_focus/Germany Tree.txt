@@ -74,7 +74,7 @@ focus_tree = {
 
 	focus = {
 		id = GER_the_beacon_of_socialism
-		icon = GFX_focus_generic_social_democracy
+		icon = GFX_focus_JAP_raise_the_red_flag_high
 		relative_position_id = GER_the_old_chairman
 		prerequisite = { focus = GER_the_old_chairman }
 		x = 0
@@ -291,11 +291,7 @@ focus_tree = {
                 idea = GER_der_kulturkampf
                 days = 300
             }
-            add_tech_bonus = {
-                bonus = 0.35
-                uses = 2
-                category = electronics
-            }
+            upgrade_education_law = yes
             add_tech_bonus = {
                 bonus = 0.35
                 uses = 2
@@ -353,7 +349,7 @@ focus_tree = {
 	focus = {
 		id = GER_electrify_prussia
 		relative_position_id = GER_the_old_chairman
-		icon = GFX_focus_ITA_the_italian_republic
+		icon = GFX_focus_generic_electrification
 		prerequisite = { focus = GER_breaking_isolation }
 		x = 3
 		y = 2
@@ -362,6 +358,11 @@ focus_tree = {
 			factor = 2
 		}
 		completion_reward = {
+            add_tech_bonus = {
+                bonus = 0.35
+                uses = 3
+                category = electronics
+            }
 		}
 	}
 
@@ -433,7 +434,7 @@ focus_tree = {
 		id = GER_crush_reactionary_rabble
 		relative_position_id = GER_the_old_chairman
 		prerequisite = { focus = GER_the_german_ideology focus = GER_spirit_of_1848}
-		icon = GFX_focus_JAP_raise_the_red_flag_high
+		icon = GFX_goal_generic_political_purge
 		x = 0
 		y = 3
 		cost = 5
@@ -441,6 +442,12 @@ focus_tree = {
 			factor = 2
 		}
 		completion_reward = {
+            unlock_decision_category_tooltip = GER_root_out_reaction_cat
+            add_tech_bonus = {
+                bonus = 0.5
+                uses = 1
+                category = military_police_tech
+            }
 		}
 	}
 

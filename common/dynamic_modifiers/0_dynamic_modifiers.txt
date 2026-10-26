@@ -26,6 +26,41 @@
 #	can be added to countries, states, unit leaders or special projects
 #	will only updated daily, unless forced by force_update_dynamic_modifier effect
 
+GER_DNVP_activity = {
+	remove_trigger = { 
+		OWNER = {
+			NOT = {
+				tag = GER
+			}
+		}
+	}
+	
+	icon = GFX_modifiers_INS_state_militia_activity_3
+
+	state_resources_factor = -0.5
+	local_building_slots_factor = -0.75
+	recruitable_population = -0.5
+	state_production_speed_buildings_factor = -0.5
+	disable_strategic_redeployment = 1
+	local_factory_sabotage = 0.1
+}
+
+GER_junker_estates = {
+	remove_trigger = { 
+		OWNER = {
+			NOT = {
+				tag = GER
+			}
+		}
+	}
+	
+	icon = GFX_modifiers_NOR_monarchism
+	
+	state_resources_factor = -1
+	local_building_slots_factor = -1
+	state_production_speed_buildings_factor = -0.5
+}
+
 sabotaged_resources = {
 	remove_trigger = { 
 		ROOT = {

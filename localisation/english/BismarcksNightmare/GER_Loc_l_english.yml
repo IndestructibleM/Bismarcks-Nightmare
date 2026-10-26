@@ -28,6 +28,8 @@
  GER_the_beacon_of_socialism:0 "The Beacon of Socialism"
  GER_2nd_ruhr_industrialization:0 "2nd Ruhr Industrialization"
  GER_restart_hannovers_trade_with_england:0 "Restart Hannover's Trade with England"
+ GER_crush_reactionary_rabble: "Silence the Reactionary Rabble"
+ GER_electrify_prussia: "Electrification of Prussia"
 
  GER_foreign_policy: "The Spectre Haunting Europe"
 
@@ -115,8 +117,16 @@
  GER_upcoming_elections: "Upcoming Chairman Elections"
  GER_council_elections: "Regular Council Elections"
  
+ GER_root_out_reaction_cat: "Rooting out Reaction"
+ GER_root_out_reaction_cat_desc: "To safeguard the future of the revolution, action must be taken against those backwards rabble-rousers in the east who cling to the ways of old. We refuse to tolerate this spew of reactionary nonsense into our nation any longer. \n\nUse the decisions available to eliminate reactionary strongholds in our nation."
+ GER_fight_DNVP_in_states: "Crush the DNVP in [FROM.GetName]"
+ GER_DNVP_activity: "DNVP Activity"
+ GER_DNVP_activity_desc: "The DNVP (German National People's Party) is actively working to expand its influence in various states. Monitoring and countering their activities is crucial to maintaining the revolution."
+ GER_remove_junker_estates: "Confiscate Junker Property in [FROM.GetName]"
+ GER_junker_estates: "Junker Estates"
+ GER_junker_estates_desc: "The traditional landed aristocracy of Germany, the Junkers, still hold significant estates and wield considerable influence in rural areas."
  GER_council_support_cat: "The Clockwork of Councils"
- GER_council_support_cat_desc: "Germany’s councils represent competing interests within the republic, each shaped by its position on the Internationalist-Nationalist, Statist-Councilist, and Revolutionary-Reformist axes. Through political decisions, we can shift the balance of opinion and win the support of sympathetic councils. Sufficient backing from the right factions will open the door to new policies and actions, while opposition may obstruct our ambitions. \n\nThe decisions below will allow you to favor one side of an axes at a time, winning support from their related councils. Regular council elections are held every 200 days, reshuffling the support you have in the councils. \n\nIndustrial Workers (§5Nationalist§!-§RRevolutionary§!-§2Councilist§!) \n[GER_industrial_support] \n\nRural Workers (§5Nationalist§!-§OReformist§!-§2Councilist§!) \n[GER_rural_support] \n\nMaritime Workers (§GInternationalist§!-§RRevolutionary§!-§2Councilist§!) \n[GER_sailors_support] \n\nEngineers (§GInternationalist§!-§RRevolutionary§!-§0Statist§!) \n[GER_engineers_support] \n\nFarmers (§5Nationalist§!-§OReformist§!-§2Councilist§!) \n[GER_farmers_support] \n\nIntellectuals (§GInternationalist§!-§RRevolutionary§!-§0Statist§!) \n[GER_intellectual_support] \n\nSoldiers (§GInternationalist§!-§RRevolutionary§!-§2Councilist§!) \n[GER_soldier_support] \n\nCivil Servants (§5Nationalist§!-§OReformist§!-§0Statist§!) \n[GER_civil_servant_support] \n\nInternationalist/Nationalist Axis: §G[?internationalist_support]§!-§5[?nationalist_support]§! \nCouncilist/Statist Axis: §2[?councilist_support]§!-§0[?statist_support]§! \nRevolutionary/Reformist Axis: §R[?revolutionary_support]§!-§O[?reformist_support]§!"
+ GER_council_support_cat_desc: "Germany’s councils represent competing interests within the republic, each shaped by its position on the Internationalist-Nationalist, Statist-Councilist, and Revolutionary-Reformist axes. Through political decisions, we can shift the balance of opinion and win the support of sympathetic councils. Sufficient backing from the right factions will open the door to new policies and actions, while opposition may obstruct our ambitions. \n\nThe decisions below will allow you to favor one side of an axes at a time, winning support from their related councils. Regular council elections are held every 200 days, reshuffling the support you have in the councils. \n\nIndustrial Workers (§5Nationalist§!-§RRevolutionary§!-§2Councilist§!) \n[GER_industrial_support] \n\nRural Workers (§5Nationalist§!-§OReformist§!-§2Councilist§!) \n[GER_rural_support] \n\nMaritime Workers (§GInternationalist§!-§RRevolutionary§!-§0Statist§!) \n[GER_sailors_support] \n\nEngineers (§GInternationalist§!-§OReformist§!-§0Statist§!) \n[GER_engineers_support] \n\nFarmers (§5Nationalist§!-§OReformist§!-§2Councilist§!) \n[GER_farmers_support] \n\nIntellectuals (§GInternationalist§!-§RRevolutionary§!-§0Statist§!) \n[GER_intellectual_support] \n\nSoldiers (§GInternationalist§!-§RRevolutionary§!-§2Councilist§!) \n[GER_soldier_support] \n\nCivil Servants (§5Nationalist§!-§OReformist§!-§0Statist§!) \n[GER_civil_servant_support] \n\nInternationalist/Nationalist Axis: §G[?internationalist_support]§!-§5[?nationalist_support]§! \nCouncilist/Statist Axis: §2[?councilist_support]§!-§0[?statist_support]§! \nRevolutionary/Reformist Axis: §R[?revolutionary_support]§!-§O[?reformist_support]§!"
  
  GER_industrial_workers_low: "§RLow Support§!"
  GER_industrial_workers_medium: "§YMedium Support§!"
@@ -173,3 +183,4 @@
  tt_support_councilist_side: "§7Raises Support Amongst Councilist Councils!§!"
  tt_support_reformist_side: "§7Raises Support Amongst Reformist Councils!§!"
  tt_support_revolutionary_side: "§7Raises Support Amongst Revolutionary Councils!§!"
+

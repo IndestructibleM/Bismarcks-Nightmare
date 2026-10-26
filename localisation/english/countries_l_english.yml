@@ -1259,7 +1259,7 @@
     GEO_ADJ:0 "Georgian"
 
  ###GERMANY
-    assorted_laws: "Assorted Laws"
+ assorted_laws: "Assorted Laws"
 
  oligarchy: "Oligarchy"
  tratocracy: "Stratocracy"
@@ -1268,9 +1268,9 @@
  abs_monarchy: "Absolute Monarchy"
  con_monarchy: "Constitutional Monarchy"
  liberal_republic: "Liberal Republic"
-   soviet_democracy: "Soviet Democracy"
-   partystate: "Party-State"
-   totalitarianism: "Totalitarianism"
+ soviet_democracy: "Council Republic"
+ partystate: "Party-State"
+ totalitarianism: "Totalitarianism"
 
  taxation: "Taxation Policy"
  taxation1: "Low Taxation"
@@ -1318,14 +1318,14 @@
     GER_communism:0 "Free Socialist Republic of Germany"
     GER_communism_DEF:0 "the Free Socialist Republic of Germany"
     GER_communism_ADJ:0 "German"  
-    GER_socialist:0 "Free Socialist Republic of Germany"
-    GER_socialist_DEF:0 "the Free Socialist Republic of Germany"
-    GER_socialist_ADJ:0 "German"
+    GER_socialism:0 "Free Socialist Republic of Germany"
+    GER_socialism_DEF:0 "the Free Socialist Republic of Germany"
+    GER_socialism_ADJ:0 "German"
 
    #DEMOCRATIC
 
-    GER_liberalism:0 "German Republic"
-    GER_liberalism_DEF:0 "the German Republic"
+    GER_liberalism:0 "Free Republic of Germany"
+    GER_liberalism_DEF:0 "the Free Republic of Germany"
     GER_liberalism_ADJ:0 "German"
 
    #FASCISM

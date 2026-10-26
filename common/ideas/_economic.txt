@@ -86,6 +86,30 @@ ideas = {
 							has_idea = GER_foreign_isolation2
 						}
 					}
+					custom_trigger_tooltip = {
+						tooltip = tt_industrial_workers_support
+						check_variable = {
+						industrial_workers = 3
+						}
+					}
+					custom_trigger_tooltip = {
+						tooltip = tt_farmers_support
+						check_variable = {
+						farmers = 3
+						}
+					}
+					custom_trigger_tooltip = {
+						tooltip = tt_civil_servants_support
+						check_variable = {
+						civil_servants = 3
+						}
+					}
+					custom_trigger_tooltip = {
+						tooltip = tt_soldiers_support
+						check_variable = {
+						soldiers = 3
+						}
+					}
 				}
 				ELSE = {
 					OR = {

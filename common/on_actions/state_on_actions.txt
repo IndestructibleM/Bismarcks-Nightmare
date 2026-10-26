@@ -1,0 +1,36 @@
+on_actions = {
+    on_startup = {
+        effect = {
+            1625 = {
+                add_dynamic_modifier = { modifier = GER_DNVP_activity }
+            }
+            339 = {
+                add_dynamic_modifier = { modifier = GER_DNVP_activity }
+            }
+            252 = {
+                add_dynamic_modifier = { modifier = GER_DNVP_activity }
+            }
+            2342 = {
+                add_dynamic_modifier = { modifier = GER_DNVP_activity }
+            }
+            263 = {
+                add_dynamic_modifier = { modifier = GER_DNVP_activity }
+            }
+            252 = {
+                add_dynamic_modifier = { modifier = GER_junker_estates }
+            }
+            122 = {
+                add_dynamic_modifier = { modifier = GER_junker_estates }
+            }
+            280 = {
+                add_dynamic_modifier = { modifier = GER_junker_estates }
+            }
+            2729 = {
+                add_dynamic_modifier = { modifier = GER_junker_estates }
+            }
+            1628 = {
+                add_dynamic_modifier = { modifier = GER_junker_estates }
+            }
+        }
+    }
+}

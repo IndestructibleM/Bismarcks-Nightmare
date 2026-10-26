@@ -65,7 +65,7 @@ ideas = {
 			}
 			picture = FRA_scw_intervention_republicans_focus
 			cancel = {
-				has_completed_focus = GER_italian_comrades_in_arms
+				has_completed_focus = GER_electrify_prussia
 				has_completed_focus = GER_restart_hannovers_trade_with_england
 				has_completed_focus = GER_a_refuge_for_revolutionary_minds
 			}

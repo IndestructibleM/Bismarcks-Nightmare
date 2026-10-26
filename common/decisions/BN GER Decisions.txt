@@ -222,6 +222,83 @@ GER_council_support_cat = {
     }
 }
 
+GER_root_out_reaction_cat = {
+    GER_fight_DNVP_in_states = {
+		name = GER_fight_DNVP_in_states
+        icon = GFX_decision_generic_police_action
+		allowed = { tag = GER }
+		cost = 30
+		state_target = yes
+        target_array = owned_states
+		target_trigger = {
+			FROM = {
+                is_fully_controlled_by = GER
+				has_dynamic_modifier = { modifier = GER_DNVP_activity }
+			}
+		}
+		days_remove = 50
+		ai_will_do = {
+			factor = 150
+		}
+		available = { 
+            divisions_in_state = {
+                size > 2
+                state = FROM
+            }
+        }
+		modifier = {
+			weekly_manpower = -35
+			consumer_goods_expected_value = 0.03
+			stability_weekly = -0.002			
+		}
+		remove_effect = {
+			FROM = {
+				remove_dynamic_modifier = { modifier = GER_DNVP_activity }
+            }
+			add_stability = 0.02
+		}
+	}
+    
+    GER_remove_junker_estates = {
+		name = GER_remove_junker_estates
+        icon = GFX_decision_generic_confiscation
+		allowed = { tag = GER }
+		cost = 50
+		state_target = yes
+        target_array = owned_states
+		target_trigger = {
+			FROM = {
+                is_fully_controlled_by = GER
+				has_dynamic_modifier = { modifier = GER_junker_estates }
+			}
+		}
+		days_remove = 30
+		ai_will_do = {
+			factor = 150
+		}
+		available = { 
+            divisions_in_state = {
+                size > 2
+                state = FROM
+            }
+        }
+		modifier = {
+			consumer_goods_expected_value = 0.05
+            political_power_factor = -0.15
+		}
+		remove_effect = {
+			FROM = {
+				remove_dynamic_modifier = { modifier = GER_junker_estates }
+                add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+            }
+		}
+	}
+}
+
 GER_pan_german_revolution_cat = {  
     GER_integrate_austria = {
         allowed = {
