@@ -45,20 +45,16 @@ GER_DNVP_activity = {
 	local_factory_sabotage = 0.1
 }
 
-GER_junker_estates = {
-	remove_trigger = { 
-		OWNER = {
-			NOT = {
-				tag = GER
-			}
-		}
-	}
+GER_councils_modifier = {
 	
-	icon = GFX_modifiers_NOR_monarchism
+	icon = GFX_idea_SOV_system_decentralization
 	
-	state_resources_factor = -1
-	local_building_slots_factor = -1
-	state_production_speed_buildings_factor = -0.5
+	industrial_capacity_factory = industrial_workers_modifier
+	stability_factor = civil_servants_modifier
+	political_power_gain = intellectuals_modifier
+	production_speed_buildings_factor = engineers_modifier
+	local_resources_factor = farmers_rural_workers_modifier
+	war_support_factor = soldier_sailors_modifier
 }
 
 sabotaged_resources = {

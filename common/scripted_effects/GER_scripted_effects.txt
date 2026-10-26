@@ -1,4 +1,47 @@
-
+recalc_council_support_modifiers = {
+	set_variable = {
+		civil_servants_modifier = civil_servants
+	}
+	set_variable = {
+		engineers_modifier = engineers
+	}
+	set_variable = {
+		industrial_workers_modifier = industrial_workers
+	}
+	set_variable = {
+		intellectuals_modifier = intellectuals
+	}
+	set_variable = {
+		soldiers_sailors_modifier = soldiers
+	}
+	add_to_variable = {
+		soldier_sailors_modifier = sailors
+	}
+	set_variable = {
+		farmers_rural_workers_modifier = farmers
+	}
+	add_to_variable = {
+		farmers_rural_workers_modifier = rural_workers
+	}
+	multiply_variable = {
+		intellectuals_modifier = 0.04 
+	}
+	multiply_variable = {
+		industrial_workers_modifier = 0.04 
+	}
+	multiply_variable = {
+		engineers_modifier = 0.04 
+	}
+	multiply_variable = {
+		civil_servants_modifier = 0.04 
+	}
+	multiply_variable = {
+		soldier_sailors_modifier = 0.04 
+	}
+	multiply_variable = {
+		farmers_rural_workers_modifier = 0.04 
+	}
+}
 #Important to put HIGHEST first
 support_nationalist_side = {
 	add_to_variable = {
@@ -101,6 +144,7 @@ support_internationalist_side = {
 		min = 0
 	}
 	custom_effect_tooltip = tt_support_internationlist_side
+	recalc_council_support_modifiers = yes
 }
 support_reformist_side = {
 	add_to_variable = {
@@ -152,6 +196,7 @@ support_reformist_side = {
 		min = 0
 	}
 	custom_effect_tooltip = tt_support_reformist_side
+	recalc_council_support_modifiers = yes
 }
 support_revolutionary_side = {
 	add_to_variable = {
@@ -202,7 +247,9 @@ support_revolutionary_side = {
 		max = 5
 		min = 0
 	}
+	force_update_dynamic_modifier = yes
 	custom_effect_tooltip = tt_support_revolutionary_side
+	recalc_council_support_modifiers = yes
 }
 support_statist_side = {
 	add_to_variable = {
@@ -254,6 +301,7 @@ support_statist_side = {
 		min = 0
 	}
 	custom_effect_tooltip = tt_support_statist_side
+	recalc_council_support_modifiers = yes
 }
 support_councilist_side = {
 	add_to_variable = {
@@ -305,6 +353,7 @@ support_councilist_side = {
 		min = 0
 	}
 	custom_effect_tooltip = tt_support_councilist_side
+	recalc_council_support_modifiers = yes
 }
 
 give_SOV_armor_research_bonuses = { #this effect is run for the Soviets!

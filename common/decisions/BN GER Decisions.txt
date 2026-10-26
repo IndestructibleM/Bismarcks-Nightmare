@@ -101,6 +101,7 @@ GER_council_support_cat = {
                         integer = yes
                     }
                 }
+                recalc_council_support_modifiers = yes
             }
         }
     }

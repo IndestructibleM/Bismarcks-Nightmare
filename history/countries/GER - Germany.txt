@@ -15,6 +15,10 @@ if = {
 	set_oob = "GER_1936_nsb"
 }
 
+add_dynamic_modifier = {
+	modifier = GER_councils_modifier
+}
+
 add_breakthrough_progress = {
 	specialization = specialization_land
 	value = 1.0
@@ -232,6 +236,30 @@ set_variable = {
 
 set_variable = {
 	reformist_support = 2
+}
+
+set_variable = {
+	engineers_modifier = 0.01
+}
+
+set_variable = {
+	industrial_workers_modifier = 0.01
+}
+
+set_variable = {
+	farmers_rural_workers_modifier = 0.01
+}
+
+set_variable = {
+	civil_servants_modifier = 0.01
+}
+
+set_variable = {
+	soldier_sailors_modifier = 0.01
+}
+
+set_variable = {
+	intellectuals_modifier = 0.01
 }
 
 
