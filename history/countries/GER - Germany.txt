@@ -262,6 +262,7 @@ set_variable = {
 	intellectuals_modifier = 0.01
 }
 
+recalc_council_support_modifiers = yes
 
 # Starting Stats of various kinds
 set_research_slots = 4

@@ -34,7 +34,7 @@ GER_council_support_cat = {
                     set_variable_to_random = {
                         var = soldiers
                         min = 1
-                        max = 3
+                        max = 2
                         integer = yes
                     }
                 }
@@ -43,7 +43,7 @@ GER_council_support_cat = {
                     set_variable_to_random = {
                         var = industrial_workers
                         min = 1
-                        max = 3
+                        max = 2
                         integer = yes
                     }
                 }
@@ -52,7 +52,7 @@ GER_council_support_cat = {
                     set_variable_to_random = {
                         var = sailors
                         min = 1
-                        max = 3
+                        max = 2
                         integer = yes
                     }
                 }
@@ -61,7 +61,7 @@ GER_council_support_cat = {
                     set_variable_to_random = {
                         var = engineers
                         min = 1
-                        max = 3
+                        max = 2
                         integer = yes
                     }
                 }
@@ -70,7 +70,7 @@ GER_council_support_cat = {
                     set_variable_to_random = {
                         var = intellectuals
                         min = 1
-                        max = 3
+                        max = 2
                         integer = yes
                     }
                 }
@@ -79,7 +79,7 @@ GER_council_support_cat = {
                     set_variable_to_random = {
                         var = farmers
                         min = 1
-                        max = 3
+                        max = 2
                         integer = yes
                     }
                 }
@@ -88,7 +88,7 @@ GER_council_support_cat = {
                     set_variable_to_random = {
                         var = rural_workers
                         min = 1
-                        max = 3
+                        max = 2
                         integer = yes
                     }
                 }
@@ -97,7 +97,7 @@ GER_council_support_cat = {
                     set_variable_to_random = {
                         var = civil_servants
                         min = 1
-                        max = 3
+                        max = 2
                         integer = yes
                     }
                 }
@@ -237,7 +237,7 @@ GER_root_out_reaction_cat = {
 				has_dynamic_modifier = { modifier = GER_DNVP_activity }
 			}
 		}
-		days_remove = 50
+		days_remove = 30
 		ai_will_do = {
 			factor = 150
 		}
@@ -252,6 +252,13 @@ GER_root_out_reaction_cat = {
 			consumer_goods_expected_value = 0.03
 			stability_weekly = -0.002			
 		}
+        complete_effect = {
+            set_country_flag = {
+                flag = GER_fighting_DNVP
+                days = 30
+                value = 1
+            }
+        }
 		remove_effect = {
 			FROM = {
 				remove_dynamic_modifier = { modifier = GER_DNVP_activity }
@@ -259,6 +266,29 @@ GER_root_out_reaction_cat = {
 			add_stability = 0.02
 		}
 	}
+    GER_fight_DNVP_mission = {
+        days_mission_timeout = 35
+        is_good = no
+        fire_only_once = no
+        allowed = {
+            tag = GER
+        }
+        activation = {
+            any_owned_state = {
+                has_dynamic_modifier = {
+                    modifier = GER_DNVP_activity
+                }
+            }
+        }
+        available = {
+            has_country_flag = GER_fighting_DNVP
+        }
+
+        timeout_effect = {
+            activate_mission = GER_fight_DNVP_mission
+            add_stability = -0.05
+        }
+    }
 }
 
 GER_pan_german_revolution_cat = {  

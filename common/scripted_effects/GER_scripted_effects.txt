@@ -24,22 +24,22 @@ recalc_council_support_modifiers = {
 		farmers_rural_workers_modifier = rural_workers
 	}
 	multiply_variable = {
-		intellectuals_modifier = 0.04 
+		intellectuals_modifier = 0.05 
 	}
 	multiply_variable = {
-		industrial_workers_modifier = 0.04 
+		industrial_workers_modifier = 0.05 
 	}
 	multiply_variable = {
-		engineers_modifier = 0.04 
+		engineers_modifier = 0.05 
 	}
 	multiply_variable = {
-		civil_servants_modifier = 0.04 
+		civil_servants_modifier = 0.05 
 	}
 	multiply_variable = {
-		soldier_sailors_modifier = 0.04 
+		soldier_sailors_modifier = 0.05 
 	}
 	multiply_variable = {
-		farmers_rural_workers_modifier = 0.02 
+		farmers_rural_workers_modifier = 0.025 
 	}
 }
 #Important to put HIGHEST first

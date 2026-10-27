@@ -16,6 +16,24 @@ on_actions = {
             263 = {
                 add_dynamic_modifier = { modifier = GER_DNVP_activity }
             }
+            1625 = {
+                add_dynamic_modifier = { modifier = GER_DNVP_activity }
+            }
+            252 = {
+                add_dynamic_modifier = { modifier = GER_DNVP_activity }
+            }
+            122 = {
+                add_dynamic_modifier = { modifier = GER_DNVP_activity }
+            }
+            280 = {
+                add_dynamic_modifier = { modifier = GER_DNVP_activity }
+            }
+            2729 = {
+                add_dynamic_modifier = { modifier = GER_DNVP_activity }
+            }
+            1628 = {
+                add_dynamic_modifier = { modifier = GER_DNVP_activitys }
+            }
         }
     }
 }

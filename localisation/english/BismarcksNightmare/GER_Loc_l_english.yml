@@ -11,6 +11,8 @@
  GER_kulturkampf:0 "Der Kulturkampf"
  GER_kulturkampf_desc:0 "Officially, our state is secular, recognizing no god. But in practice, atheistic, materialistic, and Marxist ideology is pushed by the state, as it tries to dismantle the rights and privileges of organized religion until it’s slowly put under the might of the state, and no longer independent from it. This causes much friction with both the protestant and catholic churches in Germany, who resist this "Culture Struggle"."
  GER_der_kulturkampf: "Kulturkampf Escalation"
+ GER_councils_modifier: "The Clockwork of Councils"
+ GER_councils_modifier_desc: "The councils are the backbone of our republic, coordinating the efforts of workers, soldiers, and citizens. As each council raises their support, the strength of the buffs received from this idea increases. \n\nSoldiers and sailors raise war support, farmers and rural Workers raise resource gain fctor, civil servants raise stability, intellectuals raise political power gain, engineers raise construction speed, and industrial workers raise factory output."
  
  GER_the_old_chairman:0 "The Old Chairman"
  GER_completing_the_kulturkampf:0 "Completing the Kulturkampf"
@@ -116,7 +118,9 @@
 
  GER_upcoming_elections: "Upcoming Chairman Elections"
  GER_council_elections: "Regular Council Elections"
- 
+ GER_fight_DNVP_mission: "Fight the DNVP"
+ GER_fight_DNVP_mission_desc: "The DNVP has surged recently and poses a threat to the revolution. We must take action to counter their influence and ensure the stability of the republic."
+ GER_fighting_DNVP: "Is fighting the DNVP"
  GER_root_out_reaction_cat: "Rooting out Reaction"
  GER_root_out_reaction_cat_desc: "To safeguard the future of the revolution, action must be taken against those backwards rabble-rousers in the east who cling to the ways of old. We refuse to tolerate this spew of reactionary nonsense into our nation any longer. \n\nUse the decisions available to eliminate reactionary strongholds in our nation."
  GER_fight_DNVP_in_states: "Crush the DNVP in [FROM.GetName]"

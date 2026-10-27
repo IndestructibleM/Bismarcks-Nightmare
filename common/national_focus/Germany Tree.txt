@@ -443,6 +443,7 @@ focus_tree = {
 		}
 		completion_reward = {
             unlock_decision_category_tooltip = GER_root_out_reaction_cat
+            activate_mission = GER_fight_DNVP_mission
             add_tech_bonus = {
                 bonus = 0.5
                 uses = 1
