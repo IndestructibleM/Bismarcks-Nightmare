@@ -18,7 +18,7 @@ ideas = {
 				always = yes
 			}
 			modifier = {
-				political_power_cost = 0.4
+				political_power_cost = 0.5
 				stability_factor = -0.1
 				war_support_factor = -0.1
 			}
@@ -30,13 +30,14 @@ ideas = {
 				always = yes
 			}
 			modifier = {
-				political_power_cost = 0.2
+				political_power_cost = 0.25
 				stability_factor = -0.05
 				war_support_factor = -0.05
 			}
 			picture = GER_limited_democratic_principles
 		}
 		GER_foreign_isolation = {
+			name = GER_foreign_isolation
 			allowed_civil_war = {
 				always = yes
 			}
@@ -54,6 +55,7 @@ ideas = {
 			}
 		}
 		GER_foreign_isolation2 = {
+			name = GER_foreign_isolation
 			allowed_civil_war = {
 				always = yes
 			}
@@ -78,7 +80,7 @@ ideas = {
 			modifier = {
 				conscription_factor = -0.25
 				consumer_goods_expected_value = 0.08
-				political_power_factor = -0.05
+				political_power_factor = -0.1
 				war_support_factor = -0.2
 			}
 			picture = ARG_state_atheism
@@ -91,7 +93,7 @@ ideas = {
 			modifier = {
 				conscription_factor = -0.15
 				consumer_goods_expected_value = 0.05
-				political_power_factor = -0.05
+				political_power_factor = -0.1
 				war_support_factor = -0.15
 			}
 			picture = ARG_state_atheism

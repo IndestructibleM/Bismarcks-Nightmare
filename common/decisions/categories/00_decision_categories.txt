@@ -12,6 +12,10 @@ debug_decisions = {
 		}
 	}
 }
+
+BN_experience_conversion_cat = {
+	icon = GFX_decision_generic_military
+}
 propaganda_efforts = {
 	icon = generic_propaganda
 

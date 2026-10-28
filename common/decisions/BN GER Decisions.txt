@@ -274,6 +274,7 @@ GER_root_out_reaction_cat = {
             tag = GER
         }
         activation = {
+            has_completed_focus = GER_crush_reactionary_rabble
             any_owned_state = {
                 has_dynamic_modifier = {
                     modifier = GER_DNVP_activity

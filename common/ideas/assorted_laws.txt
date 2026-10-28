@@ -137,6 +137,7 @@ ideas = {
 			picture = GFX_idea_laissez_faire
 			cost = 100
 			cancel_if_invalid = yes
+			default = yes
 			modifier = {
 				industrial_capacity_factory = 0.1
 				industrial_capacity_dockyard = 0.1
@@ -148,27 +149,25 @@ ideas = {
 			}
 			available = {
 				OR = {
-				has_country_leader_ideology = liberalism
-				has_country_leader_ideology = conservatism
+				has_government = liberalism
+				has_government = conservative
 				}
 			}
 			removal_cost = -1
-			allowed_to_remove = {
-				always = no
-			}
 		}
 		keynesianism = {
 			name = "Keynesianism"
 			picture = GFX_idea_keynesianism
 			cost = 100
 			cancel_if_invalid = yes
+			default = yes
 			available = {
 				OR = {
-				has_country_leader_ideology = socialism
-				has_country_leader_ideology = populism
+				has_government = liberalism
+				has_government = conservative
 				}
 			}
-			removal_cost = 0
+			removal_cost = -1
 			modifier = {
 				industrial_capacity_factory = 0.08
 				industrial_capacity_dockyard = 0.08
@@ -176,33 +175,25 @@ ideas = {
 				military_industrial_organization_funds_gain = 0.1
 				consumer_goods_factor = 0.15
 			}
-			allowed_to_remove = {
-				always = no
-			}
 		}
 		decentralized_planning = {
 			name = "Decentralized Planning"
 			picture = GFX_idea_decentralized_planning
 			cost = 100
 			cancel_if_invalid = yes
+			default = yes
 			available = {
 				OR = {
-				has_country_leader_ideology = marxism
-				has_country_leader_ideology = leninism
-				has_country_leader_ideology = buddhist_socialism
+				has_government = communism
 				has_government = socialism
 				}
 			}
-			default = yes
-			removal_cost = 0
+			removal_cost = -1
 			modifier = {
 				production_factory_efficiency_gain_factor = 0.10
 				line_change_production_efficiency_factor = -0.20
 				production_factory_start_efficiency_factor = 0.10
 				consumer_goods_expected_value = -0.05
-			}
-			allowed_to_remove = {
-				always = no
 			}
 		}
 		central_planning = {
@@ -210,15 +201,14 @@ ideas = {
 			picture = GFX_eng_spirit_of_the_industrial_revolution
 			cost = 100
 			cancel_if_invalid = yes
+			default = yes
 			available = {
 				OR = {
-				has_country_leader_ideology = leninism
-				has_country_leader_ideology = stalinism
-				has_country_leader_ideology = anti_revisionism
+				has_government = socialism
 				has_government = communism
 				}
 			}
-			removal_cost = 0
+			removal_cost = -1
 			modifier = {
 				min_export = -0.05
 				production_factory_efficiency_gain_factor = 0.15
@@ -226,47 +216,36 @@ ideas = {
 				line_change_production_efficiency_factor = 0.05
 				consumer_goods_expected_value = -0.1
 			}
-			allowed_to_remove = {
-				always = no
-			}
 		}
 		corporatism = {
 			name = "Corporatism"
 			picture = GFX_idea_generic_fascist_workers
 			cost = 100
 			cancel_if_invalid = yes
+			default = yes
 			available = {
 				OR = {
 				has_government = ultranationalism
-				has_country_leader_ideology = despotism
+				has_government = reactionism
 				}
 			}
-			removal_cost = 0
+			removal_cost = -1
 			modifier = {
 				min_export = -0.10
 				production_factory_efficiency_gain_factor = -0.10
 				production_factory_max_efficiency_factor = 0.05
 				production_speed_buildings_factor = 0.05
 			}
-			allowed_to_remove = {
-				always = no
-			}
 		}
 		dirigisme = {
 			name = "Dirigisme"
 			cost = 100
 			cancel_if_invalid = yes
+			default = yes
 			available = {
-				OR = {
-				has_country_leader_ideology = emperor_ultranationalism
-				has_country_leader_ideology = despotism
-				has_country_leader_ideology = ultranationalism_ideology
-				has_country_leader_ideology = moderatism
-				has_country_leader_ideology = technocracy
-				has_country_leader_ideology = socfash
-				}
+				has_government = despotism
 			}
-			removal_cost = 0
+			removal_cost = -1
 			modifier = {
 				min_export = -0.10
 				production_factory_efficiency_gain_factor = -0.2
@@ -274,25 +253,20 @@ ideas = {
 				consumer_goods_factor = -0.15
 				research_speed_factor = 0.05
 			}
-			allowed_to_remove = {
-				always = no
-			}
 		}
 		state_capitalism = {
 			name = "State Capitalism"
 			picture = GFX_idea_state_capitalism
 			cost = 100
 			cancel_if_invalid = yes
+			default = yes
 			available = {
 				OR = {
-				has_country_leader_ideology = despotism
-				has_country_leader_ideology = oligarchism
-				has_country_leader_ideology = moderatism
-				has_country_leader_ideology = centrism
-				has_country_leader_ideology = japan_militarism_ideology
+				has_government = despotism
+				has_government = reactionism
 				}
 			}
-			removal_cost = 0
+			removal_cost = -1
 			modifier = {
 				line_change_production_efficiency_factor = -0.10
 				production_speed_buildings_factor = 0.05
@@ -302,24 +276,19 @@ ideas = {
 				military_industrial_organization_research_bonus = 0.05
 				consumer_goods_expected_value = 0.05
 			}
-			allowed_to_remove = {
-				always = no
-			}
 		}
 		mixed_economy = {
 			name = "Mixed Economy"
 			cost = 100
 			cancel_if_invalid = yes
+			default = yes
 			available = {
 				OR = {
-				has_country_leader_ideology = socialism
-				has_country_leader_ideology = oligarchism
-				has_country_leader_ideology = moderatism
-				has_country_leader_ideology = centrism
-				has_country_leader_ideology = populism
+				has_government = socialism
+				has_government = liberalism
 				}
 			}
-			removal_cost = 0
+			removal_cost = -1
 			modifier = {
 				production_factory_efficiency_gain_factor = -0.10
 				industrial_capacity_factory = 0.08
@@ -327,43 +296,17 @@ ideas = {
 				production_speed_buildings_factor = 0.05
 				consumer_goods_factor = 0.1
 			}
-			allowed_to_remove = {
-				always = no
-			}
-		}
-		traditional_economy = {
-			name = "Traditional Economy"
-			picture = GFX_idea_traditional_economy
-			cost = 100
-			cancel_if_invalid = yes
-			available = {
-				num_of_owned_factories < 10
-				is_major = no
-			}
-			default  = yes
-			removal_cost = 0
-			modifier = {
-				production_factory_max_efficiency_factor = -0.10
-				production_speed_buildings_factor = -0.05
-				research_speed_factor = -0.1
-				production_lack_of_resource_penalty_factor = -0.2
-				supply_consumption_factor = -0.1
-				conscription_factor = -0.2
-			}
-			allowed_to_remove = {
-				always = no
-			}
 		}
 		gift_economy = {
 			name = "Gift Economy"
 			picture = GFX_idea_gift_economy
 			cost = 100
 			cancel_if_invalid = yes
+			default = yes
 			available = {
-				has_country_leader_ideology = anarchism
-				has_country_leader_ideology = anarchist_communism
+				has_government = socialism
 			}
-			removal_cost = 0
+			removal_cost = -1
 			modifier = {
 				min_export = -0.10
 				production_factory_efficiency_gain_factor = -0.10
@@ -372,16 +315,36 @@ ideas = {
 				line_change_production_efficiency_factor = 0.10
 				consumer_goods_factor = -0.10
 			}
-			allowed_to_remove = {
-				always = no
+		}
+		traditional_economy = {
+			name = "Traditional Economy"
+			picture = GFX_idea_traditional_economy
+			cost = 100
+			cancel_if_invalid = yes
+			default = yes
+			available = {
+				num_of_owned_factories < 12
+				is_major = no
+			}
+			removal_cost = -1
+			modifier = {
+				production_factory_max_efficiency_factor = -0.10
+				production_speed_buildings_factor = -0.05
+				research_speed_factor = -0.1
+				production_lack_of_resource_penalty_factor = -0.2
+				supply_consumption_factor = -0.15
+				conscription_factor = -0.2
 			}
 		}
 	}
 	government_type = {
 		law = yes
+		
 		oligarchy = {
 			cost = 100
 			removal_cost = -1
+			default = yes
+			cancel_if_invalid = yes
 			modifier = {
 				political_power_factor = -0.05
 				drift_defence_factor = -0.10
@@ -389,10 +352,7 @@ ideas = {
 			}
 			available = {
 				OR = {
-				has_country_leader_ideology = despotism
-				has_country_leader_ideology = oligarchism
-				has_country_leader_ideology = moderatism
-				has_country_leader_ideology = centrism
+					has_government = despotism
 				}
 			}
 			ai_will_do = {
@@ -403,20 +363,21 @@ ideas = {
 		stratocracy = {
 			cost = 100
 			removal_cost = -1
+			default = yes
+			cancel_if_invalid = yes
 			modifier = {
-			political_power_factor = 0.05
-			stability_factor = -0.1
-			war_support_factor = 0.1
-			war_stability_factor = 0.1
-			justify_war_goal_time = -0.25
-			communism_acceptance = -25
-			socialism_acceptance = -15
+				political_power_factor = 0.05
+				stability_factor = -0.1
+				war_support_factor = 0.1
+				war_stability_factor = 0.1
+				justify_war_goal_time = -0.25
+				communism_acceptance = -25
+				socialism_acceptance = -15
 			}
 			available = {
 				OR = {
-				has_country_leader_ideology = despotism
-				has_country_leader_ideology = oligarchism
 				has_government = despotism
+				has_government = reactionism
 				}
 			}
 			ai_will_do = {
@@ -426,73 +387,59 @@ ideas = {
 		
 		warlordism = {
 			cost = 100
-			removal_cost = 0
+			removal_cost = -1
+			default = yes
+			cancel_if_invalid = yes
 			modifier = {
-			political_power_factor = -0.1
-			stability_factor = -0.1
-			war_support_factor = 0.15
-			justify_war_goal_time = -0.15
+				political_power_factor = -0.1
+				stability_factor = -0.1
+				war_support_factor = 0.15
+				justify_war_goal_time = -0.15
 			}
 			available = {
 				OR = {
-				has_country_leader_ideology = despotism
-				has_country_leader_ideology = oligarchism
+				has_government = despotism
+				has_government = reactionism
 				}
-				num_of_owned_factories < 25
+				num_of_owned_factories < 20
 			}
 			ai_will_do = {
 				factor = 100
 			}
 		}
 		
-		colonial_gov = {
-			cost = 100
-			removal_cost = 0
-			modifier = {
-				conscription_factor = -0.25
-				political_power_gain = 0.1
-				stability_factor = -0.1
-				drift_defence_factor = -0.15
-				communism_acceptance = -25
-				socialism_acceptance = -15
-			}
-			available = {
-				NOT = { has_government = communism }
-				is_subject = yes
-			}
-			ai_will_do = {
-				factor = 100
-			}
-		}	
-		
 		abs_monarchy = {
 			cost = 100
-			removal_cost = 0
+			removal_cost = -1
+			default = yes
+			cancel_if_invalid = yes
 			modifier = {
-			drift_defence_factor = 0.1
-			stability_factor = 0.05
-			political_power_factor = -0.1
-			war_support_factor = 0.05
-			war_stability_factor = 0.05
-			communism_acceptance = -25
+				drift_defence_factor = 0.1
+				stability_factor = 0.05
+				political_power_factor = -0.1
+				war_support_factor = 0.05
+				war_stability_factor = 0.05
+				communism_acceptance = -25
 			}
 			available = {
 				OR = {
 				has_government = despotism
-				has_country_leader_ideology = japan_militarism_ideology
-				has_country_leader_ideology = emperor_ultranationalism
+				has_government = reactionism
 				}
 			}
 		}	
 		
 		con_monarchy = {
 			cost = 100
-			removal_cost = 0
+			removal_cost = -1
+			default = yes
+			cancel_if_invalid = yes
 			modifier = {
-			drift_defence_factor = 0.25
-			stability_factor = 0.1
-			war_stability_factor = 0.1
-			despotism_acceptance = 15
+				drift_defence_factor = 0.25
+				stability_factor = 0.1
+				war_stability_factor = 0.1
+				despotism_acceptance = 10
+				communism_acceptance = -10
 			}
 			available = {
 				OR = {
@@ -516,22 +463,24 @@ ideas = {
 		
 		liberal_republic = {
 			cost = 100
-			removal_cost = 0
+			removal_cost = -1
+			default = yes
+			cancel_if_invalid = yes
 			modifier = {
-			drift_defence_factor = 0.1
-			political_power_factor = 0.075
-			offensive_war_stability_factor = -0.05
-			defensive_war_stability_factor = 0.1
-			justify_war_goal_time = 0.15
-			liberalism_acceptance = 5
-			conservative_acceptance = 5
-			ultranationalism_acceptance = -10
-			communism_acceptance = -10
+				drift_defence_factor = 0.1
+				political_power_factor = 0.075
+				offensive_war_stability_factor = -0.05
+				defensive_war_stability_factor = 0.1
+				justify_war_goal_time = 0.15
+				liberalism_acceptance = 5
+				conservative_acceptance = 5
+				ultranationalism_acceptance = -10
+				communism_acceptance = -10
 			}
 			available = {
 				OR = {
 				has_government = liberalism
-				has_country_leader_ideology = centrism
+				has_government = conservative
 				}
 			}
 			ai_will_do = {
@@ -541,14 +490,16 @@ ideas = {
 		
 		soviet_democracy = {
 			cost = 100
-			removal_cost = 0
+			removal_cost = -1
+			default = yes
+			cancel_if_invalid = yes
 			modifier = {
-			drift_defence_factor = 0.1
-			political_power_factor = 0.05
-			war_stability_factor = 0.1
-			production_factory_efficiency_gain_factor = -0.05
-			communism_acceptance = 5
-			ultranationalism_acceptance = -25
+				drift_defence_factor = 0.1
+				political_power_factor = 0.05
+				war_stability_factor = 0.1
+				production_factory_efficiency_gain_factor = -0.05
+				communism_acceptance = 5
+				ultranationalism_acceptance = -25
 			}
 			available = {
 				OR = {
@@ -563,13 +514,15 @@ ideas = {
 		
 		partystate = {
 			cost = 100
-			removal_cost = 0
+			removal_cost = -1
+			default = yes
+			cancel_if_invalid = yes
 			modifier = {
-			drift_defence_factor = 0.2
-			political_power_factor = 0.05
-			stability_factor = -0.05
-			war_stability_factor  = 0.1
-			justify_war_goal_time = -0.25
+				drift_defence_factor = 0.2
+				political_power_factor = 0.05
+				stability_factor = -0.05
+				war_stability_factor  = 0.1
+				justify_war_goal_time = -0.25
 			}
 			available = {
 				OR  = {
@@ -584,15 +537,17 @@ ideas = {
 		
 		totalitarianism = {
 			cost = 100
-			removal_cost = 0
+			removal_cost = -1
+			default = yes
+			cancel_if_invalid = yes
 			modifier = {
-			stability_factor = -0.1
-			political_power_factor = 0.1
-			offensive_war_stability_factor = 0.2
-			defensive_war_stability_factor = 0.1
-			drift_defence_factor = 0.2
-			justify_war_goal_time = -0.25
-			liberalism_acceptance = -20
+				stability_factor = -0.1
+				political_power_factor = 0.1
+				offensive_war_stability_factor = 0.2
+				defensive_war_stability_factor = 0.1
+				drift_defence_factor = 0.2
+				justify_war_goal_time = -0.25
+				liberalism_acceptance = -20
 			}
 			available = {
 				OR  = {
@@ -605,6 +560,29 @@ ideas = {
 				factor = 100
 			}
 		}
+		colonial_gov = {
+			cost = 100
+			removal_cost = -1
+			default = yes
+			
+			modifier = {
+				conscription_factor = -0.25
+				political_power_gain = 0.1
+				stability_factor = -0.1
+				drift_defence_factor = -0.15
+				surrender_limit = -0.1
+				communism_acceptance = -25
+				socialism_acceptance = -15
+			}
+			available = {
+				NOT = { has_government = communism }
+				is_subject = yes
+				num_of_owned_factories < 30
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}	
 	}
 
 		taxation = {
@@ -1059,90 +1037,96 @@ ideas = {
 			}
 			ai_will_do = { factor = 55 }
 		}
+
 		}
 
-		religion_status = {
+	religion_status = {
 		law = yes
 		use_list_view = yes
 		removal_cost = -1
 
 		religion1 = {
-			name = religion1
 			level = 1
 			cost = 100
 			picture = ARG_state_atheism
 			cancel_if_invalid = no
-			modifier = { }
-			ai_will_do = { factor = 35 }
+			modifier = {
+				stability_factor = -0.05
+				research_speed_factor = 0.06
+				war_support_factor = 0.05
+				drift_defence_factor = 0.05
+
+			}
+			ai_will_do = { factor = 70 }
 		}
 
 		religion2 = {
-			name = religion2
 			level = 2
 			cost = 100
 			picture = IRE_secular
 			cancel_if_invalid = yes
 			modifier = {
-				stability_factor = 0.02
+				stability_factor = -0.025
+				drift_defence_factor = 0.025
+				research_speed_factor = 0.03
 			}
-			ai_will_do = { factor = 40 }
+			ai_will_do = { factor = 80 }
+		}
+		
+		religion3 = {
+			level = 3
+			cost = 100
+			picture = IRE_secular
+			cancel_if_invalid = yes
+			modifier = {
+				political_power_factor = 0.05
+				stability_factor = 0.05
+				drift_defence_factor = -0.05
+			}
+			available = {
+			}
+			ai_will_do = { factor = 80 }
 		}
 
-		religion3 = {
-			name = religion3
-			level = 3
+		religion4 = {
+			level = 4
 			cost = 100
 			default = yes
 			picture = religious_freedom
 			cancel_if_invalid = yes
 			modifier = {
-				stability_factor = 0.04
+				stability_factor = 0.025
 				war_support_factor = 0.02
+				research_speed_factor = -0.03
+				drift_defence_factor = 0.025
 			}
 			available = {
 				NOT = {
 					has_government = communism
 				}
 			}
-			ai_will_do = { factor = 45 }
+			ai_will_do = { factor = 90 }
 		}
 
-		religion4 = {
-			name = religion4
-			level = 4
+		religion5 = {
+			level = 5
 			cost = 100
 			cancel_if_invalid = yes
 			picture = YUG_orthodox_church_support
 			modifier = {
-				stability_factor = 0.06
-				war_support_factor = 0.04
+				stability_factor = 0.05
+				war_support_factor = 0.05
+				consumer_goods_expected_value = 0.03
+				research_speed_factor = -0.06
+				drift_defence_factor = 0.05
 			}
 			available = {
 				NOT = {
-					has_government = socialism
+					has_government = socialist
 					has_government = communism
 				}
 			}
-			ai_will_do = { factor = 50 }
-		}
-
-		religion5 = {
-			name = religion5
-			level = 5
-			cost = 100
-			picture = church_of_all_religions
-			cancel_if_invalid = yes
-			modifier = {
-				stability_factor = 0.08
-				war_support_factor = 0.06
-			}
-			available = {
-				NOT = {
-					has_government = socialism
-					has_government = communism
-				}
-			}
-			ai_will_do = { factor = 55 }
+			ai_will_do = { factor = 100 }
 		}
 	}
 }

@@ -42,11 +42,14 @@ sub_units = {
 		training_time = 90
 		suppression = 1.5
 		weight = 0.5
-		
+		essential = {
+			rations_eq
+		}
 		supply_consumption = 0.02
 	
 		need = {
 			infantry_equipment = 50
+			rations_eq = 100
 		}
 	}
 
@@ -91,7 +94,11 @@ sub_units = {
 	
 		need = {
 			infantry_equipment = 50
-			support_equipment = 10			
+			support_equipment = 10	
+			rations_eq = 100	
+		}
+		essential = {
+			rations_eq
 		}
 
 		forest = {
@@ -149,6 +156,10 @@ sub_units = {
 			category_marines
 			category_special_forces_leg_infantry
 		}
+
+		essential = {
+			rations_eq
+		}
 		
 		combat_width = 2
 		
@@ -167,6 +178,7 @@ sub_units = {
 	
 		need = {
 			infantry_equipment = 150
+			rations_eq = 150
 		}
 
 		marsh = {
@@ -225,6 +237,11 @@ sub_units = {
 	
 		need = {
 			infantry_equipment = 75
+			rations_eq = 150
+		}
+
+		essential = {
+			rations_eq
 		}
 
 		marsh = {
@@ -283,6 +300,11 @@ sub_units = {
 	
 		need = {
 			infantry_equipment = 70
+			rations_eq = 150
+		}
+
+		essential = {
+			rations_eq
 		}
 
 		hills = {
@@ -338,9 +360,14 @@ sub_units = {
 		supply_consumption = 0.05
 
 		can_be_parachuted = yes
+
+		essential = {
+			rations_eq
+		}
 	
 		need = {
 			infantry_equipment = 65
+			rations_eq = 150
 		}
 	}
 
@@ -387,6 +414,7 @@ sub_units = {
 		need = {
 			infantry_equipment = 50
 			motorized_equipment = 35
+			rations_eq = 100
 		}
 
 		forest = {
@@ -580,6 +608,10 @@ sub_units = {
 	
 		need = {
 			infantry_equipment = 85 #100 -> Same ratio as regular Infantry			
+			rations_eq = 100
+		}
+		essential = {
+			rations_eq
 		}
 	}
 
@@ -648,6 +680,9 @@ sub_units = {
 		need = {
 			infantry_equipment = 80 # was 100 
 		}
+		essential = {
+			rations_eq = 100
+		}
 	}
 
 	militia = {
@@ -690,6 +725,10 @@ sub_units = {
 	
 		need = {
 			infantry_equipment = 100
+			rations_eq = 100
+		}
+		essential = {
+			rations_eq
 		}
 	}
 }

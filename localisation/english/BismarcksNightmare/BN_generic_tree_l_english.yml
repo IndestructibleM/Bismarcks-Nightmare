@@ -182,3 +182,12 @@
  shared_gen_heaven_concordat: "Concordat with Heaven"
  shared_gen_security_under_scythia: "Security under Scythia"
  shared_gen_steadfast_with_liberty: "Steadfast with Liberty" 
+ 
+ navy_xp_100: "£navy_experience §H100§!"
+ navy_xp_100_blocked: "£navy_experience §R100§!"
+ navy_xp_100_tooltip: "It costs $navy_xp_100_blocked$ to take the decision" 
+ air_xp_100: "£air_experience §H100§!"
+ air_xp_100_blocked: "£air_experience §R100§!"
+ air_xp_100_tooltip: "It costs $air_xp_100_blocked$ to take the decision"
+ 
+ BN_experience_conversion_cat: "§YExperience to Mastery Conversion§!"
