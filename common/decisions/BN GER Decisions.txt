@@ -115,7 +115,7 @@ GER_council_support_cat = {
             }
         }
         ai_will_do = {
-            base = 100
+            base = 150
         }
         icon = GFX_decision_SOV_place_hq
         days_remove = 60
@@ -134,7 +134,7 @@ GER_council_support_cat = {
             tag = GER
         }
         ai_will_do = {
-            base = 100
+            base = 150
         }
         icon = GFX_decision_generic_form_nation
         days_remove = 60
@@ -154,7 +154,7 @@ GER_council_support_cat = {
             }
         }
         ai_will_do = {
-            base = 100
+            base = 150
         }
         icon = GFX_decision_generic_civil_support
         days_remove = 60
@@ -173,7 +173,7 @@ GER_council_support_cat = {
             tag = GER
         }
         ai_will_do = {
-            base = 100
+            base = 150
         }
         icon = GFX_decision_eng_trade_unions_support
         days_remove = 60
@@ -193,7 +193,7 @@ GER_council_support_cat = {
             }
         }
         ai_will_do = {
-            base = 100
+            base = 150
         }
         icon = GFX_decision_hol_exchange_intelligence_data
         days_remove = 60
@@ -212,7 +212,7 @@ GER_council_support_cat = {
             tag = GER
         }
         ai_will_do = {
-            base = 100
+            base = 150
         }
         icon = GFX_decision_generic_speech
         days_remove = 60

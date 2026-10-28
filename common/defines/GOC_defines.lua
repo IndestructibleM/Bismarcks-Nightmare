@@ -1,4 +1,5 @@
 NDefines.NProduction.RESOURCE_TO_ENERGY_COEFFICIENT = 12.0		-- How much energy per coal produces
+NDefines.NGame.ENERGY_RESOURCE = "grain"
 
 NDefines.NMilitary.MAX_ARMY_EXPERIENCE = 300
 NDefines.NMilitary.MAX_NAVY_EXPERIENCE = 300

@@ -51,8 +51,10 @@
  PRODUCTION_MATERIALS_STEEL:0 "Steel"
  PRODUCTION_MATERIALS_TUNGSTEN:0 "Tungsten"
  ######## GOC #########
- PRODUCTION_MATERIALS_COAL:0 "Grain"
- coal_desc:0 "Grain is the harvested seeds of cereal crops like wheat, rice, corn, barley, and oats, which are staple foods for much of the world's population. It is used primarily for human consumption, animal feed, and as a raw material in products like rations."
+ PRODUCTION_MATERIALS_COAL:0 "Coal"
+ coal_desc:0 "Coal is a combustible resource that is primarily composed of carbon. It is used as a fuel source for electricity generation, steel production, and most industrial processes."
+ PRODUCTION_MATERIALS_GRAIN:0 "Grain"
+ grain_desc:0 "Grain is the harvested seeds of cereal crops like wheat, rice, corn, barley, and oats, which are staple foods for much of the world's population. It is used primarily for human consumption, animal feed, and as a raw material in products like rations."
  PRODUCTION_MATERIAL_VAL:0 "$VALUE|0H$"
  PRODUCTION_VEHICLES_BUTTON:0 "Build Armored Vehicles"
  PRODUCTION_VEHICLES_BUTTON_DISABLED:0 "Armored Vehicles are §RNot invented§!!"
@@ -317,3 +319,11 @@
  BONUS_PRODUCTION_RESOURCE_PENALTY_FACTOR: "Production resource penalty"
  BONUS_PRODUCTION_CONVERSION_SPEED_FACTOR: "Production conversion speed"
  
+  
+ PRODUCTION_UNKNOWN_ENERGY_AMOUNT: "?"
+ PRODUCTION_NO_INTEL_ON_POWER: "We have no intel on food consumption in this state."
+ PRODUCTION_STATE_ENERGY_EFFICIENCY: "Food Efficiency: $VALUE|H$"
+ PRODUCTION_STATE_ENERGY_USAGE_FACTORIES: "Civilian Food Consumption: $VALUE|H$"
+ PRODUCTION_STATE_ENERGY_USAGE_MILITARY_FACTORIES: "  £mil_factory Military Factory Food Consumption: $VALUE|H$"
+ PRODUCTION_STATE_ENERGY_USAGE_NAVAL_DOCKYARDS: "  £nav_dockyard_texticon Naval Dockyard Food Consumption: $VALUE|H$"
+ PRODUCTION_STATE_ENERGY_USAGE_CIVILIAN_FACTORIES: "  £civ_factory Civilian Factory Food Consumption: $VALUE|H$"

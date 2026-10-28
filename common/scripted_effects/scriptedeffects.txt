@@ -102,3 +102,24 @@ upgrade_education_law = {
 	else_if = { limit = { has_idea = education4 } add_ideas = education5 }
 	else = { add_political_power = 100 }
 }
+
+econ_production_setup = {
+	set_variable = {
+		var = AmountOfCoal 
+		value = resource@coal
+	}
+	set_variable = {
+		var = NumberOfMilsBuilt 
+		value = total_constructed_military_factory
+	}
+	multiply_variable = {
+		var = AmountOfCoal 
+		value = 0.001
+	}
+	multiply_variable = {
+		var = NumberOfMilsBuilt 
+		value = 0.01
+	}
+
+	force_update_dynamic_modifier = yes
+}

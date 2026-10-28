@@ -1,4 +1,98 @@
 technologies = {
+	
+	farm_upgrade = {		
+		path = {
+			leads_to_tech = farm_upgrade1
+		}		
+		allow = {
+			always = yes
+		}
+		research_cost = 1.5
+		start_year = 1926
+		folder = {
+			name = industry_folder
+			position = { x = 17 y = 4 }
+		}
+		
+		categories = {
+			industry
+			synth_resources
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		energy_gain_factor = 0.075
+		on_research_complete = {
+			modify_building_resources = {
+				building = farm
+				resource = grain
+				amount = 1
+			}
+		}
+	}
+	
+	farm_upgrade1 = {		
+		research_cost = 1.5
+		start_year = 1928
+		allow = {
+			always = yes
+		}
+		path = {
+			leads_to_tech = farm_upgrade2
+		}
+		folder = {
+			name = industry_folder
+			position = { x = 17 y = 6 }
+		}
+		categories = {
+			industry
+			synth_resources
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		energy_gain_factor = 0.075
+		on_research_complete = {
+			modify_building_resources = {
+				building = farm
+				resource = grain
+				amount = 1
+			}
+		}
+		
+	}
+
+	farm_upgrade2 = {		
+		research_cost = 1.5
+		start_year = 1930
+		allow = {
+			always = yes
+		}
+		folder = {
+			name = industry_folder
+			position = { x = 17 y = 8 }
+		}
+		categories = {
+			industry
+			synth_resources
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		energy_gain_factor = 0.075
+		on_research_complete = {
+			modify_building_resources = {
+				building = farm
+				resource = grain
+				amount = 1
+			}
+		}
+		
+	}
+
 
 	basic_machine_tools = {
 	

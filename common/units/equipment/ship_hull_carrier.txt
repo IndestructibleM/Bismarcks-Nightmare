@@ -123,6 +123,7 @@ equipments = {
 		build_cost_ic = 2094
 		resources = {
 			steel = 4
+			coal = 2
 		}
 
 		manpower = 4000
@@ -146,6 +147,7 @@ equipments = {
 
 		resources = {
 			chromium = 1
+			coal = 2
 		}
 		default_modules = {
 			fixed_ship_engine_slot = carrier_ship_engine_2
@@ -210,6 +212,7 @@ equipments = {
 		resources = {
 			steel = 5
 			chromium = 2
+			coal = 3
 		}
 		manpower = 4500
 		naval_dominance_factor = 325
@@ -282,6 +285,7 @@ equipments = {
 		resources = {
 			steel = 6
 			chromium = 2
+			coal = 3
 		}
 		manpower = 5000
 	}
@@ -362,6 +366,7 @@ equipments = {
 		resources = {
 			steel = 6
 			chromium = 3
+			coal = 3
 		}
 		manpower = 6000
 	}
@@ -445,6 +450,7 @@ equipments = {
 		resources = {
 			steel = 8
 			chromium = 2
+			coal = 4
 		}
 		manpower = 6000
 	}
@@ -492,6 +498,7 @@ equipments = {
 		resources = {
 			steel = 4
 			chromium = 1
+			coal = 2
 		}
 		manpower = 3500
 	}
@@ -534,6 +541,7 @@ equipments = {
 		resources = {
 			steel = 3
 			chromium = 1
+			coal = 2
 		}
 		manpower = 1000
 	}
@@ -602,6 +610,7 @@ equipments = {
 		build_cost_ic = 1250
 		resources = {
 			steel = 3
+			coal = 2
 		}
 
 		manpower = 1500

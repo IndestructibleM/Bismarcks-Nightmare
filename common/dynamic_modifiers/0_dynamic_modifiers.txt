@@ -26,6 +26,14 @@
 #	can be added to countries, states, unit leaders or special projects
 #	will only updated daily, unless forced by force_update_dynamic_modifier effect
 
+econ_production_effect = {
+	enable = { always = yes }
+	desc = econ_production_effect_desc
+	icon = GFX_idea_generic_improved_industries
+	industrial_capacity_factory = AmountOfCoal #FROM.resource@coal
+	production_cost_arms_factory_factor = NumberOfMilsBuilt #FROM.total_constructed_arms_factory
+}
+
 GER_DNVP_activity = {
 	remove_trigger = { 
 		OWNER = {

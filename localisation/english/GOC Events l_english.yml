@@ -17,3 +17,5 @@
  rations_eq_short: "Military Rations"
  farm_upgrade: "Improved Farming Techniques"
  farm_upgrade1: "Advanced Farming Techniques"
+ econ_production_effect: "§CEconomies of Scale Modifier§!"
+ econ_production_effect_desc: "§YOur current count of surplus coal is [?FROM.resource@coal], and we gain 0.10% factory output for every one coal we have in surplus. \n\nWe have constructed [?FROM.total_constructed_arms_factory] military factories since the start of the game, and their production cost is increased by 1% for every military factory built.§!"
