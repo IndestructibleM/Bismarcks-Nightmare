@@ -36,7 +36,7 @@ defined_text = { # Country
 		trigger = {
 			original_tag = GER
 			check_variable = {
-				internationalist_support = 5
+				internationalist_support > 4
 			}
 		}
 		localization_key = tt_internationalist_high
@@ -71,7 +71,7 @@ defined_text = { # Country
 		trigger = {
 			original_tag = GER
 			check_variable = {
-				internationalist_support = 5
+				internationalist_support > 4
 			}
 		}
 		localization_key = tt_internationalist_high
@@ -106,7 +106,7 @@ defined_text = { # Country
 		trigger = {
 			original_tag = GER
 			check_variable = {
-				councilist_support = 5
+				councilist_support > 4
 			}
 		}
 		localization_key = tt_councilist_high
@@ -141,7 +141,7 @@ defined_text = { # Country
 		trigger = {
 			original_tag = GER
 			check_variable = {
-				statist_support = 5
+				statist_support > 4
 			}
 		}
 		localization_key = tt_statist_high
@@ -154,7 +154,7 @@ defined_text = { # Country
 		trigger = {
 			original_tag = GER
 			check_variable = {
-				industrial_workers < 2
+				industrial_workers < 3
 			}
 		}
 		localization_key = GER_industrial_workers_low
@@ -164,10 +164,10 @@ defined_text = { # Country
 		trigger = {
 			original_tag = GER
 			check_variable = {
-				industrial_workers < 3
+				industrial_workers < 5
 			} 
 			check_variable = {
-				industrial_workers > 1.9
+				industrial_workers > 2
 			}
 		}
 		localization_key = GER_industrial_workers_medium
@@ -176,7 +176,7 @@ defined_text = { # Country
 		trigger = {
 			original_tag = GER
 			check_variable = {
-				industrial_workers = 3
+				industrial_workers > 4
 			}
 		}
 		localization_key = GER_industrial_workers_high
@@ -189,7 +189,7 @@ defined_text = { # Country
 		trigger = {
 			original_tag = GER
 				check_variable = {
-					rural_workers < 2
+					rural_workers < 3
 				}
 			}
 		localization_key = GER_rural_workers_low
@@ -199,10 +199,10 @@ defined_text = { # Country
 		trigger = {
 			original_tag = GER
 				check_variable = {
-					rural_workers < 3
+					rural_workers < 5
 				} 
 				check_variable = {
-					rural_workers > 1.9
+					rural_workers > 2
 				}
 		}
 		localization_key = GER_rural_workers_medium
@@ -211,7 +211,7 @@ defined_text = { # Country
 		trigger = {
 			original_tag = GER
 			check_variable = {
-				rural_workers = 3
+				rural_workers > 4
 			}
 		}
 		localization_key = GER_rural_workers_high
@@ -225,7 +225,7 @@ defined_text = { # Country
 		trigger = {
 			original_tag = GER
 				check_variable = {
-					soldiers < 2
+					soldiers < 3
 				}
 		}
 		localization_key = GER_soldiers_low
@@ -235,10 +235,10 @@ defined_text = { # Country
 		trigger = {
 			original_tag = GER
 				check_variable = {
-					soldiers < 3
+					soldiers < 5
 				} 
 				check_variable = {
-					soldiers > 1.9
+					soldiers > 2
 				}
 		}
 		localization_key = GER_soldiers_medium
@@ -247,7 +247,7 @@ defined_text = { # Country
 		trigger = {
 			original_tag = GER
 			check_variable = {
-				soldiers = 3
+				soldiers > 4
 			}
 		}
 		localization_key = GER_soldiers_high
@@ -260,7 +260,7 @@ defined_text = { # Country
 		trigger = {
 			original_tag = GER
 			check_variable = {
-				engineers < 2
+				engineers < 3
 			}
 		}
 		localization_key = GER_engineers_low
@@ -270,10 +270,10 @@ defined_text = { # Country
 		trigger = {
 			original_tag = GER
 				check_variable = {
-					engineers < 3
+					engineers < 5
 				} 
 				check_variable = {
-					engineers > 1.9
+					engineers > 2
 				}
 		}
 		localization_key = GER_engineers_medium
@@ -282,7 +282,7 @@ defined_text = { # Country
 		trigger = {
 			original_tag = GER
 			check_variable = {
-				engineers = 3
+				engineers > 4
 			}
 		}
 		localization_key = GER_engineers_high
@@ -295,7 +295,7 @@ defined_text = { # Country
 		trigger = {
 			original_tag = GER
 			check_variable = {
-				farmers < 2
+				farmers < 3
 			}
 		}
 		localization_key = GER_farmers_low
@@ -305,10 +305,10 @@ defined_text = { # Country
 		trigger = {
 			original_tag = GER
 			check_variable = {
-				farmers < 3
+				farmers < 5
 			} 
 			check_variable = {
-				farmers > 1.9
+				farmers > 2
 			}
 		}
 		localization_key = GER_farmers_medium
@@ -317,7 +317,7 @@ defined_text = { # Country
 		trigger = {
 			original_tag = GER
 			check_variable = {
-				farmers = 3
+				farmers > 4
 			}
 		}
 		localization_key = GER_farmers_high
@@ -330,7 +330,7 @@ defined_text = { # Country
 		trigger = {
 			original_tag = GER
 			check_variable = {
-				intellectuals < 2
+				intellectuals < 3
 			}
 		}
 		localization_key = GER_intellectuals_low
@@ -340,10 +340,10 @@ defined_text = { # Country
 		trigger = {
 			original_tag = GER
 				check_variable = {
-					intellectuals < 3
+					intellectuals < 5
 				} 
 				check_variable = {
-					intellectuals > 1.9
+					intellectuals > 2
 				}
 		}
 		localization_key = GER_intellectuals_medium
@@ -352,7 +352,7 @@ defined_text = { # Country
 		trigger = {
 			original_tag = GER
 			check_variable = {
-				intellectuals = 3
+				intellectuals > 4
 			}
 		}
 		localization_key = GER_intellectuals_high
@@ -365,7 +365,7 @@ defined_text = { # Country
 		trigger = {
 			original_tag = GER
 			check_variable = {
-				civil_servants < 2
+				civil_servants < 3
 			}
 		}
 		localization_key = GER_civil_servants_low
@@ -375,10 +375,10 @@ defined_text = { # Country
 		trigger = {
 			original_tag = GER
 				check_variable = {
-					civil_servants < 3
+					civil_servants < 5
 				} 
 				check_variable = {
-					civil_servants > 1.9
+					civil_servants > 2
 				}
 		}
 		localization_key = GER_civil_servants_medium
@@ -387,7 +387,7 @@ defined_text = { # Country
 		trigger = {
 			original_tag = GER
 			check_variable = {
-				civil_servants = 3
+				civil_servants > 4
 			}
 		}
 		localization_key = GER_civil_servants_high
@@ -400,7 +400,7 @@ defined_text = { # Country
 		trigger = {
 			original_tag = GER
 				check_variable = {
-					sailors < 2
+					sailors < 3
 				}
 		}
 		localization_key = GER_sailors_low
@@ -410,10 +410,10 @@ defined_text = { # Country
 		trigger = {
 			original_tag = GER
 				check_variable = {
-					sailors < 3
+					sailors < 5
 				} 
 				check_variable = {
-					sailors > 1.9
+					sailors > 2
 				}
 		}
 		localization_key = GER_sailors_medium
@@ -422,7 +422,7 @@ defined_text = { # Country
 		trigger = {
 			original_tag = GER
 			check_variable = {
-				sailors = 3
+				sailors > 4
 			}
 		}
 		localization_key = GER_sailors_high
@@ -541,116 +541,6 @@ defined_text = { # Country
 	}
 	text = {
 		localization_key = RAJ_japanese_army_air_force_academy_japan
-	}
-}
-
-defined_text = { #
-	name = GetWehrmachtAngerLevel
-	text = {
-		trigger = {
-			original_tag = GER
-			check_variable = { var = wehrmacht_anger value = 0 compare = less_than }
-
-		}
-		localization_key = SS_loyal
-	}
-	text = {
-		trigger = {
-			original_tag = GER
-			check_variable = { var = wehrmacht_anger value = 0 compare = greater_than_or_equals }
-			check_variable = { var = wehrmacht_anger value = 10 compare = less_than }
-
-		}
-		localization_key = SS_calm
-	}
-	text = {
-		trigger = {
-			original_tag = GER
-			check_variable = { var = wehrmacht_anger value = 10 compare = greater_than_or_equals }
-			check_variable = { var = wehrmacht_anger value = 20 compare = less_than }
-
-		}
-		localization_key = SS_worried
-	}
-	text = {
-		trigger = {
-			original_tag = GER
-			check_variable = { var = wehrmacht_anger value = 20 compare = greater_than_or_equals }
-			check_variable = { var = wehrmacht_anger value = 30 compare = less_than }
-
-		}
-		localization_key = SS_angry
-	}
-	text = {
-		trigger = {
-			original_tag = GER
-			check_variable = { var = wehrmacht_anger value = 30 compare = greater_than_or_equals }
-			check_variable = { var = wehrmacht_anger value = 40 compare = less_than }
-
-		}
-		localization_key = SS_plotting
-	}
-	text = {
-		trigger = {
-			original_tag = GER
-			check_variable = { var = wehrmacht_anger value = 40 compare = greater_than_or_equals }
-		}
-		localization_key = SS_rebellious
-	}
-}
-
-defined_text = { #
-	name = GetSSAngerLevel
-	text = {
-		trigger = {
-			original_tag = GER
-			check_variable = { var = SS_anger value = 0 compare = less_than }
-
-		}
-		localization_key = SS_loyal
-	}
-	text = {
-		trigger = {
-			original_tag = GER
-			check_variable = { var = SS_anger value = 0 compare = greater_than_or_equals }
-			check_variable = { var = SS_anger value = 10 compare = less_than }
-
-		}
-		localization_key = SS_calm
-	}
-	text = {
-		trigger = {
-			original_tag = GER
-			check_variable = { var = SS_anger value = 10 compare = greater_than_or_equals }
-			check_variable = { var = SS_anger value = 20 compare = less_than }
-
-		}
-		localization_key = SS_worried
-	}
-	text = {
-		trigger = {
-			original_tag = GER
-			check_variable = { var = SS_anger value = 20 compare = greater_than_or_equals }
-			check_variable = { var = SS_anger value = 30 compare = less_than }
-
-		}
-		localization_key = SS_angry
-	}
-	text = {
-		trigger = {
-			original_tag = GER
-			check_variable = { var = SS_anger value = 30 compare = greater_than_or_equals }
-			check_variable = { var = SS_anger value = 40 compare = less_than }
-
-		}
-		localization_key = SS_plotting
-	}
-	text = {
-		trigger = {
-			original_tag = GER
-			check_variable = { var = SS_anger value = 40 compare = greater_than_or_equals }
-		}
-		localization_key = SS_rebellious
 	}
 }
 defined_text = {

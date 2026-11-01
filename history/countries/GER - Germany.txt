@@ -187,15 +187,15 @@ set_variable = {
 }
 
 set_variable = {
-	industrial_workers = 2
+	industrial_workers = 3
 }
 
 set_variable = {
-	rural_workers = 2
+	rural_workers = 3
 }
 
 set_variable = {
-	intellectuals = 2
+	intellectuals = 4
 }
 
 set_variable = {
@@ -203,7 +203,7 @@ set_variable = {
 }
 
 set_variable = {
-	farmers = 2
+	farmers = 3
 }
 
 set_variable = {
@@ -247,7 +247,11 @@ set_variable = {
 }
 
 set_variable = {
-	farmers_rural_workers_modifier = 0.01
+	farmers_modifier = 0.01
+}
+
+set_variable = {
+	rural_workers_modifier = 0.01
 }
 
 set_variable = {
@@ -255,7 +259,11 @@ set_variable = {
 }
 
 set_variable = {
-	soldier_sailors_modifier = 0.01
+	soldiers_modifier = 0.01
+}
+
+set_variable = {
+	sailors_modifier = 0.01
 }
 
 set_variable = {
@@ -267,16 +275,8 @@ recalc_council_support_modifiers = yes
 # Starting Stats of various kinds
 set_research_slots = 4
 set_convoys = 200
-IF = {
-	limit = {
-		has_dlc = "Gotterdammerung"
-	}
-	set_stability = 0.7 # Was 0.75, but get 5% from the Reichstag
-	ELSE = {
-		set_stability = 0.75
-	}
-}
 set_war_support = 0.3
+set_stability = 0.55
 
 # Setup German Politics
 set_politics = {

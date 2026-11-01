@@ -286,7 +286,6 @@ GER_root_out_reaction_cat = {
         }
 
         timeout_effect = {
-            activate_mission = GER_fight_DNVP_mission
             add_stability = -0.05
         }
     }

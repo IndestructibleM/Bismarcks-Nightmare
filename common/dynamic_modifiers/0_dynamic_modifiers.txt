@@ -61,8 +61,11 @@ GER_councils_modifier = {
 	stability_factor = civil_servants_modifier
 	political_power_gain = intellectuals_modifier
 	production_speed_buildings_factor = engineers_modifier
-	local_resources_factor = farmers_rural_workers_modifier
-	war_support_factor = soldier_sailors_modifier
+	local_resources_factor = rural_workers_modifier
+	monthly_population = farmers_modifier
+	war_support_factor = soldiers_modifier
+	industrial_capacity_dockyard = sailors_modifier
+
 }
 
 sabotaged_resources = {

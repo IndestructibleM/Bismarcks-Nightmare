@@ -1,0 +1,151 @@
+add_namespace = balkans
+
+country_event = {
+	id = balkans.1
+	title = balkans.1.t
+	desc = desc.temp.d
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = SER
+		date > 1925.8.1
+		has_war = no
+	}
+
+	option = { 
+		name = balkans.1.a
+		declare_war_on = {
+			target = CRO
+			type = annex_everything
+		}
+		country_event = { id = balkans.2 days = 8 }
+	}
+
+}
+
+country_event = {
+	id = balkans.2
+	title = balkans.2.t
+	desc = desc.temp.d
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	option = { 
+		name = balkans.2.a
+		declare_war_on = {
+			target = BNT
+			type = annex_everything
+		}
+		ROM = { country_event = { id = balkans.3 days = 5 } }
+	}
+}
+
+country_event = {
+	id = balkans.3
+	title = balkans.3.t
+	desc = desc.temp.d
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	option = { 
+		name = balkans.3.a
+		declare_war_on = {
+			target = BNT
+			type = annex_everything
+		}
+		BUL = { country_event = { id = balkans.4 days = 8 } }
+	}
+}
+
+country_event = {
+	id = balkans.4
+	title = balkans.4.t
+	desc = desc.temp.d
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	option = { 
+		name = balkans.3.a
+		declare_war_on = {
+			target = SER
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = ROM
+			type = annex_everything
+		}
+		GRE = { country_event = { id = balkans.5 days = 50 } }
+	}
+}
+
+country_event = {
+	id = balkans.5
+	title = balkans.5.t
+	desc = desc.temp.d
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	option = { 
+		name = balkans.5.a
+		declare_war_on = {
+			target = BUL
+			type = annex_everything
+		}
+	}
+}
+
+country_event = {
+	id = balkans.6
+	title = balkans.6.t
+	desc = desc.temp.d
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = HUN
+		has_war_with = ROM
+		has_war_with = SER
+		BUL = {
+			has_war_with = ROM
+			has_war_with = SER
+		}
+	}
+
+	option = { 
+		name = balkans.6.a
+		create_faction = treaty_of_budapest
+		add_to_faction = HUN
+		add_to_faction = BNT
+		add_to_faction = CRO
+		add_to_faction = BUL
+	}
+}
+
+country_event = {
+	id = balkans.7
+	title = balkans.7.t
+	desc = desc.temp.d
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = SER
+		has_war_with = HUN
+		has_war_with = BUL
+		GRE = {
+			has_war_with = BUL
+		}
+	}
+	option = { 
+		name = balkans.7.a
+		create_faction = balkan_league
+		add_to_faction = SER
+		add_to_faction = ROM
+		add_to_faction = GRE
+	}
+}

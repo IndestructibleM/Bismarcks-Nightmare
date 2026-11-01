@@ -79,35 +79,32 @@ ideas = {
 					limit = {
 						original_tag = GER
 					}
-					OR = {
-						has_war_support > 0.5
-						NOT = {
-							has_idea = GER_foreign_isolation
-							has_idea = GER_foreign_isolation2
-						}
+					NOT = {
+						has_idea = GER_foreign_isolation
+						has_idea = GER_foreign_isolation2
 					}
 					custom_trigger_tooltip = {
 						tooltip = tt_industrial_workers_support
 						check_variable = {
-						industrial_workers = 3
+						industrial_workers = 6
 						}
 					}
 					custom_trigger_tooltip = {
 						tooltip = tt_farmers_support
 						check_variable = {
-						farmers = 3
+						farmers = 6
 						}
 					}
 					custom_trigger_tooltip = {
 						tooltip = tt_civil_servants_support
 						check_variable = {
-						civil_servants = 3
+						civil_servants = 6
 						}
 					}
 					custom_trigger_tooltip = {
 						tooltip = tt_soldiers_support
 						check_variable = {
-						soldiers = 3
+						soldiers = 6
 						}
 					}
 				}

@@ -12,34 +12,40 @@ recalc_council_support_modifiers = {
 		intellectuals_modifier = intellectuals
 	}
 	set_variable = {
-		soldiers_sailors_modifier = soldiers
-	}
-	add_to_variable = {
-		soldier_sailors_modifier = sailors
+		soldiers_modifier = soldiers
 	}
 	set_variable = {
-		farmers_rural_workers_modifier = farmers
+		sailors_modifier = sailors
 	}
-	add_to_variable = {
-		farmers_rural_workers_modifier = rural_workers
+	set_variable = {
+		farmers_modifier = farmers
 	}
-	multiply_variable = {
-		intellectuals_modifier = 0.05 
-	}
-	multiply_variable = {
-		industrial_workers_modifier = 0.05 
+	set_variable = {
+		rural_workers_modifier = rural_workers
 	}
 	multiply_variable = {
-		engineers_modifier = 0.05 
+		intellectuals_modifier = 0.025 
 	}
 	multiply_variable = {
-		civil_servants_modifier = 0.05 
+		industrial_workers_modifier = 0.025
 	}
 	multiply_variable = {
-		soldier_sailors_modifier = 0.05 
+		engineers_modifier = 0.025
 	}
 	multiply_variable = {
-		farmers_rural_workers_modifier = 0.025 
+		civil_servants_modifier = 0.025
+	}
+	multiply_variable = {
+		soldiers_modifier = 0.025 
+	}
+	multiply_variable = {
+		sailors_modifier = 0.025
+	}
+	multiply_variable = {
+		farmers_modifier = 0.025 
+	}
+	multiply_variable = {
+		rural_workers_modifier = 0.025
 	}
 }
 #Important to put HIGHEST first
@@ -51,35 +57,35 @@ support_nationalist_side = {
 		internationalist_support = 1
 	}
 	add_to_variable = {
-		civil_servants = 0.5
+		civil_servants = 1
 	}
 	add_to_variable = {
-		industrial_workers = 0.5
+		industrial_workers = 1
 	}
 	add_to_variable = {
-		farmers = 0.5
+		farmers = 1
 	}
 	add_to_variable = {
-		rural_workers = 0.5
+		rural_workers = 1
 	}
 	clamp_variable = {
 		var = civil_servants
-		max = 3
+		max = 6
 		min = 1
 	}
 	clamp_variable = {
 		var = industrial_workers
-		max = 3
+		max = 6
 		min = 1
 	}
 	clamp_variable = {
 		var = farmers
-		max = 3
+		max = 6
 		min = 1
 	}
 	clamp_variable = {
 		var = rural_workers
-		max = 3
+		max = 6
 		min = 1
 	}
 	clamp_variable = {
@@ -102,35 +108,35 @@ support_internationalist_side = {
 		nationalist_support = 1
 	}
 	add_to_variable = {
-		soldiers = 0.5
+		soldiers = 1
 	}
 	add_to_variable = {
-		engineers = 0.5
+		engineers = 1
 	}
 	add_to_variable = {
-		intellectuals = 0.5
+		intellectuals = 1
 	}
 	add_to_variable = {
-		sailors = 0.5
+		sailors = 1
 	}
 	clamp_variable = {
 		var = soldiers
-		max = 3
+		max = 6
 		min = 1
 	}
 	clamp_variable = {
 		var = engineers
-		max = 3
+		max = 6
 		min = 1
 	}
 	clamp_variable = {
 		var = intellectuals
-		max = 3
+		max = 6
 		min = 1
 	}
 	clamp_variable = {
 		var = sailors
-		max = 3
+		max = 6
 		min = 1
 	}
 	clamp_variable = {
@@ -154,35 +160,35 @@ support_reformist_side = {
 		revolutionary_support = 1
 	}
 	add_to_variable = {
-		rural_workers = 0.5
+		rural_workers = 1
 	}
 	add_to_variable = {
-		farmers = 0.5
+		farmers = 1
 	}
 	add_to_variable = {
-		civil_servants = 0.5
+		civil_servants = 1
 	}
 	add_to_variable = {
-		engineers = 0.5
+		engineers = 1
 	}
 	clamp_variable = {
 		var = rural_workers
-		max = 3
+		max = 6
 		min = 1
 	}
 	clamp_variable = {
 		var = farmers
-		max = 3
+		max = 6
 		min = 1
 	}
 	clamp_variable = {
 		var = civil_servants
-		max = 3
+		max = 6
 		min = 1
 	}
 	clamp_variable = {
 		var = engineers
-		max = 3
+		max = 6
 		min = 1
 	}
 	clamp_variable = {
@@ -206,35 +212,35 @@ support_revolutionary_side = {
 		reformist_support = 1
 	}
 	add_to_variable = {
-		soldiers = 0.5
+		soldiers = 1
 	}
 	add_to_variable = {
-		intellectuals = 0.5
+		intellectuals = 1
 	}
 	add_to_variable = {
-		sailors = 0.5
+		sailors = 1
 	}
 	add_to_variable = {
-		industrial_workers = 0.5
+		industrial_workers = 1
 	}
 	clamp_variable = {
 		var = soldiers
-		max = 3
+		max = 6
 		min = 1
 	}
 	clamp_variable = {
 		var = intellectuals
-		max = 3
+		max = 6
 		min = 1
 	}
 	clamp_variable = {
 		var = sailors
-		max = 3
+		max = 6
 		min = 1
 	}
 	clamp_variable = {
 		var = industrial_workers
-		max = 3
+		max = 6
 		min = 1
 	}
 	clamp_variable = {
@@ -259,35 +265,35 @@ support_statist_side = {
 		councilist_support = 1
 	}
 	add_to_variable = {
-		civil_servants = 0.5
+		civil_servants = 1
 	}
 	add_to_variable = {
-		intellectuals = 0.5
+		intellectuals = 1
 	}
 	add_to_variable = {
-		engineers = 0.5
+		engineers = 1
 	}
 	add_to_variable = {
-		sailors = 0.5
+		sailors = 1
 	}
 	clamp_variable = {
 		var = engineers
-		max = 3
+		max = 6
 		min = 1
 	}
 	clamp_variable = {
 		var = civil_servants
-		max = 3
+		max = 6
 		min = 1
 	}
 	clamp_variable = {
 		var = intellectuals
-		max = 3
+		max = 6
 		min = 1
 	}
 	clamp_variable = {
 		var = sailors
-		max = 3
+		max = 6
 		min = 1
 	}
 	clamp_variable = {
@@ -311,35 +317,35 @@ support_councilist_side = {
 		statist_support = 1
 	}
 	add_to_variable = {
-		soldiers = 0.5
+		soldiers = 1
 	}
 	add_to_variable = {
-		farmers = 0.5
+		farmers = 1
 	}
 	add_to_variable = {
-		industrial_workers = 0.5
+		industrial_workers = 1
 	}
 	add_to_variable = {
-		rural_workers = 0.5
+		rural_workers = 1
 	}
 	clamp_variable = {
 		var = soldiers
-		max = 3
+		max = 6
 		min = 1
 	}
 	clamp_variable = {
 		var = farmers
-		max = 3
+		max = 6
 		min = 1
 	}
 	clamp_variable = {
 		var = industrial_workers
-		max = 3
+		max = 6
 		min = 1
 	}
 	clamp_variable = {
 		var = rural_workers
-		max = 3
+		max = 6
 		min = 1
 	}
 	clamp_variable = {
