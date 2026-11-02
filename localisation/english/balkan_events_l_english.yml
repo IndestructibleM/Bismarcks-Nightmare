@@ -1,0 +1,16 @@
+﻿l_english:
+ balkans.8.t:0 "Victory in the Balkans"
+ balkans.8.d:0 "With Bulgaria and Hungary defeated, Serbia secures the Banat and Croatia. Romania receives Transylvania, while Greece takes the Bulgarian lands in Thrace along the Aegean coast."
+ balkans.8.a:0 "A new order in the Balkans"
+ balkans.9.t:0 "The Balkan League Disbands"
+ balkans.9.d:0 "With the wars against Hungary and Bulgaria over, the Balkan League has fulfilled its purpose. Serbia dissolves the alliance."
+ balkans.9.a:0 "The League has served its purpose"
+ balkans.10.t:0 "The Treaty of Budapest Prevails"
+ balkans.10.d:0 "Serbia and Romania have capitulated. Hungary and its allies divide the contested Balkan lands, while the remaining hostilities with Serbia, Romania, and Greece are brought to an end."
+ balkans.10.a:0 "The treaty is enforced"
+ balkans.11.t:0 "The Treaty of Budapest Ends"
+ balkans.11.d:0 "With the wars against Serbia and Romania over, the Treaty of Budapest faction has fulfilled its purpose. Hungary dissolves the alliance."
+ balkans.11.a:0 "The alliance is dissolved"
+
+
+ desc.temp.d:0 "WIP EVENT TEXT - This text is a placeholder for the event description. It will be replaced with the actual event text when it is finished."

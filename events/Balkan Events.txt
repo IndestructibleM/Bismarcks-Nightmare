@@ -38,6 +38,7 @@ country_event = {
 			target = BNT
 			type = annex_everything
 		}
+		set_major = yes
 		ROM = { country_event = { id = balkans.3 days = 5 } }
 	}
 }
@@ -52,6 +53,7 @@ country_event = {
 	is_triggered_only = yes
 	option = { 
 		name = balkans.3.a
+		set_major = yes
 		declare_war_on = {
 			target = BNT
 			type = annex_everything
@@ -78,6 +80,7 @@ country_event = {
 			target = ROM
 			type = annex_everything
 		}
+		set_major = yes
 		GRE = { country_event = { id = balkans.5 days = 50 } }
 	}
 }
@@ -96,6 +99,7 @@ country_event = {
 			target = BUL
 			type = annex_everything
 		}
+		set_major = yes
 	}
 }
 
@@ -123,6 +127,7 @@ country_event = {
 		add_to_faction = BNT
 		add_to_faction = CRO
 		add_to_faction = BUL
+		set_country_flag = HUN_treaty_of_budapest_formed
 	}
 }
 
@@ -147,5 +152,137 @@ country_event = {
 		add_to_faction = SER
 		add_to_faction = ROM
 		add_to_faction = GRE
+		set_country_flag = SER_balkan_league_formed
+	}
+}
+
+country_event = {
+	id = balkans.8
+	title = balkans.8.t
+	desc = balkans.8.d
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = SER
+		BNT = { has_capitulated = yes }
+		CRO = { has_capitulated = yes }
+		has_war_with = HUN
+		has_war_with = BUL
+	}
+
+	option = {
+		name = balkans.8.a
+		annex_country = { target = BNT }
+		CRO = { every_owned_state = { transfer_state_to = SER } }
+		every_state = {
+			limit = { region = 12 }
+			transfer_state_to = ROM
+		}
+		every_state = {
+			limit = { is_core_of = GRE is_owned_by = BUL }
+			transfer_state_to = GRE
+		}
+		white_peace = HUN
+		white_peace = BUL
+	}
+}
+
+country_event = {
+	id = balkans.9
+	title = balkans.9.t
+	desc = balkans.9.d
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = SER
+		has_country_flag = SER_balkan_league_formed
+		NOT = { has_war_with = HUN }
+		NOT = { has_war_with = BUL }
+	}
+
+	option = {
+		name = balkans.9.a
+		dismantle_faction = yes
+		clr_country_flag = SER_balkan_league_formed
+		ROM = {
+			set_major = no
+		}
+		SER = {
+			set_major = no
+		}
+		GRE = {
+			set_major = no
+		}
+	}
+}
+
+country_event = {
+	id = balkans.10
+	title = balkans.10.t
+	desc = balkans.10.d
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = HUN
+		SER = { has_capitulated = yes }
+		ROM = { has_capitulated = yes }
+		OR = {
+			has_war_with = SER
+			has_war_with = GRE
+		}
+	}
+
+	option = {
+		name = balkans.10.a
+		SER = {
+			every_owned_state = {
+				limit = { has_core_of = CRO }
+				transfer_state_to = CRO
+			}
+		}
+		every_state = {
+			limit = { region = 12 }
+			transfer_state_to = HUN
+		}
+		annex_country = { target = BNT }
+		767 = { transfer_state_to = BUL }
+		793 = { transfer_state_to = BUL }
+		every_state = {
+			limit = { has_claim_by = BUL is_owned_by = GRE }
+			transfer_state_to = BUL
+		}
+		white_peace = SER
+		white_peace = ROM
+		white_peace = GRE
+	}
+}
+
+country_event = {
+	id = balkans.11
+	title = balkans.11.t
+	desc = balkans.11.d
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = HUN
+		has_country_flag = HUN_treaty_of_budapest_formed
+		NOT = { has_war_with = SER }
+		NOT = { has_war_with = ROM }
+	}
+
+	option = {
+		name = balkans.11.a
+		dismantle_faction = yes
+		clr_country_flag = HUN_treaty_of_budapest_formed
+		BUL = {
+			set_major = no
+		}
+		HUN = {
+			set_major = no
+		}
 	}
 }
